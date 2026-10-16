@@ -37,10 +37,9 @@ CREATE OR REPLACE FILE FORMAT HCLS_LAB.PUBLIC.CSV_FORMAT
   NULL_IF = ('')
   EMPTY_FIELD_AS_NULL = TRUE;
 
--- 5. Cross-region AI (needed if the trial account is in a region
---    without full Cortex model availability)
--- Uncomment the line below if AI functions return a region error:
--- ALTER ACCOUNT SET CORTEX_ENABLED_CROSS_REGION = 'ANY_REGION';
+-- 5. Cross-region AI — ensures Cortex AI functions work regardless of
+--    which region the trial account was created in.
+ALTER ACCOUNT SET CORTEX_ENABLED_CROSS_REGION = 'ANY_REGION';
 
 -- ============================================================
 -- You are ready. Now run ONE of the track loader scripts:
