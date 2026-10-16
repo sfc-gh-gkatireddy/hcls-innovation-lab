@@ -85,51 +85,49 @@ CREATE OR REPLACE TABLE SITES (
 );
 
 -- ============================================================
--- STEP 3: Create an internal stage for the protocol document
+-- STEP 3: Create internal stages for data and protocol document
 -- ============================================================
--- The protocol is a text file with the full Phase 3 trial design,
--- including inclusion/exclusion criteria (Sections 3.1 and 3.2).
--- We copy it to an internal stage so AI_PARSE_DOCUMENT and
--- Cortex Search can access it.
+-- We need two stages:
+-- L1_DATA: holds the CSV files for COPY INTO
+-- L1_DOCS: holds the protocol text file for AI_PARSE_DOCUMENT
+--          and Cortex Search
+CREATE OR REPLACE STAGE L1_DATA;
 CREATE OR REPLACE STAGE L1_DOCS;
 
 -- ============================================================
--- STEP 4: Load structured data from the GitHub repo
+-- STEP 4: Copy files from the git repo to internal stages
 -- ============================================================
--- The COPY INTO commands read CSV files directly from the git
--- repository stage created in 00_common.sql.
+-- Snowflake cannot COPY INTO a table directly from a git repo
+-- stage, so we first copy the files to internal stages.
 
-COPY INTO PATIENTS
-  FROM @HCLS_LAB.PUBLIC.HCLS_LAB_REPO/branches/main/tracks/l1_trial_matching/data/patients.csv
-  FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
+-- Copy CSVs for table loading
+COPY FILES
+  INTO @L1_DATA
+  FROM @HCLS_LAB.PUBLIC.HCLS_LAB_REPO/branches/main/tracks/l1_trial_matching/data/;
 
-COPY INTO DIAGNOSES
-  FROM @HCLS_LAB.PUBLIC.HCLS_LAB_REPO/branches/main/tracks/l1_trial_matching/data/diagnoses.csv
-  FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
-
-COPY INTO LABS
-  FROM @HCLS_LAB.PUBLIC.HCLS_LAB_REPO/branches/main/tracks/l1_trial_matching/data/labs.csv
-  FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
-
-COPY INTO MEDICATIONS
-  FROM @HCLS_LAB.PUBLIC.HCLS_LAB_REPO/branches/main/tracks/l1_trial_matching/data/medications.csv
-  FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
-
-COPY INTO SITES
-  FROM @HCLS_LAB.PUBLIC.HCLS_LAB_REPO/branches/main/tracks/l1_trial_matching/data/sites.csv
-  FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
-
--- ============================================================
--- STEP 5: Copy the protocol document to the internal stage
--- ============================================================
--- COPY FILES moves the protocol text file from the git repo stage
--- into the internal stage @L1_DOCS. This is needed because
--- AI_PARSE_DOCUMENT reads from internal or external stages, not
--- directly from git repo stages.
-
+-- Copy the protocol document for AI_PARSE_DOCUMENT / Cortex Search
 COPY FILES
   INTO @L1_DOCS
   FROM @HCLS_LAB.PUBLIC.HCLS_LAB_REPO/branches/main/tracks/l1_trial_matching/docs/;
+
+-- ============================================================
+-- STEP 5: Load structured data from internal stage into tables
+-- ============================================================
+
+COPY INTO PATIENTS FROM @L1_DATA/patients.csv
+  FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
+
+COPY INTO DIAGNOSES FROM @L1_DATA/diagnoses.csv
+  FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
+
+COPY INTO LABS FROM @L1_DATA/labs.csv
+  FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
+
+COPY INTO MEDICATIONS FROM @L1_DATA/medications.csv
+  FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
+
+COPY INTO SITES FROM @L1_DATA/sites.csv
+  FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
 
 -- ============================================================
 -- STEP 6: Verify the load

@@ -86,29 +86,36 @@ CREATE OR REPLACE TABLE VISIT_NOTES (
 );
 
 -- ============================================================
--- STEP 3: Load data from the GitHub repo
+-- STEP 3: Copy CSV files from the git repo to an internal stage
 -- ============================================================
--- The COPY INTO commands read CSV files directly from the git
--- repository stage created in 00_common.sql.
+-- Snowflake cannot COPY INTO a table directly from a git repo
+-- stage, so we first copy the files to an internal stage, then
+-- load from there.
 
-COPY INTO MEMBERS
-  FROM @HCLS_LAB.PUBLIC.HCLS_LAB_REPO/branches/main/tracks/p2_hedis_gaps/data/members.csv
-  FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
+CREATE OR REPLACE STAGE P2_DATA;
 
-COPY INTO MEASURE_GAPS
-  FROM @HCLS_LAB.PUBLIC.HCLS_LAB_REPO/branches/main/tracks/p2_hedis_gaps/data/measure_gaps.csv
-  FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
-
-COPY INTO CLAIMS
-  FROM @HCLS_LAB.PUBLIC.HCLS_LAB_REPO/branches/main/tracks/p2_hedis_gaps/data/claims.csv
-  FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
-
-COPY INTO VISIT_NOTES
-  FROM @HCLS_LAB.PUBLIC.HCLS_LAB_REPO/branches/main/tracks/p2_hedis_gaps/data/visit_notes.csv
-  FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
+COPY FILES
+  INTO @P2_DATA
+  FROM @HCLS_LAB.PUBLIC.HCLS_LAB_REPO/branches/main/tracks/p2_hedis_gaps/data/;
 
 -- ============================================================
--- STEP 4: Verify the load
+-- STEP 4: Load data from the internal stage into tables
+-- ============================================================
+
+COPY INTO MEMBERS FROM @P2_DATA/members.csv
+  FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
+
+COPY INTO MEASURE_GAPS FROM @P2_DATA/measure_gaps.csv
+  FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
+
+COPY INTO CLAIMS FROM @P2_DATA/claims.csv
+  FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
+
+COPY INTO VISIT_NOTES FROM @P2_DATA/visit_notes.csv
+  FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
+
+-- ============================================================
+-- STEP 5: Verify the load
 -- ============================================================
 -- Expected counts: MEMBERS=2000, MEASURE_GAPS=~4800,
 -- CLAIMS=15000, VISIT_NOTES=~2800.

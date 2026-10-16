@@ -29,13 +29,20 @@ CREATE OR REPLACE GIT REPOSITORY HCLS_LAB.PUBLIC.HCLS_LAB_REPO
 -- Fetch latest
 ALTER GIT REPOSITORY HCLS_LAB.PUBLIC.HCLS_LAB_REPO FETCH;
 
--- 4. File format for CSVs
+-- 4. File formats
+-- CSV format for structured data tables
 CREATE OR REPLACE FILE FORMAT HCLS_LAB.PUBLIC.CSV_FORMAT
   TYPE = 'CSV'
   FIELD_OPTIONALLY_ENCLOSED_BY = '"'
   SKIP_HEADER = 1
   NULL_IF = ('')
   EMPTY_FIELD_AS_NULL = TRUE;
+
+-- Text format for reading document files as a single string (used by L1)
+CREATE OR REPLACE FILE FORMAT HCLS_LAB.PUBLIC.TEXT_FORMAT
+  TYPE = 'CSV'
+  RECORD_DELIMITER = 'NONE'
+  FIELD_DELIMITER = 'NONE';
 
 -- 5. Cross-region AI — ensures Cortex AI functions work regardless of
 --    which region the trial account was created in.

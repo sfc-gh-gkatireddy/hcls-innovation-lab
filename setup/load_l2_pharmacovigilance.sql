@@ -70,25 +70,33 @@ CREATE OR REPLACE TABLE CASE_NARRATIVES (
 );
 
 -- ============================================================
--- STEP 3: Load data from the GitHub repo
+-- STEP 3: Copy CSV files from the git repo to an internal stage
 -- ============================================================
--- The COPY INTO commands read CSV files directly from the git
--- repository stage created in 00_common.sql.
+-- Snowflake cannot COPY INTO a table directly from a git repo
+-- stage, so we first copy the files to an internal stage, then
+-- load from there.
 
-COPY INTO PRODUCTS
-  FROM @HCLS_LAB.PUBLIC.HCLS_LAB_REPO/branches/main/tracks/l2_pharmacovigilance/data/products.csv
-  FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
+CREATE OR REPLACE STAGE L2_DATA;
 
-COPY INTO AE_CASES
-  FROM @HCLS_LAB.PUBLIC.HCLS_LAB_REPO/branches/main/tracks/l2_pharmacovigilance/data/ae_cases.csv
-  FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
-
-COPY INTO CASE_NARRATIVES
-  FROM @HCLS_LAB.PUBLIC.HCLS_LAB_REPO/branches/main/tracks/l2_pharmacovigilance/data/case_narratives.csv
-  FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
+COPY FILES
+  INTO @L2_DATA
+  FROM @HCLS_LAB.PUBLIC.HCLS_LAB_REPO/branches/main/tracks/l2_pharmacovigilance/data/;
 
 -- ============================================================
--- STEP 4: Verify the load
+-- STEP 4: Load data from the internal stage into tables
+-- ============================================================
+
+COPY INTO PRODUCTS FROM @L2_DATA/products.csv
+  FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
+
+COPY INTO AE_CASES FROM @L2_DATA/ae_cases.csv
+  FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
+
+COPY INTO CASE_NARRATIVES FROM @L2_DATA/case_narratives.csv
+  FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
+
+-- ============================================================
+-- STEP 5: Verify the load
 -- ============================================================
 -- Expected counts: PRODUCTS=10, AE_CASES=5000,
 -- CASE_NARRATIVES=~460.

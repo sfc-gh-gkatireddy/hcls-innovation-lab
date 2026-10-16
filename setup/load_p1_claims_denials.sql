@@ -107,34 +107,39 @@ CREATE OR REPLACE TABLE PAYER_POLICIES (
 );
 
 -- ============================================================
--- STEP 3: Load data from the GitHub repo
+-- STEP 3: Copy CSV files from the git repo to an internal stage
 -- ============================================================
--- The COPY INTO commands read CSV files directly from the git
--- repository stage created in 00_common.sql. No local downloads
--- or file uploads are needed.
+-- Snowflake cannot COPY INTO a table directly from a git repo
+-- stage, so we first copy the files to an internal stage, then
+-- load from there.
 
-COPY INTO MEMBERS
-  FROM @HCLS_LAB.PUBLIC.HCLS_LAB_REPO/branches/main/tracks/p1_claims_denials/data/members.csv
-  FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
+CREATE OR REPLACE STAGE P1_DATA;
 
-COPY INTO PROVIDERS
-  FROM @HCLS_LAB.PUBLIC.HCLS_LAB_REPO/branches/main/tracks/p1_claims_denials/data/providers.csv
-  FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
-
-COPY INTO CLAIMS
-  FROM @HCLS_LAB.PUBLIC.HCLS_LAB_REPO/branches/main/tracks/p1_claims_denials/data/claims.csv
-  FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
-
-COPY INTO DENIAL_NOTES
-  FROM @HCLS_LAB.PUBLIC.HCLS_LAB_REPO/branches/main/tracks/p1_claims_denials/data/denial_notes.csv
-  FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
-
-COPY INTO PAYER_POLICIES
-  FROM @HCLS_LAB.PUBLIC.HCLS_LAB_REPO/branches/main/tracks/p1_claims_denials/data/payer_policies.csv
-  FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
+COPY FILES
+  INTO @P1_DATA
+  FROM @HCLS_LAB.PUBLIC.HCLS_LAB_REPO/branches/main/tracks/p1_claims_denials/data/;
 
 -- ============================================================
--- STEP 4: Verify the load
+-- STEP 4: Load data from the internal stage into tables
+-- ============================================================
+
+COPY INTO MEMBERS FROM @P1_DATA/members.csv
+  FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
+
+COPY INTO PROVIDERS FROM @P1_DATA/providers.csv
+  FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
+
+COPY INTO CLAIMS FROM @P1_DATA/claims.csv
+  FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
+
+COPY INTO DENIAL_NOTES FROM @P1_DATA/denial_notes.csv
+  FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
+
+COPY INTO PAYER_POLICIES FROM @P1_DATA/payer_policies.csv
+  FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
+
+-- ============================================================
+-- STEP 5: Verify the load
 -- ============================================================
 -- Expected counts: MEMBERS=2000, PROVIDERS=200, CLAIMS=20000,
 -- DENIAL_NOTES=~2800, PAYER_POLICIES=5.
