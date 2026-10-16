@@ -19,12 +19,12 @@ USE DATABASE HCLS_LAB;
 -- Update the URL below if the repo moves.
 CREATE OR REPLACE API INTEGRATION HCLS_LAB_GIT_API
   API_PROVIDER = git_https_api
-  API_ALLOWED_PREFIXES = ('https://github.com/gkatireddy')
+  API_ALLOWED_PREFIXES = ('https://github.com/sfc-gh-gkatireddy')
   ENABLED = TRUE;
 
 CREATE OR REPLACE GIT REPOSITORY HCLS_LAB.PUBLIC.HCLS_LAB_REPO
   API_INTEGRATION = HCLS_LAB_GIT_API
-  ORIGIN = 'https://github.com/gkatireddy/hcls-innovation-lab.git';
+  ORIGIN = 'https://github.com/sfc-gh-gkatireddy/hcls-innovation-lab.git';
 
 -- Fetch latest
 ALTER GIT REPOSITORY HCLS_LAB.PUBLIC.HCLS_LAB_REPO FETCH;
