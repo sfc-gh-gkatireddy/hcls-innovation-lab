@@ -1,0 +1,201 @@
+PROVIDER_ID,PROVIDER_NPI,PROVIDER_NAME,SPECIALTY,FACILITY_NAME,STATE,NETWORK_STATUS
+PRV-00001,1000000000,Dr. Brian Martinez,Rheumatology,Pinnacle Oncology Center,FL,IN
+PRV-00002,1000000001,Dr. Jessica Anderson,Neurology,Crestwood Surgical Center,VA,IN
+PRV-00003,1000000002,Dr. Thomas Adams,Internal Medicine,Pinnacle Oncology Center,CO,IN
+PRV-00004,1000000003,Dr. Richard Chen,Endocrinology,Horizon Neurology Associates,VA,IN
+PRV-00005,1000000004,Dr. Joseph Chen,Gastroenterology,Lakeview Internal Medicine,GA,IN
+PRV-00006,1000000005,Dr. Amanda Rodriguez,Pulmonology,Crestwood Surgical Center,CA,IN
+PRV-00007,1000000006,Dr. Andrew Williams,Orthopedics,Evergreen Pulmonary Clinic,CO,IN
+PRV-00008,1000000007,Dr. Brian King,Pulmonology,Summit Health Associates,CO,OUT
+PRV-00009,1000000008,Dr. Christopher Young,Oncology,Metro Medical Center,AZ,IN
+PRV-00010,1000000009,Dr. Brian Brown,Cardiology,Summit Health Associates,TX,OUT
+PRV-00011,1000000010,Dr. Charles Martin,Gastroenterology,Summit Health Associates,WA,IN
+PRV-00012,1000000011,Dr. Robert Anderson,Oncology,Horizon Neurology Associates,AZ,OUT
+PRV-00013,1000000012,Dr. Sarah Walker,Internal Medicine,Peak Regional Hospital,AZ,IN
+PRV-00014,1000000013,Dr. Thomas Young,General Surgery,Lakeview Internal Medicine,VA,IN
+PRV-00015,1000000014,Dr. Richard Scott,Oncology,Summit Health Associates,AZ,IN
+PRV-00016,1000000015,Dr. James Baker,Cardiology,Peak Regional Hospital,CA,OUT
+PRV-00017,1000000016,Dr. Brian Anderson,General Surgery,Lakeview Internal Medicine,NJ,IN
+PRV-00018,1000000017,Dr. James Williams,Gastroenterology,Metro Medical Center,TX,IN
+PRV-00019,1000000018,Dr. Emily Anderson,Neurology,Peak Regional Hospital,VA,IN
+PRV-00020,1000000019,Dr. Samantha Robinson,General Surgery,Ridge Cardiology Group,GA,IN
+PRV-00021,1000000020,Dr. Sarah White,Oncology,Metro Medical Center,NJ,OUT
+PRV-00022,1000000021,Dr. Emily King,Endocrinology,Valley Orthopedic Clinic,NJ,IN
+PRV-00023,1000000022,Dr. Daniel Lewis,Rheumatology,Metro Medical Center,VA,IN
+PRV-00024,1000000023,Dr. Joseph Allen,General Surgery,Lakeview Internal Medicine,AZ,IN
+PRV-00025,1000000024,Dr. Olivia Brown,Cardiology,Metro Medical Center,CO,OUT
+PRV-00026,1000000025,Dr. Jennifer Walker,General Surgery,Valley Orthopedic Clinic,NY,IN
+PRV-00027,1000000026,Dr. David Young,General Surgery,Summit Health Associates,CO,IN
+PRV-00028,1000000027,Dr. Amanda Thompson,Orthopedics,Valley Orthopedic Clinic,OH,IN
+PRV-00029,1000000028,Dr. Matthew Lewis,Oncology,Summit Health Associates,TX,IN
+PRV-00030,1000000029,Dr. Christopher Lewis,Cardiology,Valley Orthopedic Clinic,AZ,IN
+PRV-00031,1000000030,Dr. Brian Lewis,General Surgery,Peak Regional Hospital,NC,IN
+PRV-00032,1000000031,Dr. Amanda King,Neurology,Lakeview Internal Medicine,AZ,IN
+PRV-00033,1000000032,Dr. Robert Chen,Pulmonology,Crestwood Surgical Center,TX,IN
+PRV-00034,1000000033,Dr. Sarah Jackson,Endocrinology,Evergreen Pulmonary Clinic,WA,IN
+PRV-00035,1000000034,Dr. Christopher Mitchell,Gastroenterology,Evergreen Pulmonary Clinic,OH,IN
+PRV-00036,1000000035,Dr. Michael Lee,Gastroenterology,Horizon Neurology Associates,GA,IN
+PRV-00037,1000000036,Dr. Sarah King,Neurology,Horizon Neurology Associates,NC,IN
+PRV-00038,1000000037,Dr. Joseph Walker,Internal Medicine,Valley Orthopedic Clinic,AZ,IN
+PRV-00039,1000000038,Dr. Andrew Green,Oncology,Ridge Cardiology Group,WA,IN
+PRV-00040,1000000039,Dr. Katherine Brown,Orthopedics,Metro Medical Center,OH,OUT
+PRV-00041,1000000040,Dr. Daniel Thomas,Internal Medicine,Lakeview Internal Medicine,IL,IN
+PRV-00042,1000000041,Dr. David Williams,Pulmonology,Metro Medical Center,TX,OUT
+PRV-00043,1000000042,Dr. David Thomas,Pulmonology,Ridge Cardiology Group,CA,OUT
+PRV-00044,1000000043,Dr. Jessica Martinez,Cardiology,Horizon Neurology Associates,NC,IN
+PRV-00045,1000000044,Dr. Jessica Clark,Orthopedics,Peak Regional Hospital,AZ,IN
+PRV-00046,1000000045,Dr. Ashley Wright,Neurology,Ridge Cardiology Group,IL,IN
+PRV-00047,1000000046,Dr. Michael Mitchell,Orthopedics,Evergreen Pulmonary Clinic,CO,OUT
+PRV-00048,1000000047,Dr. Joshua Walker,Orthopedics,Lakeview Internal Medicine,FL,IN
+PRV-00049,1000000048,Dr. Christopher King,Rheumatology,Pinnacle Oncology Center,VA,OUT
+PRV-00050,1000000049,Dr. Matthew Garcia,Neurology,Metro Medical Center,CA,IN
+PRV-00051,1000000050,Dr. Michael Thomas,Gastroenterology,Horizon Neurology Associates,FL,IN
+PRV-00052,1000000051,Dr. Megan Adams,Orthopedics,Ridge Cardiology Group,VA,IN
+PRV-00053,1000000052,Dr. Olivia Adams,Endocrinology,Lakeview Internal Medicine,MI,OUT
+PRV-00054,1000000053,Dr. Richard Green,General Surgery,Peak Regional Hospital,TX,IN
+PRV-00055,1000000054,Dr. Andrew Allen,General Surgery,Crestwood Surgical Center,NY,IN
+PRV-00056,1000000055,Dr. Thomas Chen,Neurology,Valley Orthopedic Clinic,OH,IN
+PRV-00057,1000000056,Dr. Samantha Mitchell,Internal Medicine,Horizon Neurology Associates,IL,IN
+PRV-00058,1000000057,Dr. Matthew Williams,Cardiology,Ridge Cardiology Group,GA,OUT
+PRV-00059,1000000058,Dr. Brian Mitchell,General Surgery,Peak Regional Hospital,CO,OUT
+PRV-00060,1000000059,Dr. Emily Rodriguez,Pulmonology,Peak Regional Hospital,FL,IN
+PRV-00061,1000000060,Dr. Jessica Johnson,Gastroenterology,Peak Regional Hospital,TX,IN
+PRV-00062,1000000061,Dr. Michael Taylor,Rheumatology,Summit Health Associates,NC,OUT
+PRV-00063,1000000062,Dr. Rachel Mitchell,Pulmonology,Evergreen Pulmonary Clinic,TX,OUT
+PRV-00064,1000000063,Dr. Emily King,Cardiology,Pinnacle Oncology Center,OH,IN
+PRV-00065,1000000064,Dr. Elizabeth Taylor,Pulmonology,Pinnacle Oncology Center,NC,IN
+PRV-00066,1000000065,Dr. Rachel Clark,Pulmonology,Evergreen Pulmonary Clinic,PA,OUT
+PRV-00067,1000000066,Dr. Joseph Harris,Internal Medicine,Summit Health Associates,OH,IN
+PRV-00068,1000000067,Dr. Joseph Chen,Pulmonology,Valley Orthopedic Clinic,GA,IN
+PRV-00069,1000000068,Dr. Michael Lee,Gastroenterology,Evergreen Pulmonary Clinic,CA,OUT
+PRV-00070,1000000069,Dr. Brian Williams,Rheumatology,Ridge Cardiology Group,IL,IN
+PRV-00071,1000000070,Dr. Katherine Chen,Cardiology,Pinnacle Oncology Center,CA,IN
+PRV-00072,1000000071,Dr. Rachel King,Endocrinology,Peak Regional Hospital,CO,IN
+PRV-00073,1000000072,Dr. Jessica Lee,Neurology,Evergreen Pulmonary Clinic,NY,IN
+PRV-00074,1000000073,Dr. Christopher Adams,Neurology,Peak Regional Hospital,AZ,IN
+PRV-00075,1000000074,Dr. Sarah Garcia,Cardiology,Ridge Cardiology Group,NY,OUT
+PRV-00076,1000000075,Dr. William Robinson,Neurology,Peak Regional Hospital,VA,IN
+PRV-00077,1000000076,Dr. Michael Jackson,Pulmonology,Evergreen Pulmonary Clinic,WA,IN
+PRV-00078,1000000077,Dr. Joseph Mitchell,Internal Medicine,Metro Medical Center,CA,IN
+PRV-00079,1000000078,Dr. Christopher Johnson,Orthopedics,Ridge Cardiology Group,VA,IN
+PRV-00080,1000000079,Dr. Ashley Green,Internal Medicine,Peak Regional Hospital,PA,OUT
+PRV-00081,1000000080,Dr. Nicole Taylor,Internal Medicine,Summit Health Associates,FL,IN
+PRV-00082,1000000081,Dr. Joseph Johnson,Orthopedics,Peak Regional Hospital,NC,IN
+PRV-00083,1000000082,Dr. Stephanie Anderson,Orthopedics,Crestwood Surgical Center,NY,OUT
+PRV-00084,1000000083,Dr. David Mitchell,Orthopedics,Lakeview Internal Medicine,PA,IN
+PRV-00085,1000000084,Dr. Olivia Scott,Endocrinology,Horizon Neurology Associates,GA,IN
+PRV-00086,1000000085,Dr. Thomas Baker,General Surgery,Summit Health Associates,WA,IN
+PRV-00087,1000000086,Dr. Robert King,Cardiology,Metro Medical Center,AZ,IN
+PRV-00088,1000000087,Dr. Megan Rodriguez,Gastroenterology,Summit Health Associates,GA,IN
+PRV-00089,1000000088,Dr. Thomas Green,General Surgery,Metro Medical Center,NJ,IN
+PRV-00090,1000000089,Dr. Andrew Allen,Rheumatology,Valley Orthopedic Clinic,TX,IN
+PRV-00091,1000000090,Dr. William Brown,Rheumatology,Ridge Cardiology Group,TX,OUT
+PRV-00092,1000000091,Dr. Thomas Williams,Internal Medicine,Evergreen Pulmonary Clinic,TX,IN
+PRV-00093,1000000092,Dr. Emily Jackson,Endocrinology,Metro Medical Center,NC,IN
+PRV-00094,1000000093,Dr. Amanda Thomas,Rheumatology,Lakeview Internal Medicine,NJ,OUT
+PRV-00095,1000000094,Dr. Joshua Adams,Gastroenterology,Horizon Neurology Associates,MI,IN
+PRV-00096,1000000095,Dr. Thomas Brown,Gastroenterology,Peak Regional Hospital,TX,OUT
+PRV-00097,1000000096,Dr. Amanda Taylor,Orthopedics,Ridge Cardiology Group,WA,IN
+PRV-00098,1000000097,Dr. Charles King,Oncology,Ridge Cardiology Group,AZ,IN
+PRV-00099,1000000098,Dr. Daniel Jackson,Gastroenterology,Valley Orthopedic Clinic,AZ,IN
+PRV-00100,1000000099,Dr. Megan King,Neurology,Valley Orthopedic Clinic,WA,OUT
+PRV-00101,1000000100,Dr. Amanda Mitchell,Oncology,Evergreen Pulmonary Clinic,OH,IN
+PRV-00102,1000000101,Dr. Daniel Johnson,Internal Medicine,Peak Regional Hospital,OH,IN
+PRV-00103,1000000102,Dr. Stephanie Baker,Cardiology,Summit Health Associates,NY,IN
+PRV-00104,1000000103,Dr. William Johnson,Gastroenterology,Peak Regional Hospital,VA,IN
+PRV-00105,1000000104,Dr. Christopher Lee,Pulmonology,Ridge Cardiology Group,AZ,IN
+PRV-00106,1000000105,Dr. Emily Walker,Rheumatology,Pinnacle Oncology Center,AZ,IN
+PRV-00107,1000000106,Dr. Elizabeth Allen,Endocrinology,Evergreen Pulmonary Clinic,AZ,IN
+PRV-00108,1000000107,Dr. Rachel Lewis,Gastroenterology,Peak Regional Hospital,AZ,IN
+PRV-00109,1000000108,Dr. Rachel Martinez,Cardiology,Evergreen Pulmonary Clinic,WA,OUT
+PRV-00110,1000000109,Dr. William Brown,Neurology,Pinnacle Oncology Center,IL,IN
+PRV-00111,1000000110,Dr. Brian Thompson,Oncology,Horizon Neurology Associates,CA,IN
+PRV-00112,1000000111,Dr. Lauren Chen,Pulmonology,Pinnacle Oncology Center,FL,IN
+PRV-00113,1000000112,Dr. Ashley Garcia,Neurology,Metro Medical Center,MI,IN
+PRV-00114,1000000113,Dr. Michael Rodriguez,Pulmonology,Pinnacle Oncology Center,GA,OUT
+PRV-00115,1000000114,Dr. James Taylor,Oncology,Lakeview Internal Medicine,NJ,OUT
+PRV-00116,1000000115,Dr. Charles Allen,Gastroenterology,Evergreen Pulmonary Clinic,AZ,IN
+PRV-00117,1000000116,Dr. Nicole Anderson,Endocrinology,Crestwood Surgical Center,WA,IN
+PRV-00118,1000000117,Dr. Rachel King,Pulmonology,Valley Orthopedic Clinic,IL,IN
+PRV-00119,1000000118,Dr. Stephanie Taylor,General Surgery,Horizon Neurology Associates,NJ,IN
+PRV-00120,1000000119,Dr. Thomas Thomas,General Surgery,Pinnacle Oncology Center,OH,IN
+PRV-00121,1000000120,Dr. Stephanie Johnson,Oncology,Peak Regional Hospital,TX,IN
+PRV-00122,1000000121,Dr. Richard Martinez,Pulmonology,Metro Medical Center,NC,IN
+PRV-00123,1000000122,Dr. Andrew Anderson,General Surgery,Ridge Cardiology Group,NC,IN
+PRV-00124,1000000123,Dr. Joshua Anderson,Internal Medicine,Crestwood Surgical Center,WA,IN
+PRV-00125,1000000124,Dr. Richard Wright,Pulmonology,Evergreen Pulmonary Clinic,OH,OUT
+PRV-00126,1000000125,Dr. Jennifer Green,Endocrinology,Peak Regional Hospital,TX,IN
+PRV-00127,1000000126,Dr. James White,Oncology,Peak Regional Hospital,FL,IN
+PRV-00128,1000000127,Dr. Charles Young,General Surgery,Summit Health Associates,NY,IN
+PRV-00129,1000000128,Dr. Thomas Patel,Oncology,Metro Medical Center,AZ,IN
+PRV-00130,1000000129,Dr. Christopher Lee,General Surgery,Valley Orthopedic Clinic,FL,IN
+PRV-00131,1000000130,Dr. Stephanie Scott,Cardiology,Ridge Cardiology Group,MI,IN
+PRV-00132,1000000131,Dr. Brian Martinez,Neurology,Metro Medical Center,GA,OUT
+PRV-00133,1000000132,Dr. Ashley Walker,Endocrinology,Valley Orthopedic Clinic,TX,IN
+PRV-00134,1000000133,Dr. James Lee,Cardiology,Horizon Neurology Associates,NC,IN
+PRV-00135,1000000134,Dr. Olivia Williams,Internal Medicine,Summit Health Associates,TX,IN
+PRV-00136,1000000135,Dr. Rachel Lee,Endocrinology,Summit Health Associates,VA,IN
+PRV-00137,1000000136,Dr. Richard Williams,Neurology,Lakeview Internal Medicine,NJ,IN
+PRV-00138,1000000137,Dr. Rachel Baker,Internal Medicine,Crestwood Surgical Center,VA,OUT
+PRV-00139,1000000138,Dr. William Garcia,Endocrinology,Metro Medical Center,TX,OUT
+PRV-00140,1000000139,Dr. David Robinson,Internal Medicine,Metro Medical Center,PA,OUT
+PRV-00141,1000000140,Dr. Samantha Anderson,Internal Medicine,Valley Orthopedic Clinic,VA,OUT
+PRV-00142,1000000141,Dr. Daniel White,Internal Medicine,Evergreen Pulmonary Clinic,OH,OUT
+PRV-00143,1000000142,Dr. Lauren Anderson,Gastroenterology,Valley Orthopedic Clinic,FL,OUT
+PRV-00144,1000000143,Dr. James Patel,Oncology,Metro Medical Center,AZ,IN
+PRV-00145,1000000144,Dr. Olivia King,Pulmonology,Peak Regional Hospital,NJ,OUT
+PRV-00146,1000000145,Dr. Olivia Lee,Cardiology,Metro Medical Center,VA,IN
+PRV-00147,1000000146,Dr. Richard Robinson,Rheumatology,Metro Medical Center,CO,IN
+PRV-00148,1000000147,Dr. Olivia Thompson,Endocrinology,Peak Regional Hospital,PA,IN
+PRV-00149,1000000148,Dr. Michael Martinez,Internal Medicine,Lakeview Internal Medicine,GA,IN
+PRV-00150,1000000149,Dr. Emily Jackson,Orthopedics,Evergreen Pulmonary Clinic,NY,IN
+PRV-00151,1000000150,Dr. Andrew Young,Cardiology,Valley Orthopedic Clinic,MI,OUT
+PRV-00152,1000000151,Dr. Matthew Wright,Cardiology,Horizon Neurology Associates,CA,IN
+PRV-00153,1000000152,Dr. David Patel,Neurology,Crestwood Surgical Center,WA,IN
+PRV-00154,1000000153,Dr. Amanda Young,Internal Medicine,Pinnacle Oncology Center,MI,OUT
+PRV-00155,1000000154,Dr. Jessica Adams,Orthopedics,Evergreen Pulmonary Clinic,AZ,IN
+PRV-00156,1000000155,Dr. Andrew Allen,Endocrinology,Valley Orthopedic Clinic,IL,IN
+PRV-00157,1000000156,Dr. Rachel Taylor,General Surgery,Lakeview Internal Medicine,NJ,IN
+PRV-00158,1000000157,Dr. Olivia Brown,Internal Medicine,Peak Regional Hospital,CA,OUT
+PRV-00159,1000000158,Dr. Ashley Young,General Surgery,Valley Orthopedic Clinic,VA,IN
+PRV-00160,1000000159,Dr. James Martinez,Pulmonology,Horizon Neurology Associates,PA,IN
+PRV-00161,1000000160,Dr. Samantha Taylor,Neurology,Peak Regional Hospital,FL,OUT
+PRV-00162,1000000161,Dr. Stephanie Rodriguez,Rheumatology,Lakeview Internal Medicine,CO,OUT
+PRV-00163,1000000162,Dr. Thomas Rodriguez,Orthopedics,Pinnacle Oncology Center,GA,IN
+PRV-00164,1000000163,Dr. Matthew Williams,Gastroenterology,Evergreen Pulmonary Clinic,GA,IN
+PRV-00165,1000000164,Dr. Charles Martin,Internal Medicine,Valley Orthopedic Clinic,OH,IN
+PRV-00166,1000000165,Dr. Emily Mitchell,Endocrinology,Summit Health Associates,CA,OUT
+PRV-00167,1000000166,Dr. Emily Taylor,Rheumatology,Valley Orthopedic Clinic,VA,IN
+PRV-00168,1000000167,Dr. Joseph Rodriguez,Endocrinology,Crestwood Surgical Center,VA,IN
+PRV-00169,1000000168,Dr. Elizabeth Green,Oncology,Crestwood Surgical Center,GA,IN
+PRV-00170,1000000169,Dr. Richard White,Oncology,Peak Regional Hospital,CA,IN
+PRV-00171,1000000170,Dr. David Young,Internal Medicine,Peak Regional Hospital,CA,IN
+PRV-00172,1000000171,Dr. Christopher Patel,General Surgery,Ridge Cardiology Group,NY,IN
+PRV-00173,1000000172,Dr. Amanda Lee,General Surgery,Peak Regional Hospital,PA,IN
+PRV-00174,1000000173,Dr. Jessica Allen,Pulmonology,Crestwood Surgical Center,CO,OUT
+PRV-00175,1000000174,Dr. Jessica Scott,General Surgery,Lakeview Internal Medicine,FL,IN
+PRV-00176,1000000175,Dr. Christopher Chen,Gastroenterology,Valley Orthopedic Clinic,NJ,OUT
+PRV-00177,1000000176,Dr. Katherine Wright,Neurology,Summit Health Associates,NJ,IN
+PRV-00178,1000000177,Dr. Elizabeth Chen,Oncology,Crestwood Surgical Center,AZ,OUT
+PRV-00179,1000000178,Dr. William Patel,Neurology,Metro Medical Center,GA,IN
+PRV-00180,1000000179,Dr. Ashley Green,Rheumatology,Ridge Cardiology Group,MI,IN
+PRV-00181,1000000180,Dr. Christopher Lee,Pulmonology,Peak Regional Hospital,CO,IN
+PRV-00182,1000000181,Dr. Ashley King,Gastroenterology,Peak Regional Hospital,OH,IN
+PRV-00183,1000000182,Dr. Matthew Wright,Oncology,Crestwood Surgical Center,FL,OUT
+PRV-00184,1000000183,Dr. Lauren Taylor,Gastroenterology,Summit Health Associates,IL,IN
+PRV-00185,1000000184,Dr. Samantha Harris,Orthopedics,Lakeview Internal Medicine,IL,IN
+PRV-00186,1000000185,Dr. Andrew Rodriguez,Internal Medicine,Summit Health Associates,IL,IN
+PRV-00187,1000000186,Dr. Stephanie Allen,Oncology,Summit Health Associates,TX,IN
+PRV-00188,1000000187,Dr. Richard Jackson,Oncology,Metro Medical Center,WA,IN
+PRV-00189,1000000188,Dr. Andrew Allen,Gastroenterology,Evergreen Pulmonary Clinic,FL,IN
+PRV-00190,1000000189,Dr. Daniel Lee,Endocrinology,Lakeview Internal Medicine,MI,IN
+PRV-00191,1000000190,Dr. Sarah Harris,Orthopedics,Peak Regional Hospital,CO,IN
+PRV-00192,1000000191,Dr. Jessica Jackson,Internal Medicine,Metro Medical Center,TX,OUT
+PRV-00193,1000000192,Dr. Emily Thompson,Cardiology,Peak Regional Hospital,NY,IN
+PRV-00194,1000000193,Dr. David Clark,Neurology,Crestwood Surgical Center,VA,OUT
+PRV-00195,1000000194,Dr. Daniel Lee,General Surgery,Horizon Neurology Associates,OH,IN
+PRV-00196,1000000195,Dr. Andrew Martin,Endocrinology,Valley Orthopedic Clinic,TX,IN
+PRV-00197,1000000196,Dr. Stephanie Harris,Endocrinology,Valley Orthopedic Clinic,TX,IN
+PRV-00198,1000000197,Dr. Robert White,Gastroenterology,Metro Medical Center,GA,IN
+PRV-00199,1000000198,Dr. Joseph Clark,Rheumatology,Pinnacle Oncology Center,WA,OUT
+PRV-00200,1000000199,Dr. Christopher Lee,Gastroenterology,Lakeview Internal Medicine,FL,IN

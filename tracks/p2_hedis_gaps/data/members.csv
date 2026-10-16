@@ -1,0 +1,2001 @@
+MEMBER_ID,FIRST_NAME,LAST_NAME,DOB,AGE,SEX,STATE,PLAN_TYPE,PCP_PROVIDER,RISK_SCORE
+MBR-00001,Michael,Rodriguez,1990-09-07,35,M,FL,PPO,Dr. Michael Brown,3.21
+MBR-00002,Patricia,Smith,1993-11-23,32,F,FL,PPO,Dr. Dorothy Lee,0.61
+MBR-00003,Jessica,Thomas,1979-03-18,46,F,IL,HMO,Dr. David Garcia,3.29
+MBR-00004,Barbara,Miller,1961-07-29,64,F,CA,HMO,Dr. Betty Brown,1.94
+MBR-00005,William,Johnson,1960-05-27,65,F,NC,HMO,Dr. Charles Wilson,0.82
+MBR-00006,Emily,Miller,1967-01-21,58,F,CA,HMO,Dr. Robert Davis,3.59
+MBR-00007,Joseph,Brown,1994-06-29,31,M,IL,Medicare Advantage,Dr. James Lopez,1.15
+MBR-00008,Robert,Rodriguez,1959-01-24,66,M,MA,HMO,Dr. Donna Garcia,2.64
+MBR-00009,Sandra,Wilson,1973-08-29,52,M,MA,EPO,Dr. Jessica Hernandez,3.87
+MBR-00010,Richard,Johnson,1997-07-31,28,M,OH,Medicaid,Dr. Jennifer Miller,4.15
+MBR-00011,James,Taylor,1964-06-28,61,M,MA,Medicare Advantage,Dr. Barbara Rodriguez,1.06
+MBR-00012,Thomas,Martin,1971-06-25,54,F,PA,PPO,Dr. Barbara Moore,2.47
+MBR-00013,Barbara,Garcia,1998-01-25,27,M,OH,EPO,Dr. Jennifer Wilson,2.03
+MBR-00014,Kimberly,Smith,1945-02-07,80,F,VA,HMO,Dr. Robert Jackson,3.5
+MBR-00015,Karen,Anderson,1961-10-29,64,M,GA,HMO,Dr. Michael Rodriguez,4.39
+MBR-00016,Joseph,Martinez,1982-02-19,43,M,NC,EPO,Dr. Susan Jones,2.0
+MBR-00017,Donna,Hernandez,1984-05-06,41,M,NY,HMO,Dr. Charles Lopez,4.01
+MBR-00018,Patricia,Davis,1965-04-01,60,M,CA,HMO,Dr. Michael Taylor,3.76
+MBR-00019,Robert,Taylor,1988-04-04,37,M,TX,Medicaid,Dr. Dorothy Lee,2.19
+MBR-00020,John,Martinez,1977-06-23,48,M,NJ,Medicaid,Dr. Sandra Moore,2.31
+MBR-00021,Jennifer,Hernandez,1974-01-04,52,M,MI,EPO,Dr. Jessica Martin,1.38
+MBR-00022,Jessica,Williams,1995-12-24,30,M,AZ,Medicaid,Dr. Jennifer Moore,1.45
+MBR-00023,Kimberly,Jones,1942-04-05,83,M,MI,Medicare Advantage,Dr. Jessica Taylor,3.73
+MBR-00024,Linda,Anderson,1980-07-15,45,M,OH,Medicare Advantage,Dr. Sandra Johnson,3.19
+MBR-00025,Betty,Hernandez,1992-11-15,33,M,FL,PPO,Dr. Susan Jackson,2.29
+MBR-00026,Sarah,Thomas,1950-09-15,75,M,AZ,HMO,Dr. Sandra Jackson,0.89
+MBR-00027,Charles,Davis,2003-10-14,22,M,OH,Medicare Advantage,Dr. Ashley Miller,3.96
+MBR-00028,Betty,Smith,1997-06-23,28,M,IL,Medicare Advantage,Dr. Karen Anderson,3.29
+MBR-00029,Susan,Martinez,1942-10-03,83,M,NY,EPO,Dr. Michael Jackson,0.74
+MBR-00030,Patricia,Martin,1964-05-17,61,M,NC,EPO,Dr. Elizabeth Johnson,4.34
+MBR-00031,Jennifer,Lee,1994-12-06,31,M,NJ,PPO,Dr. Betty Brown,4.27
+MBR-00032,Donna,Williams,1973-06-14,52,M,NJ,EPO,Dr. Emily Moore,1.77
+MBR-00033,Robert,Hernandez,1971-09-15,54,M,IL,Medicare Advantage,Dr. Barbara Martinez,2.33
+MBR-00034,Sandra,Lee,1995-03-27,30,M,CA,HMO,Dr. Kimberly Miller,2.52
+MBR-00035,Thomas,Williams,1988-09-07,37,F,PA,Medicaid,Dr. Elizabeth Thomas,3.83
+MBR-00036,Robert,Jackson,1966-08-16,59,M,MA,HMO,Dr. Thomas Jones,1.56
+MBR-00037,Sarah,Martinez,1991-03-07,34,M,FL,Medicaid,Dr. Susan Rodriguez,2.52
+MBR-00038,Jennifer,Anderson,1972-08-26,53,M,NY,HMO,Dr. Lisa Jones,3.05
+MBR-00039,Michael,Thomas,1971-04-08,54,M,VA,Medicare Advantage,Dr. Kimberly Smith,0.95
+MBR-00040,Richard,Lopez,1985-03-19,40,M,NC,PPO,Dr. Margaret Jones,0.67
+MBR-00041,Thomas,Lopez,1958-10-03,67,M,NJ,PPO,Dr. Robert Brown,1.91
+MBR-00042,Charles,Davis,1952-10-28,73,M,WA,PPO,Dr. Thomas Anderson,0.6
+MBR-00043,William,Davis,1962-09-03,63,F,TX,HMO,Dr. Betty Johnson,3.93
+MBR-00044,Richard,Thomas,1976-07-18,49,M,IL,PPO,Dr. Jessica Smith,3.14
+MBR-00045,Sarah,Williams,1953-08-30,72,F,PA,EPO,Dr. Betty Jackson,1.82
+MBR-00046,Thomas,Rodriguez,2001-10-08,24,M,MI,Medicaid,Dr. Patricia Brown,2.89
+MBR-00047,Margaret,Lee,1960-05-01,65,F,CA,Medicare Advantage,Dr. Thomas Martin,1.26
+MBR-00048,Maria,Moore,1999-04-08,26,F,NJ,PPO,Dr. Nancy Anderson,0.78
+MBR-00049,Robert,Brown,1962-08-17,63,F,NC,Medicaid,Dr. Robert Anderson,1.8
+MBR-00050,Susan,Anderson,1967-02-10,58,M,OH,PPO,Dr. Donna Martin,1.7
+MBR-00051,Karen,Miller,2004-05-31,21,F,WA,EPO,Dr. Donna Hernandez,2.36
+MBR-00052,Dorothy,Taylor,1948-10-26,77,M,NJ,HMO,Dr. Karen Moore,3.16
+MBR-00053,Richard,Davis,1962-02-07,63,M,IL,PPO,Dr. William Miller,1.09
+MBR-00054,Ashley,Lee,1999-12-02,26,M,GA,Medicare Advantage,Dr. Thomas Martin,1.28
+MBR-00055,Betty,Davis,1955-11-05,70,F,NJ,HMO,Dr. Thomas Brown,3.61
+MBR-00056,William,Moore,1976-05-21,49,M,NY,EPO,Dr. Jessica Brown,2.33
+MBR-00057,David,Thomas,1945-03-14,80,F,AZ,EPO,Dr. Margaret Jackson,2.28
+MBR-00058,Sandra,Rodriguez,1984-09-07,41,F,AZ,Medicaid,Dr. David Moore,2.44
+MBR-00059,Sandra,Williams,1974-08-21,51,F,FL,Medicaid,Dr. Lisa Hernandez,4.07
+MBR-00060,Barbara,Davis,1994-06-27,31,M,VA,PPO,Dr. John Miller,0.76
+MBR-00061,Kimberly,Thomas,1952-06-21,73,F,NY,PPO,Dr. Richard Anderson,2.06
+MBR-00062,Ashley,Smith,2002-07-11,23,F,IL,Medicare Advantage,Dr. Joseph Anderson,2.65
+MBR-00063,Jessica,Rodriguez,1976-06-04,49,F,GA,HMO,Dr. Betty Hernandez,3.18
+MBR-00064,Richard,Thomas,1953-11-15,72,M,MI,EPO,Dr. Maria Wilson,2.87
+MBR-00065,James,Anderson,2001-10-30,24,M,AZ,Medicare Advantage,Dr. Elizabeth Johnson,1.54
+MBR-00066,Sandra,Hernandez,1963-07-29,62,M,WA,Medicare Advantage,Dr. Sarah Anderson,1.51
+MBR-00067,Maria,Jackson,1994-12-14,31,F,PA,PPO,Dr. James Williams,3.62
+MBR-00068,Jessica,Miller,1999-12-29,26,M,MI,PPO,Dr. Jessica Jones,2.39
+MBR-00069,Sandra,Rodriguez,1990-07-06,35,M,TX,EPO,Dr. Donna Brown,3.61
+MBR-00070,Linda,Martin,1984-12-29,41,F,MA,Medicaid,Dr. Emily Wilson,2.09
+MBR-00071,Emily,Davis,1979-11-22,46,M,VA,Medicaid,Dr. Joseph Lee,3.72
+MBR-00072,Kimberly,Anderson,1999-02-04,26,F,PA,HMO,Dr. Dorothy Hernandez,0.55
+MBR-00073,Linda,Anderson,1951-07-19,74,F,NJ,Medicare Advantage,Dr. John Jones,2.24
+MBR-00074,Sandra,Anderson,1970-03-18,55,F,IL,Medicaid,Dr. Joseph Davis,3.82
+MBR-00075,Thomas,Thomas,1993-09-07,32,F,WA,Medicare Advantage,Dr. Emily Lee,3.17
+MBR-00076,Ashley,Hernandez,1961-10-16,64,M,GA,PPO,Dr. Nancy Rodriguez,1.86
+MBR-00077,Dorothy,Miller,1969-12-03,56,M,FL,Medicare Advantage,Dr. Ashley Jackson,3.53
+MBR-00078,Sandra,Smith,1944-12-05,81,F,IL,PPO,Dr. Betty Davis,1.72
+MBR-00079,Kimberly,Moore,1957-07-26,68,F,OH,EPO,Dr. Lisa Lopez,3.31
+MBR-00080,Sarah,Davis,1970-11-15,55,F,VA,PPO,Dr. Lisa Brown,3.47
+MBR-00081,Susan,Taylor,1981-08-24,44,M,VA,EPO,Dr. David Moore,2.89
+MBR-00082,Karen,Davis,1992-07-09,33,M,TX,Medicaid,Dr. Maria Jackson,1.01
+MBR-00083,Kimberly,Martinez,1999-01-16,26,M,TX,Medicare Advantage,Dr. Linda Smith,2.8
+MBR-00084,Sandra,Hernandez,1944-10-19,81,F,NY,Medicaid,Dr. Joseph Taylor,0.96
+MBR-00085,Ashley,Williams,1996-03-19,29,F,NJ,HMO,Dr. Barbara Jones,3.74
+MBR-00086,Jessica,Brown,1966-04-06,59,M,WA,Medicare Advantage,Dr. Donna Lee,3.66
+MBR-00087,Sandra,Thomas,1976-08-14,49,F,AZ,EPO,Dr. Margaret Martinez,2.77
+MBR-00088,David,Miller,1997-02-22,28,M,FL,Medicaid,Dr. Robert Williams,1.13
+MBR-00089,Elizabeth,Smith,1982-06-17,43,M,GA,EPO,Dr. Ashley Martinez,0.63
+MBR-00090,John,Thomas,1968-12-10,57,F,NJ,PPO,Dr. Charles Rodriguez,3.65
+MBR-00091,Linda,Jackson,1979-09-20,46,F,NJ,PPO,Dr. Charles Rodriguez,3.81
+MBR-00092,Elizabeth,Martinez,1995-03-11,30,M,VA,EPO,Dr. Charles Martinez,2.26
+MBR-00093,John,Wilson,1945-09-04,80,F,NC,EPO,Dr. Ashley Thomas,0.82
+MBR-00094,Michael,Hernandez,1999-03-05,26,F,IL,HMO,Dr. Jennifer Davis,4.35
+MBR-00095,Emily,Johnson,2002-10-10,23,F,GA,EPO,Dr. James Thomas,4.16
+MBR-00096,James,Taylor,1981-11-27,44,F,GA,Medicaid,Dr. Margaret Hernandez,1.78
+MBR-00097,Lisa,Anderson,1991-01-20,34,M,GA,Medicaid,Dr. Robert Wilson,3.75
+MBR-00098,Jennifer,Hernandez,2000-08-31,25,F,PA,HMO,Dr. David Wilson,3.96
+MBR-00099,Margaret,Johnson,2004-10-02,21,F,NC,Medicaid,Dr. Donna Taylor,3.0
+MBR-00100,Sarah,Jackson,1998-11-02,27,M,MA,Medicaid,Dr. Sandra Taylor,0.99
+MBR-00101,Karen,Jackson,1975-01-07,51,M,NC,Medicare Advantage,Dr. Jennifer Davis,4.47
+MBR-00102,Linda,Jones,1990-04-30,35,F,MA,Medicaid,Dr. Dorothy Rodriguez,2.16
+MBR-00103,Jessica,Thomas,1943-04-15,82,F,TX,Medicare Advantage,Dr. Susan Lee,2.53
+MBR-00104,Sarah,Anderson,1987-07-21,38,M,MA,EPO,Dr. Sarah Smith,1.63
+MBR-00105,Joseph,Jones,1966-06-02,59,F,NC,Medicare Advantage,Dr. Nancy Hernandez,2.71
+MBR-00106,Charles,Hernandez,1956-10-14,69,F,VA,PPO,Dr. Emily Wilson,1.43
+MBR-00107,Lisa,Taylor,1952-01-24,73,M,MA,Medicare Advantage,Dr. Betty Jones,2.48
+MBR-00108,Dorothy,Martin,2000-07-22,25,M,AZ,HMO,Dr. Joseph Thomas,0.9
+MBR-00109,Michael,Jones,1946-06-26,79,M,AZ,PPO,Dr. Jennifer Taylor,3.63
+MBR-00110,Donna,Wilson,1971-02-17,54,F,CA,Medicaid,Dr. Joseph Jackson,2.02
+MBR-00111,Joseph,Jackson,1964-12-29,61,F,MI,HMO,Dr. Jessica Martinez,4.49
+MBR-00112,Linda,Brown,1993-05-27,32,F,TX,Medicaid,Dr. Thomas Smith,0.68
+MBR-00113,Nancy,Lopez,1997-06-02,28,F,TX,PPO,Dr. Dorothy Anderson,2.76
+MBR-00114,Elizabeth,Williams,1981-03-06,44,M,AZ,Medicare Advantage,Dr. Donna Davis,2.49
+MBR-00115,Sandra,Rodriguez,1986-05-21,39,M,IL,HMO,Dr. Thomas Thomas,4.1
+MBR-00116,Sandra,Lopez,1984-03-17,41,M,IL,Medicare Advantage,Dr. John Rodriguez,2.33
+MBR-00117,Betty,Taylor,1966-11-23,59,M,FL,Medicare Advantage,Dr. Emily Lopez,2.8
+MBR-00118,Richard,Wilson,1967-08-29,58,M,NY,EPO,Dr. Joseph Johnson,4.14
+MBR-00119,David,Davis,1941-03-18,84,F,WA,Medicaid,Dr. Jessica Miller,2.98
+MBR-00120,Thomas,Johnson,1987-08-06,38,M,WA,Medicare Advantage,Dr. Patricia Martin,1.96
+MBR-00121,Charles,Martinez,1988-07-27,37,M,VA,Medicare Advantage,Dr. Elizabeth Miller,1.03
+MBR-00122,Richard,Garcia,1958-09-09,67,F,MA,Medicare Advantage,Dr. William Martinez,3.49
+MBR-00123,Sandra,Williams,1961-11-06,64,M,WA,PPO,Dr. Joseph Wilson,4.37
+MBR-00124,William,Wilson,1959-01-11,67,M,IL,EPO,Dr. Linda Thomas,1.97
+MBR-00125,Richard,Lopez,1971-11-21,54,F,NJ,PPO,Dr. Ashley Smith,2.98
+MBR-00126,James,Williams,1963-02-26,62,M,AZ,Medicare Advantage,Dr. Charles Martinez,3.1
+MBR-00127,Patricia,Johnson,1990-08-08,35,M,GA,HMO,Dr. Linda Davis,4.05
+MBR-00128,Sandra,Lopez,1987-02-02,38,F,VA,EPO,Dr. Margaret Martin,3.47
+MBR-00129,James,Brown,1985-05-06,40,F,MI,Medicare Advantage,Dr. Sarah Johnson,3.26
+MBR-00130,Sandra,Davis,1977-07-12,48,F,CA,Medicaid,Dr. Kimberly Lopez,0.74
+MBR-00131,Linda,Thomas,1969-11-30,56,M,NJ,PPO,Dr. James Lee,4.38
+MBR-00132,Jessica,Jones,1998-03-25,27,F,FL,HMO,Dr. Richard Jackson,1.33
+MBR-00133,Lisa,Jones,1977-03-14,48,M,NY,Medicaid,Dr. Joseph Jones,4.45
+MBR-00134,Linda,Smith,1972-11-08,53,M,NY,Medicaid,Dr. William Davis,2.86
+MBR-00135,Sarah,Johnson,2002-11-04,23,M,VA,Medicare Advantage,Dr. Dorothy Brown,3.48
+MBR-00136,David,Lopez,1944-05-04,81,F,MI,HMO,Dr. Sandra Moore,1.39
+MBR-00137,Sandra,Smith,1999-12-08,26,F,GA,Medicare Advantage,Dr. Margaret Brown,2.46
+MBR-00138,Thomas,Williams,1948-08-09,77,M,MI,PPO,Dr. Jennifer Jones,1.6
+MBR-00139,Donna,Moore,1963-08-20,62,F,GA,EPO,Dr. Donna Anderson,0.9
+MBR-00140,Margaret,Thomas,1990-09-16,35,M,OH,Medicaid,Dr. Richard Thomas,2.09
+MBR-00141,Margaret,Hernandez,1992-02-04,33,F,IL,Medicaid,Dr. Barbara Taylor,0.77
+MBR-00142,Margaret,Brown,1994-07-03,31,M,WA,PPO,Dr. Kimberly Johnson,2.85
+MBR-00143,Margaret,Lopez,1962-02-11,63,M,WA,Medicare Advantage,Dr. Joseph Johnson,4.37
+MBR-00144,Linda,Martin,1965-05-02,60,F,FL,PPO,Dr. Robert Taylor,1.4
+MBR-00145,Joseph,Jackson,1991-07-06,34,F,CA,Medicaid,Dr. Emily Davis,3.73
+MBR-00146,Maria,Garcia,2001-08-21,24,F,VA,Medicaid,Dr. Charles Hernandez,1.9
+MBR-00147,Emily,Wilson,1981-12-08,44,M,TX,HMO,Dr. Jennifer Moore,1.36
+MBR-00148,Lisa,Garcia,1951-07-15,74,F,IL,Medicaid,Dr. David Martin,2.88
+MBR-00149,Elizabeth,Lee,1998-12-14,27,M,NJ,HMO,Dr. Sarah Thomas,3.15
+MBR-00150,Margaret,Rodriguez,1942-10-04,83,F,WA,EPO,Dr. Linda Lopez,2.22
+MBR-00151,Dorothy,Martinez,1968-12-23,57,F,FL,Medicare Advantage,Dr. Donna Johnson,0.53
+MBR-00152,David,Jones,1966-09-08,59,M,IL,Medicaid,Dr. Linda Smith,2.49
+MBR-00153,Barbara,Wilson,1949-04-23,76,M,VA,PPO,Dr. Dorothy Jackson,3.83
+MBR-00154,Betty,Johnson,1959-06-09,66,M,NY,Medicare Advantage,Dr. Charles Williams,3.95
+MBR-00155,John,Anderson,1950-08-25,75,F,CA,Medicare Advantage,Dr. Maria Hernandez,1.19
+MBR-00156,Jennifer,Anderson,1946-11-28,79,F,FL,Medicare Advantage,Dr. Emily Wilson,2.6
+MBR-00157,Michael,Hernandez,1954-09-28,71,F,PA,PPO,Dr. Jennifer Moore,3.03
+MBR-00158,Nancy,Jones,1980-09-14,45,F,CA,PPO,Dr. Sarah Miller,1.19
+MBR-00159,Elizabeth,Taylor,1985-05-19,40,M,WA,EPO,Dr. David Martin,2.3
+MBR-00160,Barbara,Thomas,1963-12-14,62,F,GA,Medicare Advantage,Dr. James Martinez,3.69
+MBR-00161,Dorothy,Williams,1997-08-03,28,F,GA,Medicare Advantage,Dr. Patricia Johnson,1.97
+MBR-00162,James,Williams,1968-03-07,57,M,MI,EPO,Dr. Betty Thomas,2.82
+MBR-00163,Charles,Martin,1999-02-09,26,F,FL,Medicaid,Dr. Donna Taylor,2.51
+MBR-00164,Linda,Hernandez,1997-11-26,28,F,NC,PPO,Dr. Patricia Davis,3.33
+MBR-00165,Nancy,Lopez,1948-08-29,77,M,OH,Medicare Advantage,Dr. David Hernandez,3.22
+MBR-00166,Jennifer,Hernandez,1998-11-21,27,F,NC,Medicare Advantage,Dr. Karen Rodriguez,3.39
+MBR-00167,Jennifer,Martin,1985-02-06,40,F,TX,Medicaid,Dr. Karen Wilson,1.02
+MBR-00168,Kimberly,Wilson,1994-02-14,31,F,WA,Medicaid,Dr. Richard Jones,3.18
+MBR-00169,Dorothy,Lopez,1993-12-31,32,F,PA,Medicaid,Dr. Elizabeth Miller,1.87
+MBR-00170,Jessica,Jones,1942-11-04,83,M,CA,Medicaid,Dr. Joseph Brown,2.53
+MBR-00171,Thomas,Lee,2000-11-01,25,F,MI,Medicare Advantage,Dr. Barbara Garcia,1.22
+MBR-00172,Patricia,Anderson,1983-07-10,42,F,NJ,PPO,Dr. Sandra Lee,1.64
+MBR-00173,Kimberly,Davis,1947-08-16,78,M,WA,Medicare Advantage,Dr. Thomas Miller,1.97
+MBR-00174,David,Martinez,1948-07-09,77,F,NC,EPO,Dr. Margaret Garcia,3.77
+MBR-00175,Patricia,Taylor,1987-07-05,38,F,NC,HMO,Dr. John Moore,3.9
+MBR-00176,David,Garcia,1968-08-29,57,M,GA,EPO,Dr. Barbara Anderson,0.87
+MBR-00177,Thomas,Lopez,1976-12-31,49,F,OH,HMO,Dr. Betty Moore,2.0
+MBR-00178,Nancy,Davis,1956-01-05,70,M,PA,HMO,Dr. Richard Hernandez,3.67
+MBR-00179,Karen,Taylor,1987-01-20,38,M,AZ,PPO,Dr. David Taylor,2.29
+MBR-00180,Maria,Rodriguez,2004-09-18,21,M,AZ,PPO,Dr. Kimberly Lee,2.61
+MBR-00181,Jessica,Martinez,1990-11-09,35,F,NY,PPO,Dr. Margaret Lee,2.33
+MBR-00182,Donna,Jackson,1991-01-02,35,F,NJ,EPO,Dr. Emily Davis,3.37
+MBR-00183,Maria,Lee,1967-07-20,58,F,FL,EPO,Dr. Margaret Garcia,3.16
+MBR-00184,Jennifer,Moore,1994-04-06,31,F,NC,EPO,Dr. Kimberly Smith,2.06
+MBR-00185,James,Wilson,1944-07-14,81,M,IL,HMO,Dr. Nancy Williams,1.88
+MBR-00186,Barbara,Johnson,1991-07-14,34,F,NC,Medicaid,Dr. Richard Garcia,3.82
+MBR-00187,James,Garcia,1945-11-13,80,F,CA,Medicare Advantage,Dr. Patricia Martinez,1.31
+MBR-00188,Lisa,Martinez,1979-04-25,46,M,OH,EPO,Dr. Ashley Rodriguez,0.65
+MBR-00189,Nancy,Johnson,1980-02-12,45,F,PA,Medicaid,Dr. Linda Lopez,2.25
+MBR-00190,Thomas,Wilson,1953-07-30,72,F,TX,Medicare Advantage,Dr. John Taylor,1.97
+MBR-00191,Michael,Anderson,1970-12-06,55,M,OH,EPO,Dr. Richard Garcia,2.68
+MBR-00192,Jennifer,Hernandez,1963-02-13,62,M,IL,Medicaid,Dr. Sandra Lee,3.37
+MBR-00193,Nancy,Thomas,1983-12-22,42,F,VA,Medicaid,Dr. Donna Anderson,1.6
+MBR-00194,Robert,Wilson,1997-07-06,28,M,NC,PPO,Dr. Maria Jones,3.89
+MBR-00195,Barbara,Williams,1948-09-22,77,M,WA,Medicaid,Dr. Nancy Wilson,4.3
+MBR-00196,Robert,Thomas,2000-07-02,25,M,PA,Medicare Advantage,Dr. David Williams,2.8
+MBR-00197,Lisa,Rodriguez,1958-09-13,67,F,CA,HMO,Dr. Michael Garcia,2.5
+MBR-00198,Sarah,Rodriguez,1955-01-24,70,M,GA,PPO,Dr. Donna Martinez,3.28
+MBR-00199,Linda,Jones,1942-12-16,83,M,GA,PPO,Dr. Thomas Thomas,4.49
+MBR-00200,John,Williams,1964-04-10,61,F,NC,Medicaid,Dr. Thomas Martinez,3.91
+MBR-00201,Dorothy,Davis,1982-11-11,43,F,FL,PPO,Dr. Jessica Taylor,0.61
+MBR-00202,William,Jackson,1957-11-13,68,F,MI,HMO,Dr. Jennifer Martinez,2.09
+MBR-00203,David,Anderson,1943-04-03,82,F,CA,PPO,Dr. Lisa Williams,2.3
+MBR-00204,Thomas,Jackson,1960-02-25,65,M,MI,PPO,Dr. David Jones,2.23
+MBR-00205,Dorothy,Jones,1997-08-06,28,M,TX,PPO,Dr. Lisa Davis,1.88
+MBR-00206,Sarah,Miller,1968-02-25,57,M,NC,Medicaid,Dr. Barbara Martinez,2.96
+MBR-00207,Emily,Martin,1993-10-23,32,M,TX,EPO,Dr. Michael Lee,1.85
+MBR-00208,Jennifer,Johnson,1999-02-14,26,M,WA,EPO,Dr. Sarah Miller,3.57
+MBR-00209,Ashley,Jackson,1951-08-25,74,M,NJ,Medicaid,Dr. Ashley Davis,3.72
+MBR-00210,Sandra,Williams,1953-02-01,72,F,NY,PPO,Dr. Sandra Anderson,2.44
+MBR-00211,Donna,Jones,1978-08-06,47,F,AZ,Medicaid,Dr. Michael Lopez,4.4
+MBR-00212,Dorothy,Jackson,1988-11-17,37,F,PA,PPO,Dr. Sandra Brown,1.57
+MBR-00213,Linda,Johnson,1973-08-19,52,M,OH,EPO,Dr. Margaret Davis,4.35
+MBR-00214,Charles,Martin,1984-08-04,41,F,FL,PPO,Dr. Ashley Moore,2.37
+MBR-00215,Maria,Williams,1965-06-29,60,F,NC,Medicare Advantage,Dr. Jessica Miller,2.83
+MBR-00216,Karen,Taylor,1998-03-09,27,M,MA,Medicare Advantage,Dr. Karen Jackson,0.53
+MBR-00217,Barbara,Rodriguez,1991-07-07,34,F,WA,Medicare Advantage,Dr. Nancy Johnson,2.1
+MBR-00218,Kimberly,Martinez,1980-12-06,45,F,OH,EPO,Dr. Sandra Jackson,1.62
+MBR-00219,Linda,Wilson,1989-07-03,36,M,WA,Medicaid,Dr. Kimberly Lopez,3.52
+MBR-00220,Dorothy,Johnson,1979-12-21,46,F,NY,PPO,Dr. John Hernandez,3.72
+MBR-00221,Donna,Moore,1946-11-11,79,M,PA,EPO,Dr. Lisa Garcia,2.07
+MBR-00222,Dorothy,Moore,1966-04-19,59,F,GA,EPO,Dr. Karen Taylor,3.76
+MBR-00223,Robert,Brown,1957-06-19,68,F,MI,Medicaid,Dr. William Smith,2.89
+MBR-00224,Michael,Johnson,1971-03-23,54,M,GA,PPO,Dr. Dorothy Lee,3.6
+MBR-00225,Richard,Davis,1957-01-02,69,M,MI,HMO,Dr. Susan Smith,2.26
+MBR-00226,Margaret,Miller,1951-06-24,74,M,NC,EPO,Dr. Charles Taylor,3.99
+MBR-00227,Dorothy,Miller,1997-03-27,28,M,PA,Medicare Advantage,Dr. Dorothy Wilson,1.76
+MBR-00228,Charles,Jackson,1982-07-21,43,F,NC,Medicaid,Dr. Robert Rodriguez,2.94
+MBR-00229,Sarah,Jackson,1980-08-13,45,M,FL,Medicaid,Dr. David Martinez,3.32
+MBR-00230,Ashley,Lopez,1942-04-11,83,F,MA,Medicaid,Dr. Karen Brown,2.79
+MBR-00231,Richard,Lopez,1956-11-05,69,F,IL,HMO,Dr. Karen Williams,1.89
+MBR-00232,Michael,Taylor,1948-10-03,77,F,FL,EPO,Dr. Sarah Jackson,3.28
+MBR-00233,Donna,Martin,1987-09-11,38,M,FL,HMO,Dr. Robert Moore,1.4
+MBR-00234,Linda,Anderson,1975-07-29,50,M,VA,Medicare Advantage,Dr. Linda Jones,0.52
+MBR-00235,James,Taylor,1984-05-12,41,F,NJ,PPO,Dr. David Martinez,1.78
+MBR-00236,James,Martin,1997-09-12,28,M,NC,HMO,Dr. Charles Garcia,2.17
+MBR-00237,Richard,Wilson,1982-05-04,43,M,TX,Medicaid,Dr. Thomas Johnson,0.54
+MBR-00238,Karen,Thomas,1991-02-16,34,F,NC,EPO,Dr. Ashley Jones,3.9
+MBR-00239,Susan,Brown,1945-08-05,80,F,TX,Medicare Advantage,Dr. James Rodriguez,3.37
+MBR-00240,William,Martinez,2003-03-23,22,F,NJ,PPO,Dr. Elizabeth Lee,3.92
+MBR-00241,Dorothy,Hernandez,1953-12-06,72,F,OH,HMO,Dr. Elizabeth Jones,2.41
+MBR-00242,Sarah,Wilson,1973-09-16,52,M,GA,Medicaid,Dr. Lisa Martinez,2.83
+MBR-00243,James,Lopez,2003-01-18,22,F,FL,HMO,Dr. Robert Brown,2.36
+MBR-00244,Robert,Moore,1984-01-17,41,F,WA,Medicaid,Dr. John Brown,3.05
+MBR-00245,Donna,Davis,1967-09-26,58,F,TX,Medicare Advantage,Dr. Barbara Thomas,3.49
+MBR-00246,John,Jackson,1957-05-22,68,F,WA,EPO,Dr. William Miller,3.55
+MBR-00247,Dorothy,Lopez,1994-12-01,31,F,MA,EPO,Dr. Linda Johnson,3.82
+MBR-00248,Emily,Jackson,1940-11-07,85,M,TX,Medicaid,Dr. Joseph Moore,2.27
+MBR-00249,Jennifer,Moore,1978-05-30,47,F,WA,HMO,Dr. Sandra Jones,2.55
+MBR-00250,Kimberly,Thomas,1946-02-11,79,M,WA,Medicaid,Dr. Michael Smith,2.08
+MBR-00251,Emily,Williams,2004-12-14,21,M,OH,Medicaid,Dr. John Williams,2.66
+MBR-00252,Charles,Taylor,1997-12-23,28,M,IL,Medicare Advantage,Dr. Elizabeth Jones,3.56
+MBR-00253,Thomas,Wilson,1951-06-05,74,F,AZ,Medicare Advantage,Dr. Betty Williams,3.23
+MBR-00254,Linda,Garcia,1987-04-11,38,F,OH,EPO,Dr. Barbara Davis,3.84
+MBR-00255,Sandra,Jackson,2002-06-04,23,F,NC,Medicare Advantage,Dr. Richard Davis,1.49
+MBR-00256,Sarah,Miller,1960-11-21,65,M,NY,Medicare Advantage,Dr. Donna Smith,1.46
+MBR-00257,Donna,Johnson,1996-05-25,29,M,MI,HMO,Dr. Jessica Johnson,2.11
+MBR-00258,David,Johnson,1975-11-04,50,M,NC,Medicaid,Dr. Jessica Martin,1.78
+MBR-00259,Karen,Jones,1963-02-13,62,M,NC,PPO,Dr. Margaret Martinez,1.6
+MBR-00260,Kimberly,Taylor,1982-12-19,43,F,PA,Medicare Advantage,Dr. William Moore,1.77
+MBR-00261,Barbara,Martinez,1951-07-12,74,F,TX,EPO,Dr. Ashley Davis,3.9
+MBR-00262,William,Thomas,1966-12-18,59,M,NC,Medicare Advantage,Dr. Margaret Jackson,2.62
+MBR-00263,Sarah,Miller,1955-08-03,70,M,NJ,HMO,Dr. Charles Thomas,3.89
+MBR-00264,Patricia,Rodriguez,1993-06-30,32,M,NJ,EPO,Dr. Donna Johnson,3.99
+MBR-00265,Ashley,Miller,1980-07-26,45,M,IL,HMO,Dr. Susan Miller,4.35
+MBR-00266,Charles,Davis,1989-01-19,36,F,MI,PPO,Dr. Betty Davis,2.71
+MBR-00267,Sandra,Jackson,1968-02-18,57,F,PA,Medicaid,Dr. Sarah Lopez,2.55
+MBR-00268,Linda,Taylor,1941-08-12,84,F,MA,PPO,Dr. Nancy Hernandez,2.16
+MBR-00269,Maria,Rodriguez,1976-04-05,49,M,MA,EPO,Dr. Emily Anderson,1.68
+MBR-00270,Jessica,Wilson,1979-03-28,46,F,AZ,PPO,Dr. Ashley Jackson,3.12
+MBR-00271,David,Taylor,1961-02-23,64,F,VA,Medicare Advantage,Dr. Sandra Garcia,3.43
+MBR-00272,Barbara,Jackson,1959-05-13,66,M,TX,EPO,Dr. James Johnson,2.6
+MBR-00273,David,Smith,1995-06-12,30,M,TX,PPO,Dr. Jennifer Jones,0.54
+MBR-00274,Nancy,Johnson,1940-03-12,85,F,NJ,EPO,Dr. Charles Taylor,3.14
+MBR-00275,Kimberly,Jackson,2002-06-11,23,M,NY,HMO,Dr. Dorothy Rodriguez,2.64
+MBR-00276,Dorothy,Anderson,1968-10-16,57,M,CA,HMO,Dr. Dorothy Jones,1.46
+MBR-00277,Sarah,Wilson,1972-12-05,53,F,PA,Medicare Advantage,Dr. Sandra Martin,1.47
+MBR-00278,Robert,Williams,1976-02-14,49,F,AZ,HMO,Dr. Jennifer Wilson,2.02
+MBR-00279,James,Smith,1944-01-28,81,M,TX,HMO,Dr. Ashley Anderson,3.08
+MBR-00280,Thomas,Moore,1962-12-27,63,M,FL,PPO,Dr. Thomas Martin,2.4
+MBR-00281,Robert,Rodriguez,1999-04-05,26,M,MI,HMO,Dr. Elizabeth Hernandez,0.56
+MBR-00282,David,Wilson,1978-12-05,47,M,IL,PPO,Dr. Emily Davis,2.77
+MBR-00283,Betty,Jones,1955-02-01,70,F,VA,HMO,Dr. Dorothy Lopez,0.71
+MBR-00284,Richard,Williams,1949-07-30,76,M,MI,EPO,Dr. Donna Wilson,4.38
+MBR-00285,James,Rodriguez,1963-06-01,62,M,GA,PPO,Dr. Nancy Jackson,4.26
+MBR-00286,Robert,Martin,1949-02-16,76,M,OH,HMO,Dr. David Lee,1.68
+MBR-00287,Jennifer,Rodriguez,1973-10-28,52,M,OH,PPO,Dr. Michael Wilson,1.77
+MBR-00288,Maria,Martinez,1991-05-28,34,M,PA,Medicaid,Dr. Linda Jones,0.85
+MBR-00289,Kimberly,Jackson,1949-05-03,76,F,OH,HMO,Dr. Maria Williams,1.92
+MBR-00290,Joseph,Wilson,1994-01-03,32,F,IL,Medicare Advantage,Dr. Betty Williams,3.4
+MBR-00291,Robert,Wilson,1973-10-20,52,M,TX,Medicaid,Dr. Karen Rodriguez,2.47
+MBR-00292,Margaret,Rodriguez,1996-06-07,29,M,IL,Medicare Advantage,Dr. William Williams,1.94
+MBR-00293,Donna,Lee,1973-10-06,52,F,GA,HMO,Dr. Barbara Martinez,0.53
+MBR-00294,Richard,Lee,1954-07-09,71,F,WA,Medicaid,Dr. Sandra Hernandez,2.22
+MBR-00295,Lisa,Lee,1987-01-21,38,F,FL,Medicare Advantage,Dr. Lisa Garcia,4.36
+MBR-00296,Michael,Taylor,1964-03-28,61,F,WA,PPO,Dr. Lisa Wilson,1.62
+MBR-00297,Linda,Martin,1954-10-09,71,F,MI,EPO,Dr. Elizabeth Jackson,0.61
+MBR-00298,Sandra,Martinez,1945-02-01,80,M,CA,Medicare Advantage,Dr. Robert Taylor,1.06
+MBR-00299,Sarah,Jones,1966-06-14,59,M,WA,Medicare Advantage,Dr. Jennifer Thomas,4.46
+MBR-00300,Kimberly,Moore,1943-02-02,82,F,OH,EPO,Dr. Patricia Lopez,3.31
+MBR-00301,David,Davis,1994-02-07,31,M,NJ,Medicaid,Dr. Elizabeth Lee,0.68
+MBR-00302,William,Anderson,1953-11-26,72,F,NY,HMO,Dr. Sarah Davis,2.54
+MBR-00303,Nancy,Wilson,1976-05-21,49,F,WA,EPO,Dr. John Moore,1.1
+MBR-00304,Linda,Martinez,2001-06-09,24,F,MA,HMO,Dr. Linda Jones,1.89
+MBR-00305,William,Miller,1961-04-26,64,F,GA,Medicaid,Dr. Ashley Brown,2.25
+MBR-00306,Jennifer,Martinez,1947-12-30,78,F,WA,HMO,Dr. Maria Hernandez,3.09
+MBR-00307,Dorothy,Garcia,1983-04-05,42,M,TX,Medicaid,Dr. Kimberly Anderson,4.33
+MBR-00308,James,Garcia,1975-10-11,50,F,NJ,Medicare Advantage,Dr. Betty Smith,3.45
+MBR-00309,Emily,Anderson,1979-06-28,46,F,NY,PPO,Dr. Susan Rodriguez,3.51
+MBR-00310,William,Jackson,1996-10-05,29,M,PA,Medicaid,Dr. Susan Thomas,0.96
+MBR-00311,Donna,Wilson,1942-03-16,83,F,OH,EPO,Dr. Linda Lopez,1.91
+MBR-00312,Richard,Martinez,1946-03-13,79,M,MI,HMO,Dr. Robert Jones,1.75
+MBR-00313,Linda,Garcia,1974-07-07,51,F,VA,PPO,Dr. Dorothy Wilson,2.17
+MBR-00314,Margaret,Garcia,1987-05-07,38,F,NJ,EPO,Dr. John Garcia,2.72
+MBR-00315,Barbara,Garcia,1942-08-14,83,F,AZ,Medicare Advantage,Dr. Donna Johnson,3.96
+MBR-00316,Barbara,Miller,2003-06-25,22,F,NC,EPO,Dr. James Taylor,2.14
+MBR-00317,John,Thomas,1942-05-17,83,F,TX,HMO,Dr. Emily Smith,3.68
+MBR-00318,Patricia,Rodriguez,1976-09-20,49,F,NC,Medicaid,Dr. Elizabeth Thomas,2.76
+MBR-00319,Emily,Brown,1941-09-07,84,M,WA,EPO,Dr. Richard Lopez,2.67
+MBR-00320,Kimberly,Miller,1999-06-05,26,F,CA,PPO,Dr. Karen Johnson,2.3
+MBR-00321,Sandra,Brown,1960-09-18,65,M,FL,EPO,Dr. John Lopez,3.94
+MBR-00322,Donna,Jones,1950-10-07,75,M,AZ,PPO,Dr. William Johnson,2.78
+MBR-00323,Lisa,Martinez,1969-08-20,56,M,MI,Medicaid,Dr. Joseph Moore,4.44
+MBR-00324,David,Anderson,1992-12-10,33,M,IL,PPO,Dr. John Jones,1.5
+MBR-00325,David,Wilson,1963-05-12,62,M,TX,EPO,Dr. James Rodriguez,3.01
+MBR-00326,Jennifer,Williams,1956-06-26,69,F,NC,Medicaid,Dr. John Lopez,2.32
+MBR-00327,Emily,Smith,1942-12-06,83,F,VA,Medicare Advantage,Dr. James Lopez,3.9
+MBR-00328,Margaret,Miller,1954-05-11,71,M,IL,Medicaid,Dr. Richard Martinez,1.85
+MBR-00329,William,Hernandez,1988-01-27,37,F,WA,HMO,Dr. Patricia Brown,3.0
+MBR-00330,Linda,Garcia,1946-06-10,79,M,GA,HMO,Dr. Margaret Miller,4.48
+MBR-00331,Elizabeth,Rodriguez,1988-11-24,37,F,NJ,Medicaid,Dr. Sarah Williams,1.99
+MBR-00332,Betty,Martinez,1983-01-19,42,M,WA,PPO,Dr. Margaret Williams,3.31
+MBR-00333,Ashley,Williams,2004-10-31,21,M,MI,PPO,Dr. Dorothy Thomas,0.54
+MBR-00334,Joseph,Anderson,1961-01-27,64,M,TX,Medicare Advantage,Dr. Jennifer Davis,2.03
+MBR-00335,Lisa,Lopez,1991-08-10,34,M,TX,Medicare Advantage,Dr. David Jones,3.07
+MBR-00336,Dorothy,Martin,1987-01-07,39,M,MI,PPO,Dr. Sandra Lopez,3.39
+MBR-00337,Donna,Thomas,1985-09-22,40,F,CA,HMO,Dr. Barbara Brown,2.86
+MBR-00338,Margaret,Hernandez,1955-11-09,70,F,FL,Medicaid,Dr. James Williams,1.49
+MBR-00339,Joseph,Martinez,1968-10-02,57,M,NC,EPO,Dr. Dorothy Miller,3.49
+MBR-00340,William,Davis,1967-05-08,58,M,OH,HMO,Dr. Jessica Taylor,3.05
+MBR-00341,Nancy,Hernandez,1995-11-03,30,M,OH,EPO,Dr. Margaret Lopez,2.69
+MBR-00342,David,Williams,1983-01-04,43,F,MI,HMO,Dr. Maria Rodriguez,1.36
+MBR-00343,Dorothy,Martinez,1997-02-21,28,F,VA,EPO,Dr. David Anderson,2.19
+MBR-00344,James,Jackson,1953-04-19,72,M,MI,PPO,Dr. Sarah Williams,1.74
+MBR-00345,Kimberly,Hernandez,1978-06-27,47,M,MI,HMO,Dr. Karen Anderson,3.42
+MBR-00346,Jessica,Williams,1974-06-06,51,M,CA,Medicare Advantage,Dr. Donna Lee,0.72
+MBR-00347,Maria,Jones,1982-01-18,43,M,NY,PPO,Dr. Ashley Lopez,2.59
+MBR-00348,Nancy,Jones,1971-08-31,54,M,VA,HMO,Dr. David Smith,1.84
+MBR-00349,Dorothy,Williams,1950-09-08,75,F,VA,EPO,Dr. James Williams,2.48
+MBR-00350,Ashley,Martin,1958-10-25,67,M,PA,PPO,Dr. Sarah Brown,4.08
+MBR-00351,Michael,Moore,1991-01-09,35,M,NY,HMO,Dr. Jessica Johnson,2.39
+MBR-00352,Elizabeth,Johnson,1955-04-11,70,M,WA,Medicare Advantage,Dr. Jessica Hernandez,1.49
+MBR-00353,Richard,Williams,1964-03-30,61,F,PA,HMO,Dr. Dorothy Johnson,1.22
+MBR-00354,Jennifer,Thomas,1999-08-17,26,F,WA,Medicaid,Dr. Lisa Williams,2.71
+MBR-00355,Susan,Martinez,2003-03-25,22,F,WA,Medicaid,Dr. Michael Lee,1.47
+MBR-00356,David,Miller,1957-04-14,68,F,WA,PPO,Dr. Barbara Smith,4.23
+MBR-00357,Kimberly,Lopez,2001-02-16,24,M,AZ,HMO,Dr. Lisa Smith,3.54
+MBR-00358,Linda,Miller,1956-04-22,69,F,FL,Medicare Advantage,Dr. Ashley Johnson,4.39
+MBR-00359,Jennifer,Johnson,1986-09-15,39,F,MA,EPO,Dr. Margaret Lopez,2.33
+MBR-00360,Dorothy,Jones,1994-02-17,31,M,AZ,Medicare Advantage,Dr. Jennifer Martin,2.77
+MBR-00361,Jessica,Martinez,1949-09-09,76,M,AZ,Medicaid,Dr. Charles Wilson,3.3
+MBR-00362,Sandra,Rodriguez,1963-09-20,62,F,CA,PPO,Dr. Barbara Martin,0.94
+MBR-00363,Sandra,Thomas,1991-08-03,34,M,OH,HMO,Dr. Kimberly Lopez,4.36
+MBR-00364,Karen,Thomas,1978-08-31,47,F,AZ,HMO,Dr. Jennifer Garcia,3.73
+MBR-00365,Susan,Hernandez,1966-11-02,59,M,CA,PPO,Dr. Nancy Wilson,2.55
+MBR-00366,Richard,Garcia,1967-01-01,59,F,OH,Medicare Advantage,Dr. Kimberly Jackson,1.5
+MBR-00367,William,Jones,1945-11-20,80,M,NY,HMO,Dr. Richard Davis,1.02
+MBR-00368,Robert,Williams,1953-03-27,72,F,MI,Medicaid,Dr. Charles Williams,0.59
+MBR-00369,Thomas,Thomas,1996-11-04,29,M,CA,Medicaid,Dr. Linda Johnson,4.27
+MBR-00370,Charles,Martin,1998-06-01,27,M,AZ,Medicare Advantage,Dr. Ashley Smith,2.03
+MBR-00371,Nancy,Miller,1950-10-17,75,M,IL,Medicaid,Dr. Sandra Jones,0.64
+MBR-00372,Ashley,Anderson,1973-04-08,52,F,GA,HMO,Dr. Jennifer Rodriguez,2.03
+MBR-00373,James,Moore,1951-09-15,74,M,NJ,EPO,Dr. William Smith,4.46
+MBR-00374,Kimberly,Taylor,1959-07-26,66,F,MA,EPO,Dr. Dorothy Hernandez,2.05
+MBR-00375,Lisa,Lee,1981-09-22,44,M,NY,Medicaid,Dr. Patricia Taylor,2.62
+MBR-00376,Linda,Davis,1975-02-12,50,M,FL,Medicaid,Dr. Kimberly Johnson,3.56
+MBR-00377,Nancy,Garcia,1976-10-15,49,F,FL,EPO,Dr. Lisa Lopez,4.16
+MBR-00378,Emily,Martin,2001-10-27,24,F,MI,PPO,Dr. Richard Taylor,2.67
+MBR-00379,Patricia,Williams,1982-12-15,43,F,FL,EPO,Dr. Jessica Smith,2.61
+MBR-00380,Charles,Lee,2004-09-25,21,F,WA,PPO,Dr. Lisa Garcia,4.18
+MBR-00381,Maria,Jones,1963-03-23,62,M,VA,PPO,Dr. David Brown,3.89
+MBR-00382,Nancy,Wilson,1958-03-24,67,M,CA,Medicaid,Dr. Karen Hernandez,1.05
+MBR-00383,William,Taylor,1984-02-14,41,F,PA,PPO,Dr. John Jackson,3.27
+MBR-00384,Robert,Martin,1959-10-21,66,M,OH,Medicaid,Dr. Michael Martinez,1.01
+MBR-00385,Joseph,Martin,2004-12-21,21,F,TX,EPO,Dr. Lisa Lee,1.38
+MBR-00386,Barbara,Hernandez,1991-12-02,34,F,FL,Medicaid,Dr. Lisa Garcia,3.04
+MBR-00387,Sandra,Smith,1993-08-27,32,F,FL,PPO,Dr. John Williams,1.9
+MBR-00388,Patricia,Wilson,1991-05-31,34,M,VA,Medicare Advantage,Dr. Elizabeth Anderson,2.47
+MBR-00389,Kimberly,Wilson,1956-11-28,69,F,AZ,Medicare Advantage,Dr. William Martin,3.1
+MBR-00390,Sandra,Williams,1976-12-27,49,M,IL,HMO,Dr. Lisa Rodriguez,4.31
+MBR-00391,Elizabeth,Wilson,1995-10-19,30,F,VA,HMO,Dr. Kimberly Williams,1.85
+MBR-00392,Margaret,Garcia,1943-03-18,82,M,MA,Medicare Advantage,Dr. Elizabeth Johnson,0.91
+MBR-00393,Margaret,Jackson,1978-04-12,47,M,IL,Medicaid,Dr. Karen Davis,0.88
+MBR-00394,Barbara,Johnson,1954-07-19,71,F,NY,Medicare Advantage,Dr. Jennifer Martinez,3.8
+MBR-00395,Linda,Smith,1943-10-09,82,M,TX,Medicaid,Dr. Jennifer Taylor,3.88
+MBR-00396,Ashley,Taylor,1965-02-12,60,F,IL,HMO,Dr. James Jackson,2.05
+MBR-00397,Nancy,Garcia,1957-06-04,68,F,NY,Medicaid,Dr. Sandra Thomas,1.55
+MBR-00398,Barbara,Brown,1970-12-03,55,M,NJ,Medicaid,Dr. William Jackson,2.16
+MBR-00399,Richard,Wilson,1975-04-22,50,M,OH,EPO,Dr. Robert Taylor,2.79
+MBR-00400,Karen,Williams,1974-06-26,51,F,MA,HMO,Dr. Dorothy Martin,4.1
+MBR-00401,David,Thomas,1986-10-15,39,M,TX,PPO,Dr. William Miller,1.0
+MBR-00402,Robert,Anderson,1950-10-09,75,M,AZ,PPO,Dr. Richard Lee,1.53
+MBR-00403,Betty,Jackson,1996-06-19,29,M,NC,Medicaid,Dr. Joseph Rodriguez,2.58
+MBR-00404,Linda,Anderson,2003-10-23,22,F,TX,EPO,Dr. Emily Martin,3.53
+MBR-00405,Emily,Brown,1992-08-16,33,M,AZ,EPO,Dr. Thomas Lopez,4.01
+MBR-00406,James,Taylor,1971-03-29,54,F,MI,Medicare Advantage,Dr. Patricia Garcia,1.6
+MBR-00407,Patricia,Wilson,1986-07-26,39,F,VA,PPO,Dr. Patricia Taylor,4.18
+MBR-00408,Lisa,Martinez,1957-08-12,68,M,IL,Medicare Advantage,Dr. Joseph Brown,4.39
+MBR-00409,Karen,Thomas,1975-08-03,50,M,IL,Medicare Advantage,Dr. Donna Williams,1.25
+MBR-00410,Michael,Taylor,1977-04-24,48,F,AZ,Medicaid,Dr. Richard Johnson,2.56
+MBR-00411,Karen,Moore,1984-06-19,41,M,TX,EPO,Dr. Thomas Martin,0.62
+MBR-00412,Richard,Johnson,1980-09-07,45,M,NY,Medicare Advantage,Dr. Patricia Lopez,3.32
+MBR-00413,Richard,Thomas,1969-05-02,56,F,OH,HMO,Dr. Robert Smith,1.47
+MBR-00414,Elizabeth,Taylor,1942-03-28,83,F,NC,Medicaid,Dr. Nancy Garcia,3.85
+MBR-00415,Karen,Smith,1971-07-02,54,M,NY,PPO,Dr. Joseph Martin,3.62
+MBR-00416,James,Davis,1977-02-01,48,M,FL,Medicaid,Dr. James Anderson,2.55
+MBR-00417,Charles,Jones,2003-02-10,22,F,TX,EPO,Dr. William Smith,1.4
+MBR-00418,Margaret,Wilson,1965-07-22,60,F,GA,Medicaid,Dr. Susan Thomas,1.71
+MBR-00419,Maria,Moore,1954-02-14,71,M,AZ,Medicaid,Dr. Kimberly Lee,2.94
+MBR-00420,Ashley,Williams,1966-07-28,59,M,IL,Medicaid,Dr. Joseph Rodriguez,1.54
+MBR-00421,Barbara,Moore,1966-09-15,59,M,MA,HMO,Dr. William Lee,2.12
+MBR-00422,Michael,Smith,1964-02-16,61,M,GA,Medicaid,Dr. Sarah Anderson,2.12
+MBR-00423,Lisa,Davis,2000-01-22,25,M,NC,Medicare Advantage,Dr. Charles Lopez,2.53
+MBR-00424,Karen,Brown,1983-05-16,42,M,TX,Medicaid,Dr. Michael Jackson,3.55
+MBR-00425,James,Williams,1981-09-21,44,F,PA,PPO,Dr. Michael Martinez,2.18
+MBR-00426,Sarah,Martin,1962-08-20,63,F,GA,HMO,Dr. Ashley Johnson,3.97
+MBR-00427,Thomas,Miller,1995-04-28,30,F,CA,Medicare Advantage,Dr. Dorothy Martinez,2.15
+MBR-00428,Susan,Hernandez,1985-06-16,40,M,MI,Medicare Advantage,Dr. Barbara Hernandez,3.95
+MBR-00429,Ashley,Hernandez,1981-02-23,44,M,TX,Medicaid,Dr. James Johnson,0.52
+MBR-00430,David,Garcia,1969-03-26,56,M,WA,PPO,Dr. Ashley Williams,1.02
+MBR-00431,Betty,Anderson,1949-05-21,76,F,OH,HMO,Dr. Patricia Jackson,1.3
+MBR-00432,Thomas,Hernandez,1957-04-22,68,M,FL,HMO,Dr. Robert Smith,3.01
+MBR-00433,John,Lopez,1973-08-08,52,M,TX,HMO,Dr. Betty Moore,2.85
+MBR-00434,Richard,Johnson,1983-08-13,42,M,IL,Medicare Advantage,Dr. Michael Moore,2.89
+MBR-00435,Thomas,Jones,1961-07-26,64,F,MA,Medicare Advantage,Dr. Nancy Miller,1.16
+MBR-00436,Jessica,Davis,1953-11-13,72,M,FL,HMO,Dr. Emily Moore,1.18
+MBR-00437,Betty,Rodriguez,1958-04-20,67,M,MI,HMO,Dr. Donna Johnson,3.15
+MBR-00438,John,Brown,2002-06-08,23,M,GA,Medicare Advantage,Dr. Linda Jackson,1.51
+MBR-00439,John,Smith,1985-08-10,40,M,OH,HMO,Dr. Robert Moore,1.58
+MBR-00440,Richard,Brown,1987-04-25,38,F,VA,EPO,Dr. Linda Martinez,0.96
+MBR-00441,Susan,Lee,1991-09-30,34,F,WA,Medicaid,Dr. Richard Moore,4.39
+MBR-00442,Karen,Garcia,1959-12-29,66,F,NC,Medicare Advantage,Dr. Charles Miller,3.25
+MBR-00443,Jessica,Smith,1944-01-16,82,F,NJ,HMO,Dr. Charles Brown,3.84
+MBR-00444,Jennifer,Moore,1941-12-15,84,M,VA,HMO,Dr. Thomas Rodriguez,3.08
+MBR-00445,Sarah,Thomas,1946-12-27,79,F,CA,PPO,Dr. Joseph Johnson,3.91
+MBR-00446,Margaret,Brown,1958-12-01,67,F,AZ,HMO,Dr. Maria Jones,3.15
+MBR-00447,Nancy,Thomas,1983-02-28,42,F,IL,HMO,Dr. Nancy Hernandez,1.23
+MBR-00448,Sandra,Rodriguez,1953-07-06,72,F,VA,Medicare Advantage,Dr. William Anderson,3.1
+MBR-00449,Barbara,Johnson,1983-10-23,42,M,CA,Medicare Advantage,Dr. Charles Martin,2.43
+MBR-00450,Donna,Wilson,1948-07-21,77,M,MI,HMO,Dr. Joseph Jones,2.43
+MBR-00451,Thomas,Anderson,1942-06-11,83,M,NY,HMO,Dr. Sarah Hernandez,0.55
+MBR-00452,Dorothy,Moore,1976-01-27,49,F,VA,EPO,Dr. Linda Anderson,3.15
+MBR-00453,Nancy,Wilson,1973-10-30,52,F,AZ,EPO,Dr. Thomas Lee,0.72
+MBR-00454,Joseph,Taylor,1984-10-19,41,F,CA,Medicare Advantage,Dr. Lisa Davis,1.82
+MBR-00455,Dorothy,Davis,1969-04-09,56,M,NJ,Medicare Advantage,Dr. Betty Davis,0.82
+MBR-00456,Jennifer,Taylor,1948-06-06,77,F,PA,HMO,Dr. Ashley Smith,0.91
+MBR-00457,Kimberly,Jackson,1953-01-19,73,M,AZ,HMO,Dr. William Lee,4.35
+MBR-00458,James,Thomas,1966-07-26,59,M,PA,HMO,Dr. Richard Davis,3.88
+MBR-00459,John,Lopez,1962-05-31,63,F,CA,HMO,Dr. David Davis,0.51
+MBR-00460,Kimberly,Moore,1959-07-11,66,F,VA,HMO,Dr. Patricia Garcia,2.47
+MBR-00461,Sarah,Lee,1952-10-11,73,M,FL,HMO,Dr. Charles Wilson,1.36
+MBR-00462,Linda,Anderson,1980-12-20,45,F,MA,EPO,Dr. Linda Thomas,2.33
+MBR-00463,Ashley,Smith,1940-04-26,85,M,VA,HMO,Dr. Kimberly Anderson,3.86
+MBR-00464,John,Martin,1943-10-26,82,M,VA,PPO,Dr. Linda Wilson,3.13
+MBR-00465,Margaret,Lee,1963-01-28,62,F,WA,PPO,Dr. Sarah Wilson,4.35
+MBR-00466,William,Jones,1967-11-07,58,F,OH,EPO,Dr. John Moore,1.7
+MBR-00467,Susan,Miller,1964-03-03,61,M,VA,Medicaid,Dr. Robert Lopez,4.18
+MBR-00468,Dorothy,Jackson,1988-01-21,37,M,NJ,Medicaid,Dr. John Brown,3.54
+MBR-00469,Robert,Jackson,1943-08-29,82,F,MA,Medicare Advantage,Dr. William Smith,2.59
+MBR-00470,Barbara,Johnson,2001-01-29,24,F,NY,PPO,Dr. Sarah Garcia,4.43
+MBR-00471,Richard,Johnson,1972-01-27,53,M,WA,Medicaid,Dr. Susan Jackson,0.63
+MBR-00472,Donna,Jackson,1947-09-29,78,M,VA,EPO,Dr. Betty Davis,2.54
+MBR-00473,Charles,Wilson,1968-07-01,57,M,OH,Medicaid,Dr. Kimberly Johnson,0.55
+MBR-00474,Donna,Thomas,1972-09-21,53,M,MA,Medicaid,Dr. David Martin,2.69
+MBR-00475,Karen,Thomas,1979-10-15,46,M,NJ,HMO,Dr. Elizabeth Garcia,3.44
+MBR-00476,Patricia,Anderson,1989-08-21,36,F,NC,Medicaid,Dr. Barbara Garcia,2.84
+MBR-00477,Lisa,Thomas,1972-01-17,53,M,MA,PPO,Dr. Patricia Jones,4.21
+MBR-00478,Ashley,Martin,1998-04-02,27,F,PA,HMO,Dr. William Hernandez,2.6
+MBR-00479,William,Moore,1981-10-23,44,M,OH,EPO,Dr. Kimberly Wilson,0.87
+MBR-00480,Robert,Hernandez,1976-07-28,49,M,PA,Medicaid,Dr. Susan Lee,2.62
+MBR-00481,Robert,Lopez,2003-05-24,22,M,FL,EPO,Dr. Charles Lee,1.48
+MBR-00482,Betty,Brown,1999-06-25,26,F,IL,EPO,Dr. Michael Martinez,0.6
+MBR-00483,Ashley,Johnson,1957-08-20,68,F,MA,PPO,Dr. Lisa Moore,0.83
+MBR-00484,David,Jackson,1992-04-11,33,M,NY,HMO,Dr. Susan Miller,3.96
+MBR-00485,Susan,Jackson,1950-01-26,75,M,MA,Medicare Advantage,Dr. James Williams,3.49
+MBR-00486,Sandra,Hernandez,1985-12-23,40,M,CA,HMO,Dr. Patricia Garcia,3.68
+MBR-00487,Charles,Rodriguez,1995-06-15,30,M,OH,Medicare Advantage,Dr. James Wilson,2.23
+MBR-00488,Robert,Brown,2002-04-09,23,F,NY,EPO,Dr. Jennifer Martin,0.68
+MBR-00489,Charles,Moore,1995-11-16,30,F,IL,Medicaid,Dr. Donna Williams,1.63
+MBR-00490,Betty,Smith,1948-05-23,77,F,TX,EPO,Dr. Jessica Jones,3.49
+MBR-00491,Karen,Lopez,1968-01-11,58,M,NC,EPO,Dr. Barbara Brown,0.67
+MBR-00492,Karen,Miller,1954-07-27,71,M,FL,Medicare Advantage,Dr. Thomas Moore,1.07
+MBR-00493,Donna,Rodriguez,1981-10-05,44,M,CA,PPO,Dr. Robert Martin,3.91
+MBR-00494,Karen,Williams,1945-09-15,80,M,CA,PPO,Dr. Michael Martin,2.45
+MBR-00495,Barbara,Davis,1962-11-27,63,F,IL,EPO,Dr. Jennifer Miller,1.77
+MBR-00496,Donna,Martinez,1947-01-31,78,F,MI,PPO,Dr. Emily Martin,1.96
+MBR-00497,Elizabeth,Smith,1964-08-09,61,F,FL,PPO,Dr. John Anderson,1.61
+MBR-00498,Robert,Hernandez,1958-05-18,67,M,GA,Medicare Advantage,Dr. Nancy Martinez,2.45
+MBR-00499,James,Lee,1991-11-30,34,M,AZ,Medicaid,Dr. Joseph Jones,4.07
+MBR-00500,Michael,Williams,1979-12-06,46,F,MA,HMO,Dr. Joseph Moore,3.03
+MBR-00501,Charles,Johnson,1953-04-12,72,M,IL,EPO,Dr. Thomas Jackson,2.39
+MBR-00502,Betty,Davis,1985-03-16,40,F,VA,Medicaid,Dr. Barbara Thomas,2.5
+MBR-00503,Nancy,Moore,1994-01-04,32,F,NJ,PPO,Dr. Joseph Lee,3.24
+MBR-00504,Elizabeth,Garcia,1987-03-28,38,F,MI,PPO,Dr. Michael Taylor,4.26
+MBR-00505,David,Taylor,1999-09-12,26,M,CA,Medicaid,Dr. Nancy Davis,0.67
+MBR-00506,Betty,Taylor,1978-05-26,47,F,MA,HMO,Dr. Patricia Hernandez,0.91
+MBR-00507,Emily,Jackson,1969-03-30,56,F,TX,Medicare Advantage,Dr. James Wilson,1.96
+MBR-00508,Betty,Davis,1995-04-20,30,F,OH,Medicaid,Dr. Richard Lopez,2.45
+MBR-00509,Dorothy,Jones,1943-06-11,82,M,TX,PPO,Dr. Jennifer Moore,3.07
+MBR-00510,Elizabeth,Garcia,1977-07-12,48,M,MI,HMO,Dr. Robert Davis,2.16
+MBR-00511,Ashley,Taylor,1962-05-17,63,M,FL,EPO,Dr. Elizabeth Anderson,0.59
+MBR-00512,Emily,Martin,1999-10-18,26,M,TX,EPO,Dr. Patricia Martin,1.09
+MBR-00513,Charles,Garcia,1983-04-23,42,F,OH,EPO,Dr. Emily Smith,4.01
+MBR-00514,Susan,Thomas,1968-03-11,57,M,GA,Medicare Advantage,Dr. Elizabeth Davis,3.82
+MBR-00515,Donna,Moore,1986-08-29,39,M,TX,Medicaid,Dr. Charles Thomas,2.89
+MBR-00516,Betty,Wilson,1996-11-02,29,M,CA,HMO,Dr. Susan Moore,3.94
+MBR-00517,Richard,Jones,1940-03-18,85,F,CA,PPO,Dr. Ashley Lee,2.9
+MBR-00518,Jennifer,Taylor,1940-02-20,85,M,TX,EPO,Dr. Kimberly Smith,4.09
+MBR-00519,Nancy,Johnson,1949-01-28,76,F,NC,Medicare Advantage,Dr. Jessica Taylor,3.66
+MBR-00520,Emily,Martin,1956-11-29,69,F,OH,PPO,Dr. Sarah Taylor,3.56
+MBR-00521,Donna,Jackson,1994-06-14,31,F,IL,PPO,Dr. Maria Smith,2.81
+MBR-00522,Betty,Miller,1989-01-23,36,M,WA,Medicaid,Dr. Margaret Lopez,0.93
+MBR-00523,Sarah,Jackson,1950-06-18,75,F,MI,Medicaid,Dr. Donna Rodriguez,4.47
+MBR-00524,Margaret,Jackson,1954-04-09,71,M,GA,PPO,Dr. Nancy Jackson,2.72
+MBR-00525,Emily,Lopez,1972-01-19,53,F,OH,PPO,Dr. Joseph Brown,3.49
+MBR-00526,Linda,Miller,1947-05-06,78,M,OH,Medicaid,Dr. William Jackson,2.96
+MBR-00527,Betty,Smith,1998-11-23,27,M,AZ,PPO,Dr. Ashley Lee,2.24
+MBR-00528,Jessica,Lopez,1996-11-29,29,F,MI,HMO,Dr. Michael Wilson,4.22
+MBR-00529,John,Lee,1953-12-21,72,F,WA,PPO,Dr. James Taylor,2.26
+MBR-00530,Susan,Johnson,1979-03-13,46,F,NC,EPO,Dr. John Davis,2.96
+MBR-00531,Jessica,Smith,2000-10-19,25,F,CA,Medicaid,Dr. David Wilson,1.91
+MBR-00532,Emily,Miller,1954-04-29,71,F,NY,HMO,Dr. Charles Williams,2.7
+MBR-00533,Richard,Rodriguez,1960-09-24,65,F,MI,PPO,Dr. Sandra Wilson,2.8
+MBR-00534,Margaret,Moore,1971-11-22,54,M,NC,HMO,Dr. Dorothy Martinez,1.86
+MBR-00535,Thomas,Jackson,1990-03-22,35,F,IL,Medicare Advantage,Dr. Betty Martin,2.43
+MBR-00536,David,Thomas,1973-01-31,52,F,GA,EPO,Dr. Joseph Smith,2.43
+MBR-00537,Betty,Davis,1971-02-03,54,M,VA,PPO,Dr. William Hernandez,2.15
+MBR-00538,John,Rodriguez,1959-09-13,66,M,IL,HMO,Dr. Betty Hernandez,0.8
+MBR-00539,Lisa,Lopez,1982-09-23,43,F,MA,EPO,Dr. Sarah Garcia,4.29
+MBR-00540,Michael,Miller,1980-09-14,45,F,VA,PPO,Dr. Joseph Rodriguez,1.33
+MBR-00541,Richard,Lee,1979-07-15,46,M,TX,HMO,Dr. Linda Williams,3.2
+MBR-00542,David,Jackson,1942-01-01,84,M,AZ,Medicare Advantage,Dr. Nancy Lee,1.76
+MBR-00543,Elizabeth,Moore,1969-08-25,56,F,OH,PPO,Dr. David Martin,1.01
+MBR-00544,Kimberly,Johnson,1950-05-08,75,F,PA,Medicare Advantage,Dr. Joseph Garcia,2.33
+MBR-00545,Lisa,Smith,1990-01-04,36,F,NJ,PPO,Dr. Betty Martin,0.9
+MBR-00546,Elizabeth,Jackson,1958-09-06,67,F,FL,Medicaid,Dr. Ashley Lee,1.87
+MBR-00547,Margaret,Miller,1981-06-12,44,F,VA,Medicaid,Dr. Nancy Wilson,1.62
+MBR-00548,Emily,Davis,1981-11-22,44,M,VA,Medicaid,Dr. William Davis,2.72
+MBR-00549,Barbara,Jones,1956-05-21,69,M,WA,HMO,Dr. Elizabeth Anderson,2.5
+MBR-00550,Karen,Rodriguez,1964-04-04,61,F,AZ,EPO,Dr. Patricia Wilson,0.9
+MBR-00551,Susan,Rodriguez,1984-05-13,41,M,AZ,HMO,Dr. Sandra Hernandez,1.54
+MBR-00552,Nancy,Smith,1958-06-22,67,F,CA,Medicaid,Dr. Joseph Lee,1.3
+MBR-00553,Nancy,Hernandez,1982-02-02,43,F,NC,Medicare Advantage,Dr. David Thomas,4.06
+MBR-00554,Sandra,Jones,1956-10-25,69,F,NJ,Medicaid,Dr. Margaret Lee,2.79
+MBR-00555,Elizabeth,Hernandez,1995-09-15,30,M,PA,Medicaid,Dr. James Martinez,3.34
+MBR-00556,Thomas,Thomas,1954-07-18,71,F,VA,EPO,Dr. Dorothy Thomas,2.16
+MBR-00557,Barbara,Davis,1981-02-08,44,M,IL,HMO,Dr. Susan Garcia,2.09
+MBR-00558,Charles,Taylor,1992-04-04,33,M,NY,HMO,Dr. David Wilson,2.6
+MBR-00559,Sarah,Lee,1994-10-22,31,M,CA,Medicare Advantage,Dr. Karen Davis,1.49
+MBR-00560,James,Jones,1968-11-09,57,F,NC,PPO,Dr. Maria Johnson,3.15
+MBR-00561,Sandra,Jackson,1963-08-31,62,F,NC,Medicare Advantage,Dr. Barbara Jackson,1.21
+MBR-00562,Dorothy,Jackson,1946-08-16,79,F,MA,Medicaid,Dr. Ashley Jackson,1.41
+MBR-00563,Karen,Lopez,1993-06-12,32,F,IL,PPO,Dr. Karen Smith,0.5
+MBR-00564,Karen,Taylor,1987-04-13,38,F,NY,Medicare Advantage,Dr. David Taylor,1.7
+MBR-00565,Donna,Davis,1950-01-17,76,F,NC,Medicaid,Dr. Susan Anderson,4.03
+MBR-00566,Jessica,Garcia,1949-02-24,76,F,OH,Medicare Advantage,Dr. Jessica Rodriguez,0.82
+MBR-00567,Karen,Jackson,1974-08-30,51,F,OH,PPO,Dr. Joseph Williams,1.23
+MBR-00568,James,Thomas,1967-03-06,58,M,GA,Medicaid,Dr. John Lee,2.47
+MBR-00569,Barbara,Johnson,1963-04-19,62,M,NY,PPO,Dr. Linda Martinez,1.58
+MBR-00570,Jessica,Williams,1948-11-04,77,M,NY,Medicare Advantage,Dr. Susan Hernandez,2.18
+MBR-00571,Sandra,Johnson,1941-08-06,84,F,CA,PPO,Dr. Patricia Rodriguez,3.6
+MBR-00572,Elizabeth,Miller,1995-09-03,30,F,AZ,Medicare Advantage,Dr. Richard Smith,0.99
+MBR-00573,David,Thomas,1973-09-10,52,F,VA,HMO,Dr. Susan Thomas,3.44
+MBR-00574,Ashley,Wilson,1992-01-27,33,M,IL,Medicaid,Dr. Elizabeth Johnson,3.48
+MBR-00575,Ashley,Martinez,1989-10-01,36,F,PA,HMO,Dr. Joseph Miller,4.39
+MBR-00576,Lisa,Smith,1974-10-21,51,F,WA,Medicaid,Dr. Emily Brown,2.08
+MBR-00577,Patricia,Martin,1973-01-26,52,M,GA,EPO,Dr. Barbara Lopez,3.58
+MBR-00578,Ashley,Williams,1973-01-28,52,M,MI,Medicaid,Dr. Charles Johnson,0.74
+MBR-00579,Barbara,Taylor,1985-09-14,40,M,PA,EPO,Dr. William Lopez,3.72
+MBR-00580,Maria,Wilson,1948-07-21,77,M,VA,PPO,Dr. Sarah Johnson,2.44
+MBR-00581,Kimberly,Taylor,1948-10-15,77,F,MI,PPO,Dr. Kimberly Lopez,1.79
+MBR-00582,Joseph,Lee,1945-04-13,80,F,TX,HMO,Dr. Dorothy Jones,2.3
+MBR-00583,Sandra,Smith,1971-02-23,54,F,NC,Medicare Advantage,Dr. Michael Garcia,4.03
+MBR-00584,Lisa,Williams,1958-02-15,67,M,NC,Medicare Advantage,Dr. Susan Moore,3.23
+MBR-00585,Lisa,Anderson,1985-02-17,40,F,PA,HMO,Dr. Linda Moore,3.14
+MBR-00586,Elizabeth,Johnson,1999-09-27,26,M,CA,Medicare Advantage,Dr. Susan Brown,0.63
+MBR-00587,Dorothy,Lee,1955-01-25,70,F,MI,Medicaid,Dr. Patricia Lopez,1.38
+MBR-00588,Charles,Miller,1995-02-08,30,M,GA,HMO,Dr. Sandra Johnson,1.94
+MBR-00589,William,Johnson,1951-03-11,74,F,IL,EPO,Dr. Patricia Williams,3.84
+MBR-00590,Dorothy,Brown,1995-11-19,30,M,VA,PPO,Dr. Kimberly Wilson,1.26
+MBR-00591,Kimberly,Jackson,1973-06-16,52,M,VA,HMO,Dr. David Martin,1.93
+MBR-00592,Thomas,Brown,1946-10-28,79,F,WA,PPO,Dr. Kimberly Wilson,2.52
+MBR-00593,Charles,Lopez,1984-08-03,41,F,NC,Medicaid,Dr. Joseph Lopez,2.15
+MBR-00594,Donna,Davis,1949-04-07,76,F,NC,PPO,Dr. Betty Jackson,4.2
+MBR-00595,Sandra,Thomas,1972-06-25,53,F,NY,HMO,Dr. Karen Lee,0.57
+MBR-00596,Maria,Martinez,1987-09-20,38,F,FL,Medicaid,Dr. Maria Rodriguez,4.18
+MBR-00597,Patricia,Thomas,1985-07-13,40,M,TX,PPO,Dr. Sarah Lopez,4.06
+MBR-00598,Sarah,Martinez,1973-11-28,52,M,MI,Medicare Advantage,Dr. Emily Miller,3.44
+MBR-00599,Elizabeth,Taylor,1963-01-29,62,F,VA,EPO,Dr. Richard Brown,2.88
+MBR-00600,Michael,Martin,1966-07-05,59,M,CA,HMO,Dr. Charles Hernandez,1.89
+MBR-00601,Charles,Brown,1949-09-26,76,F,VA,EPO,Dr. Charles Smith,3.04
+MBR-00602,Karen,Moore,1956-12-28,69,M,PA,EPO,Dr. Emily Jones,1.81
+MBR-00603,Patricia,Wilson,1976-05-30,49,M,WA,EPO,Dr. Emily Moore,0.86
+MBR-00604,William,Wilson,1949-11-06,76,F,TX,Medicaid,Dr. Jennifer Taylor,2.79
+MBR-00605,Sarah,Williams,1998-06-18,27,F,NC,Medicare Advantage,Dr. David Jones,3.55
+MBR-00606,Ashley,Wilson,1943-02-23,82,M,MI,PPO,Dr. Kimberly Lee,4.49
+MBR-00607,Jennifer,Rodriguez,1973-06-08,52,M,PA,EPO,Dr. Jennifer Brown,3.19
+MBR-00608,Nancy,Miller,1950-08-09,75,F,PA,EPO,Dr. James Smith,3.58
+MBR-00609,Donna,Thomas,1983-02-27,42,F,TX,Medicare Advantage,Dr. Patricia Davis,1.3
+MBR-00610,David,Williams,1957-11-22,68,M,VA,HMO,Dr. Jessica Lee,4.21
+MBR-00611,Lisa,Brown,1968-08-12,57,M,GA,Medicare Advantage,Dr. Maria Hernandez,1.34
+MBR-00612,Kimberly,Moore,1977-09-03,48,M,NC,Medicare Advantage,Dr. Donna Jones,3.28
+MBR-00613,Emily,Moore,2002-12-16,23,F,IL,PPO,Dr. Patricia Martinez,1.3
+MBR-00614,Sandra,Smith,1970-12-12,55,M,OH,Medicaid,Dr. Robert Lopez,3.96
+MBR-00615,Joseph,Wilson,2002-09-11,23,F,OH,EPO,Dr. John Brown,4.12
+MBR-00616,Elizabeth,Miller,1942-05-11,83,M,GA,EPO,Dr. Charles Smith,0.66
+MBR-00617,Ashley,Wilson,1965-10-28,60,F,NY,Medicaid,Dr. Robert Lopez,1.92
+MBR-00618,Dorothy,Rodriguez,1966-12-16,59,M,NJ,Medicaid,Dr. Thomas Wilson,4.06
+MBR-00619,Jessica,Jones,2001-07-17,24,F,MA,Medicare Advantage,Dr. Robert Jones,0.85
+MBR-00620,Margaret,Davis,1956-03-31,69,M,TX,Medicare Advantage,Dr. Karen Lee,1.82
+MBR-00621,James,Jones,1988-03-19,37,M,NC,PPO,Dr. Joseph Jones,1.74
+MBR-00622,Charles,Jones,1987-02-10,38,F,MA,EPO,Dr. Charles Garcia,1.77
+MBR-00623,Lisa,Jones,1989-12-26,36,M,WA,Medicaid,Dr. Thomas Anderson,4.34
+MBR-00624,Michael,Rodriguez,1966-10-31,59,F,WA,PPO,Dr. Linda Jones,1.24
+MBR-00625,Donna,Davis,1970-09-19,55,M,NJ,HMO,Dr. Nancy Williams,3.25
+MBR-00626,Dorothy,Lee,1943-05-27,82,M,VA,Medicaid,Dr. Elizabeth Wilson,2.47
+MBR-00627,Susan,Davis,1987-12-26,38,M,OH,HMO,Dr. Charles Rodriguez,4.3
+MBR-00628,David,Miller,1976-12-11,49,M,TX,Medicare Advantage,Dr. Joseph Lee,2.46
+MBR-00629,Thomas,Davis,1963-06-13,62,F,OH,HMO,Dr. Donna Wilson,3.38
+MBR-00630,Dorothy,Brown,1954-06-02,71,M,GA,HMO,Dr. Thomas Davis,2.57
+MBR-00631,Kimberly,Wilson,1954-04-30,71,M,WA,HMO,Dr. Susan Martinez,2.26
+MBR-00632,Sandra,Garcia,1966-06-14,59,F,IL,EPO,Dr. Charles Johnson,3.26
+MBR-00633,Richard,Thomas,1986-11-26,39,F,VA,EPO,Dr. Linda Garcia,3.61
+MBR-00634,Margaret,Hernandez,1987-05-26,38,F,NY,PPO,Dr. Sandra Martin,4.09
+MBR-00635,Jennifer,Rodriguez,1979-08-01,46,F,VA,PPO,Dr. John Brown,0.86
+MBR-00636,Jennifer,Moore,1947-01-24,78,F,OH,EPO,Dr. Donna Garcia,2.01
+MBR-00637,David,Garcia,1956-07-31,69,M,MI,PPO,Dr. Elizabeth Jones,1.22
+MBR-00638,Karen,Martinez,1998-05-25,27,F,IL,PPO,Dr. Linda Jones,4.34
+MBR-00639,Maria,Thomas,2004-04-27,21,F,AZ,Medicare Advantage,Dr. Kimberly Smith,2.93
+MBR-00640,Susan,Martin,1941-02-19,84,M,GA,Medicare Advantage,Dr. Margaret Thomas,0.82
+MBR-00641,Thomas,Jackson,2004-08-17,21,M,MI,EPO,Dr. Richard Miller,0.7
+MBR-00642,James,Lopez,1986-12-24,39,M,TX,HMO,Dr. Robert Martin,3.85
+MBR-00643,Charles,Williams,1966-12-22,59,F,CA,Medicare Advantage,Dr. Elizabeth Garcia,3.19
+MBR-00644,Michael,Martin,1982-07-12,43,F,MA,HMO,Dr. Jennifer Martinez,1.79
+MBR-00645,David,Anderson,1956-04-12,69,M,CA,Medicaid,Dr. Ashley Jones,0.99
+MBR-00646,Dorothy,Anderson,1969-04-22,56,F,FL,PPO,Dr. Donna Johnson,0.94
+MBR-00647,Michael,Lee,1993-01-13,32,F,IL,Medicare Advantage,Dr. Donna Hernandez,1.54
+MBR-00648,Donna,Martin,1959-05-09,66,M,NC,Medicare Advantage,Dr. Ashley Garcia,4.03
+MBR-00649,Susan,Smith,1975-11-15,50,F,NY,Medicare Advantage,Dr. James Brown,3.45
+MBR-00650,Margaret,Johnson,1978-07-27,47,F,PA,EPO,Dr. William Miller,0.55
+MBR-00651,Sarah,Williams,1979-08-09,46,F,IL,EPO,Dr. Kimberly Hernandez,3.57
+MBR-00652,Lisa,Wilson,1990-03-25,35,F,MI,HMO,Dr. Richard Garcia,1.28
+MBR-00653,Charles,Taylor,1961-12-30,64,F,NJ,PPO,Dr. Ashley Jones,3.01
+MBR-00654,William,Anderson,1962-12-20,63,F,AZ,EPO,Dr. Karen Martin,3.4
+MBR-00655,Susan,Martin,1964-02-01,61,M,PA,Medicaid,Dr. Jennifer Jones,1.62
+MBR-00656,Betty,Jackson,2001-10-15,24,F,MI,EPO,Dr. Betty Garcia,2.88
+MBR-00657,John,Johnson,1965-08-30,60,F,OH,HMO,Dr. Ashley Davis,1.99
+MBR-00658,Dorothy,Martinez,1966-10-19,59,M,CA,Medicaid,Dr. William Johnson,3.61
+MBR-00659,Dorothy,Smith,1993-05-07,32,F,MA,EPO,Dr. Barbara Miller,1.86
+MBR-00660,David,Hernandez,1943-11-10,82,F,WA,HMO,Dr. Richard Moore,3.21
+MBR-00661,Michael,Johnson,1988-05-20,37,M,OH,EPO,Dr. Linda Smith,1.74
+MBR-00662,Lisa,Thomas,1999-12-16,26,M,CA,EPO,Dr. David Martinez,0.59
+MBR-00663,Lisa,Miller,1965-10-10,60,M,IL,Medicaid,Dr. Kimberly Hernandez,3.59
+MBR-00664,Barbara,Garcia,1989-08-23,36,F,CA,HMO,Dr. Donna Jackson,2.56
+MBR-00665,Kimberly,Hernandez,1978-08-28,47,F,TX,Medicaid,Dr. Emily Davis,1.19
+MBR-00666,Kimberly,Thomas,1965-12-22,60,F,TX,HMO,Dr. Ashley Johnson,0.92
+MBR-00667,Margaret,Wilson,1998-10-09,27,M,VA,EPO,Dr. Thomas Martin,3.02
+MBR-00668,Karen,Hernandez,1947-10-12,78,F,VA,EPO,Dr. Jennifer Thomas,2.77
+MBR-00669,Linda,Thomas,1993-08-04,32,F,NJ,Medicare Advantage,Dr. Ashley Davis,4.29
+MBR-00670,Charles,Lopez,1986-06-25,39,F,TX,Medicaid,Dr. William Hernandez,2.31
+MBR-00671,Ashley,Brown,2001-07-12,24,M,GA,Medicare Advantage,Dr. Joseph Garcia,1.63
+MBR-00672,Dorothy,Brown,1960-06-24,65,M,AZ,HMO,Dr. Lisa Jackson,3.1
+MBR-00673,Betty,Martin,1966-06-19,59,F,FL,EPO,Dr. Jessica Jackson,1.14
+MBR-00674,Jennifer,Hernandez,1943-10-08,82,F,AZ,EPO,Dr. Margaret Anderson,2.77
+MBR-00675,Elizabeth,Williams,1961-01-18,64,M,MI,Medicare Advantage,Dr. Linda Martin,2.88
+MBR-00676,Richard,Thomas,1963-10-19,62,M,IL,Medicare Advantage,Dr. Jennifer Lee,0.93
+MBR-00677,Ashley,Johnson,1956-12-03,69,F,FL,PPO,Dr. Thomas Martin,4.11
+MBR-00678,Robert,Jones,2004-05-20,21,M,NC,Medicaid,Dr. Betty Lee,2.81
+MBR-00679,Robert,Hernandez,1979-08-13,46,M,MI,Medicaid,Dr. Charles Anderson,3.37
+MBR-00680,Emily,Smith,1960-03-10,65,M,NC,Medicare Advantage,Dr. Joseph Jones,3.91
+MBR-00681,Thomas,Jackson,1997-12-12,28,F,NY,EPO,Dr. Richard Lopez,0.94
+MBR-00682,Jessica,Anderson,1968-01-22,57,M,MI,Medicare Advantage,Dr. James Hernandez,3.35
+MBR-00683,Margaret,Jackson,1953-10-03,72,F,NJ,PPO,Dr. Ashley Jones,1.25
+MBR-00684,Richard,Anderson,1955-11-02,70,F,IL,PPO,Dr. Barbara Smith,0.79
+MBR-00685,Michael,Taylor,2002-02-05,23,M,OH,PPO,Dr. Jennifer Jones,3.07
+MBR-00686,Thomas,Lee,1951-06-17,74,F,MI,PPO,Dr. Sandra Moore,2.2
+MBR-00687,Nancy,Davis,1947-10-18,78,F,OH,EPO,Dr. Maria Martin,2.49
+MBR-00688,Margaret,Jackson,1974-03-25,51,F,PA,HMO,Dr. Patricia Martin,2.43
+MBR-00689,Emily,Taylor,1957-01-30,68,M,CA,PPO,Dr. Michael Moore,4.43
+MBR-00690,Dorothy,Williams,1969-04-23,56,F,MA,EPO,Dr. Jennifer Davis,2.39
+MBR-00691,Donna,Johnson,1995-07-18,30,F,NC,HMO,Dr. Ashley Thomas,2.55
+MBR-00692,Margaret,Lopez,1944-08-24,81,F,IL,PPO,Dr. Patricia Lee,3.5
+MBR-00693,James,Taylor,1971-03-25,54,M,TX,EPO,Dr. Patricia Martinez,3.74
+MBR-00694,Ashley,Williams,2001-11-04,24,F,NC,HMO,Dr. Joseph Rodriguez,1.51
+MBR-00695,Joseph,Rodriguez,1970-01-08,56,F,VA,HMO,Dr. Donna Garcia,4.14
+MBR-00696,Nancy,Garcia,1985-08-31,40,F,WA,PPO,Dr. Ashley Garcia,3.7
+MBR-00697,Jennifer,Jones,2000-03-09,25,F,MA,PPO,Dr. Richard Taylor,3.51
+MBR-00698,Jessica,Thomas,1952-02-28,73,F,TX,PPO,Dr. Emily Lopez,0.72
+MBR-00699,Patricia,Garcia,1971-05-23,54,M,OH,Medicare Advantage,Dr. Karen Taylor,3.48
+MBR-00700,Robert,Wilson,1975-05-17,50,F,IL,PPO,Dr. Dorothy Anderson,0.55
+MBR-00701,Robert,Hernandez,1947-04-25,78,F,NJ,HMO,Dr. Linda Jackson,3.05
+MBR-00702,Lisa,Rodriguez,1949-09-06,76,F,WA,HMO,Dr. Sarah Martin,2.06
+MBR-00703,Dorothy,Hernandez,1974-02-02,51,M,VA,PPO,Dr. Lisa Jackson,0.54
+MBR-00704,Maria,Anderson,2003-11-18,22,M,NC,HMO,Dr. Robert Thomas,1.91
+MBR-00705,Susan,Johnson,1969-01-03,57,F,MI,HMO,Dr. Patricia Lee,3.13
+MBR-00706,John,Brown,1977-11-30,48,M,AZ,EPO,Dr. Barbara Wilson,3.13
+MBR-00707,John,Garcia,1981-09-05,44,M,IL,Medicare Advantage,Dr. Robert Williams,3.06
+MBR-00708,John,Hernandez,1969-09-06,56,F,TX,HMO,Dr. Sarah Johnson,2.03
+MBR-00709,Sarah,Rodriguez,1962-10-18,63,M,GA,HMO,Dr. Ashley Miller,2.94
+MBR-00710,Linda,Jones,1982-04-11,43,F,WA,Medicare Advantage,Dr. Susan Lee,3.07
+MBR-00711,Linda,Johnson,1948-12-14,77,F,CA,EPO,Dr. Michael Rodriguez,3.61
+MBR-00712,Barbara,Smith,2002-12-19,23,F,NJ,Medicare Advantage,Dr. Sarah Jones,3.3
+MBR-00713,Dorothy,Taylor,1954-05-20,71,M,OH,Medicare Advantage,Dr. Joseph Williams,2.66
+MBR-00714,John,Taylor,2004-11-05,21,F,MI,EPO,Dr. Charles Lopez,1.83
+MBR-00715,Patricia,Williams,1966-07-13,59,F,NC,Medicaid,Dr. Jennifer Thomas,3.54
+MBR-00716,Elizabeth,Jackson,1967-12-27,58,M,OH,PPO,Dr. Karen Wilson,4.09
+MBR-00717,Jennifer,Thomas,1959-10-13,66,F,TX,HMO,Dr. Susan Smith,3.38
+MBR-00718,Betty,Williams,1974-04-13,51,F,NJ,Medicaid,Dr. Ashley Jackson,4.36
+MBR-00719,Patricia,Hernandez,1947-12-24,78,M,PA,HMO,Dr. Betty Brown,1.35
+MBR-00720,Michael,Martin,1946-09-24,79,M,MA,HMO,Dr. Patricia Jones,2.46
+MBR-00721,Charles,Lee,2002-12-15,23,F,FL,PPO,Dr. Maria Garcia,3.03
+MBR-00722,Sandra,Lee,1965-10-21,60,M,AZ,EPO,Dr. Jennifer Brown,0.96
+MBR-00723,William,Miller,1976-06-09,49,M,PA,Medicare Advantage,Dr. Lisa Brown,4.4
+MBR-00724,Richard,Miller,1987-12-19,38,F,MI,PPO,Dr. Lisa Williams,0.98
+MBR-00725,Elizabeth,Lopez,1986-04-03,39,F,TX,Medicare Advantage,Dr. Jessica Martin,0.66
+MBR-00726,David,Garcia,1993-01-01,33,F,MA,Medicare Advantage,Dr. Jennifer Smith,0.53
+MBR-00727,Margaret,Taylor,1993-01-20,32,F,TX,PPO,Dr. Barbara Rodriguez,2.59
+MBR-00728,Elizabeth,Lee,1952-01-31,73,M,NY,EPO,Dr. Elizabeth Taylor,2.95
+MBR-00729,Nancy,Anderson,1994-01-07,32,F,NC,PPO,Dr. Susan Brown,4.45
+MBR-00730,Joseph,Jackson,1992-04-25,33,F,FL,Medicare Advantage,Dr. David Miller,1.61
+MBR-00731,William,Jones,1980-01-28,45,M,AZ,Medicare Advantage,Dr. Ashley Garcia,1.14
+MBR-00732,James,Lopez,1999-08-16,26,M,FL,Medicare Advantage,Dr. Sarah Hernandez,2.97
+MBR-00733,Linda,Johnson,1946-04-21,79,M,TX,PPO,Dr. William Smith,2.44
+MBR-00734,Thomas,Davis,1990-05-28,35,M,MI,EPO,Dr. Lisa Anderson,1.3
+MBR-00735,David,Brown,1963-08-04,62,M,FL,HMO,Dr. Jessica Anderson,3.98
+MBR-00736,Jennifer,Taylor,1956-03-25,69,M,GA,HMO,Dr. Thomas Anderson,1.08
+MBR-00737,Betty,Lopez,1946-11-13,79,M,GA,PPO,Dr. James Lopez,4.4
+MBR-00738,Barbara,Johnson,1979-01-24,46,F,MI,HMO,Dr. Sarah Jones,0.94
+MBR-00739,Margaret,Garcia,1945-07-30,80,F,FL,Medicaid,Dr. Donna Garcia,3.66
+MBR-00740,Jennifer,Anderson,1983-04-20,42,M,GA,PPO,Dr. Emily Taylor,3.85
+MBR-00741,Michael,Anderson,1969-09-11,56,M,FL,Medicaid,Dr. Margaret Martin,1.39
+MBR-00742,Margaret,Johnson,1985-12-22,40,M,GA,EPO,Dr. Patricia Anderson,2.62
+MBR-00743,Sandra,Taylor,1943-09-21,82,M,CA,EPO,Dr. David Smith,3.27
+MBR-00744,Barbara,Lopez,1952-08-21,73,M,FL,HMO,Dr. Maria Taylor,3.18
+MBR-00745,Joseph,Martin,1984-03-19,41,F,NY,Medicare Advantage,Dr. Sandra Jones,4.0
+MBR-00746,William,Lopez,1953-03-05,72,M,GA,HMO,Dr. Joseph Williams,2.04
+MBR-00747,Karen,Anderson,1962-09-01,63,M,VA,EPO,Dr. Kimberly Martin,3.68
+MBR-00748,Michael,Johnson,1994-04-21,31,F,MA,Medicaid,Dr. Thomas Johnson,0.94
+MBR-00749,Donna,Johnson,1958-07-15,67,F,PA,PPO,Dr. James Jackson,3.32
+MBR-00750,Lisa,Davis,1978-04-12,47,M,CA,Medicare Advantage,Dr. Michael Martin,3.98
+MBR-00751,Lisa,Lopez,1978-08-30,47,M,NC,Medicare Advantage,Dr. Sarah Johnson,0.75
+MBR-00752,Ashley,Moore,1960-04-23,65,F,AZ,HMO,Dr. Ashley Jackson,3.21
+MBR-00753,Donna,Lopez,1967-02-06,58,F,VA,HMO,Dr. Susan Thomas,0.85
+MBR-00754,Karen,Williams,1954-11-25,71,M,TX,Medicaid,Dr. Linda Jones,2.49
+MBR-00755,Karen,Anderson,1978-01-29,47,M,NC,PPO,Dr. Ashley Lopez,2.18
+MBR-00756,Susan,Williams,2002-12-27,23,F,AZ,PPO,Dr. Richard Moore,3.08
+MBR-00757,James,Hernandez,1952-05-16,73,F,MI,EPO,Dr. Richard Jackson,2.28
+MBR-00758,Thomas,Martinez,1966-10-21,59,M,WA,Medicaid,Dr. Jessica Taylor,1.99
+MBR-00759,Barbara,Lopez,1968-08-23,57,M,GA,PPO,Dr. Donna Garcia,3.35
+MBR-00760,Elizabeth,Jones,1968-10-25,57,M,FL,HMO,Dr. Patricia Hernandez,2.8
+MBR-00761,Nancy,Garcia,1948-10-07,77,F,NC,HMO,Dr. Robert Hernandez,4.41
+MBR-00762,Sandra,Jackson,1986-10-20,39,F,NC,Medicaid,Dr. Linda Smith,2.12
+MBR-00763,Sandra,Hernandez,1941-11-04,84,M,NY,EPO,Dr. Dorothy Hernandez,3.09
+MBR-00764,Thomas,Martinez,1967-03-29,58,F,NJ,PPO,Dr. William Martin,3.41
+MBR-00765,John,Brown,1948-05-20,77,F,MA,HMO,Dr. Barbara Jackson,0.97
+MBR-00766,Donna,Davis,2001-05-24,24,F,PA,HMO,Dr. Lisa Johnson,2.93
+MBR-00767,William,Rodriguez,1980-10-04,45,M,NY,HMO,Dr. Kimberly Thomas,3.21
+MBR-00768,Susan,Taylor,1993-07-31,32,F,MI,EPO,Dr. Dorothy Johnson,4.13
+MBR-00769,Barbara,Anderson,1958-07-13,67,F,OH,Medicaid,Dr. Maria Martinez,1.88
+MBR-00770,Joseph,Jackson,1965-12-03,60,F,FL,Medicare Advantage,Dr. Michael Anderson,3.71
+MBR-00771,William,Anderson,1968-06-17,57,M,TX,EPO,Dr. Donna Williams,1.07
+MBR-00772,Joseph,Moore,1966-07-29,59,F,CA,EPO,Dr. David Wilson,0.85
+MBR-00773,Margaret,Garcia,1952-04-10,73,F,GA,EPO,Dr. David Jones,1.3
+MBR-00774,Kimberly,Taylor,1956-12-28,69,F,AZ,Medicaid,Dr. Richard Martin,1.72
+MBR-00775,Maria,Smith,1945-11-04,80,M,IL,Medicaid,Dr. James Taylor,1.0
+MBR-00776,Elizabeth,Taylor,1968-01-29,57,F,NJ,PPO,Dr. Maria Brown,3.56
+MBR-00777,Donna,Lopez,1941-03-31,84,M,GA,EPO,Dr. Margaret Rodriguez,3.01
+MBR-00778,Nancy,Moore,1944-04-02,81,M,NY,Medicaid,Dr. Elizabeth Martin,0.73
+MBR-00779,Thomas,Jones,1964-07-18,61,F,TX,HMO,Dr. Sarah Lopez,2.18
+MBR-00780,Karen,Martinez,1959-04-22,66,M,NJ,HMO,Dr. Dorothy Miller,3.57
+MBR-00781,Donna,Garcia,1981-04-09,44,M,PA,Medicaid,Dr. Richard Martinez,1.59
+MBR-00782,Kimberly,Martin,1958-07-22,67,M,AZ,PPO,Dr. Maria Jones,2.57
+MBR-00783,Margaret,Hernandez,1957-10-27,68,F,CA,PPO,Dr. Barbara Moore,1.38
+MBR-00784,Margaret,Thomas,1980-12-04,45,M,CA,PPO,Dr. Charles Smith,2.42
+MBR-00785,Barbara,Thomas,1965-03-17,60,F,NC,Medicaid,Dr. Elizabeth Martinez,0.62
+MBR-00786,Barbara,Jones,1989-01-23,36,M,FL,Medicaid,Dr. Barbara Miller,1.02
+MBR-00787,John,Brown,1994-12-01,31,F,NY,Medicare Advantage,Dr. David Anderson,0.67
+MBR-00788,William,Moore,1991-03-13,34,M,NY,Medicare Advantage,Dr. Linda Rodriguez,0.67
+MBR-00789,David,Brown,1966-11-14,59,M,MA,EPO,Dr. Susan Martin,4.1
+MBR-00790,Maria,Williams,1981-10-30,44,F,AZ,Medicaid,Dr. Emily Lopez,1.91
+MBR-00791,Dorothy,Martin,1940-12-19,85,M,CA,EPO,Dr. David Smith,2.62
+MBR-00792,Elizabeth,Jackson,1981-01-10,45,F,VA,HMO,Dr. Charles Miller,4.18
+MBR-00793,John,Martin,1944-10-19,81,F,GA,HMO,Dr. Elizabeth Lopez,4.43
+MBR-00794,Dorothy,Davis,1950-06-26,75,M,CA,Medicaid,Dr. Linda Thomas,0.94
+MBR-00795,David,Lopez,1987-01-16,38,F,IL,EPO,Dr. Michael Johnson,0.83
+MBR-00796,Betty,Martinez,1941-06-03,84,M,MI,Medicaid,Dr. Robert Thomas,1.4
+MBR-00797,Joseph,Anderson,1952-10-15,73,F,AZ,HMO,Dr. Thomas Taylor,4.26
+MBR-00798,Maria,Taylor,1957-02-08,68,M,CA,Medicare Advantage,Dr. Sandra Moore,3.13
+MBR-00799,Barbara,Wilson,1994-06-18,31,M,VA,EPO,Dr. Linda Garcia,0.76
+MBR-00800,Susan,Lee,1979-06-21,46,F,CA,PPO,Dr. Richard Anderson,3.4
+MBR-00801,David,Wilson,1969-07-17,56,F,GA,EPO,Dr. Betty Taylor,2.55
+MBR-00802,Linda,Brown,1986-09-05,39,F,GA,Medicare Advantage,Dr. Jessica Jones,0.62
+MBR-00803,Ashley,Smith,1998-10-09,27,M,OH,EPO,Dr. Robert Hernandez,1.11
+MBR-00804,Robert,Moore,1992-05-02,33,M,WA,Medicare Advantage,Dr. Susan Martinez,3.15
+MBR-00805,Kimberly,Hernandez,1942-04-21,83,F,NC,HMO,Dr. David Johnson,4.46
+MBR-00806,Sandra,Hernandez,1989-07-02,36,F,GA,Medicare Advantage,Dr. Patricia Johnson,1.21
+MBR-00807,Ashley,Anderson,1966-11-09,59,M,IL,Medicare Advantage,Dr. Ashley Brown,2.78
+MBR-00808,Ashley,Jackson,1942-11-03,83,F,NC,HMO,Dr. Betty Rodriguez,2.48
+MBR-00809,David,Martinez,1956-08-07,69,F,NY,HMO,Dr. Emily Johnson,1.01
+MBR-00810,William,Martin,1959-01-05,67,F,WA,Medicaid,Dr. Betty Brown,2.21
+MBR-00811,Nancy,Johnson,1959-02-14,66,F,FL,PPO,Dr. Jessica Martinez,2.87
+MBR-00812,Linda,Hernandez,1996-10-14,29,F,NY,EPO,Dr. Lisa Johnson,2.34
+MBR-00813,Sarah,Smith,1950-01-29,75,F,GA,EPO,Dr. Maria Hernandez,2.01
+MBR-00814,Emily,Brown,1955-05-14,70,F,CA,PPO,Dr. Lisa Taylor,2.51
+MBR-00815,Donna,Martinez,1961-07-15,64,M,OH,PPO,Dr. Ashley Williams,3.86
+MBR-00816,Sarah,Johnson,1977-08-14,48,F,MI,Medicare Advantage,Dr. William Davis,3.0
+MBR-00817,Emily,Hernandez,1993-08-23,32,M,CA,EPO,Dr. William Moore,2.4
+MBR-00818,William,Williams,1978-02-14,47,F,AZ,Medicaid,Dr. Dorothy Martinez,2.23
+MBR-00819,Margaret,Wilson,1964-09-10,61,M,MI,EPO,Dr. Sandra Jackson,1.22
+MBR-00820,Emily,Taylor,2002-09-20,23,M,NJ,Medicare Advantage,Dr. Sarah Jackson,3.74
+MBR-00821,Dorothy,Miller,1949-07-18,76,M,GA,PPO,Dr. Jessica Jones,3.49
+MBR-00822,Margaret,Hernandez,1966-12-15,59,F,NJ,PPO,Dr. Joseph Anderson,1.57
+MBR-00823,Sarah,Lee,1968-09-17,57,M,OH,PPO,Dr. Linda Jones,1.27
+MBR-00824,Sandra,Taylor,1973-04-03,52,F,OH,Medicare Advantage,Dr. James Johnson,1.31
+MBR-00825,Maria,Rodriguez,1970-08-26,55,M,NJ,EPO,Dr. Elizabeth Johnson,4.36
+MBR-00826,Patricia,Williams,1942-08-15,83,M,MI,Medicaid,Dr. Joseph Williams,4.1
+MBR-00827,Robert,Williams,1952-06-30,73,F,AZ,PPO,Dr. Jessica Brown,2.78
+MBR-00828,Dorothy,Martin,1940-04-29,85,M,IL,Medicare Advantage,Dr. Thomas Williams,1.45
+MBR-00829,Lisa,Martin,1989-06-25,36,F,WA,PPO,Dr. Charles Anderson,1.37
+MBR-00830,Susan,Rodriguez,1991-05-30,34,M,OH,Medicaid,Dr. Joseph Martin,0.72
+MBR-00831,Lisa,Jackson,1957-06-16,68,M,GA,PPO,Dr. Sarah Jones,1.95
+MBR-00832,Maria,Lee,1958-01-01,68,F,AZ,HMO,Dr. John Davis,1.51
+MBR-00833,James,Lopez,1955-02-03,70,F,CA,EPO,Dr. Joseph Davis,3.93
+MBR-00834,Charles,Wilson,1955-09-11,70,M,IL,HMO,Dr. Charles Davis,1.69
+MBR-00835,James,Hernandez,1984-02-17,41,F,OH,HMO,Dr. Sarah Williams,3.79
+MBR-00836,Michael,Anderson,1942-08-05,83,F,VA,Medicare Advantage,Dr. Thomas Brown,3.8
+MBR-00837,Nancy,Anderson,1971-03-13,54,M,VA,EPO,Dr. Michael Hernandez,2.31
+MBR-00838,James,Garcia,2001-02-19,24,M,GA,PPO,Dr. Maria Wilson,1.3
+MBR-00839,Emily,Williams,1965-11-21,60,F,TX,PPO,Dr. Dorothy Jones,3.89
+MBR-00840,Sandra,Taylor,1952-11-12,73,F,IL,PPO,Dr. Robert Martin,3.81
+MBR-00841,Jennifer,Anderson,1968-07-11,57,M,TX,Medicare Advantage,Dr. Thomas Wilson,4.28
+MBR-00842,Maria,Jackson,1976-02-17,49,M,MI,PPO,Dr. Charles Williams,4.4
+MBR-00843,John,Garcia,1979-12-19,46,F,OH,EPO,Dr. Margaret Lee,1.54
+MBR-00844,Elizabeth,Martin,1993-11-10,32,F,NY,EPO,Dr. Margaret Thomas,3.81
+MBR-00845,Jessica,Miller,1941-10-17,84,M,AZ,Medicaid,Dr. Karen Taylor,2.03
+MBR-00846,Donna,Miller,1949-08-29,76,M,VA,PPO,Dr. Margaret Garcia,2.13
+MBR-00847,Karen,Rodriguez,1986-09-13,39,M,MI,Medicare Advantage,Dr. Charles Davis,1.98
+MBR-00848,Maria,Taylor,1946-11-14,79,M,AZ,Medicaid,Dr. John Wilson,3.25
+MBR-00849,Michael,Lee,1955-09-10,70,F,CA,HMO,Dr. Kimberly Johnson,0.71
+MBR-00850,Charles,Lopez,1974-03-10,51,F,NJ,EPO,Dr. John Johnson,0.52
+MBR-00851,Karen,Wilson,1940-02-14,85,F,PA,PPO,Dr. Thomas Jackson,0.66
+MBR-00852,Elizabeth,Moore,1982-05-05,43,F,MA,Medicaid,Dr. Thomas Thomas,1.03
+MBR-00853,Barbara,Rodriguez,1964-11-18,61,F,PA,HMO,Dr. Barbara Taylor,3.99
+MBR-00854,Charles,Anderson,1969-08-24,56,F,MA,Medicaid,Dr. Donna Rodriguez,2.57
+MBR-00855,Lisa,Taylor,1949-11-04,76,M,NC,Medicare Advantage,Dr. Patricia Miller,1.09
+MBR-00856,Patricia,Taylor,1975-09-03,50,M,TX,Medicare Advantage,Dr. Margaret Brown,4.48
+MBR-00857,Sandra,Lopez,1941-01-24,84,M,NC,Medicare Advantage,Dr. Sandra Taylor,0.95
+MBR-00858,Nancy,Williams,1986-09-29,39,M,AZ,Medicaid,Dr. Elizabeth Garcia,3.5
+MBR-00859,Emily,Smith,1970-04-21,55,M,WA,EPO,Dr. Elizabeth Anderson,4.18
+MBR-00860,Robert,Brown,1973-07-30,52,F,NY,Medicaid,Dr. Robert Brown,2.08
+MBR-00861,Barbara,Smith,1991-11-30,34,F,GA,Medicare Advantage,Dr. Sandra Rodriguez,2.88
+MBR-00862,Patricia,Lee,2004-05-20,21,F,PA,EPO,Dr. Barbara Miller,3.95
+MBR-00863,William,Johnson,1968-12-10,57,F,NC,EPO,Dr. Betty Williams,2.1
+MBR-00864,David,Wilson,1982-11-28,43,M,NY,PPO,Dr. Elizabeth Wilson,3.62
+MBR-00865,Linda,Martinez,1968-05-09,57,M,WA,Medicare Advantage,Dr. Michael Martinez,4.11
+MBR-00866,Robert,Brown,1988-07-06,37,F,NC,PPO,Dr. Ashley Thomas,4.04
+MBR-00867,Emily,Lee,1944-06-19,81,F,CA,Medicare Advantage,Dr. William Lopez,2.96
+MBR-00868,Jennifer,Johnson,1949-05-03,76,F,PA,Medicare Advantage,Dr. Robert Davis,3.09
+MBR-00869,Dorothy,Moore,1985-11-30,40,F,IL,Medicare Advantage,Dr. Margaret Williams,4.13
+MBR-00870,Barbara,Jones,1943-02-06,82,F,MA,Medicaid,Dr. Richard Davis,2.59
+MBR-00871,Kimberly,Williams,1967-12-24,58,M,NC,HMO,Dr. Dorothy Anderson,2.15
+MBR-00872,Nancy,Rodriguez,1945-03-28,80,F,CA,EPO,Dr. Maria Brown,3.46
+MBR-00873,William,Garcia,1945-07-04,80,M,NY,HMO,Dr. Margaret Martinez,1.76
+MBR-00874,Donna,Rodriguez,1946-07-31,79,F,MA,PPO,Dr. Susan Garcia,0.81
+MBR-00875,Margaret,Jackson,1972-01-06,54,M,NY,Medicare Advantage,Dr. Linda Smith,1.19
+MBR-00876,John,Wilson,1943-02-20,82,F,VA,EPO,Dr. Michael Taylor,1.71
+MBR-00877,William,Martinez,1958-12-05,67,F,TX,PPO,Dr. Maria Miller,0.95
+MBR-00878,Joseph,Smith,2002-09-22,23,M,GA,PPO,Dr. James Davis,2.24
+MBR-00879,Karen,Thomas,1980-10-29,45,M,GA,Medicare Advantage,Dr. Maria Brown,1.16
+MBR-00880,Ashley,Taylor,1986-01-01,40,F,AZ,Medicare Advantage,Dr. Emily Davis,1.31
+MBR-00881,Lisa,Smith,1954-11-28,71,M,NJ,Medicare Advantage,Dr. Margaret Taylor,3.45
+MBR-00882,Ashley,Wilson,1967-05-13,58,M,NC,EPO,Dr. Michael Lee,4.24
+MBR-00883,John,Johnson,1942-04-27,83,M,NY,Medicare Advantage,Dr. Emily Hernandez,2.71
+MBR-00884,Thomas,Taylor,1970-11-17,55,F,GA,EPO,Dr. James Lopez,2.29
+MBR-00885,Elizabeth,Martinez,1949-10-14,76,M,GA,Medicaid,Dr. Sandra Davis,2.53
+MBR-00886,Barbara,Martinez,1961-01-18,64,F,OH,Medicare Advantage,Dr. Richard Lopez,3.68
+MBR-00887,Karen,Williams,1984-02-05,41,M,GA,PPO,Dr. Elizabeth Miller,1.13
+MBR-00888,William,Anderson,1942-05-15,83,M,IL,PPO,Dr. Susan Jackson,0.69
+MBR-00889,Thomas,Rodriguez,2002-07-09,23,F,NJ,PPO,Dr. Elizabeth Moore,0.63
+MBR-00890,Margaret,Brown,1996-02-27,29,F,FL,HMO,Dr. Kimberly Davis,2.45
+MBR-00891,David,Johnson,1961-04-07,64,F,IL,PPO,Dr. Joseph Moore,2.92
+MBR-00892,Charles,Thomas,1991-05-21,34,M,AZ,HMO,Dr. Linda Lee,2.94
+MBR-00893,Dorothy,Brown,1991-10-17,34,M,NJ,HMO,Dr. Joseph Miller,4.14
+MBR-00894,John,Thomas,1984-04-27,41,F,GA,HMO,Dr. Barbara Lopez,1.84
+MBR-00895,Joseph,Miller,1987-06-01,38,M,OH,HMO,Dr. Jessica Taylor,1.87
+MBR-00896,Jennifer,Rodriguez,1940-07-16,85,M,VA,Medicare Advantage,Dr. Nancy Davis,1.11
+MBR-00897,Barbara,Anderson,1951-06-23,74,M,MA,Medicare Advantage,Dr. Thomas Thomas,4.31
+MBR-00898,Sandra,Jones,1959-01-13,67,M,VA,EPO,Dr. Jennifer Williams,1.85
+MBR-00899,Margaret,Johnson,1953-07-02,72,M,WA,HMO,Dr. Robert Jones,4.11
+MBR-00900,Margaret,Wilson,1997-01-25,28,F,VA,EPO,Dr. Joseph Martinez,3.39
+MBR-00901,Maria,Rodriguez,1964-04-21,61,F,MI,PPO,Dr. John Wilson,2.28
+MBR-00902,John,Lopez,1978-02-15,47,F,OH,PPO,Dr. Thomas Martinez,0.84
+MBR-00903,Michael,Jones,1962-04-26,63,F,NC,Medicaid,Dr. Susan Williams,2.55
+MBR-00904,David,Garcia,1966-01-05,60,F,NY,EPO,Dr. Emily Rodriguez,1.47
+MBR-00905,Dorothy,Brown,1966-12-17,59,F,AZ,Medicaid,Dr. Sarah Moore,1.92
+MBR-00906,Sandra,Martinez,1998-03-21,27,M,VA,HMO,Dr. Sandra Hernandez,4.43
+MBR-00907,Karen,Martinez,1975-02-07,50,F,WA,EPO,Dr. Robert Jones,3.36
+MBR-00908,Lisa,Moore,1973-03-22,52,M,FL,Medicaid,Dr. Sandra Brown,1.09
+MBR-00909,Jennifer,Williams,1950-12-20,75,F,OH,PPO,Dr. Ashley Miller,2.28
+MBR-00910,Emily,Jackson,1957-04-28,68,F,WA,Medicare Advantage,Dr. Joseph Rodriguez,2.84
+MBR-00911,John,Taylor,1950-06-21,75,F,AZ,PPO,Dr. Barbara Moore,1.01
+MBR-00912,John,Moore,1946-04-26,79,M,CA,PPO,Dr. Sandra Taylor,0.63
+MBR-00913,Charles,Brown,1984-03-09,41,F,AZ,Medicare Advantage,Dr. Linda Brown,1.98
+MBR-00914,Dorothy,Jones,1967-11-17,58,M,PA,Medicaid,Dr. Nancy Martinez,1.68
+MBR-00915,Barbara,Martin,2001-06-06,24,M,NY,Medicaid,Dr. Thomas Martinez,1.36
+MBR-00916,Linda,Jackson,1942-07-28,83,M,CA,HMO,Dr. Margaret Taylor,2.79
+MBR-00917,William,Wilson,1947-05-23,78,F,AZ,EPO,Dr. Barbara Jones,2.52
+MBR-00918,Robert,Thomas,1946-11-06,79,F,AZ,Medicaid,Dr. Jennifer Lee,3.16
+MBR-00919,Jessica,Wilson,1952-07-30,73,F,NC,HMO,Dr. Robert Thomas,3.44
+MBR-00920,John,Smith,1993-03-23,32,M,NJ,Medicaid,Dr. Kimberly Brown,3.08
+MBR-00921,Donna,Jackson,1994-03-20,31,M,WA,HMO,Dr. Emily Moore,1.26
+MBR-00922,Linda,Jackson,1944-10-21,81,M,NY,Medicaid,Dr. William Miller,1.48
+MBR-00923,William,Jackson,1948-03-16,77,M,PA,Medicare Advantage,Dr. Emily Johnson,2.47
+MBR-00924,Margaret,Garcia,2002-06-09,23,F,NY,EPO,Dr. Lisa Wilson,1.53
+MBR-00925,Kimberly,Garcia,1990-08-17,35,M,TX,PPO,Dr. Sarah Williams,1.12
+MBR-00926,Patricia,Lee,1952-08-06,73,M,TX,HMO,Dr. John Johnson,1.69
+MBR-00927,Barbara,Anderson,1992-07-28,33,F,IL,Medicare Advantage,Dr. Richard Brown,0.71
+MBR-00928,Ashley,Moore,1974-05-01,51,M,OH,HMO,Dr. Sarah Johnson,1.77
+MBR-00929,Ashley,Smith,1952-06-25,73,M,NJ,PPO,Dr. Charles Smith,1.58
+MBR-00930,David,Jackson,1992-02-11,33,M,WA,PPO,Dr. Karen Martin,2.13
+MBR-00931,William,Jones,1994-07-02,31,M,NC,PPO,Dr. William Davis,2.65
+MBR-00932,Patricia,Smith,1950-05-28,75,F,AZ,EPO,Dr. Karen Garcia,0.5
+MBR-00933,Donna,Rodriguez,1943-02-08,82,F,OH,Medicaid,Dr. Richard Miller,2.84
+MBR-00934,Elizabeth,Jackson,1968-04-02,57,M,CA,Medicaid,Dr. Jennifer Wilson,3.29
+MBR-00935,Thomas,Anderson,1987-09-26,38,F,MI,EPO,Dr. William Hernandez,4.04
+MBR-00936,David,Thomas,1961-08-31,64,F,FL,Medicaid,Dr. Lisa Miller,2.34
+MBR-00937,Charles,Jones,1962-02-21,63,M,MA,HMO,Dr. Donna Taylor,0.52
+MBR-00938,Margaret,Jackson,2003-01-16,22,M,VA,Medicare Advantage,Dr. David Wilson,2.65
+MBR-00939,Thomas,Thomas,1995-01-30,30,M,CA,Medicaid,Dr. Richard Wilson,3.81
+MBR-00940,Elizabeth,Smith,1959-11-16,66,F,GA,Medicaid,Dr. Charles Miller,2.28
+MBR-00941,David,Rodriguez,1976-01-31,49,M,MA,Medicaid,Dr. Susan Williams,3.77
+MBR-00942,Jessica,Taylor,1966-07-15,59,M,NY,Medicaid,Dr. Ashley Lee,1.34
+MBR-00943,Linda,Rodriguez,1979-03-28,46,F,NC,Medicare Advantage,Dr. Elizabeth Jackson,1.28
+MBR-00944,Emily,Jones,1982-12-10,43,M,TX,Medicaid,Dr. Charles Martin,3.92
+MBR-00945,Joseph,Smith,1969-01-26,56,M,NJ,EPO,Dr. Donna Rodriguez,3.22
+MBR-00946,Margaret,Johnson,1946-08-09,79,M,OH,Medicare Advantage,Dr. Sarah Brown,3.22
+MBR-00947,Nancy,Moore,1945-12-30,80,F,MA,PPO,Dr. Patricia Rodriguez,4.17
+MBR-00948,Maria,Wilson,1947-10-14,78,F,PA,HMO,Dr. Thomas Martin,3.73
+MBR-00949,Jennifer,Davis,1976-10-05,49,F,TX,Medicaid,Dr. Karen Williams,3.0
+MBR-00950,Ashley,Anderson,1992-12-28,33,M,MI,Medicaid,Dr. Richard Rodriguez,1.49
+MBR-00951,Lisa,Johnson,1944-08-04,81,M,NC,PPO,Dr. Jennifer Lee,2.98
+MBR-00952,Emily,Brown,1992-11-27,33,F,NY,HMO,Dr. Betty Hernandez,4.06
+MBR-00953,Patricia,Thomas,1996-12-11,29,M,IL,EPO,Dr. James Anderson,0.76
+MBR-00954,Karen,Wilson,1997-06-17,28,M,CA,EPO,Dr. David Anderson,1.43
+MBR-00955,Betty,Thomas,2003-06-02,22,F,MA,EPO,Dr. Donna Brown,1.86
+MBR-00956,Dorothy,Hernandez,2001-03-13,24,F,FL,HMO,Dr. Linda Smith,2.88
+MBR-00957,Thomas,Martin,1996-11-05,29,M,NJ,EPO,Dr. Sarah Lopez,2.18
+MBR-00958,Jessica,Jones,1948-12-29,77,M,NY,PPO,Dr. Karen Martin,2.24
+MBR-00959,Emily,Jackson,1959-11-05,66,F,TX,Medicare Advantage,Dr. Karen Lee,1.87
+MBR-00960,Dorothy,Martin,1957-02-16,68,M,NJ,PPO,Dr. Patricia Davis,2.53
+MBR-00961,Nancy,Miller,1998-09-28,27,F,NJ,PPO,Dr. William Williams,1.87
+MBR-00962,Donna,Hernandez,1944-03-31,81,F,MI,Medicaid,Dr. Donna Martinez,2.17
+MBR-00963,Sandra,Johnson,1984-05-03,41,M,FL,HMO,Dr. James Davis,3.27
+MBR-00964,Jessica,Taylor,1945-08-05,80,M,WA,Medicare Advantage,Dr. Susan Wilson,1.24
+MBR-00965,Maria,Williams,2004-07-07,21,F,NY,EPO,Dr. Linda Jones,1.66
+MBR-00966,Patricia,Smith,1980-10-03,45,F,FL,Medicaid,Dr. Elizabeth Davis,4.04
+MBR-00967,Joseph,Jackson,1982-09-09,43,F,TX,PPO,Dr. Maria Garcia,3.87
+MBR-00968,Richard,Jones,1992-06-29,33,M,NJ,HMO,Dr. Lisa Miller,1.72
+MBR-00969,William,Lopez,1974-02-10,51,F,TX,EPO,Dr. William Lee,4.03
+MBR-00970,Barbara,Jones,1996-10-03,29,M,FL,EPO,Dr. Betty Lopez,1.77
+MBR-00971,Charles,Johnson,1950-03-11,75,M,MI,PPO,Dr. Joseph Jackson,1.68
+MBR-00972,Jessica,Johnson,1985-02-23,40,F,WA,Medicaid,Dr. Joseph Jones,3.91
+MBR-00973,Michael,Williams,1942-05-27,83,M,WA,EPO,Dr. Jennifer Garcia,2.53
+MBR-00974,Dorothy,Thomas,1957-10-19,68,F,PA,Medicaid,Dr. Dorothy Taylor,3.36
+MBR-00975,Sarah,Martin,1941-07-01,84,F,NJ,EPO,Dr. James Johnson,1.33
+MBR-00976,Joseph,Davis,1979-06-25,46,F,FL,Medicaid,Dr. Margaret Wilson,2.79
+MBR-00977,Kimberly,Williams,1957-11-11,68,F,WA,HMO,Dr. Karen Thomas,2.58
+MBR-00978,Sandra,Moore,1975-03-02,50,M,PA,Medicare Advantage,Dr. Sandra Thomas,2.23
+MBR-00979,Lisa,Rodriguez,1957-07-07,68,F,NY,PPO,Dr. Sandra Davis,1.56
+MBR-00980,Thomas,Williams,1995-08-12,30,F,AZ,EPO,Dr. Dorothy Jackson,3.07
+MBR-00981,Linda,Brown,1969-12-10,56,M,PA,HMO,Dr. Kimberly Miller,1.84
+MBR-00982,Karen,Rodriguez,1962-10-12,63,F,VA,EPO,Dr. Barbara Jackson,4.15
+MBR-00983,Karen,Lopez,2003-06-15,22,F,OH,EPO,Dr. David Smith,2.39
+MBR-00984,Jessica,Davis,1985-09-26,40,F,GA,PPO,Dr. Dorothy Martin,3.64
+MBR-00985,Lisa,Williams,1945-08-14,80,F,AZ,PPO,Dr. Margaret Anderson,1.34
+MBR-00986,Nancy,Jones,1947-04-01,78,M,AZ,PPO,Dr. Karen Smith,2.5
+MBR-00987,Jessica,Anderson,1959-06-15,66,F,NJ,Medicare Advantage,Dr. David Jackson,1.7
+MBR-00988,Charles,Jones,2002-10-21,23,M,PA,EPO,Dr. James Lee,4.16
+MBR-00989,Susan,Wilson,1954-12-18,71,F,NC,Medicare Advantage,Dr. Susan Taylor,0.93
+MBR-00990,Jennifer,Garcia,1947-11-29,78,F,NJ,EPO,Dr. Elizabeth Johnson,3.81
+MBR-00991,Elizabeth,Miller,1942-12-18,83,M,MA,Medicare Advantage,Dr. Karen Miller,1.43
+MBR-00992,Patricia,Lopez,1996-04-18,29,F,NY,PPO,Dr. Lisa Anderson,2.06
+MBR-00993,Kimberly,Anderson,1990-05-11,35,M,VA,HMO,Dr. Betty Miller,1.02
+MBR-00994,Margaret,Taylor,1978-10-24,47,F,MI,EPO,Dr. Karen Martin,1.31
+MBR-00995,Susan,Smith,1946-11-09,79,F,GA,HMO,Dr. Richard Wilson,2.92
+MBR-00996,Charles,Martin,1973-05-08,52,F,GA,Medicare Advantage,Dr. Emily Johnson,3.45
+MBR-00997,Nancy,Martinez,1968-06-29,57,F,MI,PPO,Dr. Margaret Davis,1.22
+MBR-00998,Betty,Garcia,1949-01-28,76,F,MI,HMO,Dr. Betty Johnson,1.46
+MBR-00999,Thomas,Jackson,1984-08-15,41,F,NJ,HMO,Dr. John Miller,4.13
+MBR-01000,Nancy,Williams,1952-11-27,73,M,NC,Medicaid,Dr. Margaret Thomas,1.16
+MBR-01001,Sandra,Smith,1978-12-07,47,M,NJ,Medicare Advantage,Dr. Betty Hernandez,3.48
+MBR-01002,Patricia,Smith,1980-09-06,45,F,CA,PPO,Dr. Lisa Thomas,2.44
+MBR-01003,Kimberly,Davis,1996-05-29,29,M,TX,Medicare Advantage,Dr. Richard Rodriguez,3.87
+MBR-01004,Donna,Brown,1983-10-14,42,M,IL,HMO,Dr. Kimberly Wilson,1.17
+MBR-01005,Barbara,Thomas,2003-07-08,22,F,TX,PPO,Dr. John Johnson,4.07
+MBR-01006,John,Johnson,1977-02-22,48,F,WA,EPO,Dr. James Brown,2.06
+MBR-01007,Patricia,Lee,1966-01-14,60,F,NY,Medicare Advantage,Dr. David Miller,4.22
+MBR-01008,Susan,Williams,1958-01-10,68,M,OH,HMO,Dr. Maria Hernandez,3.78
+MBR-01009,Thomas,Brown,1996-02-03,29,M,TX,PPO,Dr. Patricia Anderson,2.55
+MBR-01010,Kimberly,Miller,1963-03-04,62,F,FL,EPO,Dr. Betty Anderson,0.98
+MBR-01011,Nancy,Hernandez,1977-10-17,48,M,NY,Medicare Advantage,Dr. James Hernandez,0.55
+MBR-01012,Jessica,Williams,1977-02-11,48,F,AZ,Medicaid,Dr. James Lee,1.98
+MBR-01013,Margaret,Martinez,1996-03-08,29,M,GA,HMO,Dr. John Jackson,3.67
+MBR-01014,Linda,Lee,1983-07-30,42,F,NJ,Medicare Advantage,Dr. Robert Jones,1.83
+MBR-01015,Jennifer,Hernandez,1965-01-07,61,F,MI,EPO,Dr. Sandra Wilson,2.54
+MBR-01016,Jessica,Smith,1975-03-05,50,M,WA,HMO,Dr. Karen Davis,3.45
+MBR-01017,Patricia,Jones,1973-07-07,52,M,GA,Medicaid,Dr. Susan Jones,2.0
+MBR-01018,Charles,Lee,2000-05-25,25,M,VA,Medicaid,Dr. Barbara Rodriguez,1.77
+MBR-01019,James,Martinez,1999-12-27,26,F,FL,Medicaid,Dr. Lisa Davis,1.32
+MBR-01020,William,Davis,1998-03-03,27,M,AZ,Medicare Advantage,Dr. Dorothy Hernandez,1.23
+MBR-01021,Joseph,Taylor,2004-12-02,21,M,FL,HMO,Dr. James Jones,4.25
+MBR-01022,Elizabeth,Martin,1988-04-04,37,M,AZ,PPO,Dr. Jessica Moore,0.81
+MBR-01023,Elizabeth,Miller,1945-09-18,80,F,OH,PPO,Dr. Donna Davis,1.71
+MBR-01024,Sarah,Taylor,1947-12-12,78,M,PA,Medicare Advantage,Dr. Betty Garcia,2.38
+MBR-01025,David,Jones,1950-05-19,75,F,NY,Medicare Advantage,Dr. Margaret Williams,3.54
+MBR-01026,Kimberly,Garcia,1966-09-07,59,M,OH,Medicare Advantage,Dr. Karen Thomas,1.63
+MBR-01027,Lisa,Jones,1943-05-27,82,M,FL,PPO,Dr. Charles Miller,0.52
+MBR-01028,Ashley,Wilson,1940-06-24,85,F,OH,Medicaid,Dr. Betty Taylor,1.73
+MBR-01029,Thomas,Johnson,1995-11-07,30,F,OH,EPO,Dr. Elizabeth Miller,3.55
+MBR-01030,Dorothy,Taylor,1972-02-24,53,F,VA,Medicaid,Dr. John Johnson,3.1
+MBR-01031,Jessica,Taylor,1951-01-03,75,M,MA,Medicaid,Dr. James Smith,3.29
+MBR-01032,Donna,Thomas,1986-01-28,39,F,TX,Medicaid,Dr. Jessica Lee,2.81
+MBR-01033,Linda,Williams,1984-02-17,41,M,VA,Medicare Advantage,Dr. Betty Martin,4.4
+MBR-01034,Thomas,Anderson,1994-10-17,31,M,AZ,Medicare Advantage,Dr. Sarah Martinez,2.5
+MBR-01035,Michael,Anderson,1956-12-04,69,F,CA,EPO,Dr. David Lopez,3.76
+MBR-01036,Charles,Wilson,1970-01-23,55,M,IL,HMO,Dr. Elizabeth Taylor,0.51
+MBR-01037,Dorothy,Anderson,1996-02-08,29,F,IL,Medicare Advantage,Dr. Elizabeth Garcia,2.0
+MBR-01038,Ashley,Garcia,1987-04-29,38,M,CA,Medicare Advantage,Dr. Emily Miller,1.24
+MBR-01039,William,Miller,1997-08-29,28,M,MA,Medicare Advantage,Dr. Sandra Lee,0.94
+MBR-01040,Karen,Williams,1983-07-03,42,M,CA,Medicaid,Dr. Jennifer Hernandez,0.62
+MBR-01041,Ashley,Brown,1975-01-10,51,F,NY,Medicaid,Dr. David Smith,3.16
+MBR-01042,Susan,Moore,2000-01-05,26,M,OH,EPO,Dr. Dorothy Rodriguez,4.23
+MBR-01043,Donna,Anderson,1944-08-02,81,F,PA,Medicaid,Dr. Lisa Davis,4.26
+MBR-01044,Donna,Johnson,1953-07-21,72,F,AZ,Medicaid,Dr. William Brown,0.51
+MBR-01045,Maria,Lee,1953-11-18,72,M,AZ,EPO,Dr. Sarah Davis,1.97
+MBR-01046,Robert,Miller,1945-01-20,81,F,NJ,Medicaid,Dr. Maria Lopez,3.99
+MBR-01047,Jessica,Lee,1963-05-14,62,F,OH,EPO,Dr. William Williams,1.89
+MBR-01048,Michael,Wilson,1944-08-24,81,M,MI,PPO,Dr. John Jones,3.98
+MBR-01049,Barbara,Taylor,1940-12-09,85,M,IL,EPO,Dr. Joseph Thomas,1.17
+MBR-01050,Ashley,Jackson,1947-09-20,78,M,FL,PPO,Dr. Elizabeth Williams,0.92
+MBR-01051,Charles,Hernandez,2001-06-25,24,M,WA,Medicaid,Dr. Jessica Rodriguez,3.16
+MBR-01052,Charles,Jackson,1989-02-20,36,M,VA,Medicare Advantage,Dr. Jennifer Hernandez,3.99
+MBR-01053,Betty,Wilson,1996-02-09,29,F,NJ,EPO,Dr. Joseph Anderson,3.73
+MBR-01054,Linda,Martinez,1976-11-30,49,F,CA,HMO,Dr. Lisa Martin,4.25
+MBR-01055,Barbara,Hernandez,1990-06-30,35,F,MI,HMO,Dr. Karen Johnson,2.86
+MBR-01056,Margaret,Hernandez,1980-07-10,45,F,WA,PPO,Dr. Dorothy Lee,2.86
+MBR-01057,Maria,Jackson,1991-05-20,34,F,PA,PPO,Dr. Richard Martinez,3.85
+MBR-01058,Barbara,Lee,1941-08-30,84,F,TX,HMO,Dr. Donna Hernandez,1.74
+MBR-01059,Joseph,Martin,1989-05-11,36,F,NJ,PPO,Dr. Ashley Martinez,3.32
+MBR-01060,William,Hernandez,1956-11-01,69,M,AZ,PPO,Dr. Joseph Davis,3.3
+MBR-01061,Joseph,Taylor,1998-06-22,27,M,IL,PPO,Dr. Maria Jackson,2.07
+MBR-01062,Nancy,Wilson,1950-07-04,75,F,CA,EPO,Dr. Michael Martinez,1.63
+MBR-01063,Linda,Jones,1980-07-31,45,F,WA,EPO,Dr. Joseph Johnson,3.9
+MBR-01064,James,Garcia,1966-03-27,59,F,TX,Medicare Advantage,Dr. John Taylor,1.66
+MBR-01065,Susan,Miller,1986-02-12,39,M,NY,Medicaid,Dr. Michael Martin,0.91
+MBR-01066,Margaret,Garcia,1986-12-14,39,F,CA,Medicaid,Dr. Ashley Garcia,4.28
+MBR-01067,Emily,Anderson,1989-10-26,36,F,NJ,Medicare Advantage,Dr. Jessica Johnson,0.98
+MBR-01068,Karen,Lee,1954-10-23,71,F,NJ,Medicare Advantage,Dr. David Williams,3.61
+MBR-01069,James,Thomas,1956-07-14,69,F,NY,HMO,Dr. Linda Williams,0.99
+MBR-01070,Emily,Martin,1976-03-26,49,M,GA,Medicaid,Dr. John Brown,3.68
+MBR-01071,Ashley,Anderson,1981-08-13,44,F,MI,PPO,Dr. Linda Hernandez,0.75
+MBR-01072,Richard,Smith,1981-06-25,44,F,NC,EPO,Dr. William Moore,2.45
+MBR-01073,Robert,Brown,1989-10-10,36,M,AZ,EPO,Dr. John Garcia,0.52
+MBR-01074,Linda,Johnson,1947-11-17,78,F,MI,PPO,Dr. James Garcia,0.85
+MBR-01075,Jennifer,Brown,1972-04-30,53,M,IL,Medicaid,Dr. Kimberly Garcia,2.19
+MBR-01076,Karen,Johnson,2004-04-16,21,M,MA,Medicaid,Dr. Robert Jackson,2.28
+MBR-01077,Dorothy,Lopez,1942-03-18,83,F,NC,EPO,Dr. Susan Brown,3.15
+MBR-01078,Patricia,Miller,1999-10-28,26,M,IL,PPO,Dr. Barbara Lee,2.71
+MBR-01079,Barbara,Lee,1959-06-16,66,F,CA,EPO,Dr. Sarah Rodriguez,2.03
+MBR-01080,Sandra,Williams,1984-09-03,41,F,NJ,Medicare Advantage,Dr. John Jones,2.64
+MBR-01081,James,Miller,1995-07-03,30,F,MI,EPO,Dr. Donna Garcia,2.18
+MBR-01082,William,Anderson,1985-07-01,40,F,NY,EPO,Dr. Jessica Williams,1.58
+MBR-01083,Jennifer,Hernandez,1990-02-17,35,F,CA,Medicaid,Dr. Charles Hernandez,3.61
+MBR-01084,Sarah,Smith,1986-11-22,39,M,OH,PPO,Dr. Betty Brown,3.63
+MBR-01085,Dorothy,Martinez,1989-03-15,36,M,AZ,Medicare Advantage,Dr. Linda Moore,1.9
+MBR-01086,Donna,Brown,1968-12-22,57,F,TX,Medicaid,Dr. David Wilson,1.22
+MBR-01087,Emily,Jones,1953-09-09,72,F,NY,EPO,Dr. John Jones,3.13
+MBR-01088,Emily,Rodriguez,1986-12-15,39,F,MA,Medicaid,Dr. John Davis,3.21
+MBR-01089,Elizabeth,Thomas,1951-07-23,74,F,WA,Medicare Advantage,Dr. Dorothy Martinez,1.6
+MBR-01090,Karen,Williams,1950-08-17,75,M,OH,Medicaid,Dr. Joseph Williams,3.04
+MBR-01091,Jennifer,Garcia,1995-03-21,30,M,NY,HMO,Dr. Michael Martinez,2.72
+MBR-01092,Margaret,Moore,1941-11-14,84,M,GA,Medicare Advantage,Dr. Dorothy Jackson,3.29
+MBR-01093,Donna,Miller,1954-01-16,72,M,VA,Medicare Advantage,Dr. John Jackson,3.5
+MBR-01094,Donna,Thomas,1973-10-20,52,M,NJ,EPO,Dr. Thomas Davis,1.2
+MBR-01095,Dorothy,Lopez,1958-12-23,67,M,OH,Medicare Advantage,Dr. Betty Garcia,1.99
+MBR-01096,Charles,Davis,1990-04-09,35,F,AZ,HMO,Dr. Karen Martinez,2.43
+MBR-01097,Maria,Martin,1971-06-28,54,M,FL,Medicaid,Dr. Charles Moore,3.8
+MBR-01098,Thomas,Lee,2000-05-03,25,F,NY,Medicaid,Dr. Maria Lee,2.34
+MBR-01099,Linda,Smith,1966-07-21,59,F,MA,PPO,Dr. Betty Lopez,0.54
+MBR-01100,Susan,Williams,1949-04-25,76,F,NC,PPO,Dr. Margaret Brown,4.15
+MBR-01101,David,Rodriguez,2004-09-13,21,M,GA,Medicare Advantage,Dr. Nancy Martinez,1.96
+MBR-01102,Linda,Thomas,1981-02-10,44,F,AZ,Medicare Advantage,Dr. Elizabeth Jones,1.91
+MBR-01103,Nancy,Miller,1949-11-25,76,M,FL,Medicaid,Dr. Patricia Jones,2.08
+MBR-01104,Elizabeth,Miller,1962-05-17,63,M,NJ,Medicaid,Dr. Linda Anderson,2.46
+MBR-01105,Lisa,Wilson,1941-05-11,84,M,VA,Medicare Advantage,Dr. Barbara Brown,4.33
+MBR-01106,Barbara,Lopez,2002-04-26,23,M,NY,PPO,Dr. Patricia Hernandez,2.22
+MBR-01107,Ashley,Martinez,2003-08-16,22,F,GA,HMO,Dr. David Anderson,1.49
+MBR-01108,Jessica,Rodriguez,1985-11-14,40,M,AZ,Medicaid,Dr. John Davis,3.17
+MBR-01109,Ashley,Brown,1950-01-27,75,M,VA,EPO,Dr. Donna Garcia,1.25
+MBR-01110,Linda,Jones,1985-06-20,40,M,NY,Medicaid,Dr. Susan Jones,2.21
+MBR-01111,Joseph,Johnson,1979-07-03,46,M,OH,EPO,Dr. Karen Davis,1.39
+MBR-01112,Patricia,Moore,1950-06-16,75,F,NJ,HMO,Dr. Karen Brown,1.58
+MBR-01113,John,Anderson,1969-09-11,56,F,PA,HMO,Dr. Elizabeth Johnson,0.5
+MBR-01114,Karen,Taylor,1963-08-27,62,M,MA,EPO,Dr. Linda Anderson,1.24
+MBR-01115,Lisa,Martinez,1942-11-26,83,F,CA,HMO,Dr. Robert Jackson,3.58
+MBR-01116,Nancy,Lopez,1988-03-15,37,F,NC,EPO,Dr. Nancy Davis,3.1
+MBR-01117,Jennifer,Brown,1978-11-08,47,F,NJ,EPO,Dr. Linda Johnson,2.85
+MBR-01118,John,Thomas,1980-11-23,45,M,CA,EPO,Dr. Donna Hernandez,1.71
+MBR-01119,Kimberly,Jones,1944-12-30,81,M,TX,PPO,Dr. Margaret Jackson,3.35
+MBR-01120,Sandra,Brown,1960-06-08,65,F,CA,Medicare Advantage,Dr. Margaret Moore,4.23
+MBR-01121,Elizabeth,Lee,1940-09-04,85,M,VA,PPO,Dr. Karen Johnson,4.32
+MBR-01122,Michael,Wilson,1997-04-30,28,M,NJ,EPO,Dr. Joseph Moore,4.39
+MBR-01123,David,Moore,1983-06-30,42,F,NC,Medicare Advantage,Dr. Betty Lee,1.59
+MBR-01124,Elizabeth,Martin,1981-09-23,44,M,MI,HMO,Dr. Thomas Moore,2.32
+MBR-01125,Joseph,Davis,1971-08-17,54,F,VA,Medicaid,Dr. Kimberly Brown,1.18
+MBR-01126,Karen,Johnson,1999-02-15,26,M,TX,Medicaid,Dr. Charles Jones,1.58
+MBR-01127,Richard,Miller,1998-04-10,27,M,CA,HMO,Dr. James Lopez,3.03
+MBR-01128,Jennifer,Jackson,1957-09-05,68,F,VA,PPO,Dr. Margaret Lee,1.68
+MBR-01129,Richard,Lopez,1997-09-18,28,M,VA,Medicaid,Dr. Elizabeth Rodriguez,4.39
+MBR-01130,James,Rodriguez,1991-02-24,34,F,NJ,EPO,Dr. Kimberly Miller,3.77
+MBR-01131,Sarah,Miller,1976-03-22,49,F,NJ,Medicare Advantage,Dr. Barbara Thomas,1.43
+MBR-01132,Barbara,Taylor,1949-12-04,76,F,GA,PPO,Dr. Sandra Garcia,3.76
+MBR-01133,Emily,Taylor,1982-10-12,43,M,NJ,Medicaid,Dr. Maria Martinez,1.15
+MBR-01134,Robert,Lee,1982-10-08,43,F,CA,PPO,Dr. Jennifer Anderson,1.48
+MBR-01135,Michael,Moore,1953-11-10,72,M,VA,HMO,Dr. Donna Brown,2.01
+MBR-01136,Richard,Smith,2002-02-12,23,M,MA,HMO,Dr. Barbara Davis,3.58
+MBR-01137,James,Lee,1971-01-09,55,M,WA,HMO,Dr. William Brown,2.67
+MBR-01138,Susan,Jones,1961-05-17,64,M,WA,EPO,Dr. Thomas Thomas,3.76
+MBR-01139,Ashley,Jones,1965-09-14,60,F,NY,EPO,Dr. John Rodriguez,3.01
+MBR-01140,Richard,Johnson,1989-11-19,36,M,NC,Medicaid,Dr. Linda Moore,4.05
+MBR-01141,Maria,Davis,1952-01-08,74,M,FL,Medicare Advantage,Dr. Betty Jones,1.91
+MBR-01142,Charles,Wilson,1968-01-30,57,M,MA,HMO,Dr. Ashley Garcia,4.46
+MBR-01143,Karen,Lopez,1976-12-05,49,M,MI,Medicaid,Dr. Linda Lopez,4.19
+MBR-01144,Donna,Jones,1994-10-10,31,M,OH,EPO,Dr. Lisa Lee,1.23
+MBR-01145,Thomas,Martinez,1950-03-07,75,M,AZ,Medicaid,Dr. Nancy Brown,1.58
+MBR-01146,Charles,Rodriguez,1941-01-23,84,F,WA,HMO,Dr. William Smith,3.95
+MBR-01147,Lisa,Jones,1985-06-26,40,M,GA,Medicare Advantage,Dr. Richard Williams,0.95
+MBR-01148,Barbara,Williams,1950-08-08,75,F,TX,PPO,Dr. David Wilson,1.91
+MBR-01149,Ashley,Anderson,1941-03-20,84,F,WA,Medicaid,Dr. Barbara Davis,2.03
+MBR-01150,Kimberly,Jackson,1941-09-27,84,F,OH,HMO,Dr. Emily Anderson,2.61
+MBR-01151,Jessica,Lopez,1977-01-12,49,M,FL,HMO,Dr. Nancy Jackson,2.4
+MBR-01152,Patricia,Lopez,1987-07-11,38,M,AZ,PPO,Dr. Karen Thomas,1.08
+MBR-01153,Susan,Davis,1951-12-23,74,M,VA,PPO,Dr. Linda Jones,2.01
+MBR-01154,Nancy,Johnson,2001-01-13,24,F,CA,EPO,Dr. Jennifer Taylor,3.85
+MBR-01155,Barbara,Lopez,1984-10-31,41,M,CA,PPO,Dr. Jennifer Smith,2.78
+MBR-01156,David,Garcia,1951-05-25,74,M,VA,PPO,Dr. Michael Moore,3.29
+MBR-01157,Margaret,Hernandez,1966-06-03,59,F,WA,HMO,Dr. Karen Brown,1.12
+MBR-01158,Dorothy,Garcia,2001-01-02,25,M,OH,Medicare Advantage,Dr. Robert Thomas,2.72
+MBR-01159,John,Davis,1971-06-13,54,F,MA,PPO,Dr. Sarah Williams,2.59
+MBR-01160,Betty,Lee,1988-12-13,37,M,FL,Medicare Advantage,Dr. Elizabeth Jackson,2.92
+MBR-01161,Ashley,Hernandez,1995-02-09,30,F,NJ,Medicare Advantage,Dr. Richard Wilson,1.16
+MBR-01162,Susan,Rodriguez,1957-11-24,68,F,CA,HMO,Dr. Nancy Lee,3.62
+MBR-01163,Jessica,Martinez,1962-10-26,63,M,NC,HMO,Dr. Jennifer Miller,2.89
+MBR-01164,Kimberly,Miller,1965-02-24,60,M,MA,HMO,Dr. Jessica Rodriguez,0.84
+MBR-01165,Patricia,Johnson,1999-07-31,26,F,CA,Medicaid,Dr. Maria Lopez,3.51
+MBR-01166,Lisa,Wilson,1954-07-21,71,M,TX,HMO,Dr. Lisa Anderson,4.09
+MBR-01167,Dorothy,Jones,1941-01-10,85,M,MI,Medicare Advantage,Dr. Ashley Martin,3.98
+MBR-01168,Elizabeth,Jones,2000-01-24,25,F,GA,HMO,Dr. Thomas Williams,4.31
+MBR-01169,William,Jones,1975-10-24,50,M,NC,EPO,Dr. Michael Lee,3.11
+MBR-01170,William,Jones,1961-07-28,64,F,IL,Medicaid,Dr. Donna Anderson,0.66
+MBR-01171,Susan,Lee,1955-03-15,70,M,CA,PPO,Dr. Emily Taylor,0.89
+MBR-01172,David,Martinez,2003-04-02,22,M,AZ,HMO,Dr. Ashley Brown,2.32
+MBR-01173,Elizabeth,Williams,1983-08-22,42,F,MI,Medicaid,Dr. Nancy Williams,0.78
+MBR-01174,Ashley,Rodriguez,1946-06-09,79,F,NJ,PPO,Dr. Linda Martin,2.45
+MBR-01175,Betty,Anderson,1958-03-07,67,F,MA,PPO,Dr. Sandra Lopez,2.55
+MBR-01176,Jennifer,Anderson,1964-05-02,61,F,GA,Medicaid,Dr. Thomas Johnson,2.98
+MBR-01177,John,Jackson,1998-01-04,28,M,TX,HMO,Dr. Karen Wilson,1.13
+MBR-01178,Jessica,Wilson,1953-05-28,72,M,NJ,HMO,Dr. Nancy Thomas,2.37
+MBR-01179,Jennifer,Garcia,1945-11-27,80,M,MA,Medicare Advantage,Dr. David Anderson,1.3
+MBR-01180,Lisa,Hernandez,1962-03-14,63,M,GA,PPO,Dr. John Taylor,0.96
+MBR-01181,Kimberly,Jones,1946-05-26,79,M,TX,PPO,Dr. Lisa Martin,0.63
+MBR-01182,Charles,Lopez,1956-06-12,69,M,GA,PPO,Dr. Patricia Miller,3.97
+MBR-01183,Sarah,Garcia,1950-12-09,75,F,TX,HMO,Dr. Sarah Wilson,0.83
+MBR-01184,Dorothy,Miller,1947-02-13,78,F,MA,Medicaid,Dr. Elizabeth Johnson,0.87
+MBR-01185,David,Martinez,1950-10-28,75,F,FL,Medicaid,Dr. Margaret Taylor,2.4
+MBR-01186,Nancy,Martin,1984-06-26,41,F,AZ,HMO,Dr. Kimberly Lee,1.29
+MBR-01187,Robert,Hernandez,1987-01-04,39,F,TX,Medicare Advantage,Dr. Charles Jones,2.5
+MBR-01188,William,Anderson,1964-09-04,61,M,NC,HMO,Dr. Sandra Jones,3.04
+MBR-01189,Susan,Miller,1992-06-08,33,M,VA,EPO,Dr. David Garcia,2.9
+MBR-01190,Susan,Miller,1977-01-31,48,F,MI,HMO,Dr. Nancy Lopez,0.56
+MBR-01191,John,Taylor,1965-02-18,60,M,GA,Medicare Advantage,Dr. Margaret Lopez,1.91
+MBR-01192,Linda,Garcia,1950-05-31,75,F,OH,Medicaid,Dr. Elizabeth Jackson,2.88
+MBR-01193,Karen,Anderson,1949-03-02,76,F,IL,EPO,Dr. Charles Brown,4.48
+MBR-01194,James,Smith,1991-03-01,34,M,MA,Medicare Advantage,Dr. Linda Taylor,3.5
+MBR-01195,Dorothy,Martin,1992-12-24,33,F,NJ,Medicaid,Dr. Joseph Anderson,1.35
+MBR-01196,Linda,Miller,1946-05-26,79,F,CA,Medicaid,Dr. William Thomas,2.15
+MBR-01197,Nancy,Davis,1954-05-05,71,M,IL,Medicaid,Dr. Thomas Rodriguez,1.73
+MBR-01198,Maria,Anderson,1952-01-04,74,M,NY,HMO,Dr. Barbara Lopez,3.86
+MBR-01199,Elizabeth,Martin,1964-06-10,61,F,FL,EPO,Dr. Betty Miller,2.97
+MBR-01200,William,Martin,1954-06-14,71,M,TX,Medicare Advantage,Dr. Michael Garcia,2.11
+MBR-01201,Margaret,Davis,1964-11-27,61,M,VA,PPO,Dr. Dorothy Brown,3.03
+MBR-01202,Richard,Jackson,1954-10-30,71,F,PA,PPO,Dr. Jennifer Williams,0.6
+MBR-01203,Maria,Lee,2003-01-10,22,M,NC,HMO,Dr. Emily Wilson,0.6
+MBR-01204,James,Lopez,1988-10-07,37,F,FL,PPO,Dr. Karen Miller,2.64
+MBR-01205,David,Rodriguez,1973-02-11,52,F,NY,Medicaid,Dr. Jennifer Jones,3.01
+MBR-01206,Sandra,Lee,1991-11-09,34,M,CA,PPO,Dr. Karen Rodriguez,4.08
+MBR-01207,Ashley,Lopez,1993-09-25,32,M,OH,HMO,Dr. Ashley Smith,2.15
+MBR-01208,Susan,Anderson,1942-07-14,83,M,MA,Medicaid,Dr. James Thomas,3.73
+MBR-01209,Maria,Garcia,1981-02-09,44,F,MI,EPO,Dr. Joseph Johnson,0.97
+MBR-01210,Ashley,Lee,1961-03-16,64,F,NC,HMO,Dr. Elizabeth Moore,3.47
+MBR-01211,Donna,Smith,1989-04-11,36,M,NY,EPO,Dr. Dorothy Jones,1.37
+MBR-01212,Thomas,Miller,1959-01-03,67,M,PA,PPO,Dr. Jessica Williams,3.41
+MBR-01213,Sarah,Taylor,1988-09-30,37,F,CA,Medicaid,Dr. John Jackson,3.11
+MBR-01214,Margaret,Moore,1945-07-01,80,F,MA,PPO,Dr. Sarah Garcia,1.29
+MBR-01215,Linda,Martin,1969-03-21,56,F,IL,PPO,Dr. William Miller,4.32
+MBR-01216,Thomas,Thomas,1942-06-20,83,F,MI,Medicaid,Dr. Richard Hernandez,2.99
+MBR-01217,Susan,Martin,1955-07-23,70,F,PA,HMO,Dr. Sandra Garcia,4.06
+MBR-01218,Karen,Lee,1972-02-19,53,F,NC,Medicaid,Dr. Betty Smith,0.96
+MBR-01219,William,Garcia,1963-07-18,62,F,FL,HMO,Dr. Susan Lopez,1.99
+MBR-01220,Maria,Hernandez,1964-01-30,61,M,NY,Medicaid,Dr. Susan Thomas,2.77
+MBR-01221,Kimberly,Williams,1963-07-04,62,M,IL,EPO,Dr. Susan Moore,1.37
+MBR-01222,Emily,Anderson,1969-01-31,56,M,WA,Medicare Advantage,Dr. Lisa Hernandez,1.29
+MBR-01223,Ashley,Johnson,1998-08-21,27,F,OH,HMO,Dr. Linda Thomas,1.18
+MBR-01224,Jessica,Martin,1964-01-07,62,F,IL,HMO,Dr. James Martin,4.45
+MBR-01225,Barbara,Wilson,1946-01-03,80,F,MA,EPO,Dr. Charles Moore,0.66
+MBR-01226,Ashley,Brown,2002-06-09,23,M,VA,Medicaid,Dr. Sarah Hernandez,3.51
+MBR-01227,Kimberly,Hernandez,1953-05-12,72,M,MI,HMO,Dr. Betty Martinez,3.29
+MBR-01228,Joseph,Brown,1946-07-14,79,F,MI,HMO,Dr. Maria Davis,0.69
+MBR-01229,Linda,Hernandez,2003-01-20,22,M,VA,Medicare Advantage,Dr. Jessica Garcia,0.85
+MBR-01230,Charles,Johnson,1957-09-08,68,M,MA,HMO,Dr. Linda Johnson,4.29
+MBR-01231,Lisa,Lee,1995-06-29,30,F,IL,PPO,Dr. Charles Jones,2.83
+MBR-01232,Lisa,Jones,1989-03-17,36,M,MA,Medicare Advantage,Dr. James Thomas,3.17
+MBR-01233,Robert,Taylor,1974-08-24,51,F,PA,Medicare Advantage,Dr. Jessica Williams,1.56
+MBR-01234,Nancy,Jackson,1967-09-14,58,M,NJ,PPO,Dr. John Williams,0.8
+MBR-01235,Susan,Smith,1941-02-13,84,M,FL,Medicare Advantage,Dr. Richard Wilson,1.25
+MBR-01236,Susan,Martin,1991-04-15,34,F,NC,Medicaid,Dr. David Martinez,3.33
+MBR-01237,Charles,Jones,1985-09-21,40,M,MA,Medicaid,Dr. Betty Thomas,3.97
+MBR-01238,Susan,Williams,1979-08-24,46,F,OH,PPO,Dr. Robert Martinez,4.31
+MBR-01239,Sandra,Brown,1991-11-15,34,M,FL,HMO,Dr. Thomas Thomas,1.25
+MBR-01240,Robert,Moore,2001-05-21,24,F,PA,Medicaid,Dr. Linda Jackson,0.84
+MBR-01241,Barbara,Wilson,1949-05-08,76,M,OH,EPO,Dr. Lisa Johnson,2.27
+MBR-01242,Patricia,Wilson,1957-06-16,68,M,FL,Medicaid,Dr. Susan Wilson,1.21
+MBR-01243,Dorothy,Anderson,1969-11-21,56,F,NJ,HMO,Dr. James Davis,4.34
+MBR-01244,Patricia,Johnson,1976-03-25,49,M,IL,PPO,Dr. Jennifer Jackson,0.9
+MBR-01245,Betty,Wilson,1976-11-23,49,F,FL,Medicaid,Dr. Ashley Miller,1.18
+MBR-01246,James,Martinez,1978-01-17,47,F,MI,Medicaid,Dr. Michael Smith,0.88
+MBR-01247,Michael,Martinez,1940-02-05,85,F,FL,PPO,Dr. Lisa Williams,1.17
+MBR-01248,Barbara,Smith,1962-02-10,63,F,GA,Medicare Advantage,Dr. Lisa Smith,1.21
+MBR-01249,Elizabeth,Smith,1971-03-17,54,M,PA,Medicare Advantage,Dr. Emily Smith,2.45
+MBR-01250,Linda,Johnson,1974-01-06,52,F,MI,Medicaid,Dr. Richard Davis,2.6
+MBR-01251,David,Brown,1983-11-22,42,M,IL,Medicaid,Dr. Sandra Taylor,3.44
+MBR-01252,Sarah,Lopez,1972-05-25,53,F,NY,Medicaid,Dr. Karen Hernandez,4.07
+MBR-01253,Sarah,Moore,1943-03-01,82,M,NY,PPO,Dr. Margaret Davis,3.14
+MBR-01254,Ashley,Smith,1986-09-08,39,F,MI,Medicare Advantage,Dr. Nancy Miller,3.48
+MBR-01255,James,Brown,1980-08-25,45,F,MA,EPO,Dr. Thomas Thomas,4.45
+MBR-01256,Charles,Lopez,1982-07-27,43,F,OH,EPO,Dr. Margaret Rodriguez,1.74
+MBR-01257,Richard,Lee,1999-11-07,26,F,OH,Medicare Advantage,Dr. Emily Lopez,1.65
+MBR-01258,Charles,Jones,2003-05-14,22,F,NJ,PPO,Dr. Dorothy Martinez,3.0
+MBR-01259,Ashley,Martinez,1984-12-09,41,F,WA,Medicaid,Dr. Maria Thomas,0.66
+MBR-01260,Patricia,Taylor,1968-08-12,57,M,NY,Medicare Advantage,Dr. Nancy Smith,0.7
+MBR-01261,Thomas,Martinez,1987-04-29,38,F,NJ,EPO,Dr. Barbara Williams,3.35
+MBR-01262,Margaret,Martin,1986-12-01,39,M,IL,PPO,Dr. Patricia Taylor,4.23
+MBR-01263,Margaret,Wilson,1973-11-25,52,F,MA,Medicaid,Dr. Charles Martinez,2.89
+MBR-01264,Robert,Hernandez,1982-03-22,43,F,TX,PPO,Dr. Sarah Jones,2.17
+MBR-01265,Karen,Williams,1979-08-14,46,F,MI,Medicare Advantage,Dr. Kimberly Garcia,2.0
+MBR-01266,Barbara,Moore,1949-06-08,76,M,VA,Medicaid,Dr. Dorothy Lopez,2.37
+MBR-01267,Margaret,Anderson,1950-05-29,75,F,NY,EPO,Dr. Maria Anderson,0.85
+MBR-01268,William,Davis,1987-03-20,38,F,NC,Medicaid,Dr. Barbara Lee,2.67
+MBR-01269,David,Wilson,1967-11-13,58,M,OH,HMO,Dr. Sandra Moore,2.34
+MBR-01270,Patricia,Rodriguez,1998-02-10,27,M,CA,Medicaid,Dr. Donna Brown,3.79
+MBR-01271,Joseph,Johnson,1943-11-21,82,F,VA,EPO,Dr. Robert Moore,3.46
+MBR-01272,Dorothy,Jones,1998-03-27,27,M,VA,Medicare Advantage,Dr. Barbara Davis,4.08
+MBR-01273,James,Martinez,1986-01-08,40,F,WA,Medicare Advantage,Dr. Donna Miller,0.96
+MBR-01274,Donna,Brown,2004-04-15,21,M,CA,PPO,Dr. Susan Brown,2.39
+MBR-01275,Betty,Johnson,1940-11-21,85,F,IL,Medicare Advantage,Dr. Ashley Garcia,3.78
+MBR-01276,Joseph,Lee,1971-11-13,54,F,OH,PPO,Dr. James Smith,1.24
+MBR-01277,Dorothy,Jackson,1974-10-04,51,M,GA,Medicare Advantage,Dr. Karen Martinez,3.17
+MBR-01278,Robert,Rodriguez,1941-07-06,84,F,OH,HMO,Dr. Sandra Anderson,3.75
+MBR-01279,Karen,Thomas,1986-11-11,39,M,MI,Medicare Advantage,Dr. Maria Martin,1.71
+MBR-01280,Charles,Lopez,1948-11-10,77,M,GA,Medicare Advantage,Dr. Sarah Smith,4.43
+MBR-01281,Nancy,Moore,1959-07-03,66,M,NC,HMO,Dr. Elizabeth Jones,1.91
+MBR-01282,John,Jones,1961-08-28,64,F,WA,Medicaid,Dr. Charles Wilson,0.77
+MBR-01283,Ashley,Lee,1943-02-19,82,F,TX,EPO,Dr. John Moore,3.6
+MBR-01284,John,Hernandez,1971-03-20,54,M,MI,Medicaid,Dr. Emily Lee,3.82
+MBR-01285,Maria,Garcia,1996-09-12,29,M,CA,HMO,Dr. Ashley Taylor,1.79
+MBR-01286,Linda,Garcia,1975-07-02,50,M,WA,Medicare Advantage,Dr. Charles Williams,0.75
+MBR-01287,Patricia,Williams,1972-06-02,53,M,WA,Medicaid,Dr. Donna Smith,4.19
+MBR-01288,John,Thomas,1963-07-08,62,M,TX,EPO,Dr. Kimberly Miller,1.28
+MBR-01289,Robert,Martinez,1942-09-29,83,F,FL,PPO,Dr. Margaret Moore,3.73
+MBR-01290,Emily,Smith,1980-02-25,45,M,NJ,HMO,Dr. Susan Johnson,3.74
+MBR-01291,David,Anderson,2004-03-22,21,F,NC,HMO,Dr. Lisa Garcia,3.23
+MBR-01292,Richard,Miller,1941-04-05,84,M,AZ,Medicare Advantage,Dr. Dorothy Lopez,1.93
+MBR-01293,Sandra,Anderson,1987-02-25,38,M,OH,HMO,Dr. Emily Williams,1.01
+MBR-01294,Linda,Taylor,1966-09-20,59,M,NY,EPO,Dr. Kimberly Hernandez,0.59
+MBR-01295,Betty,Lopez,1967-12-13,58,F,AZ,PPO,Dr. Karen Williams,2.64
+MBR-01296,Betty,Lee,1974-12-16,51,F,NC,HMO,Dr. Emily Taylor,4.25
+MBR-01297,Patricia,Hernandez,1971-06-14,54,M,IL,PPO,Dr. Lisa Johnson,1.06
+MBR-01298,Jessica,Taylor,1962-12-11,63,M,WA,EPO,Dr. Thomas Lee,3.31
+MBR-01299,Jennifer,Anderson,2000-03-07,25,F,VA,EPO,Dr. Charles Williams,4.05
+MBR-01300,Sarah,Johnson,1943-11-30,82,M,NY,Medicare Advantage,Dr. Dorothy Davis,3.1
+MBR-01301,Karen,Davis,1950-01-10,76,F,MA,HMO,Dr. Maria Miller,2.64
+MBR-01302,Kimberly,Taylor,1956-12-23,69,M,OH,Medicare Advantage,Dr. John Jones,2.22
+MBR-01303,Linda,Thomas,1950-11-21,75,M,MA,EPO,Dr. Thomas Lopez,1.91
+MBR-01304,Charles,Johnson,1961-09-18,64,F,FL,HMO,Dr. Emily Smith,1.41
+MBR-01305,Joseph,Davis,1999-12-10,26,M,CA,HMO,Dr. Barbara Thomas,1.22
+MBR-01306,Nancy,Lee,1999-02-07,26,F,MA,PPO,Dr. Karen Jones,2.92
+MBR-01307,Robert,Williams,1943-12-14,82,M,IL,EPO,Dr. Susan Taylor,3.32
+MBR-01308,Sandra,Martinez,1959-07-15,66,M,WA,EPO,Dr. Karen Davis,2.61
+MBR-01309,John,Jackson,1970-05-03,55,F,CA,HMO,Dr. Nancy Anderson,3.32
+MBR-01310,Jennifer,Miller,1942-11-13,83,F,AZ,EPO,Dr. Jessica Martinez,3.47
+MBR-01311,Nancy,Jones,1978-12-26,47,M,FL,Medicare Advantage,Dr. James Thomas,4.31
+MBR-01312,Richard,Johnson,2002-08-22,23,F,IL,EPO,Dr. Betty Martinez,3.81
+MBR-01313,Sarah,Lee,1994-06-27,31,M,GA,HMO,Dr. Joseph Wilson,2.04
+MBR-01314,Susan,Wilson,1999-10-06,26,M,NJ,Medicare Advantage,Dr. Kimberly Johnson,3.14
+MBR-01315,Charles,Smith,2000-03-02,25,F,WA,Medicaid,Dr. Charles Rodriguez,3.74
+MBR-01316,Lisa,Lee,1977-06-05,48,M,AZ,Medicare Advantage,Dr. William Johnson,3.73
+MBR-01317,Joseph,Jackson,1955-05-27,70,F,OH,EPO,Dr. Michael Martin,3.58
+MBR-01318,Betty,Thomas,1971-09-16,54,M,TX,HMO,Dr. Sarah Rodriguez,0.84
+MBR-01319,Lisa,Martin,1973-06-26,52,F,NY,EPO,Dr. Sarah Lopez,1.57
+MBR-01320,Linda,Martinez,1972-03-29,53,M,NJ,Medicaid,Dr. Richard Rodriguez,3.89
+MBR-01321,Maria,Thomas,1949-01-16,77,F,GA,HMO,Dr. Nancy Taylor,3.05
+MBR-01322,Patricia,Martin,1977-12-04,48,F,IL,EPO,Dr. Kimberly Hernandez,4.31
+MBR-01323,Sarah,Rodriguez,1948-09-10,77,M,AZ,Medicare Advantage,Dr. Barbara Davis,3.02
+MBR-01324,Jessica,Brown,1986-02-10,39,M,NY,PPO,Dr. Robert Moore,3.94
+MBR-01325,Kimberly,Davis,1964-12-16,61,M,VA,Medicaid,Dr. Sarah Smith,3.21
+MBR-01326,Donna,Davis,1959-07-23,66,M,CA,HMO,Dr. Dorothy Thomas,0.95
+MBR-01327,Susan,Hernandez,1995-03-23,30,M,PA,Medicare Advantage,Dr. Jennifer Anderson,4.0
+MBR-01328,Lisa,Lee,1986-07-11,39,M,PA,Medicare Advantage,Dr. Thomas Lopez,2.38
+MBR-01329,Elizabeth,Lopez,1967-12-25,58,M,IL,PPO,Dr. Charles Martin,0.6
+MBR-01330,Dorothy,Moore,1977-03-22,48,F,VA,Medicaid,Dr. Susan Wilson,3.82
+MBR-01331,Betty,Williams,2000-11-29,25,M,MA,PPO,Dr. Emily Moore,4.49
+MBR-01332,Joseph,Moore,1951-12-25,74,M,MI,Medicare Advantage,Dr. Robert Moore,2.58
+MBR-01333,Susan,Martin,1964-08-19,61,F,MA,PPO,Dr. Lisa Davis,3.7
+MBR-01334,Sandra,Hernandez,1958-11-20,67,M,VA,PPO,Dr. Sandra Anderson,1.95
+MBR-01335,Charles,Lopez,1959-02-18,66,M,GA,EPO,Dr. Jessica Thomas,3.65
+MBR-01336,Charles,Jackson,1975-09-11,50,M,WA,Medicare Advantage,Dr. Robert Martin,3.16
+MBR-01337,Lisa,Hernandez,1971-11-16,54,F,CA,Medicare Advantage,Dr. Margaret Moore,4.43
+MBR-01338,Thomas,Garcia,1941-06-04,84,M,NY,PPO,Dr. Linda Anderson,1.55
+MBR-01339,Barbara,Johnson,1944-06-15,81,M,NY,PPO,Dr. Jennifer Jones,2.56
+MBR-01340,Nancy,Jones,1955-06-28,70,F,VA,EPO,Dr. Jessica Martinez,0.98
+MBR-01341,Michael,Johnson,1961-12-11,64,M,VA,Medicaid,Dr. Sandra Anderson,3.02
+MBR-01342,David,Taylor,1949-01-27,76,F,TX,PPO,Dr. Michael Martin,4.17
+MBR-01343,Thomas,Smith,1994-03-12,31,M,MI,Medicaid,Dr. Robert Thomas,2.02
+MBR-01344,Dorothy,Martin,1948-08-30,77,M,WA,HMO,Dr. Jessica Martinez,2.47
+MBR-01345,Karen,Hernandez,1998-06-26,27,F,PA,PPO,Dr. Barbara Johnson,3.76
+MBR-01346,Dorothy,Rodriguez,1978-03-25,47,F,MA,EPO,Dr. Lisa Brown,1.89
+MBR-01347,Karen,Rodriguez,1983-05-08,42,M,GA,PPO,Dr. Thomas Garcia,1.65
+MBR-01348,Charles,Davis,1971-02-08,54,M,IL,PPO,Dr. Linda Miller,2.71
+MBR-01349,Donna,Johnson,1983-04-11,42,M,NC,PPO,Dr. Maria Taylor,3.83
+MBR-01350,Susan,Martinez,2001-03-21,24,F,OH,Medicare Advantage,Dr. Dorothy Jones,3.82
+MBR-01351,John,Brown,1967-06-03,58,M,MA,Medicare Advantage,Dr. Ashley Rodriguez,0.85
+MBR-01352,Michael,Brown,1987-07-14,38,F,WA,HMO,Dr. Michael Davis,3.41
+MBR-01353,Dorothy,Hernandez,1963-08-29,62,M,GA,EPO,Dr. Robert Williams,3.33
+MBR-01354,Margaret,Brown,1964-01-21,61,M,WA,EPO,Dr. Lisa Miller,3.87
+MBR-01355,Jessica,Jones,2000-03-13,25,M,OH,PPO,Dr. Robert Miller,1.56
+MBR-01356,Richard,Garcia,1985-05-02,40,F,IL,PPO,Dr. Susan Williams,4.3
+MBR-01357,Margaret,Williams,1977-05-07,48,M,NC,EPO,Dr. Susan Garcia,0.66
+MBR-01358,James,Martin,1971-09-17,54,F,NJ,Medicaid,Dr. Ashley Moore,3.13
+MBR-01359,Richard,Davis,1981-08-16,44,F,NJ,Medicare Advantage,Dr. Ashley Wilson,2.89
+MBR-01360,Linda,Davis,1943-11-26,82,F,MA,Medicaid,Dr. Margaret Thomas,1.8
+MBR-01361,Elizabeth,Thomas,1950-08-10,75,M,NJ,HMO,Dr. Nancy Wilson,3.32
+MBR-01362,Donna,Anderson,1943-02-05,82,F,FL,HMO,Dr. Karen Rodriguez,2.53
+MBR-01363,Kimberly,Hernandez,1952-09-08,73,M,NJ,Medicaid,Dr. Margaret Wilson,3.74
+MBR-01364,Sarah,Johnson,1950-09-05,75,F,GA,PPO,Dr. Lisa Johnson,1.73
+MBR-01365,Emily,Garcia,1952-04-20,73,M,FL,HMO,Dr. Donna Lee,1.82
+MBR-01366,William,Wilson,2002-11-22,23,M,WA,Medicaid,Dr. Charles Lopez,3.57
+MBR-01367,Dorothy,Miller,1996-07-07,29,M,NC,PPO,Dr. Elizabeth Jackson,2.08
+MBR-01368,William,Garcia,1975-07-07,50,F,PA,Medicare Advantage,Dr. Susan Jackson,3.43
+MBR-01369,Joseph,Smith,2003-04-13,22,M,CA,EPO,Dr. Betty Taylor,0.67
+MBR-01370,Maria,Davis,1968-02-27,57,F,WA,PPO,Dr. Patricia Rodriguez,3.5
+MBR-01371,Barbara,Rodriguez,1956-12-06,69,F,CA,HMO,Dr. Dorothy Anderson,0.58
+MBR-01372,Michael,Martin,1985-06-25,40,M,FL,EPO,Dr. Joseph Martinez,3.64
+MBR-01373,Karen,Rodriguez,1950-05-31,75,M,FL,HMO,Dr. Sarah Martin,2.39
+MBR-01374,Jennifer,Davis,1967-06-22,58,F,NC,Medicaid,Dr. Ashley Martinez,4.13
+MBR-01375,Betty,Smith,1940-05-13,85,M,VA,Medicare Advantage,Dr. Nancy Jackson,3.36
+MBR-01376,Emily,Smith,1947-07-02,78,M,WA,PPO,Dr. Sandra Lopez,2.41
+MBR-01377,Lisa,Jones,1991-02-22,34,F,CA,HMO,Dr. Kimberly Garcia,1.33
+MBR-01378,Jennifer,Jones,1942-06-30,83,M,MI,Medicare Advantage,Dr. Dorothy Martin,3.54
+MBR-01379,Sarah,Anderson,1997-08-02,28,F,VA,Medicaid,Dr. Richard Jones,0.65
+MBR-01380,Sarah,Miller,1952-04-07,73,M,WA,Medicare Advantage,Dr. Kimberly Taylor,1.75
+MBR-01381,Sandra,Taylor,1974-04-26,51,F,NC,HMO,Dr. Charles Brown,2.2
+MBR-01382,Barbara,Smith,1995-10-19,30,F,NC,HMO,Dr. Elizabeth Miller,2.25
+MBR-01383,Thomas,Anderson,1990-05-02,35,M,TX,EPO,Dr. Ashley Jones,3.5
+MBR-01384,Maria,Martinez,1951-11-21,74,F,OH,Medicaid,Dr. Michael Rodriguez,2.59
+MBR-01385,Barbara,Martinez,1957-04-26,68,M,NJ,PPO,Dr. William Lee,4.31
+MBR-01386,Ashley,Thomas,1957-10-03,68,F,MA,Medicaid,Dr. Charles Jones,1.16
+MBR-01387,Lisa,Anderson,1944-10-22,81,M,TX,Medicare Advantage,Dr. Jennifer Smith,1.75
+MBR-01388,John,Brown,1980-04-12,45,M,GA,Medicaid,Dr. Linda Johnson,3.0
+MBR-01389,Nancy,Jackson,1984-09-18,41,M,PA,HMO,Dr. Charles Miller,1.6
+MBR-01390,Nancy,Lee,1950-06-28,75,F,MA,Medicaid,Dr. Kimberly Jackson,3.07
+MBR-01391,Emily,Jones,1979-11-22,46,M,VA,PPO,Dr. Sarah Garcia,1.55
+MBR-01392,William,Moore,1991-03-16,34,M,NJ,Medicare Advantage,Dr. Lisa Martin,3.59
+MBR-01393,Susan,Garcia,1970-01-14,56,F,WA,PPO,Dr. Susan Williams,4.22
+MBR-01394,Elizabeth,Taylor,1987-01-11,39,M,PA,HMO,Dr. Thomas Johnson,1.05
+MBR-01395,Robert,Taylor,1948-08-06,77,F,IL,EPO,Dr. David Brown,1.46
+MBR-01396,David,Wilson,1954-01-23,71,F,GA,Medicaid,Dr. Karen Moore,1.77
+MBR-01397,Elizabeth,Rodriguez,1994-01-10,31,M,TX,Medicare Advantage,Dr. Kimberly Thomas,2.46
+MBR-01398,Kimberly,Anderson,1972-02-16,53,M,PA,PPO,Dr. Maria Lopez,3.92
+MBR-01399,Susan,Lee,1960-04-06,65,F,MA,PPO,Dr. Betty Lopez,1.22
+MBR-01400,Sandra,Lopez,2003-04-13,22,M,FL,HMO,Dr. Emily Martinez,1.81
+MBR-01401,Dorothy,Smith,1957-03-14,68,F,IL,HMO,Dr. James Rodriguez,3.07
+MBR-01402,John,Rodriguez,1954-09-01,71,M,NJ,HMO,Dr. Emily Smith,3.95
+MBR-01403,Ashley,Garcia,1944-05-24,81,F,VA,EPO,Dr. William Brown,0.65
+MBR-01404,John,Garcia,2001-11-01,24,M,CA,Medicare Advantage,Dr. Richard Brown,0.72
+MBR-01405,Linda,Jackson,1997-08-19,28,F,AZ,PPO,Dr. James Lee,3.45
+MBR-01406,Thomas,Garcia,1962-03-23,63,F,VA,Medicaid,Dr. Dorothy Smith,4.26
+MBR-01407,Richard,Johnson,1953-12-17,72,F,FL,EPO,Dr. Barbara Rodriguez,0.84
+MBR-01408,Sarah,Lee,1948-10-11,77,M,VA,EPO,Dr. Margaret Garcia,3.04
+MBR-01409,Sarah,Jackson,2004-07-11,21,F,CA,Medicaid,Dr. Sandra Martin,3.84
+MBR-01410,Jennifer,Brown,1993-11-24,32,F,TX,HMO,Dr. Elizabeth Hernandez,2.86
+MBR-01411,William,Smith,2002-09-18,23,M,NJ,Medicaid,Dr. Sandra Williams,4.01
+MBR-01412,Richard,Miller,1973-11-08,52,F,IL,HMO,Dr. Betty Martinez,1.21
+MBR-01413,Margaret,Davis,1987-10-07,38,F,IL,PPO,Dr. Elizabeth Martinez,1.54
+MBR-01414,Jennifer,Taylor,1948-07-23,77,F,MI,Medicaid,Dr. Nancy Moore,2.3
+MBR-01415,Richard,Martin,1983-06-29,42,M,TX,EPO,Dr. Emily Miller,4.48
+MBR-01416,James,Martinez,1949-10-06,76,F,PA,EPO,Dr. Kimberly Rodriguez,0.86
+MBR-01417,Susan,Thomas,1978-09-02,47,F,NY,HMO,Dr. Dorothy Garcia,2.4
+MBR-01418,Nancy,Martin,1945-07-12,80,F,NJ,EPO,Dr. Thomas Johnson,1.79
+MBR-01419,Joseph,Smith,1991-10-21,34,F,OH,Medicare Advantage,Dr. Lisa Hernandez,3.09
+MBR-01420,Charles,Lopez,1992-08-06,33,M,TX,Medicare Advantage,Dr. Kimberly Garcia,3.51
+MBR-01421,Emily,Martin,1948-01-31,77,F,OH,Medicare Advantage,Dr. Ashley Davis,1.51
+MBR-01422,Ashley,Wilson,1957-08-18,68,F,NY,PPO,Dr. David Moore,0.93
+MBR-01423,Emily,Wilson,1950-03-23,75,F,NY,PPO,Dr. Dorothy Garcia,4.19
+MBR-01424,Barbara,Hernandez,1979-12-17,46,M,CA,Medicaid,Dr. William Jones,3.71
+MBR-01425,Elizabeth,Thomas,1947-01-21,79,F,NJ,PPO,Dr. Susan Garcia,1.71
+MBR-01426,Jessica,Miller,1994-05-31,31,M,CA,PPO,Dr. Barbara Jackson,3.88
+MBR-01427,Ashley,Garcia,1957-07-26,68,M,CA,Medicare Advantage,Dr. Kimberly Wilson,3.3
+MBR-01428,Richard,Thomas,1944-01-26,81,F,FL,HMO,Dr. Betty Jones,1.77
+MBR-01429,David,Hernandez,1987-08-20,38,F,AZ,Medicare Advantage,Dr. Donna Wilson,2.64
+MBR-01430,Robert,Martin,1961-01-04,65,F,FL,EPO,Dr. Elizabeth Davis,1.98
+MBR-01431,Donna,Lee,1961-06-28,64,M,MA,HMO,Dr. James Davis,1.05
+MBR-01432,Susan,Martinez,1980-06-04,45,M,CA,Medicaid,Dr. Betty Garcia,2.2
+MBR-01433,Betty,Taylor,1968-12-29,57,F,IL,Medicare Advantage,Dr. Elizabeth Garcia,2.09
+MBR-01434,William,Williams,1991-07-17,34,F,NJ,HMO,Dr. James Wilson,3.71
+MBR-01435,Lisa,Jones,2003-03-19,22,M,NC,Medicare Advantage,Dr. Robert Thomas,0.55
+MBR-01436,David,Johnson,1953-08-17,72,F,OH,Medicaid,Dr. Michael Brown,2.91
+MBR-01437,David,Taylor,1947-01-22,78,F,PA,EPO,Dr. Nancy Brown,3.64
+MBR-01438,Joseph,Williams,1950-11-05,75,F,NY,Medicaid,Dr. Charles Martin,1.53
+MBR-01439,Patricia,Thomas,1946-08-30,79,F,NY,HMO,Dr. Joseph Taylor,2.34
+MBR-01440,Sarah,Anderson,1998-07-20,27,F,NJ,Medicaid,Dr. David Smith,2.67
+MBR-01441,Nancy,Anderson,1983-01-04,43,F,GA,Medicaid,Dr. Karen Johnson,2.88
+MBR-01442,Kimberly,Wilson,1959-09-13,66,M,TX,HMO,Dr. Kimberly Brown,1.0
+MBR-01443,Margaret,Rodriguez,1986-07-19,39,F,GA,EPO,Dr. Jessica Moore,2.78
+MBR-01444,Lisa,Lopez,1999-12-20,26,M,TX,EPO,Dr. Michael Brown,2.03
+MBR-01445,Charles,Martinez,1994-06-07,31,F,OH,HMO,Dr. Elizabeth Rodriguez,3.39
+MBR-01446,Linda,Miller,1994-03-23,31,F,IL,Medicaid,Dr. Donna Moore,2.66
+MBR-01447,Nancy,Martin,1973-05-17,52,M,FL,Medicare Advantage,Dr. Sarah Garcia,1.61
+MBR-01448,Charles,Garcia,1999-01-26,26,F,IL,Medicaid,Dr. Maria Anderson,1.33
+MBR-01449,Sarah,Rodriguez,1951-05-29,74,M,MI,Medicaid,Dr. Linda Davis,1.4
+MBR-01450,Jennifer,Lee,1963-08-23,62,M,VA,EPO,Dr. Richard Thomas,2.85
+MBR-01451,Ashley,Jackson,1963-01-11,63,F,PA,Medicaid,Dr. Lisa Lopez,3.79
+MBR-01452,Joseph,Taylor,1985-09-26,40,F,NC,PPO,Dr. Robert Wilson,1.52
+MBR-01453,James,Taylor,2000-03-26,25,M,PA,HMO,Dr. Susan Moore,1.98
+MBR-01454,Sandra,Thomas,1968-01-01,58,F,TX,EPO,Dr. Emily Garcia,3.0
+MBR-01455,David,Smith,1949-08-28,76,F,NC,Medicare Advantage,Dr. Jessica Wilson,4.18
+MBR-01456,Donna,Brown,1988-11-22,37,F,OH,PPO,Dr. Susan Brown,2.78
+MBR-01457,David,Wilson,1982-04-06,43,M,OH,Medicaid,Dr. David Miller,2.17
+MBR-01458,David,Lopez,1969-02-27,56,F,CA,Medicaid,Dr. Dorothy Jackson,2.63
+MBR-01459,Ashley,Thomas,1976-08-20,49,F,AZ,Medicare Advantage,Dr. Elizabeth Garcia,2.1
+MBR-01460,David,Thomas,2004-02-06,21,F,TX,HMO,Dr. Betty Martin,3.11
+MBR-01461,Susan,Smith,1951-03-10,74,F,FL,PPO,Dr. Donna Lee,2.51
+MBR-01462,Maria,Hernandez,1994-03-03,31,F,FL,PPO,Dr. Emily Taylor,3.24
+MBR-01463,Michael,Lee,1957-02-18,68,M,OH,EPO,Dr. Dorothy Miller,3.9
+MBR-01464,Nancy,Davis,1984-10-14,41,F,GA,PPO,Dr. Lisa Jones,1.67
+MBR-01465,Emily,Thomas,2001-05-17,24,M,FL,EPO,Dr. Sandra Davis,3.69
+MBR-01466,William,Lee,1945-08-05,80,M,AZ,PPO,Dr. Jessica Thomas,3.39
+MBR-01467,Michael,Johnson,1996-01-25,29,M,NJ,Medicare Advantage,Dr. Joseph Moore,4.48
+MBR-01468,William,Anderson,1955-09-08,70,M,MA,EPO,Dr. Linda Lee,3.09
+MBR-01469,Ashley,Johnson,2001-08-11,24,F,WA,Medicare Advantage,Dr. Richard Johnson,1.95
+MBR-01470,William,Brown,1948-11-28,77,F,TX,Medicaid,Dr. David Martin,3.51
+MBR-01471,Nancy,Anderson,1990-02-08,35,M,PA,PPO,Dr. Charles Davis,3.68
+MBR-01472,Linda,Hernandez,1978-02-19,47,F,VA,HMO,Dr. Sandra Taylor,3.51
+MBR-01473,Karen,Thomas,1971-07-30,54,F,WA,Medicare Advantage,Dr. John Rodriguez,2.77
+MBR-01474,Barbara,Moore,2000-08-13,25,M,NY,PPO,Dr. Thomas Lopez,2.75
+MBR-01475,John,Garcia,1967-04-01,58,F,NJ,Medicaid,Dr. Ashley Thomas,3.19
+MBR-01476,Barbara,Lee,1985-08-15,40,M,AZ,Medicare Advantage,Dr. Sarah Davis,0.61
+MBR-01477,Barbara,Martin,1978-01-07,48,F,IL,Medicaid,Dr. Michael Moore,3.48
+MBR-01478,Donna,Garcia,1953-07-27,72,F,NJ,PPO,Dr. Emily Moore,1.76
+MBR-01479,Joseph,Taylor,1957-02-21,68,F,TX,EPO,Dr. Ashley Garcia,2.44
+MBR-01480,Robert,Williams,1956-07-27,69,M,FL,Medicaid,Dr. Susan Davis,1.1
+MBR-01481,Nancy,Taylor,1989-05-20,36,M,MI,HMO,Dr. Richard Moore,4.09
+MBR-01482,Robert,Johnson,1979-06-23,46,F,NJ,HMO,Dr. Lisa Moore,0.77
+MBR-01483,Sandra,Martin,1994-04-17,31,M,FL,PPO,Dr. Sarah Garcia,3.26
+MBR-01484,John,Thomas,1973-10-16,52,M,NY,EPO,Dr. Sarah Jackson,1.61
+MBR-01485,Thomas,Jones,1980-04-20,45,M,IL,HMO,Dr. Susan Davis,1.48
+MBR-01486,Linda,Jackson,1943-12-27,82,F,PA,HMO,Dr. Susan Taylor,0.97
+MBR-01487,Susan,Brown,1994-04-07,31,F,MI,PPO,Dr. Donna Taylor,1.7
+MBR-01488,Joseph,Brown,2003-05-26,22,F,WA,PPO,Dr. Emily Lee,3.52
+MBR-01489,David,Anderson,2004-03-05,21,F,IL,Medicare Advantage,Dr. James Garcia,1.81
+MBR-01490,James,Martinez,1943-09-09,82,F,AZ,EPO,Dr. Jessica Hernandez,1.6
+MBR-01491,James,Thomas,1940-11-26,85,F,WA,PPO,Dr. Ashley Smith,1.78
+MBR-01492,Elizabeth,Garcia,1944-12-19,81,F,WA,Medicare Advantage,Dr. Robert Martinez,0.88
+MBR-01493,James,Jackson,1948-10-19,77,F,FL,HMO,Dr. David Davis,1.35
+MBR-01494,Lisa,Moore,1940-05-26,85,F,CA,Medicaid,Dr. Charles Lee,1.34
+MBR-01495,Elizabeth,Miller,1985-06-23,40,F,WA,PPO,Dr. Joseph Garcia,2.94
+MBR-01496,Dorothy,Taylor,1984-02-12,41,F,MI,Medicare Advantage,Dr. David Rodriguez,1.41
+MBR-01497,Charles,Martinez,1971-07-10,54,F,TX,Medicaid,Dr. Lisa Lopez,3.82
+MBR-01498,Karen,Anderson,1964-04-03,61,F,OH,Medicare Advantage,Dr. Maria Wilson,0.72
+MBR-01499,James,Jones,1952-05-31,73,F,WA,Medicaid,Dr. Maria Miller,1.33
+MBR-01500,Richard,Lopez,1973-01-02,53,F,PA,Medicare Advantage,Dr. William Wilson,1.8
+MBR-01501,Donna,Moore,1979-06-02,46,M,AZ,Medicaid,Dr. Linda Williams,1.47
+MBR-01502,Michael,Martin,1963-05-22,62,F,NY,Medicare Advantage,Dr. John Taylor,1.5
+MBR-01503,Linda,Johnson,1956-02-26,69,M,PA,Medicaid,Dr. Kimberly Lopez,2.25
+MBR-01504,Ashley,Jones,1968-12-09,57,M,PA,Medicare Advantage,Dr. Richard Jones,4.0
+MBR-01505,Kimberly,Williams,1966-06-06,59,M,FL,Medicaid,Dr. Emily Jackson,3.55
+MBR-01506,John,Smith,1971-11-05,54,F,WA,HMO,Dr. Joseph Hernandez,4.33
+MBR-01507,Michael,Miller,1958-10-16,67,F,PA,Medicare Advantage,Dr. Jessica Thomas,1.95
+MBR-01508,Sarah,Lee,1980-01-02,46,F,TX,HMO,Dr. James Anderson,2.21
+MBR-01509,Richard,Moore,1942-12-23,83,M,MA,EPO,Dr. Nancy Smith,2.76
+MBR-01510,William,Jackson,2000-05-01,25,F,IL,EPO,Dr. Lisa Williams,3.44
+MBR-01511,Kimberly,Garcia,1993-04-22,32,M,AZ,HMO,Dr. Emily Thomas,2.94
+MBR-01512,David,Anderson,1980-08-24,45,M,GA,Medicare Advantage,Dr. Thomas Jones,3.1
+MBR-01513,James,Martin,1995-07-20,30,M,GA,EPO,Dr. David Anderson,4.06
+MBR-01514,Maria,Lee,1953-07-04,72,F,NY,HMO,Dr. Jessica Hernandez,2.21
+MBR-01515,Emily,Hernandez,1971-04-18,54,M,GA,PPO,Dr. David Martin,4.2
+MBR-01516,David,Jones,1985-09-28,40,M,IL,PPO,Dr. Linda Smith,2.63
+MBR-01517,Kimberly,Lopez,1999-12-04,26,M,PA,Medicaid,Dr. Charles Davis,3.13
+MBR-01518,Elizabeth,Anderson,1979-08-28,46,F,FL,PPO,Dr. David Lopez,0.61
+MBR-01519,Richard,Wilson,1949-01-07,77,M,GA,PPO,Dr. Betty Johnson,2.29
+MBR-01520,Susan,Wilson,1953-03-23,72,M,AZ,HMO,Dr. Jennifer Garcia,2.53
+MBR-01521,David,Miller,1989-11-10,36,M,GA,EPO,Dr. Nancy Hernandez,2.16
+MBR-01522,William,Moore,1978-07-13,47,M,GA,Medicaid,Dr. Dorothy Brown,4.28
+MBR-01523,Betty,Anderson,2002-06-17,23,M,AZ,HMO,Dr. Nancy Lopez,4.28
+MBR-01524,Joseph,Martinez,1996-09-13,29,F,VA,HMO,Dr. James Wilson,4.0
+MBR-01525,Michael,Hernandez,2002-12-15,23,F,TX,PPO,Dr. Elizabeth Martin,0.54
+MBR-01526,John,Taylor,1985-12-23,40,M,NY,EPO,Dr. William Miller,3.97
+MBR-01527,Donna,Anderson,1967-10-28,58,F,OH,PPO,Dr. Elizabeth Moore,4.36
+MBR-01528,Thomas,Brown,1981-10-21,44,F,NY,Medicare Advantage,Dr. Susan Martinez,2.11
+MBR-01529,Donna,Hernandez,1958-01-04,68,F,WA,HMO,Dr. Lisa Smith,4.06
+MBR-01530,Charles,Anderson,2000-12-15,25,M,NC,Medicare Advantage,Dr. David Lee,3.39
+MBR-01531,Linda,Smith,1983-07-18,42,M,MA,PPO,Dr. Jennifer Anderson,4.45
+MBR-01532,Sandra,Anderson,1990-04-11,35,F,GA,PPO,Dr. Joseph Lee,3.74
+MBR-01533,Ashley,Taylor,2004-08-28,21,F,TX,Medicaid,Dr. Robert Jackson,1.96
+MBR-01534,Ashley,Martin,1992-10-01,33,F,TX,PPO,Dr. Dorothy Jones,3.72
+MBR-01535,Robert,Williams,1986-11-24,39,M,VA,Medicare Advantage,Dr. Karen Lee,0.92
+MBR-01536,Elizabeth,Martinez,1976-07-29,49,F,VA,Medicare Advantage,Dr. Robert Martin,2.58
+MBR-01537,Lisa,Anderson,1970-07-08,55,M,NJ,PPO,Dr. Emily Johnson,3.49
+MBR-01538,William,Miller,1955-10-18,70,M,NY,PPO,Dr. James Johnson,3.84
+MBR-01539,Betty,Hernandez,1975-01-09,51,M,MI,Medicare Advantage,Dr. Ashley Lopez,1.25
+MBR-01540,Susan,Thomas,1953-03-07,72,F,IL,EPO,Dr. Sandra Brown,3.48
+MBR-01541,Thomas,Garcia,1961-09-09,64,F,PA,Medicare Advantage,Dr. David Jackson,2.33
+MBR-01542,David,Moore,1992-08-28,33,F,CA,Medicaid,Dr. Margaret Smith,4.36
+MBR-01543,Jessica,Thomas,1988-11-15,37,M,CA,EPO,Dr. John Martinez,1.01
+MBR-01544,Sandra,Anderson,1960-04-09,65,F,CA,EPO,Dr. Elizabeth Wilson,3.78
+MBR-01545,Richard,Davis,1981-01-04,45,M,FL,Medicaid,Dr. Dorothy Lee,3.62
+MBR-01546,Kimberly,Davis,1998-01-18,27,F,NC,PPO,Dr. Nancy Garcia,0.9
+MBR-01547,Richard,Jones,1983-04-11,42,M,MI,Medicare Advantage,Dr. Joseph Miller,1.61
+MBR-01548,Betty,Moore,1953-06-18,72,F,MA,Medicare Advantage,Dr. Sandra Hernandez,1.04
+MBR-01549,Jennifer,Rodriguez,1966-01-19,59,M,NC,Medicaid,Dr. Susan Lee,2.88
+MBR-01550,David,Anderson,1996-10-29,29,M,TX,Medicare Advantage,Dr. Richard Garcia,3.56
+MBR-01551,William,Garcia,1973-02-18,52,F,OH,Medicare Advantage,Dr. Emily Miller,1.49
+MBR-01552,Jessica,Rodriguez,1960-11-07,65,M,MA,Medicare Advantage,Dr. Linda Martin,4.28
+MBR-01553,Sandra,Jones,1985-02-01,40,M,IL,Medicaid,Dr. Maria Brown,2.58
+MBR-01554,Jessica,Thomas,1991-08-11,34,F,AZ,HMO,Dr. Kimberly Lee,2.32
+MBR-01555,Thomas,Rodriguez,1995-12-20,30,F,OH,Medicaid,Dr. Linda Thomas,2.2
+MBR-01556,David,Martinez,1983-09-19,42,F,NC,HMO,Dr. Jennifer Lee,4.34
+MBR-01557,Joseph,Taylor,1958-01-24,67,M,OH,Medicare Advantage,Dr. Patricia Brown,3.96
+MBR-01558,Thomas,Rodriguez,1969-02-22,56,F,NC,Medicaid,Dr. Margaret Rodriguez,4.43
+MBR-01559,Linda,Taylor,1994-09-07,31,M,MI,Medicare Advantage,Dr. Jessica Martin,2.24
+MBR-01560,David,Taylor,1970-04-03,55,M,MI,EPO,Dr. Betty Lee,2.58
+MBR-01561,Donna,Brown,1956-03-22,69,M,AZ,HMO,Dr. Emily Brown,0.97
+MBR-01562,Emily,Lee,1974-06-13,51,F,AZ,Medicare Advantage,Dr. John Johnson,1.89
+MBR-01563,Emily,Moore,1949-01-01,77,F,OH,Medicare Advantage,Dr. Robert Smith,1.36
+MBR-01564,James,Hernandez,1981-11-23,44,M,IL,Medicare Advantage,Dr. William Smith,3.42
+MBR-01565,Richard,Lopez,1972-07-18,53,F,FL,Medicaid,Dr. Sandra Johnson,1.8
+MBR-01566,Susan,Jackson,1971-04-10,54,M,NJ,Medicaid,Dr. Michael Wilson,3.51
+MBR-01567,Joseph,Williams,1982-07-26,43,F,PA,EPO,Dr. Kimberly Davis,1.77
+MBR-01568,Charles,Williams,1965-02-23,60,M,OH,Medicaid,Dr. Donna Taylor,3.06
+MBR-01569,Sarah,Taylor,1956-07-23,69,M,PA,Medicare Advantage,Dr. Thomas Lopez,3.52
+MBR-01570,Maria,Brown,1983-10-07,42,F,MI,Medicaid,Dr. Charles Moore,3.3
+MBR-01571,Betty,Lee,1967-01-25,58,M,CA,PPO,Dr. Jennifer Williams,3.35
+MBR-01572,Barbara,Hernandez,1953-04-22,72,F,PA,Medicare Advantage,Dr. Barbara Wilson,0.91
+MBR-01573,Lisa,Davis,1967-06-04,58,M,AZ,HMO,Dr. Jessica Jackson,1.12
+MBR-01574,Ashley,Davis,1969-01-25,56,M,FL,PPO,Dr. Thomas Davis,2.26
+MBR-01575,Maria,Martinez,1977-09-11,48,M,NY,EPO,Dr. Ashley Thomas,2.16
+MBR-01576,Elizabeth,Moore,1980-03-21,45,F,OH,EPO,Dr. Thomas Wilson,3.49
+MBR-01577,Margaret,Lopez,1958-07-16,67,F,MA,PPO,Dr. Lisa Jackson,1.93
+MBR-01578,Joseph,Davis,1987-04-11,38,F,MI,PPO,Dr. Linda Moore,3.33
+MBR-01579,William,Lee,1964-09-22,61,M,VA,Medicaid,Dr. John Jackson,3.78
+MBR-01580,Sarah,Martin,1976-12-17,49,F,GA,EPO,Dr. Sandra Taylor,2.86
+MBR-01581,Maria,Jackson,1996-05-24,29,M,NC,HMO,Dr. Thomas Lopez,2.41
+MBR-01582,Robert,Lopez,1986-12-09,39,M,VA,Medicaid,Dr. Emily Rodriguez,4.29
+MBR-01583,Margaret,Jones,2001-06-19,24,F,FL,Medicare Advantage,Dr. Karen Jackson,3.29
+MBR-01584,Jessica,Martin,1966-05-01,59,F,OH,PPO,Dr. David Jackson,4.42
+MBR-01585,Donna,Johnson,1964-01-18,61,M,WA,Medicaid,Dr. Emily Brown,3.6
+MBR-01586,Dorothy,Anderson,1995-10-19,30,M,VA,PPO,Dr. Jessica Lee,3.59
+MBR-01587,Maria,Taylor,1982-11-12,43,M,PA,HMO,Dr. Linda Wilson,2.8
+MBR-01588,Betty,Taylor,1955-11-10,70,F,AZ,Medicaid,Dr. Elizabeth Brown,1.74
+MBR-01589,Thomas,Rodriguez,1982-05-02,43,F,CA,PPO,Dr. Sarah Wilson,1.3
+MBR-01590,Lisa,Thomas,1960-11-30,65,M,NC,Medicaid,Dr. Maria Lee,0.74
+MBR-01591,Linda,Garcia,1998-01-08,28,F,NC,HMO,Dr. Maria Hernandez,2.04
+MBR-01592,Joseph,Williams,2001-10-11,24,F,FL,EPO,Dr. Ashley Garcia,2.64
+MBR-01593,Joseph,Jones,1960-03-16,65,M,PA,EPO,Dr. Elizabeth Thomas,3.33
+MBR-01594,Richard,Thomas,1982-12-28,43,M,MI,HMO,Dr. Charles Jackson,4.05
+MBR-01595,Charles,Martinez,1989-11-16,36,F,PA,PPO,Dr. Emily Moore,1.17
+MBR-01596,Susan,Lee,1992-10-22,33,F,MI,Medicaid,Dr. Sandra Jackson,3.83
+MBR-01597,Robert,Jackson,1947-12-19,78,M,PA,PPO,Dr. Nancy Jones,1.46
+MBR-01598,William,Wilson,1943-01-01,83,M,PA,HMO,Dr. Charles Taylor,3.74
+MBR-01599,Robert,Hernandez,1992-04-15,33,M,MI,EPO,Dr. John Jackson,2.59
+MBR-01600,Lisa,Jones,1979-05-29,46,F,WA,PPO,Dr. Karen Anderson,2.12
+MBR-01601,Ashley,Smith,1956-05-12,69,M,CA,Medicaid,Dr. Kimberly Taylor,2.94
+MBR-01602,William,Martinez,1965-01-31,60,F,VA,HMO,Dr. Dorothy Johnson,1.25
+MBR-01603,Thomas,Martin,1993-03-23,32,F,NC,PPO,Dr. James Hernandez,3.46
+MBR-01604,Karen,Wilson,2001-10-03,24,M,PA,EPO,Dr. Patricia Anderson,3.45
+MBR-01605,Robert,Johnson,1982-09-25,43,F,CA,Medicare Advantage,Dr. Elizabeth Davis,3.35
+MBR-01606,Ashley,Miller,1995-03-23,30,M,NJ,EPO,Dr. Maria Johnson,4.19
+MBR-01607,Charles,Martinez,1979-01-11,47,M,MA,PPO,Dr. Robert Hernandez,4.44
+MBR-01608,Nancy,Wilson,1955-12-28,70,M,TX,PPO,Dr. Donna Davis,2.99
+MBR-01609,Robert,Martin,1971-01-17,54,F,AZ,Medicaid,Dr. Susan Rodriguez,2.14
+MBR-01610,Richard,Anderson,2003-06-28,22,F,IL,PPO,Dr. Richard Taylor,1.51
+MBR-01611,Patricia,Thomas,2003-11-03,22,F,NJ,PPO,Dr. Jennifer Brown,0.96
+MBR-01612,Elizabeth,Jackson,1942-08-08,83,M,TX,Medicaid,Dr. Robert Wilson,1.64
+MBR-01613,Joseph,Martin,1968-09-04,57,F,CA,HMO,Dr. Betty Miller,4.3
+MBR-01614,Barbara,Moore,1942-01-04,84,M,GA,Medicare Advantage,Dr. Linda Brown,1.41
+MBR-01615,Jennifer,Williams,1955-09-18,70,M,OH,EPO,Dr. Nancy Thomas,3.45
+MBR-01616,Robert,Moore,1948-10-16,77,M,WA,PPO,Dr. Michael Hernandez,0.68
+MBR-01617,Lisa,Rodriguez,2003-10-10,22,M,PA,Medicare Advantage,Dr. Susan Johnson,2.07
+MBR-01618,Dorothy,Williams,1985-09-18,40,F,TX,PPO,Dr. Lisa Thomas,0.6
+MBR-01619,Richard,Davis,1948-03-18,77,M,NC,Medicaid,Dr. Kimberly Garcia,1.07
+MBR-01620,Linda,Williams,1964-06-21,61,M,NC,EPO,Dr. Maria Lee,3.38
+MBR-01621,Patricia,Jones,1963-11-25,62,F,NJ,PPO,Dr. Maria Wilson,0.51
+MBR-01622,David,Martin,1997-11-08,28,F,AZ,PPO,Dr. David Johnson,2.75
+MBR-01623,James,Taylor,1995-03-23,30,M,NJ,Medicare Advantage,Dr. Karen Lee,2.05
+MBR-01624,Donna,Rodriguez,1974-07-22,51,F,NJ,Medicare Advantage,Dr. Ashley Jones,2.32
+MBR-01625,Barbara,Martinez,1958-02-26,67,M,VA,PPO,Dr. Betty Rodriguez,4.03
+MBR-01626,Margaret,Martinez,1957-11-06,68,M,NY,Medicare Advantage,Dr. Margaret Jackson,3.91
+MBR-01627,Richard,Lopez,1953-10-05,72,M,OH,Medicare Advantage,Dr. Thomas Anderson,2.34
+MBR-01628,Betty,Thomas,1947-07-19,78,F,PA,Medicaid,Dr. Robert Wilson,1.03
+MBR-01629,Susan,Miller,1978-03-28,47,M,FL,EPO,Dr. Nancy Thomas,2.69
+MBR-01630,James,Martinez,1952-10-02,73,F,OH,PPO,Dr. Ashley Brown,2.67
+MBR-01631,Thomas,Lee,1947-06-24,78,F,NY,PPO,Dr. Susan Hernandez,2.71
+MBR-01632,Charles,Moore,1984-06-04,41,F,TX,Medicare Advantage,Dr. Maria Miller,2.04
+MBR-01633,Michael,Martin,1982-10-25,43,F,NJ,Medicare Advantage,Dr. Emily Miller,1.1
+MBR-01634,Jessica,Jones,1964-05-12,61,F,PA,EPO,Dr. Charles Lee,2.62
+MBR-01635,William,Williams,2000-11-25,25,M,NY,HMO,Dr. Charles Johnson,1.83
+MBR-01636,Charles,Lopez,1993-09-28,32,F,VA,PPO,Dr. Susan Martinez,3.86
+MBR-01637,Emily,Thomas,1958-05-20,67,F,PA,PPO,Dr. Karen Martinez,0.91
+MBR-01638,Elizabeth,Anderson,1984-11-12,41,M,NC,EPO,Dr. Margaret Garcia,2.75
+MBR-01639,John,Davis,1944-11-24,81,F,NJ,PPO,Dr. Charles Thomas,0.89
+MBR-01640,Thomas,Wilson,1999-05-11,26,M,OH,Medicare Advantage,Dr. Elizabeth Smith,2.84
+MBR-01641,Emily,Martin,1958-10-17,67,F,GA,HMO,Dr. Ashley Martin,1.88
+MBR-01642,Thomas,Lopez,1961-12-13,64,M,TX,PPO,Dr. Donna Martinez,3.21
+MBR-01643,Charles,Miller,1985-02-21,40,M,PA,Medicaid,Dr. John Williams,1.92
+MBR-01644,Donna,Martin,1941-06-23,84,M,TX,Medicaid,Dr. Joseph Rodriguez,1.27
+MBR-01645,Ashley,Hernandez,1969-10-22,56,M,NY,PPO,Dr. John Martinez,1.55
+MBR-01646,Patricia,Rodriguez,1949-02-18,76,F,GA,HMO,Dr. Lisa Jackson,0.63
+MBR-01647,Karen,Wilson,2003-09-27,22,M,MA,Medicare Advantage,Dr. Betty Wilson,0.64
+MBR-01648,Lisa,Lopez,1970-04-28,55,F,AZ,Medicare Advantage,Dr. Margaret Hernandez,1.03
+MBR-01649,Kimberly,Miller,1960-05-12,65,F,IL,Medicaid,Dr. Jennifer Thomas,4.18
+MBR-01650,Joseph,Moore,1994-11-12,31,F,NY,PPO,Dr. William Brown,1.47
+MBR-01651,Jennifer,Jones,1982-03-26,43,F,WA,PPO,Dr. David Williams,3.95
+MBR-01652,Michael,Hernandez,2003-02-25,22,M,CA,PPO,Dr. Emily Thomas,3.02
+MBR-01653,Donna,Brown,1962-12-20,63,M,VA,PPO,Dr. Susan Williams,1.24
+MBR-01654,Margaret,Davis,1993-09-24,32,M,NY,HMO,Dr. Betty Hernandez,3.0
+MBR-01655,Richard,Miller,1980-01-16,45,F,GA,EPO,Dr. John Garcia,2.38
+MBR-01656,Elizabeth,Moore,1998-01-05,28,F,CA,PPO,Dr. Susan Rodriguez,1.08
+MBR-01657,John,Williams,1980-10-08,45,M,TX,Medicaid,Dr. David Davis,1.15
+MBR-01658,Dorothy,Martinez,1967-09-27,58,F,OH,Medicaid,Dr. Richard Lopez,3.44
+MBR-01659,Karen,Garcia,2004-12-04,21,F,NY,HMO,Dr. Ashley Lopez,4.11
+MBR-01660,Jennifer,Thomas,1998-01-02,28,F,VA,HMO,Dr. Lisa Martin,3.59
+MBR-01661,Emily,Rodriguez,1958-08-08,67,M,GA,Medicaid,Dr. Michael Taylor,1.98
+MBR-01662,Lisa,Jackson,1966-10-11,59,F,FL,EPO,Dr. Elizabeth Johnson,3.26
+MBR-01663,Thomas,Thomas,1952-08-06,73,F,MA,Medicare Advantage,Dr. Sandra Thomas,2.31
+MBR-01664,Margaret,Smith,1986-11-01,39,F,WA,Medicaid,Dr. Betty Jones,2.1
+MBR-01665,William,Garcia,2003-10-22,22,F,MI,PPO,Dr. Susan Brown,0.57
+MBR-01666,Sarah,Hernandez,1944-10-12,81,M,NY,Medicare Advantage,Dr. Betty Garcia,1.71
+MBR-01667,Susan,Taylor,1969-03-11,56,M,VA,Medicare Advantage,Dr. Margaret Anderson,4.29
+MBR-01668,Robert,Johnson,1984-07-15,41,F,CA,HMO,Dr. Lisa Taylor,2.93
+MBR-01669,Dorothy,Taylor,1986-09-23,39,M,OH,Medicare Advantage,Dr. Maria Martinez,3.03
+MBR-01670,Robert,Lee,1961-06-12,64,F,MI,HMO,Dr. Donna Jones,2.62
+MBR-01671,William,Jones,1961-07-12,64,F,MI,Medicare Advantage,Dr. Jennifer Smith,2.29
+MBR-01672,Susan,Hernandez,1951-02-02,74,M,FL,Medicaid,Dr. James Taylor,3.65
+MBR-01673,John,Miller,1961-11-13,64,F,PA,EPO,Dr. Charles Davis,3.33
+MBR-01674,Ashley,Martin,1974-05-19,51,M,MA,HMO,Dr. Lisa Moore,4.02
+MBR-01675,Donna,Hernandez,1955-12-09,70,M,NC,Medicare Advantage,Dr. Sandra Lee,4.1
+MBR-01676,Sandra,Wilson,1970-10-09,55,M,WA,Medicaid,Dr. John Jones,1.96
+MBR-01677,Jessica,Davis,1997-02-18,28,F,NY,Medicaid,Dr. Nancy Lee,2.43
+MBR-01678,Lisa,Taylor,1986-08-04,39,F,MI,EPO,Dr. Susan Miller,4.33
+MBR-01679,Michael,Johnson,1989-10-03,36,F,NC,EPO,Dr. Karen Davis,3.66
+MBR-01680,Karen,Rodriguez,1950-10-08,75,M,TX,Medicaid,Dr. Maria Smith,3.11
+MBR-01681,Nancy,Thomas,1951-11-06,74,M,GA,Medicare Advantage,Dr. Kimberly Garcia,2.88
+MBR-01682,Charles,Rodriguez,1964-05-28,61,M,IL,PPO,Dr. John Lee,2.31
+MBR-01683,Lisa,Smith,1984-11-09,41,M,NY,Medicaid,Dr. Kimberly Taylor,1.98
+MBR-01684,Kimberly,Smith,1964-03-01,61,F,OH,Medicaid,Dr. Betty Garcia,1.81
+MBR-01685,Lisa,Martin,2000-03-22,25,F,NY,EPO,Dr. Patricia Jones,2.49
+MBR-01686,Barbara,Brown,1996-04-16,29,M,TX,PPO,Dr. Jennifer Lopez,4.39
+MBR-01687,Margaret,Hernandez,1961-12-13,64,M,GA,Medicare Advantage,Dr. Kimberly Johnson,2.6
+MBR-01688,Kimberly,Williams,1954-10-05,71,M,GA,PPO,Dr. Linda Rodriguez,1.41
+MBR-01689,Patricia,Davis,1997-05-08,28,M,NY,HMO,Dr. Jessica Davis,4.3
+MBR-01690,Lisa,Wilson,1987-02-21,38,F,NJ,Medicare Advantage,Dr. Maria Moore,3.56
+MBR-01691,Robert,Anderson,1941-04-16,84,M,CA,HMO,Dr. Susan Martin,0.64
+MBR-01692,Maria,Lopez,1975-01-20,50,F,CA,EPO,Dr. Thomas Lopez,2.54
+MBR-01693,Susan,Jones,1983-04-13,42,F,NY,EPO,Dr. Karen Rodriguez,2.73
+MBR-01694,Richard,Miller,1955-03-14,70,M,IL,Medicaid,Dr. Susan Hernandez,4.09
+MBR-01695,James,Martinez,1954-06-02,71,M,NY,Medicare Advantage,Dr. Donna Moore,3.58
+MBR-01696,Linda,Johnson,1978-06-29,47,M,WA,HMO,Dr. Michael Miller,1.3
+MBR-01697,Thomas,Martin,1966-08-14,59,M,PA,Medicare Advantage,Dr. Patricia Davis,2.77
+MBR-01698,Dorothy,Smith,1972-08-09,53,M,NY,PPO,Dr. Richard Garcia,3.94
+MBR-01699,Michael,Wilson,1978-07-30,47,F,GA,Medicare Advantage,Dr. Donna Garcia,4.18
+MBR-01700,William,Davis,1943-12-14,82,F,MI,HMO,Dr. Thomas Smith,3.91
+MBR-01701,Sarah,Smith,1998-08-06,27,M,GA,Medicare Advantage,Dr. Michael Martin,4.34
+MBR-01702,Nancy,Miller,1992-02-14,33,M,FL,Medicare Advantage,Dr. Michael Lopez,0.8
+MBR-01703,Karen,Johnson,1951-11-20,74,M,IL,PPO,Dr. Sarah Thomas,4.22
+MBR-01704,Charles,Smith,1978-05-15,47,M,TX,HMO,Dr. Linda Williams,3.4
+MBR-01705,Sarah,Smith,1946-01-27,79,F,MI,Medicare Advantage,Dr. Jennifer Jones,1.36
+MBR-01706,Maria,Johnson,1954-05-10,71,F,OH,Medicare Advantage,Dr. Margaret Garcia,4.39
+MBR-01707,David,Rodriguez,1999-01-10,26,M,IL,Medicare Advantage,Dr. Susan Rodriguez,0.6
+MBR-01708,Jessica,Thomas,1971-01-15,55,M,NJ,HMO,Dr. Joseph Martin,3.84
+MBR-01709,William,Davis,1949-12-27,76,F,IL,Medicaid,Dr. Jennifer Lee,1.97
+MBR-01710,Nancy,Lopez,1944-04-14,81,M,NC,PPO,Dr. Lisa Lopez,2.13
+MBR-01711,Sandra,Lopez,1953-08-23,72,F,TX,Medicare Advantage,Dr. Robert Jackson,2.13
+MBR-01712,Donna,Rodriguez,1949-11-11,76,M,PA,Medicaid,Dr. James Thomas,2.3
+MBR-01713,Lisa,Moore,1983-02-26,42,M,TX,EPO,Dr. Lisa Jackson,3.03
+MBR-01714,Richard,Miller,1984-01-23,41,M,OH,HMO,Dr. Richard Anderson,4.02
+MBR-01715,Dorothy,Brown,1940-04-03,85,M,NY,Medicaid,Dr. Charles Jackson,3.16
+MBR-01716,Robert,Hernandez,1983-05-07,42,M,CA,Medicaid,Dr. Michael Lopez,2.69
+MBR-01717,Jessica,Martin,1954-07-24,71,F,VA,Medicare Advantage,Dr. John Brown,1.4
+MBR-01718,Richard,Miller,1947-01-21,79,M,MA,EPO,Dr. William Brown,2.48
+MBR-01719,Jessica,Wilson,1995-08-07,30,F,AZ,PPO,Dr. Kimberly Brown,4.31
+MBR-01720,Maria,Smith,1980-08-14,45,M,CA,PPO,Dr. Elizabeth Williams,0.77
+MBR-01721,Margaret,Lopez,1947-02-17,78,M,OH,HMO,Dr. John Lee,1.7
+MBR-01722,Susan,Martinez,1955-06-14,70,F,MI,EPO,Dr. Charles Taylor,3.04
+MBR-01723,Patricia,Taylor,1999-07-29,26,F,PA,HMO,Dr. Sarah Taylor,3.94
+MBR-01724,Margaret,Martin,1955-03-08,70,M,MA,Medicaid,Dr. Robert Taylor,4.48
+MBR-01725,Ashley,Williams,1956-05-20,69,M,IL,EPO,Dr. Jennifer Williams,1.48
+MBR-01726,Betty,Hernandez,1992-09-08,33,F,MI,Medicare Advantage,Dr. Patricia Hernandez,1.74
+MBR-01727,Donna,Anderson,1947-12-04,78,M,NY,PPO,Dr. Emily Smith,4.24
+MBR-01728,Dorothy,Garcia,1948-05-28,77,M,IL,EPO,Dr. Betty Jackson,3.11
+MBR-01729,Emily,Brown,1998-01-16,27,F,NC,Medicare Advantage,Dr. Elizabeth Thomas,1.67
+MBR-01730,Karen,Lee,1984-07-26,41,M,OH,HMO,Dr. Robert Jones,4.37
+MBR-01731,Ashley,Taylor,1995-09-04,30,M,NY,Medicare Advantage,Dr. David Garcia,3.59
+MBR-01732,Elizabeth,Davis,1999-07-18,26,F,AZ,EPO,Dr. Joseph Taylor,1.41
+MBR-01733,Linda,Garcia,1948-11-10,77,M,TX,EPO,Dr. Emily Smith,2.25
+MBR-01734,Maria,Moore,1958-01-28,67,F,PA,EPO,Dr. Linda Anderson,2.39
+MBR-01735,Kimberly,Anderson,1969-12-12,56,F,CA,HMO,Dr. Sarah Lopez,2.4
+MBR-01736,Charles,Jones,1940-11-22,85,M,NY,PPO,Dr. Jennifer Martin,1.25
+MBR-01737,Robert,Jackson,1979-07-06,46,F,NC,Medicaid,Dr. Ashley Williams,4.38
+MBR-01738,Linda,Jackson,1981-12-23,44,F,FL,PPO,Dr. Barbara Martinez,1.03
+MBR-01739,Nancy,Johnson,1954-05-03,71,M,WA,HMO,Dr. Linda Moore,3.16
+MBR-01740,Thomas,Jones,2003-07-28,22,F,MA,PPO,Dr. Joseph Taylor,3.7
+MBR-01741,Ashley,Taylor,1980-09-25,45,F,CA,PPO,Dr. Betty Jackson,3.03
+MBR-01742,Robert,Jones,1995-04-23,30,M,TX,HMO,Dr. Ashley Moore,4.46
+MBR-01743,Jessica,Anderson,1995-02-23,30,M,PA,PPO,Dr. Richard Rodriguez,2.13
+MBR-01744,Joseph,Hernandez,1949-07-02,76,M,NY,PPO,Dr. Robert Lopez,2.06
+MBR-01745,Ashley,Lee,1976-04-28,49,M,MA,Medicare Advantage,Dr. James Garcia,1.47
+MBR-01746,David,Williams,1968-06-08,57,F,MI,HMO,Dr. Margaret Williams,2.75
+MBR-01747,Nancy,Rodriguez,1986-06-24,39,M,IL,Medicare Advantage,Dr. James Hernandez,1.71
+MBR-01748,Joseph,Taylor,1963-05-01,62,F,GA,Medicare Advantage,Dr. David Martin,3.28
+MBR-01749,Lisa,Williams,1987-01-22,38,F,GA,Medicaid,Dr. Kimberly Moore,2.97
+MBR-01750,James,Rodriguez,1996-08-23,29,F,AZ,Medicaid,Dr. Donna Moore,1.41
+MBR-01751,Emily,Miller,1963-07-23,62,M,IL,PPO,Dr. Richard Hernandez,2.57
+MBR-01752,Sarah,Lee,1952-06-16,73,F,NJ,PPO,Dr. David Lee,4.06
+MBR-01753,Susan,Lopez,1987-01-12,38,F,NC,EPO,Dr. Lisa Miller,3.69
+MBR-01754,Michael,Martinez,1982-02-20,43,M,FL,PPO,Dr. Donna Hernandez,1.23
+MBR-01755,Jessica,Wilson,1941-05-20,84,F,VA,Medicaid,Dr. Charles Martin,2.34
+MBR-01756,Sarah,Lee,1961-12-12,64,M,IL,HMO,Dr. Betty Jackson,4.44
+MBR-01757,Susan,Rodriguez,2004-04-28,21,M,GA,EPO,Dr. Emily Rodriguez,2.54
+MBR-01758,Sarah,Johnson,1951-06-16,74,M,NJ,Medicare Advantage,Dr. Donna Brown,2.41
+MBR-01759,Linda,Jones,1955-10-19,70,F,CA,Medicaid,Dr. David Johnson,0.66
+MBR-01760,Linda,Jackson,1996-04-09,29,F,IL,PPO,Dr. William Brown,4.2
+MBR-01761,Patricia,Martin,1950-12-21,75,M,NY,HMO,Dr. Lisa Lee,3.38
+MBR-01762,Jessica,Davis,1968-09-25,57,F,MI,EPO,Dr. Emily Rodriguez,4.21
+MBR-01763,Barbara,Smith,1959-04-10,66,M,MI,Medicaid,Dr. David Davis,1.19
+MBR-01764,Kimberly,Lee,1956-01-11,70,M,TX,HMO,Dr. Emily Lee,4.41
+MBR-01765,Linda,Brown,1970-09-11,55,F,AZ,Medicare Advantage,Dr. Jessica Davis,2.34
+MBR-01766,Charles,Davis,1983-08-22,42,M,CA,HMO,Dr. Jessica Martinez,2.24
+MBR-01767,Susan,Davis,1955-11-29,70,F,AZ,HMO,Dr. Margaret Thomas,2.27
+MBR-01768,Maria,Jackson,1955-09-02,70,F,FL,Medicare Advantage,Dr. Margaret Moore,1.87
+MBR-01769,Dorothy,Lee,2002-06-23,23,F,AZ,Medicare Advantage,Dr. Donna Miller,1.99
+MBR-01770,Elizabeth,Wilson,1995-09-25,30,F,FL,Medicaid,Dr. Nancy Wilson,1.6
+MBR-01771,Betty,Lee,1967-05-21,58,M,NY,EPO,Dr. Jessica Williams,2.31
+MBR-01772,Emily,Lopez,2002-07-07,23,F,OH,HMO,Dr. Ashley Anderson,3.4
+MBR-01773,Margaret,Rodriguez,1950-07-26,75,M,FL,Medicaid,Dr. Nancy Rodriguez,2.41
+MBR-01774,Joseph,Martin,1983-02-16,42,M,NC,EPO,Dr. Dorothy Miller,3.88
+MBR-01775,Patricia,Davis,1956-12-03,69,F,VA,PPO,Dr. Jennifer Lee,3.28
+MBR-01776,Jennifer,Moore,1998-08-31,27,F,GA,PPO,Dr. Karen Jones,3.93
+MBR-01777,Jessica,Anderson,1969-08-09,56,M,TX,EPO,Dr. Jennifer Davis,3.99
+MBR-01778,Karen,Jackson,1998-05-13,27,M,OH,PPO,Dr. Jessica Smith,3.73
+MBR-01779,Jennifer,Brown,1979-08-29,46,M,AZ,PPO,Dr. Kimberly Brown,3.62
+MBR-01780,Barbara,Jackson,1957-10-15,68,M,FL,HMO,Dr. Lisa Garcia,3.57
+MBR-01781,Betty,Jones,2002-10-14,23,M,NY,Medicare Advantage,Dr. Barbara Jones,1.47
+MBR-01782,Sandra,Davis,1957-05-31,68,F,TX,HMO,Dr. John Davis,1.15
+MBR-01783,Betty,Jones,2000-01-08,26,M,IL,Medicare Advantage,Dr. Dorothy Taylor,3.21
+MBR-01784,Thomas,Moore,1954-05-26,71,F,NJ,EPO,Dr. Nancy Lee,2.81
+MBR-01785,Dorothy,Anderson,1953-10-26,72,F,NC,Medicare Advantage,Dr. Barbara Johnson,1.33
+MBR-01786,Linda,Lee,1957-06-21,68,F,OH,Medicare Advantage,Dr. Karen Lopez,0.6
+MBR-01787,David,Smith,1942-10-04,83,M,OH,PPO,Dr. Sandra Martin,3.66
+MBR-01788,Betty,Davis,1987-10-31,38,F,NY,PPO,Dr. Thomas Thomas,1.51
+MBR-01789,John,Thomas,1953-07-13,72,F,MA,PPO,Dr. Sandra Jones,2.16
+MBR-01790,Barbara,Brown,1998-08-10,27,M,PA,HMO,Dr. Nancy Thomas,4.14
+MBR-01791,Donna,Martinez,1949-07-23,76,M,AZ,EPO,Dr. Kimberly Taylor,0.66
+MBR-01792,Nancy,Hernandez,1943-10-15,82,M,IL,EPO,Dr. Elizabeth Smith,4.47
+MBR-01793,Patricia,Smith,1986-04-26,39,F,FL,EPO,Dr. Nancy Smith,2.29
+MBR-01794,Nancy,Lee,1962-08-03,63,F,IL,Medicaid,Dr. Patricia Moore,2.84
+MBR-01795,Margaret,Moore,1949-01-02,77,F,NJ,EPO,Dr. Michael Martin,2.52
+MBR-01796,Lisa,Thomas,1985-02-20,40,F,IL,PPO,Dr. Barbara Miller,0.87
+MBR-01797,Betty,Davis,1955-12-29,70,F,NY,Medicaid,Dr. Maria Jones,1.28
+MBR-01798,William,Jones,1980-06-08,45,F,NC,EPO,Dr. Sarah Miller,0.5
+MBR-01799,Joseph,Johnson,1996-08-26,29,M,VA,Medicare Advantage,Dr. William Williams,1.38
+MBR-01800,Linda,Williams,1983-02-04,42,F,GA,Medicaid,Dr. Donna Lopez,3.9
+MBR-01801,James,Hernandez,1971-04-21,54,F,TX,EPO,Dr. Dorothy Rodriguez,3.72
+MBR-01802,Richard,Smith,1973-06-06,52,M,GA,Medicaid,Dr. Lisa Moore,1.7
+MBR-01803,Emily,Martinez,1953-09-10,72,M,CA,PPO,Dr. Kimberly Davis,3.88
+MBR-01804,Sandra,Jones,1976-11-24,49,M,VA,EPO,Dr. Dorothy Lopez,2.15
+MBR-01805,Emily,Hernandez,1953-08-19,72,F,CA,PPO,Dr. Elizabeth Lee,2.42
+MBR-01806,Charles,Johnson,1996-05-30,29,F,OH,Medicare Advantage,Dr. Barbara Anderson,2.39
+MBR-01807,Nancy,Brown,2001-08-03,24,F,FL,Medicare Advantage,Dr. Thomas Taylor,4.21
+MBR-01808,Betty,Anderson,1954-09-21,71,M,IL,PPO,Dr. Donna Garcia,1.84
+MBR-01809,Joseph,Williams,1963-11-27,62,F,CA,HMO,Dr. William Smith,1.1
+MBR-01810,Thomas,Williams,1950-01-28,75,F,NJ,PPO,Dr. Patricia Smith,2.38
+MBR-01811,Karen,Lopez,2000-01-26,25,M,NJ,Medicaid,Dr. Robert Martin,0.85
+MBR-01812,Lisa,Brown,1983-12-24,42,F,MI,HMO,Dr. Patricia Lee,0.5
+MBR-01813,Thomas,Wilson,1980-05-06,45,M,CA,Medicaid,Dr. Emily Martinez,2.96
+MBR-01814,Barbara,Williams,1995-05-18,30,F,MI,Medicaid,Dr. Elizabeth Moore,0.88
+MBR-01815,Patricia,Wilson,1976-07-24,49,F,NJ,PPO,Dr. John Taylor,3.74
+MBR-01816,Karen,Wilson,1959-06-18,66,F,WA,PPO,Dr. William Martinez,3.17
+MBR-01817,Sandra,Jones,1978-01-18,47,M,TX,HMO,Dr. Jennifer Johnson,2.85
+MBR-01818,Linda,Thomas,1989-11-07,36,M,TX,HMO,Dr. Karen Hernandez,3.25
+MBR-01819,Margaret,Anderson,1974-11-13,51,F,MA,EPO,Dr. Michael Martin,1.71
+MBR-01820,James,Johnson,1978-07-11,47,F,TX,Medicare Advantage,Dr. Susan Lopez,0.76
+MBR-01821,Betty,Garcia,2000-04-28,25,F,GA,Medicare Advantage,Dr. William Hernandez,2.3
+MBR-01822,Robert,Hernandez,1963-04-02,62,F,AZ,PPO,Dr. Maria Garcia,4.32
+MBR-01823,Ashley,Hernandez,1951-11-06,74,M,NY,PPO,Dr. Jessica Moore,2.92
+MBR-01824,Michael,Garcia,1969-06-16,56,M,NY,HMO,Dr. James Lopez,3.35
+MBR-01825,Maria,Brown,1957-05-16,68,F,WA,EPO,Dr. Susan Miller,1.09
+MBR-01826,Dorothy,Wilson,1940-04-27,85,F,MI,EPO,Dr. Charles Lee,1.29
+MBR-01827,Michael,Martin,1999-04-03,26,F,IL,EPO,Dr. David Thomas,0.68
+MBR-01828,Margaret,Martin,1962-03-02,63,M,WA,HMO,Dr. Ashley Anderson,4.22
+MBR-01829,Richard,Martin,1975-09-22,50,F,GA,Medicaid,Dr. Karen Johnson,3.77
+MBR-01830,Sarah,Smith,1972-04-18,53,F,FL,HMO,Dr. Jessica Thomas,1.46
+MBR-01831,Patricia,Williams,2004-08-19,21,F,NC,EPO,Dr. Margaret Smith,2.51
+MBR-01832,Ashley,Martin,1965-09-29,60,M,NC,EPO,Dr. Karen Brown,3.92
+MBR-01833,Elizabeth,Jackson,1955-02-18,70,F,FL,HMO,Dr. Robert Anderson,0.82
+MBR-01834,Maria,Brown,1973-11-09,52,F,MA,Medicaid,Dr. Elizabeth Martinez,3.19
+MBR-01835,Thomas,Anderson,1951-10-08,74,M,VA,PPO,Dr. Nancy Brown,3.56
+MBR-01836,Kimberly,Jackson,1968-02-23,57,F,CA,HMO,Dr. Barbara Brown,3.91
+MBR-01837,Jennifer,Rodriguez,2004-10-07,21,M,CA,Medicare Advantage,Dr. Lisa Brown,2.5
+MBR-01838,Ashley,Lee,1945-09-01,80,M,WA,HMO,Dr. Nancy Williams,1.91
+MBR-01839,Kimberly,Rodriguez,1956-01-10,70,M,MA,EPO,Dr. William Williams,4.47
+MBR-01840,Lisa,Garcia,1984-04-19,41,M,AZ,EPO,Dr. Susan Taylor,4.46
+MBR-01841,Lisa,Wilson,1960-06-10,65,M,CA,EPO,Dr. David Wilson,1.35
+MBR-01842,David,Martin,1980-01-21,45,F,CA,PPO,Dr. Richard Taylor,2.73
+MBR-01843,Lisa,Lopez,1946-10-12,79,F,MA,HMO,Dr. Patricia Thomas,1.25
+MBR-01844,Robert,Lopez,1959-02-20,66,M,PA,Medicare Advantage,Dr. Michael Smith,4.38
+MBR-01845,Barbara,Brown,1945-03-23,80,M,NC,EPO,Dr. David Brown,2.87
+MBR-01846,Kimberly,Jackson,1944-07-31,81,F,CA,EPO,Dr. William Johnson,3.64
+MBR-01847,Karen,Jackson,1964-06-13,61,M,IL,HMO,Dr. Joseph Brown,0.72
+MBR-01848,John,Rodriguez,1966-07-06,59,M,TX,Medicaid,Dr. Lisa Anderson,4.43
+MBR-01849,Ashley,Martinez,1958-08-18,67,M,OH,HMO,Dr. Maria Martinez,1.81
+MBR-01850,Charles,Moore,1993-03-07,32,M,MI,HMO,Dr. Nancy Brown,0.88
+MBR-01851,Lisa,Brown,1971-10-14,54,F,MI,PPO,Dr. Emily Williams,1.43
+MBR-01852,Richard,Jackson,1969-04-13,56,F,MA,HMO,Dr. William Jackson,4.24
+MBR-01853,Linda,Wilson,1966-12-27,59,F,IL,Medicare Advantage,Dr. Jennifer Hernandez,1.58
+MBR-01854,Jennifer,Brown,1998-03-13,27,M,NY,HMO,Dr. Thomas Taylor,0.67
+MBR-01855,Kimberly,Brown,1958-09-05,67,F,TX,EPO,Dr. Kimberly Davis,0.83
+MBR-01856,James,Martin,1983-01-19,42,M,AZ,HMO,Dr. James Smith,2.38
+MBR-01857,Michael,Moore,1988-09-10,37,M,OH,HMO,Dr. Robert Moore,4.0
+MBR-01858,Kimberly,Davis,1980-12-13,45,F,OH,PPO,Dr. Donna Wilson,1.27
+MBR-01859,Barbara,Wilson,1967-03-20,58,F,OH,EPO,Dr. Karen Rodriguez,1.5
+MBR-01860,Sarah,Lee,1989-05-01,36,F,NY,HMO,Dr. Betty Martin,1.26
+MBR-01861,Emily,Garcia,1972-02-21,53,M,MI,HMO,Dr. Robert Davis,1.03
+MBR-01862,Jessica,Johnson,1999-12-03,26,M,NJ,Medicare Advantage,Dr. Barbara Miller,1.61
+MBR-01863,James,Miller,1990-11-15,35,M,AZ,HMO,Dr. Margaret Brown,1.87
+MBR-01864,Barbara,Brown,1947-07-17,78,M,PA,Medicare Advantage,Dr. Betty Moore,3.22
+MBR-01865,Joseph,Jones,1948-10-07,77,M,OH,Medicaid,Dr. Susan Davis,2.46
+MBR-01866,Patricia,Rodriguez,1970-01-14,56,F,OH,Medicare Advantage,Dr. Elizabeth Johnson,3.63
+MBR-01867,Dorothy,Martinez,1997-09-26,28,F,OH,HMO,Dr. Thomas Martinez,1.06
+MBR-01868,Margaret,Smith,1969-05-18,56,M,WA,EPO,Dr. Jennifer Martin,2.32
+MBR-01869,Sandra,Miller,1966-01-29,59,M,AZ,Medicaid,Dr. Richard Taylor,4.35
+MBR-01870,Ashley,Davis,1970-06-05,55,M,MA,PPO,Dr. Maria Davis,3.08
+MBR-01871,Kimberly,Moore,1955-02-25,70,M,MA,PPO,Dr. Linda Rodriguez,3.38
+MBR-01872,Sarah,Moore,1972-08-09,53,M,VA,Medicare Advantage,Dr. Maria Williams,2.77
+MBR-01873,Thomas,Martinez,1991-09-03,34,M,WA,PPO,Dr. David Jackson,3.92
+MBR-01874,Dorothy,Smith,1981-10-28,44,F,NY,Medicaid,Dr. David Jackson,2.18
+MBR-01875,Ashley,Miller,1961-10-14,64,M,CA,Medicaid,Dr. Michael Anderson,1.5
+MBR-01876,James,Wilson,1970-02-07,55,M,AZ,EPO,Dr. Emily Martin,1.93
+MBR-01877,Donna,Miller,1956-09-15,69,F,PA,HMO,Dr. Joseph Hernandez,1.93
+MBR-01878,Ashley,Davis,1974-06-08,51,F,NC,HMO,Dr. John Williams,0.91
+MBR-01879,Margaret,Johnson,1987-09-29,38,M,GA,Medicare Advantage,Dr. Kimberly Williams,0.91
+MBR-01880,Jessica,Miller,1948-10-01,77,M,PA,HMO,Dr. Patricia Rodriguez,0.55
+MBR-01881,Sarah,Martin,1952-06-03,73,M,MA,PPO,Dr. Jennifer Hernandez,4.19
+MBR-01882,William,Rodriguez,1989-03-10,36,M,NC,PPO,Dr. Patricia Taylor,3.26
+MBR-01883,Charles,Taylor,1983-09-24,42,M,WA,Medicare Advantage,Dr. Thomas Hernandez,0.9
+MBR-01884,Charles,Martin,1940-09-02,85,M,NY,Medicare Advantage,Dr. John Lopez,4.24
+MBR-01885,Maria,Brown,1947-03-06,78,M,MI,HMO,Dr. Robert Rodriguez,1.27
+MBR-01886,Michael,Johnson,1984-10-12,41,M,FL,PPO,Dr. Susan Jones,1.68
+MBR-01887,Jessica,Lee,1997-11-01,28,F,NY,HMO,Dr. Michael Miller,1.97
+MBR-01888,Barbara,Williams,1966-10-27,59,F,GA,Medicare Advantage,Dr. Maria Garcia,2.0
+MBR-01889,Linda,Williams,1982-10-24,43,F,FL,HMO,Dr. Barbara Anderson,0.93
+MBR-01890,Sarah,Moore,1975-04-05,50,M,MA,EPO,Dr. Thomas Martin,4.1
+MBR-01891,Elizabeth,Lee,1962-04-20,63,F,NJ,EPO,Dr. Susan Thomas,2.2
+MBR-01892,Lisa,Rodriguez,1948-03-16,77,F,FL,HMO,Dr. Susan Wilson,1.68
+MBR-01893,Joseph,Martin,1945-11-23,80,M,WA,PPO,Dr. Thomas Johnson,1.42
+MBR-01894,Betty,Martin,1990-01-11,35,F,VA,PPO,Dr. Patricia Moore,1.22
+MBR-01895,Jessica,Johnson,1975-04-29,50,M,AZ,EPO,Dr. Kimberly Williams,1.47
+MBR-01896,Dorothy,Jackson,1994-11-23,31,F,IL,Medicaid,Dr. Lisa Jackson,1.04
+MBR-01897,Margaret,Taylor,1982-09-29,43,M,TX,PPO,Dr. John Williams,2.57
+MBR-01898,Margaret,Jackson,1948-12-10,77,M,VA,Medicaid,Dr. Sandra Garcia,3.23
+MBR-01899,Patricia,Smith,1962-01-04,64,M,WA,HMO,Dr. Joseph Smith,0.83
+MBR-01900,Jennifer,Miller,1983-05-11,42,M,WA,HMO,Dr. Sandra Jackson,3.09
+MBR-01901,Michael,Jones,1997-07-12,28,M,PA,Medicare Advantage,Dr. Robert Brown,3.68
+MBR-01902,David,Martinez,1940-09-11,85,F,TX,HMO,Dr. Kimberly Jones,2.9
+MBR-01903,Ashley,Moore,1943-12-14,82,F,TX,PPO,Dr. Richard Martinez,2.51
+MBR-01904,Betty,Taylor,1999-12-19,26,F,NC,Medicare Advantage,Dr. Sandra Smith,0.68
+MBR-01905,Robert,Rodriguez,1998-09-05,27,M,OH,Medicaid,Dr. James Hernandez,0.85
+MBR-01906,Betty,Wilson,1969-04-02,56,M,CA,PPO,Dr. Margaret Jones,3.69
+MBR-01907,Nancy,Johnson,1975-07-11,50,F,IL,PPO,Dr. William Martin,2.0
+MBR-01908,James,Taylor,1999-12-12,26,M,OH,PPO,Dr. Jessica Anderson,2.91
+MBR-01909,William,Smith,1946-03-08,79,F,WA,EPO,Dr. Elizabeth Jones,0.76
+MBR-01910,Charles,Brown,1970-06-29,55,M,IL,EPO,Dr. Linda Jackson,4.16
+MBR-01911,James,Rodriguez,2004-02-12,21,F,TX,EPO,Dr. Ashley Taylor,4.02
+MBR-01912,Betty,Miller,1973-04-19,52,M,NJ,HMO,Dr. Betty Rodriguez,1.47
+MBR-01913,John,Wilson,1996-02-27,29,M,NJ,Medicaid,Dr. Michael Garcia,2.59
+MBR-01914,Karen,Garcia,1966-01-06,60,F,FL,Medicare Advantage,Dr. David Jones,1.97
+MBR-01915,Linda,Martinez,1949-09-14,76,M,CA,Medicare Advantage,Dr. Joseph Johnson,3.79
+MBR-01916,Elizabeth,Lopez,1967-07-09,58,F,WA,Medicaid,Dr. Joseph Johnson,1.25
+MBR-01917,Lisa,Jackson,1975-01-30,50,F,TX,Medicaid,Dr. Susan Smith,3.17
+MBR-01918,Karen,Anderson,1944-08-31,81,F,AZ,Medicaid,Dr. Dorothy Martin,4.34
+MBR-01919,David,Davis,1940-11-28,85,M,PA,PPO,Dr. Kimberly Moore,2.57
+MBR-01920,Michael,Jones,1969-05-22,56,F,MI,HMO,Dr. Robert Hernandez,0.65
+MBR-01921,Jessica,Miller,1997-09-20,28,F,FL,Medicaid,Dr. Susan Moore,1.53
+MBR-01922,Betty,Davis,1964-11-05,61,M,WA,HMO,Dr. Jennifer Brown,3.35
+MBR-01923,Michael,Brown,1946-04-18,79,F,NY,EPO,Dr. Susan Davis,2.87
+MBR-01924,Susan,Jones,1979-06-20,46,F,NJ,Medicaid,Dr. Jessica Johnson,4.03
+MBR-01925,Jennifer,Lee,2000-04-24,25,M,GA,Medicaid,Dr. Betty Brown,2.35
+MBR-01926,David,Jackson,1940-04-29,85,F,MA,HMO,Dr. Maria Garcia,1.33
+MBR-01927,Emily,Brown,2001-07-20,24,M,WA,Medicare Advantage,Dr. Linda Jackson,1.01
+MBR-01928,John,Wilson,2003-07-21,22,M,GA,Medicare Advantage,Dr. Sarah Martinez,3.79
+MBR-01929,Charles,Smith,1989-02-27,36,F,NJ,PPO,Dr. Betty Lopez,2.94
+MBR-01930,Thomas,Johnson,1960-12-09,65,M,IL,EPO,Dr. Jennifer Brown,3.98
+MBR-01931,Kimberly,Martinez,1968-09-22,57,M,FL,Medicare Advantage,Dr. Dorothy Taylor,1.87
+MBR-01932,David,Anderson,2001-09-30,24,M,TX,PPO,Dr. Susan Lee,2.91
+MBR-01933,Jessica,Thomas,1986-08-24,39,M,PA,Medicaid,Dr. Margaret Williams,0.87
+MBR-01934,Barbara,Moore,2000-04-08,25,F,OH,HMO,Dr. Richard Lopez,3.02
+MBR-01935,Ashley,Wilson,1961-06-12,64,M,OH,HMO,Dr. Dorothy Brown,0.97
+MBR-01936,David,Smith,1988-12-20,37,F,FL,HMO,Dr. Dorothy Miller,1.95
+MBR-01937,Richard,Smith,1954-07-06,71,M,TX,Medicare Advantage,Dr. Jennifer Hernandez,4.26
+MBR-01938,Elizabeth,Miller,1977-09-05,48,M,MA,Medicaid,Dr. Nancy Johnson,3.77
+MBR-01939,Emily,Brown,1981-05-09,44,F,NJ,Medicare Advantage,Dr. Margaret Jackson,3.08
+MBR-01940,Dorothy,Rodriguez,1986-08-16,39,M,VA,HMO,Dr. Linda Davis,1.72
+MBR-01941,David,Miller,2004-07-15,21,F,IL,PPO,Dr. Ashley Jackson,3.45
+MBR-01942,Patricia,Miller,1987-09-14,38,F,NJ,Medicaid,Dr. Donna Brown,0.71
+MBR-01943,John,Smith,1957-03-14,68,F,AZ,HMO,Dr. Dorothy Lopez,4.47
+MBR-01944,Karen,Martin,1996-10-07,29,F,MA,HMO,Dr. John Thomas,4.47
+MBR-01945,David,Lee,1983-01-16,42,F,MI,EPO,Dr. James Anderson,3.57
+MBR-01946,Richard,Jackson,1956-02-25,69,F,MI,EPO,Dr. Michael Thomas,0.86
+MBR-01947,Kimberly,Lopez,1967-03-26,58,M,OH,EPO,Dr. Jessica Jones,1.82
+MBR-01948,Maria,Moore,1991-08-05,34,F,MI,EPO,Dr. William Miller,4.31
+MBR-01949,Elizabeth,Davis,1980-08-15,45,M,WA,PPO,Dr. David Anderson,2.12
+MBR-01950,Donna,Smith,1997-03-29,28,F,GA,PPO,Dr. Betty Brown,2.33
+MBR-01951,James,Thomas,1951-10-23,74,M,VA,PPO,Dr. Karen Jackson,4.27
+MBR-01952,Lisa,Lee,1975-07-13,50,M,NJ,PPO,Dr. Thomas Moore,1.05
+MBR-01953,Richard,Smith,2002-07-15,23,F,OH,HMO,Dr. Barbara Martin,2.94
+MBR-01954,Kimberly,Jones,1961-06-24,64,M,MI,Medicaid,Dr. Kimberly Jones,2.24
+MBR-01955,William,Jackson,1970-07-04,55,M,MI,Medicare Advantage,Dr. Nancy Anderson,3.02
+MBR-01956,Kimberly,Taylor,1977-06-09,48,M,CA,PPO,Dr. David Miller,3.73
+MBR-01957,Charles,Brown,1964-09-10,61,F,AZ,PPO,Dr. David Rodriguez,2.09
+MBR-01958,Emily,Martinez,1985-04-26,40,M,IL,HMO,Dr. Joseph Smith,3.83
+MBR-01959,David,Davis,1984-01-12,42,F,NY,EPO,Dr. Margaret Lee,2.06
+MBR-01960,Patricia,Brown,1955-07-05,70,M,NC,PPO,Dr. Jennifer Williams,3.17
+MBR-01961,Patricia,Williams,1962-07-09,63,M,NC,HMO,Dr. Donna Rodriguez,0.82
+MBR-01962,Patricia,Thomas,1995-06-15,30,F,WA,PPO,Dr. Joseph Moore,1.28
+MBR-01963,James,Jones,1948-12-26,77,F,VA,Medicaid,Dr. Jessica Rodriguez,1.58
+MBR-01964,Sandra,Lee,1941-08-31,84,F,OH,PPO,Dr. Patricia Thomas,4.04
+MBR-01965,Robert,Jones,1953-03-20,72,F,TX,Medicaid,Dr. Maria Jackson,3.69
+MBR-01966,Charles,Wilson,1942-12-29,83,F,TX,EPO,Dr. John Lee,0.77
+MBR-01967,Betty,Moore,1971-02-04,54,M,NC,Medicaid,Dr. Jennifer Miller,1.29
+MBR-01968,Jennifer,Jones,1946-08-14,79,M,PA,PPO,Dr. Susan Lopez,4.16
+MBR-01969,Sandra,Jackson,1953-12-10,72,M,GA,HMO,Dr. Susan Garcia,3.21
+MBR-01970,Maria,Wilson,1994-11-13,31,M,FL,Medicare Advantage,Dr. Jessica Moore,4.42
+MBR-01971,Sandra,Taylor,1964-04-12,61,M,MI,Medicaid,Dr. Betty Brown,1.26
+MBR-01972,Thomas,Jackson,1947-08-23,78,M,IL,Medicaid,Dr. Emily Johnson,3.4
+MBR-01973,Patricia,Jones,1983-06-24,42,F,IL,EPO,Dr. Patricia Brown,2.22
+MBR-01974,Jessica,Thomas,1968-10-03,57,M,NJ,Medicaid,Dr. Richard Brown,2.09
+MBR-01975,Thomas,Thomas,1991-04-30,34,M,NJ,EPO,Dr. Elizabeth Garcia,0.8
+MBR-01976,Thomas,Taylor,1984-03-16,41,M,NC,PPO,Dr. Linda Miller,1.54
+MBR-01977,Emily,Jackson,1951-07-30,74,M,VA,Medicare Advantage,Dr. William Lee,2.25
+MBR-01978,Joseph,Jackson,1950-09-18,75,M,MA,HMO,Dr. Joseph Moore,1.21
+MBR-01979,Maria,Hernandez,1964-09-21,61,F,MI,Medicare Advantage,Dr. Michael Smith,2.47
+MBR-01980,Robert,Brown,1950-06-02,75,F,GA,HMO,Dr. Betty Taylor,1.44
+MBR-01981,Joseph,Smith,1953-07-17,72,M,WA,HMO,Dr. Betty Jackson,1.07
+MBR-01982,Jessica,Lopez,1983-07-29,42,M,NJ,PPO,Dr. Jennifer Wilson,3.21
+MBR-01983,David,Hernandez,1958-04-17,67,M,GA,HMO,Dr. Robert Rodriguez,2.12
+MBR-01984,Dorothy,Garcia,1985-12-05,40,M,MI,PPO,Dr. Lisa Martin,2.09
+MBR-01985,Kimberly,Martin,1946-04-23,79,M,WA,Medicaid,Dr. Jessica Anderson,2.99
+MBR-01986,Elizabeth,Jones,1968-12-27,57,M,AZ,Medicaid,Dr. William Johnson,4.31
+MBR-01987,Michael,Lee,1975-01-25,50,F,IL,EPO,Dr. Karen Jones,1.69
+MBR-01988,James,Williams,1961-08-25,64,M,PA,Medicare Advantage,Dr. James Jackson,2.53
+MBR-01989,Jennifer,Lopez,2000-10-08,25,F,FL,EPO,Dr. Betty Thomas,2.06
+MBR-01990,Maria,Lee,1979-05-27,46,M,IL,Medicare Advantage,Dr. David Williams,4.35
+MBR-01991,Ashley,Lee,1996-04-11,29,F,GA,Medicare Advantage,Dr. Kimberly Jones,3.93
+MBR-01992,John,Jones,1949-11-15,76,F,PA,EPO,Dr. Emily Miller,2.48
+MBR-01993,Robert,Moore,2001-01-07,25,F,OH,PPO,Dr. Robert Davis,1.97
+MBR-01994,Robert,Lopez,1970-06-30,55,M,OH,EPO,Dr. Lisa Thomas,2.78
+MBR-01995,Elizabeth,Rodriguez,2001-04-05,24,M,TX,Medicaid,Dr. Joseph Lopez,1.57
+MBR-01996,Sandra,Martin,1981-06-25,44,F,FL,PPO,Dr. Nancy Lee,1.68
+MBR-01997,Robert,Jackson,1973-03-26,52,M,AZ,Medicaid,Dr. William Wilson,3.82
+MBR-01998,Kimberly,Martin,1976-11-22,49,M,PA,Medicare Advantage,Dr. Elizabeth Rodriguez,0.82
+MBR-01999,Kimberly,Hernandez,1963-05-15,62,M,TX,Medicaid,Dr. Betty Garcia,4.37
+MBR-02000,Emily,Davis,1983-01-22,42,F,FL,Medicaid,Dr. Dorothy Lee,3.63

@@ -1,0 +1,61 @@
+POLICY_ID,PAYER_ID,POLICY_TITLE,POLICY_TEXT
+POL-001,PAY-200,Prior Authorization Requirements,"Prior Authorization Policy - PAY-200 Premier Health Plan
+
+All elective surgical procedures require prior authorization submitted at least 14 business days before the scheduled service date. Emergency and urgent services are exempt from pre-authorization but require notification within 48 hours of admission.
+
+Authorization requests must include: (1) patient demographics and member ID, (2) ICD-10 diagnosis codes, (3) CPT procedure codes, (4) clinical justification with supporting documentation, (5) provider NPI and facility information.
+
+Failure to obtain required authorization will result in denial under CARC code CO-197. Providers may request retro-authorization within 30 days of service for urgent cases only.
+
+Covered surgical categories requiring auth: orthopedic joint procedures, cardiac catheterization and interventions, oncology treatments, spinal procedures, and all inpatient admissions exceeding 23-hour observation."
+POL-002,PAY-200,Timely Filing Requirements,"Timely Filing Policy - PAY-200 Premier Health Plan
+
+In-network providers must submit claims within 90 days of the date of service or discharge date, whichever is later. Out-of-network providers have 120 days. Claims received after the filing deadline will be denied under CARC code CO-29.
+
+Appeals of timely filing denials must include proof of original submission (e.g., clearinghouse confirmation, electronic receipt) within 60 days of the denial date. The plan will not consider appeals received after the 60-day window.
+
+For coordination of benefits (COB) claims, the filing clock starts on the date the primary payer processes the claim. Providers must submit the secondary claim within 90 days of the primary EOB date."
+POL-003,PAY-300,Medical Necessity Criteria - Orthopedic Surgery,"Medical Necessity - Orthopedic Procedures - PAY-300 Summit Care
+
+Total knee arthroplasty (CPT 27447) is considered medically necessary when ALL of the following criteria are met:
+1. Radiographic evidence of moderate-to-severe osteoarthritis (Kellgren-Lawrence grade 3 or 4)
+2. Failure of conservative treatment for at least 3 months including: physical therapy, NSAIDs, and at least one corticosteroid injection
+3. Significant functional limitation documented by validated outcome measure (e.g., WOMAC score)
+4. BMI below 45 (patients with BMI 40-45 require additional surgical risk assessment)
+
+Arthroscopic knee surgery (CPT 29881) requires documentation of mechanical symptoms (locking, catching) or acute meniscal tear confirmed by MRI. Arthroscopy for isolated osteoarthritis without mechanical symptoms is not covered per current evidence guidelines.
+
+Denial code CO-50 applies when medical necessity criteria are not met. Appeals must include updated clinical documentation addressing each criterion."
+POL-004,PAY-400,Coding and Billing Guidelines,"Coding and Billing Policy - PAY-400 Valley Health Partners
+
+Claims must be submitted with valid ICD-10-CM diagnosis codes to the highest level of specificity. Unspecified codes (e.g., codes ending in .9) will be accepted only when clinical documentation does not support a more specific code.
+
+Modifier usage requirements:
+- Modifier -25: Significant, separately identifiable E/M service on the same day as a procedure. Documentation must clearly support the separate E/M service.
+- Modifier -59: Distinct procedural service. Required when procedures that are typically bundled are performed on separate anatomical sites or during separate encounters.
+
+Common denial scenarios (CARC CO-4, CO-11):
+- Procedure code does not match the diagnosis (e.g., cardiac procedure with musculoskeletal diagnosis)
+- Missing required modifiers for unbundled services
+- Diagnosis code laterality does not match procedure laterality
+
+Corrected claims must be submitted with frequency code 7 (replacement) or 8 (void) within 120 days of the original denial."
+POL-005,PAY-300,Appeals and Grievances Process,"Appeals Process - PAY-300 Summit Care
+
+Level 1 (Internal Appeal): Must be filed within 60 days of denial. Submit written appeal with:
+- Original claim information and denial reference
+- Clinical documentation supporting medical necessity
+- Peer-reviewed literature if applicable
+- Letter of medical necessity from treating physician
+
+Turnaround: standard appeals within 30 calendar days; expedited appeals for urgent/concurrent care within 72 hours.
+
+Level 2 (External Review): Available if Level 1 appeal is upheld. Must be requested within 60 days of Level 1 decision. Conducted by an independent review organization (IRO).
+
+For preventable denials (authorization, coding, timely filing): providers should correct and resubmit rather than appeal. Corrected claim resubmission is faster and has a higher success rate than the formal appeal process.
+
+Historical overturn rates by denial category:
+- Missing authorization (CO-197): 42% overturn when retro-auth is obtained
+- Coding errors (CO-4, CO-11): 68% overturn with corrected claim
+- Medical necessity (CO-50): 31% overturn with additional documentation
+- Timely filing (CO-29): 15% overturn (requires proof of original submission)"
