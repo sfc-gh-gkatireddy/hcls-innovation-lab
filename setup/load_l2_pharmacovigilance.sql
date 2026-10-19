@@ -79,20 +79,20 @@ CREATE OR REPLACE TABLE CASE_NARRATIVES (
 CREATE OR REPLACE STAGE L2_DATA;
 
 COPY FILES
-  INTO @L2_DATA
+  INTO @HCLS_LAB.L2_PHARMACOVIGILANCE.L2_DATA
   FROM @HCLS_LAB.PUBLIC.HCLS_LAB_REPO/branches/main/tracks/l2_pharmacovigilance/data/;
 
 -- ============================================================
 -- STEP 4: Load data from the internal stage into tables
 -- ============================================================
 
-COPY INTO PRODUCTS FROM @L2_DATA/products.csv
+COPY INTO PRODUCTS FROM @HCLS_LAB.L2_PHARMACOVIGILANCE.L2_DATA/products.csv
   FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
 
-COPY INTO AE_CASES FROM @L2_DATA/ae_cases.csv
+COPY INTO AE_CASES FROM @HCLS_LAB.L2_PHARMACOVIGILANCE.L2_DATA/ae_cases.csv
   FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
 
-COPY INTO CASE_NARRATIVES FROM @L2_DATA/case_narratives.csv
+COPY INTO CASE_NARRATIVES FROM @HCLS_LAB.L2_PHARMACOVIGILANCE.L2_DATA/case_narratives.csv
   FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
 
 -- ============================================================

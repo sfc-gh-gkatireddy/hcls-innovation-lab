@@ -102,31 +102,31 @@ CREATE OR REPLACE STAGE L1_DOCS;
 
 -- Copy CSVs for table loading
 COPY FILES
-  INTO @L1_DATA
+  INTO @HCLS_LAB.L1_TRIAL_MATCHING.L1_DATA
   FROM @HCLS_LAB.PUBLIC.HCLS_LAB_REPO/branches/main/tracks/l1_trial_matching/data/;
 
 -- Copy the protocol document for AI_PARSE_DOCUMENT / Cortex Search
 COPY FILES
-  INTO @L1_DOCS
+  INTO @HCLS_LAB.L1_TRIAL_MATCHING.L1_DOCS
   FROM @HCLS_LAB.PUBLIC.HCLS_LAB_REPO/branches/main/tracks/l1_trial_matching/docs/;
 
 -- ============================================================
 -- STEP 5: Load structured data from internal stage into tables
 -- ============================================================
 
-COPY INTO PATIENTS FROM @L1_DATA/patients.csv
+COPY INTO PATIENTS FROM @HCLS_LAB.L1_TRIAL_MATCHING.L1_DATA/patients.csv
   FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
 
-COPY INTO DIAGNOSES FROM @L1_DATA/diagnoses.csv
+COPY INTO DIAGNOSES FROM @HCLS_LAB.L1_TRIAL_MATCHING.L1_DATA/diagnoses.csv
   FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
 
-COPY INTO LABS FROM @L1_DATA/labs.csv
+COPY INTO LABS FROM @HCLS_LAB.L1_TRIAL_MATCHING.L1_DATA/labs.csv
   FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
 
-COPY INTO MEDICATIONS FROM @L1_DATA/medications.csv
+COPY INTO MEDICATIONS FROM @HCLS_LAB.L1_TRIAL_MATCHING.L1_DATA/medications.csv
   FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
 
-COPY INTO SITES FROM @L1_DATA/sites.csv
+COPY INTO SITES FROM @HCLS_LAB.L1_TRIAL_MATCHING.L1_DATA/sites.csv
   FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
 
 -- ============================================================
@@ -144,4 +144,4 @@ UNION ALL SELECT 'SITES', COUNT(*) FROM SITES;
 
 -- Verify the protocol document was staged successfully.
 -- You should see one file: protocol_SNF2847_T2D_301.txt
-LIST @L1_DOCS;
+LIST @HCLS_LAB.L1_TRIAL_MATCHING.L1_DOCS;

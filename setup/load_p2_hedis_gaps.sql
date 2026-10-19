@@ -95,23 +95,23 @@ CREATE OR REPLACE TABLE VISIT_NOTES (
 CREATE OR REPLACE STAGE P2_DATA;
 
 COPY FILES
-  INTO @P2_DATA
+  INTO @HCLS_LAB.P2_HEDIS_GAPS.P2_DATA
   FROM @HCLS_LAB.PUBLIC.HCLS_LAB_REPO/branches/main/tracks/p2_hedis_gaps/data/;
 
 -- ============================================================
 -- STEP 4: Load data from the internal stage into tables
 -- ============================================================
 
-COPY INTO MEMBERS FROM @P2_DATA/members.csv
+COPY INTO MEMBERS FROM @HCLS_LAB.P2_HEDIS_GAPS.P2_DATA/members.csv
   FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
 
-COPY INTO MEASURE_GAPS FROM @P2_DATA/measure_gaps.csv
+COPY INTO MEASURE_GAPS FROM @HCLS_LAB.P2_HEDIS_GAPS.P2_DATA/measure_gaps.csv
   FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
 
-COPY INTO CLAIMS FROM @P2_DATA/claims.csv
+COPY INTO CLAIMS FROM @HCLS_LAB.P2_HEDIS_GAPS.P2_DATA/claims.csv
   FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
 
-COPY INTO VISIT_NOTES FROM @P2_DATA/visit_notes.csv
+COPY INTO VISIT_NOTES FROM @HCLS_LAB.P2_HEDIS_GAPS.P2_DATA/visit_notes.csv
   FILE_FORMAT = HCLS_LAB.PUBLIC.CSV_FORMAT;
 
 -- ============================================================
