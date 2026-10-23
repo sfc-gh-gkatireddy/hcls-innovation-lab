@@ -52,4 +52,4 @@ Build a simple next-best-action score per HCP (for example decile × declining N
 
 - Territory **T07 (Pune West)**: Glucavia NRx drops sharply from **May 2026**. The notes there are dominated by prior authorization and access objections, and the May 2026 formulary bulletin explains why.
 - Territory **T03 (Hyderabad Central)**: competitor Sematra gains share, with rising competitor mentions in the notes.
-- About **40 decile 8-10 doctors** have had no call since June 2026.
+- About **60 decile 8-10 doctors** have had no call since June 2026.
