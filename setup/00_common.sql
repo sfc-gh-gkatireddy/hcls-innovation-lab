@@ -38,7 +38,7 @@ CREATE OR REPLACE FILE FORMAT HCLS_LAB.PUBLIC.CSV_FORMAT
   NULL_IF = ('')
   EMPTY_FIELD_AS_NULL = TRUE;
 
--- Text format for reading document files as a single string (used by L1)
+-- Text format for reading document files as a single string (useful if you bring your own documents)
 CREATE OR REPLACE FILE FORMAT HCLS_LAB.PUBLIC.TEXT_FORMAT
   TYPE = 'CSV'
   RECORD_DELIMITER = 'NONE'
@@ -52,6 +52,6 @@ ALTER ACCOUNT SET CORTEX_ENABLED_CROSS_REGION = 'ANY_REGION';
 -- You are ready. Now run ONE of the track loader scripts:
 --   setup/load_p1_claims_denials.sql
 --   setup/load_p2_hedis_gaps.sql
---   setup/load_l1_trial_matching.sql
---   setup/load_l2_pharmacovigilance.sql
+--   setup/load_l3_commercial_hcp360.sql
+--   setup/load_l4_rwe_treatment_patterns.sql
 -- ============================================================

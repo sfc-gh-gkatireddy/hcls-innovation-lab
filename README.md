@@ -29,5 +29,3 @@ See [guides/working_with_coco.md](guides/working_with_coco.md) for general CoCo 
 All data in this repo is fully synthetic. It contains no real patient information. Each dataset includes planted patterns for teams to discover.
 
 The `generator/` directory contains the Python scripts used to produce the CSVs, so the data can be regenerated with a different seed if needed.
-
-Retired tracks (L1 trial matching, L2 pharmacovigilance) are kept in `archive/`.
