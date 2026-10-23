@@ -48,8 +48,6 @@ An agent that explains where Glucavia is slipping and why, then recommends which
 
 Build a simple next-best-action score per HCP (for example decile × declining NRx × days since last call) and have the agent draft a pre-call brief for the top doctor, using the right objection-handling guidance.
 
-## Hidden patterns
+## Hidden pattern
 
-- Territory **T07 (Pune West)**: Glucavia NRx drops sharply from **May 2026**. The notes there are dominated by prior authorization and access objections, and the May 2026 formulary bulletin explains why.
-- Territory **T03 (Hyderabad Central)**: competitor Sematra gains share, with rising competitor mentions in the notes.
-- About **60 decile 8-10 doctors** have had no call since June 2026.
+One territory's Glucavia new prescriptions dropped sharply partway through the year, and another is losing ground to a competitor. The reasons are in the call notes and the messaging documents. Some high-potential doctors have also been overlooked. Your agent should find all three.

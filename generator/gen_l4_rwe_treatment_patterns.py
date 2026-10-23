@@ -6,12 +6,7 @@ Schema modeled on OMOP CDM v5.4 (hcls-provider-cdata-omop skill in the HCLS
 incubator repo), simplified to the columns a 90-minute lab needs. Concept IDs
 are real OMOP standard concepts where shown.
 
-Planted patterns:
-  1. Glucavia (GLP-1 RA) has strong HbA1c and weight reduction but a discontinuation
-     spike between day 30 and day 90, driven by GI intolerance (nausea/vomiting).
-  2. Patients aged 65+ discontinue Glucavia more often than younger patients.
-  3. Patients whose notes document a slow titration schedule persist much longer
-     (the reason is only in free-text notes, not in the structured data).
+The dataset includes planted patterns for teams to discover.
 """
 import csv
 import os

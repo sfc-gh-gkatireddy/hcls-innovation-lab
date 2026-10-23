@@ -51,8 +51,6 @@ An agent that reports persistence and outcomes by drug and cohort, explains why 
 
 Build a time-to-discontinuation view (days on therapy with censoring at the data cut) and compare Kaplan-Meier style persistence curves by drug or by titration approach.
 
-## Hidden patterns
+## Hidden pattern
 
-- Glucavia has the best HbA1c and weight reduction, but a **discontinuation spike between day 30 and 90**, driven by **GI intolerance**.
-- Patients **aged 65+** stop Glucavia more often than younger patients (about 38% vs 27% within 90 days).
-- Patients whose notes mention a **slow titration schedule** stay on therapy much longer. This is only visible in the notes.
+Glucavia performs best on outcomes but patients don't stay on it as long. Something in the clinical notes explains why, and one detail in the notes predicts who stays on therapy. Your agent should find it.

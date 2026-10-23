@@ -5,12 +5,7 @@ Generates: brands.csv, territories.csv, hcps.csv, rx_monthly.csv, calls.csv,
 Schema modeled on typical pharma commercial feeds (HCP master, IQVIA-style
 prescription data, CRM call activity, field notes).
 
-Planted patterns:
-  1. Territory T07 (Pune West): Glucavia NRx drops ~35% from May 2026 after a
-     formulary change; call notes there are dominated by prior-auth / access objections.
-  2. Competitor Sematra gains share in T03 (Hyderabad Central) with rising
-     competitor mentions in notes.
-  3. ~40 Decile 8-10 HCPs have received no call in the last 90 days (missed targets).
+The dataset includes planted patterns for teams to discover.
 """
 import csv
 import os
