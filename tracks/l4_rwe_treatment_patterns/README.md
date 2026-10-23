@@ -54,5 +54,5 @@ Build a time-to-discontinuation view (days on therapy with censoring at the data
 ## Hidden patterns
 
 - Glucavia has the best HbA1c and weight reduction, but a **discontinuation spike between day 30 and 90**, driven by **GI intolerance**.
-- Patients **aged 65+** stop Glucavia about twice as often as younger patients.
+- Patients **aged 65+** stop Glucavia more often than younger patients (about 38% vs 27% within 90 days).
 - Patients whose notes mention a **slow titration schedule** stay on therapy much longer. This is only visible in the notes.
