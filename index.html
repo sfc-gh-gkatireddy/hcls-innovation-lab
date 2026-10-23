@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="snowflake-source" content="cortex-agent-authored">
+<title>HCLS Innovation Lab: AI Agents in Action — Hands-On Lab Guide</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle cx='20' cy='20' r='20' fill='%2329B5E8'/%3E%3Cpath fill='white' d='M12 26l8-16 8 16-8-5z'/%3E%3C/svg%3E">
+<script type="application/json" id="snowflake-report-metadata">
+{
+  "generated": "2026-10-19",
+  "intent": "Participant lab guide for the HCLS Innovation Lab hands-on block (Bengaluru 27 Oct, Hyderabad 30 Oct 2026): prerequisites, setup, data load, track selection, CoCo working guidance, CoWork and pitch",
+  "dataSources": [
+    { "type": "git", "url": "https://github.com/sfc-gh-gkatireddy/hcls-innovation-lab", "note": "Setup SQL, synthetic data, guides" },
+    { "type": "file", "path": "use_cases.html", "note": "Track details" }
+  ],
+  "sections": [
+    { "id": "s1", "title": "Overview & Agenda" },
+    { "id": "s2", "title": "Prerequisites" },
+    { "id": "s3", "title": "Setup & Data Load", "producerNotes": "Row counts verified on a dry run, Oct 2026." },
+    { "id": "s4", "title": "Choose Your Track" },
+    { "id": "s5", "title": "Build with CoCo", "producerNotes": "General guidance only, no per-track prompts by design." },
+    { "id": "s6", "title": "Snowflake CoWork" },
+    { "id": "s7", "title": "Pitch" },
+    { "id": "s8", "title": "Wrap-Up" }
+  ]
+}
+</script>
+<style>
+:root {
+  color-scheme: light dark;
+  --sf-blue: #29B5E8;
+  --navy: #11224D;
+  --bg: light-dark(#F7FAFD, #0d1117);
+  --card: light-dark(#ffffff, #161b22);
+  --border: light-dark(#DDE6EF, #2b3240);
+  --text: light-dark(#1A2332, #e5e7eb);
+  --muted: light-dark(#5A6A7E, #9aa4b2);
+  --head: light-dark(#11224D, #f1f5f9);
+  --accent: light-dark(#0F6BAE, #4fb3ff);
+  --code-bg: light-dark(#F3F7FA, #0f1520);
+  --active-bg: light-dark(#EAF7FD, #132235);
+  --payer: light-dark(#0e7c66, #34d1ad);
+  --ls: light-dark(#7b3fbf, #b78cff);
+  --info-bg: light-dark(#EAF7FD, #10263a); --info-fg: light-dark(#0F6BAE, #7cc7ff);
+  --tip-bg: light-dark(#E8F8F0, #0f2a1f);  --tip-fg: light-dark(#0A7D48, #4ade80);
+  --warn-bg: light-dark(#FFF7E0, #2e2610); --warn-fg: light-dark(#9A7000, #fbbf24);
+  --danger-bg: light-dark(#FDECEC, #321617); --danger-fg: light-dark(#C42424, #f87171);
+  --purple-bg: light-dark(#F3EDFF, #231a3a); --purple-fg: light-dark(#5B3FD1, #b9a5ff);
+  --mono: ui-monospace, 'SF Mono', 'Menlo', 'Consolas', monospace;
+  --sidebar-w: 270px;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: var(--text); background: var(--bg); line-height: 1.65; }
+a { color: var(--accent); }
+img, svg { max-width: 100%; }
+
+.topbar { position: sticky; top: 0; z-index: 100; background: var(--navy); display: flex; align-items: center; gap: 14px; padding: 0 24px; height: 56px; box-shadow: 0 2px 8px rgba(0,0,0,.25); }
+.topbar svg { width: 30px; height: 30px; flex-shrink: 0; }
+.topbar-title { font-size: 14px; font-weight: 600; color: #fff; }
+.topbar-sep { color: rgba(255,255,255,.3); }
+.topbar-sub { font-size: 12px; color: rgba(255,255,255,.6); }
+.topbar-badge { margin-left: auto; background: var(--sf-blue); color: #fff; font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 12px; white-space: nowrap; }
+
+.layout { display: flex; min-height: calc(100vh - 56px); }
+.sidebar { width: var(--sidebar-w); flex-shrink: 0; background: var(--card); border-right: 1px solid var(--border); padding: 24px 0; position: sticky; top: 56px; height: calc(100vh - 56px); overflow-y: auto; }
+.sidebar-heading { font-size: 11px; font-weight: 700; color: var(--muted); letter-spacing: 1px; text-transform: uppercase; padding: 0 24px; margin-bottom: 10px; }
+.sidebar ul { list-style: none; }
+.step-item a { display: flex; align-items: center; gap: 10px; padding: 8px 24px; text-decoration: none; color: var(--text); font-size: 13px; font-weight: 500; border-left: 3px solid transparent; }
+.step-item a:hover { background: var(--active-bg); }
+.step-item.active a { border-left-color: var(--sf-blue); background: var(--active-bg); color: var(--accent); font-weight: 600; }
+.step-num { width: 22px; height: 22px; border-radius: 50%; flex-shrink: 0; background: var(--border); color: var(--muted); display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 700; }
+.step-item.active .step-num { background: var(--sf-blue); color: #fff; }
+.step-title { flex: 1; }
+.step-time { font-size: 10px; color: var(--muted); }
+.sidebar-badge { margin: 16px 24px 0; padding: 10px 12px; background: linear-gradient(135deg, #11224D 0%, #1B3A6B 100%); border-radius: 8px; color: #fff; font-size: 11px; font-weight: 700; }
+.sidebar-badge a { color: #9fdcf5; display: block; margin-top: 4px; font-weight: 600; }
+
+.main { flex: 1; min-width: 0; padding: 40px 48px 80px; max-width: 920px; margin: 0 auto; }
+.section { padding: 36px 0 12px; border-bottom: 1px solid var(--border); }
+.section:first-child { padding-top: 0; }
+.section-header { display: flex; align-items: baseline; gap: 14px; margin-bottom: 18px; flex-wrap: wrap; }
+.section-num { font-size: 44px; font-weight: 800; color: var(--sf-blue); opacity: .25; line-height: 1; letter-spacing: -2px; }
+.section-title { font-size: 26px; font-weight: 700; color: var(--head); line-height: 1.2; }
+.section-time { font-size: 12px; font-weight: 600; color: var(--muted); background: var(--card); border: 1px solid var(--border); padding: 3px 10px; border-radius: 12px; margin-left: auto; }
+h3 { font-size: 17px; font-weight: 700; color: var(--head); margin: 26px 0 10px; }
+h4 { font-size: 14px; font-weight: 700; color: var(--head); margin: 18px 0 8px; }
+p { margin: 0 0 14px; font-size: 14.5px; }
+ul, ol { margin: 0 0 14px 22px; }
+li { font-size: 14.5px; margin-bottom: 6px; }
+strong { color: var(--head); }
+code { font-family: var(--mono); font-size: 12.5px; background: var(--code-bg); border: 1px solid var(--border); padding: 1px 5px; border-radius: 4px; }
+
+.code-block { margin: 16px 0 20px; border-radius: 8px; overflow: hidden; border: 1px solid var(--border); }
+.code-header { background: var(--navy); color: #fff; padding: 8px 14px; display: flex; align-items: center; gap: 10px; }
+.code-header .lang { font-size: 11px; font-weight: 700; letter-spacing: .5px; }
+.code-header .desc { font-size: 11px; color: rgba(255,255,255,.65); flex: 1; }
+.copy-btn { background: transparent; border: 1px solid rgba(255,255,255,.3); color: #fff; font-size: 10px; font-weight: 600; padding: 2px 10px; border-radius: 4px; cursor: pointer; }
+.copy-btn:hover { background: rgba(255,255,255,.15); }
+.copy-btn.copied { background: #00C569; border-color: #00C569; }
+.code-block pre { background: var(--code-bg); padding: 14px 16px; overflow-x: auto; font-size: 12px; line-height: 1.55; }
+.code-block pre code { background: none; border: none; padding: 0; font-size: 12px; }
+.c { color: light-dark(#6B7A99, #7d8aa3); }
+.k { color: light-dark(#0F6BAE, #79c0ff); font-weight: 500; }
+.s { color: light-dark(#0A7D48, #7ee2a8); }
+
+.callout { border-radius: 8px; padding: 14px 16px; margin: 16px 0; font-size: 13.5px; border-left: 4px solid; }
+.callout p, .callout li { font-size: 13.5px; }
+.callout p:last-child { margin-bottom: 0; }
+.callout ul { margin-bottom: 0; }
+.callout-title { font-weight: 700; margin-bottom: 4px; }
+.callout.info { background: var(--info-bg); border-color: var(--sf-blue); } .callout.info .callout-title { color: var(--info-fg); }
+.callout.tip { background: var(--tip-bg); border-color: #00C569; } .callout.tip .callout-title { color: var(--tip-fg); }
+.callout.warn { background: var(--warn-bg); border-color: #FFC130; } .callout.warn .callout-title { color: var(--warn-fg); }
+.callout.danger { background: var(--danger-bg); border-color: #FF4B4B; } .callout.danger .callout-title { color: var(--danger-fg); }
+
+.table-wrap { overflow-x: auto; margin: 16px 0 20px; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; background: var(--card); border-radius: 8px; overflow: hidden; }
+th { background: var(--navy); color: #fff; text-align: left; padding: 10px 14px; font-size: 12px; font-weight: 600; }
+td { padding: 10px 14px; border-top: 1px solid var(--border); vertical-align: top; }
+tr:nth-child(even) td { background: light-dark(#F7FAFD, #1a2029); }
+td code { font-size: 11.5px; }
+
+.pipeline { display: flex; align-items: center; justify-content: center; gap: 8px; flex-wrap: wrap; margin: 20px 0 10px; padding: 20px; background: var(--card); border-radius: 10px; border: 1px solid var(--border); }
+.pipe-node { padding: 10px 14px; border-radius: 8px; font-size: 11.5px; font-weight: 600; text-align: center; line-height: 1.3; border: 1px solid; }
+.pipe-arrow { color: var(--muted); font-weight: 700; }
+.pipe-data { background: var(--info-bg); color: var(--info-fg); border-color: var(--sf-blue); }
+.pipe-ai { background: var(--warn-bg); color: var(--warn-fg); border-color: #FFC130; }
+.pipe-sem { background: var(--purple-bg); color: var(--purple-fg); border-color: #7B68EE; }
+.pipe-final { background: var(--tip-bg); color: var(--tip-fg); border-color: #00C569; }
+
+.agenda { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin: 16px 0 20px; }
+.agenda div { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; font-size: 13px; }
+.agenda b { display: block; color: var(--accent); font-size: 15px; }
+
+.tracks { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; margin: 16px 0 20px; }
+.track { background: var(--card); border: 1px solid var(--border); border-top: 5px solid var(--sf-blue); border-radius: 10px; padding: 16px; }
+.track.payer { border-top-color: var(--payer); }
+.track.ls { border-top-color: var(--ls); }
+.track .tag { font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+.track.payer .tag { color: var(--payer); } .track.ls .tag { color: var(--ls); }
+.track h4 { margin: 4px 0 6px; font-size: 15px; }
+.track p { font-size: 13px; color: var(--muted); margin-bottom: 8px; }
+.track ul { margin: 0 0 8px 18px; } .track li { font-size: 12.5px; margin-bottom: 2px; }
+.track .schema { font-size: 11.5px; }
+.chips { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 6px; }
+.chips span { background: var(--code-bg); border: 1px solid var(--border); border-radius: 6px; padding: 1px 7px; font-size: 11px; }
+
+.sf-footer { margin-top: 48px; padding: 22px 0 32px; border-top: 1px solid var(--border); text-align: center; font-size: 12px; color: var(--muted); }
+
+@media (max-width: 900px) {
+  .sidebar { display: none; }
+  .main { padding: 24px 18px 60px; }
+  .topbar-sub { display: none; }
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="20" fill="#29B5E8"/><path fill="white" d="M12 26l8-16 8 16-8-5z"/></svg>
+  <span class="topbar-title">HCLS Innovation Lab: AI Agents in Action</span>
+  <span class="topbar-sep">|</span>
+  <span class="topbar-sub">Hands-On Lab Guide</span>
+  <span class="topbar-badge">100 MIN</span>
+</div>
+
+<div class="layout">
+<aside class="sidebar">
+  <div class="sidebar-heading">Lab Steps</div>
+  <ul>
+    <li class="step-item"><a href="#s1"><span class="step-num">1</span><span class="step-title">Overview &amp; Agenda</span><span class="step-time">7:00</span></a></li>
+    <li class="step-item"><a href="#s2"><span class="step-num">2</span><span class="step-title">Prerequisites</span><span class="step-time">before</span></a></li>
+    <li class="step-item"><a href="#s3"><span class="step-num">3</span><span class="step-title">Setup &amp; Data Load</span><span class="step-time">10 min</span></a></li>
+    <li class="step-item"><a href="#s4"><span class="step-num">4</span><span class="step-title">Choose Your Track</span><span class="step-time">5 min</span></a></li>
+    <li class="step-item"><a href="#s5"><span class="step-num">5</span><span class="step-title">Build with CoCo</span><span class="step-time">55 min</span></a></li>
+    <li class="step-item"><a href="#s6"><span class="step-num">6</span><span class="step-title">Snowflake CoWork</span><span class="step-time">10 min</span></a></li>
+    <li class="step-item"><a href="#s7"><span class="step-num">7</span><span class="step-title">Pitch</span><span class="step-time">10 min</span></a></li>
+    <li class="step-item"><a href="#s8"><span class="step-num">8</span><span class="step-title">Wrap-Up</span><span class="step-time">8:40</span></a></li>
+  </ul>
+  <div class="sidebar-badge">Track details
+    <a href="use_cases.html">Open the use case page &rarr;</a>
+    <a href="https://github.com/sfc-gh-gkatireddy/hcls-innovation-lab">Lab GitHub repo &rarr;</a>
+  </div>
+</aside>
+
+<main class="main">
+
+<!-- ═══════════ 1 ═══════════ -->
+<section class="section" id="s1">
+  <div class="section-header">
+    <span class="section-num">01</span>
+    <h2 class="section-title">Overview &amp; Agenda</h2>
+    <span class="section-time">7:00 PM</span>
+  </div>
+
+  <p>In this lab your team picks one real-world healthcare or life sciences challenge and builds a working <strong>AI data agent</strong> on Snowflake in 90 minutes, using <strong>Cortex Code (CoCo)</strong> as your build partner. There is no step-by-step script. You get the data, a clear goal and a set of business questions, and your team decides how to get there.</p>
+
+  <div class="agenda">
+    <div><b>7:00 PM</b>Design Thinking with CoCo: intro, ground rules, ideation</div>
+    <div><b>7:10 PM</b>Build time starts. Set up, load data, pick your track</div>
+    <div><b>~8:20 PM</b>Freeze the build, test in CoWork, prep your pitch</div>
+    <div><b>8:40 PM</b>90-second team pitches</div>
+  </div>
+
+  <h3>What every team builds</h3>
+  <div class="pipeline">
+    <div class="pipe-node pipe-data">Synthetic data<br>(tables + text)</div><span class="pipe-arrow">&rarr;</span>
+    <div class="pipe-node pipe-ai">AI functions<br>on the text</div><span class="pipe-arrow">&rarr;</span>
+    <div class="pipe-node pipe-sem">Semantic view +<br>Cortex Search</div><span class="pipe-arrow">&rarr;</span>
+    <div class="pipe-node pipe-ai">Cortex Agent<br>(Analyst + Search)</div><span class="pipe-arrow">&rarr;</span>
+    <div class="pipe-node pipe-final">Snowflake<br>CoWork</div>
+  </div>
+  <p style="text-align:center; font-size:12.5px; color:var(--muted);">AI functions turn free text into columns. Cortex Analyst answers the numbers questions, Cortex Search answers the text questions, and the agent combines both.</p>
+
+  <h3>What you will learn</h3>
+  <ul>
+    <li>How to explore an unfamiliar dataset quickly with CoCo</li>
+    <li>How to apply Cortex AI functions (classify, extract, filter, summarize) to clinical and operational text in SQL</li>
+    <li>How a semantic view gives Cortex Analyst the business vocabulary for your tables</li>
+    <li>How Cortex Search makes notes, narratives and documents retrievable with citations</li>
+    <li>How a Cortex Agent picks the right tool, or both, for each question</li>
+    <li>How to put the agent in front of business users in Snowflake CoWork</li>
+  </ul>
+
+  <div class="callout danger">
+    <div class="callout-title">All data is 100% synthetic</div>
+    <p>Every dataset was generated for this lab and modelled on real payer and life sciences schemas. <strong>It contains no real patient, member or PHI data.</strong> Each dataset also hides a pattern. Part of the challenge is getting your agent to find it.</p>
+  </div>
+</section>
+
+<!-- ═══════════ 2 ═══════════ -->
+<section class="section" id="s2">
+  <div class="section-header">
+    <span class="section-num">02</span>
+    <h2 class="section-title">Prerequisites</h2>
+    <span class="section-time">BEFORE THE EVENT</span>
+  </div>
+
+  <h3>What you need</h3>
+  <ul>
+    <li><strong>A Snowflake trial account</strong> created from the <strong>event registration link</strong> your organizer sent. It is free and needs no credit card. Please create it <em>before</em> the event, because activation emails can take a few minutes.</li>
+    <li><strong>A laptop</strong> with a modern browser (Chrome or Edge recommended) and Wi-Fi.</li>
+    <li><strong>One account per team is enough to build in.</strong> We still recommend every team member has their own account so everyone can explore and follow along.</li>
+  </ul>
+
+  <div class="callout warn">
+    <div class="callout-title">Use the event link, not the generic signup page</div>
+    <p>The event link provisions the account with the edition and region this lab was tested on. If you are asked to choose, pick <strong>Enterprise</strong> edition and an <strong>AWS</strong> region.</p>
+  </div>
+
+  <h3>Choose how you'll use CoCo</h3>
+  <p>CoCo comes in three forms, all with the same AI agent behind them. Use the first one that works for you:</p>
+  <div class="table-wrap"><table>
+    <tr><th>OPTION</th><th>WHAT IT IS</th><th>HOW TO GET IT</th></tr>
+    <tr><td><strong>1. CoCo Desktop</strong><br><em>Recommended</em></td><td>Native macOS and Windows app with chat, a file editor, a terminal, SQL results and inline charts</td><td>Use the <strong>Get CoCo Desktop</strong> download button on the <a href="https://docs.snowflake.com/en/user-guide/cortex-code/cortex-code-desktop/onboarding-and-authentication">CoCo Desktop install page</a>. On Windows, pick the <strong>User installer</strong> (no admin rights needed). On first launch, add a connection with your account identifier and username and sign in.</td></tr>
+    <tr><td><strong>2. CoCo CLI</strong></td><td>The same agent in your terminal (macOS, Linux, WSL, Windows)</td><td>macOS / Linux / WSL:<br><code>curl -LsS https://ai.snowflake.com/static/cc-scripts/install.sh | sh</code><br>Windows PowerShell:<br><code>irm https://ai.snowflake.com/static/cc-scripts/install.ps1 | iex</code><br>Then run <code>cortex</code> and follow the connection wizard. See the <a href="https://docs.snowflake.com/en/user-guide/cortex-code/cortex-code-cli">CoCo CLI docs</a>.</td></tr>
+    <tr><td><strong>3. CoCo in Snowsight</strong></td><td>Built into the Snowflake web UI. Nothing to install</td><td>Log in at <a href="https://app.snowflake.com">app.snowflake.com</a> and open the CoCo (Cortex Code) panel. This is the fallback if you can't install software on your laptop.</td></tr>
+  </table></div>
+
+  <div class="callout info">
+    <div class="callout-title">Finding your account identifier (Desktop and CLI)</div>
+    <p>In Snowsight, click your avatar (bottom left) and choose <strong>Connect a tool to Snowflake</strong>. Copy the account identifier (<code>orgname-accountname</code>) and your login name. Choose <strong>Local OAuth</strong> or browser sign-in when asked how to authenticate.</p>
+  </div>
+
+  <div class="callout tip">
+    <div class="callout-title">Event trial accounts come fully enabled</div>
+    <p>Accounts created from the event registration link include all Cortex features (CoCo, AI functions, Cortex Search, Cortex Agents and CoWork). You don't need to add a credit card or request extra entitlements.</p>
+  </div>
+
+  <div class="callout warn">
+    <div class="callout-title">Install before the event</div>
+    <ul>
+      <li>Install CoCo Desktop or the CLI <strong>at home or in the office</strong>. Conference Wi-Fi is not the place for a large download.</li>
+      <li>If Desktop or the CLI won't install or connect on your laptop (for example, because of corporate restrictions), use <strong>CoCo in Snowsight</strong>. Everything in this lab works there.</li>
+    </ul>
+  </div>
+
+  <h3>Before you arrive (5 minutes)</h3>
+  <ol>
+    <li>Activate the account from the welcome email and set your password.</li>
+    <li>Log in to Snowsight and confirm you can see <strong>Projects &rarr; Workspaces</strong> and <strong>AI &amp; ML</strong> in the left navigation.</li>
+    <li>Install CoCo Desktop (or the CLI) and connect it to your trial account.</li>
+    <li>Ask CoCo something simple, such as <em>"What databases can I see?"</em>, to confirm it is working.</li>
+  </ol>
+
+  <h3>Snowflake features used</h3>
+  <div class="table-wrap"><table>
+    <tr><th>FEATURE</th><th>WHAT YOU USE IT FOR</th><th>WHERE</th></tr>
+    <tr><td>Cortex Code (CoCo)</td><td>Your AI build partner. It explores data, writes SQL, and creates semantic views, search services and agents</td><td>CoCo Desktop, CoCo CLI or Snowsight</td></tr>
+    <tr><td>Cortex AI functions</td><td><code>AI_CLASSIFY</code>, <code>AI_EXTRACT</code>, <code>AI_FILTER</code>, <code>AI_AGG</code>, <code>AI_COMPLETE</code>, <code>AI_PARSE_DOCUMENT</code> run directly in SQL on notes and narratives</td><td>SQL</td></tr>
+    <tr><td>Semantic View</td><td>Maps business terms, metrics and relationships onto your tables</td><td>AI &amp; ML &rarr; Analyst</td></tr>
+    <tr><td>Cortex Analyst</td><td>Text-to-SQL over the semantic view</td><td>Agent tool</td></tr>
+    <tr><td>Cortex Search</td><td>Hybrid (keyword and vector) search over text with cited results</td><td>AI &amp; ML &rarr; Search</td></tr>
+    <tr><td>Cortex Agents</td><td>Orchestrates Analyst and Search to answer one question with both</td><td>AI &amp; ML &rarr; Agents</td></tr>
+    <tr><td>Snowflake CoWork</td><td>Chat interface for business users (formerly Snowflake Intelligence)</td><td><a href="https://ai.snowflake.com">ai.snowflake.com</a></td></tr>
+  </table></div>
+</section>
+
+<!-- ═══════════ 3 ═══════════ -->
+<section class="section" id="s3">
+  <div class="section-header">
+    <span class="section-num">03</span>
+    <h2 class="section-title">Setup &amp; Data Load</h2>
+    <span class="section-time">10 MIN</span>
+  </div>
+
+  <p>Setup has two steps, both run in a SQL worksheet as <code>ACCOUNTADMIN</code>. Step 3a runs once per account. Step 3b loads your team's track data from the public lab repo.</p>
+
+  <h3>Step 3a: Common setup (run once)</h3>
+  <p>In Snowsight, open a new SQL worksheet (<strong>+ &rarr; SQL File</strong> or <strong>Projects &rarr; Workspaces</strong>). Paste the block below and choose <strong>Run All</strong>. It creates the warehouse and database, connects the public GitHub repo, creates file formats, and enables cross-region inference so all Cortex models are available.</p>
+
+  <div class="code-block">
+    <div class="code-header"><span class="lang">SQL</span><span class="desc">setup/00_common.sql · run as ACCOUNTADMIN · ~1 minute</span></div>
+    <pre><code><span class="k">USE ROLE</span> ACCOUNTADMIN;
+
+<span class="c">-- Compute for the lab (X-Small, auto-suspends after 2 minutes idle)</span>
+<span class="k">CREATE WAREHOUSE IF NOT EXISTS</span> HCLS_LAB_WH
+  WAREHOUSE_SIZE = <span class="s">'XSMALL'</span> AUTO_SUSPEND = 120 AUTO_RESUME = TRUE;
+<span class="k">USE WAREHOUSE</span> HCLS_LAB_WH;
+
+<span class="c">-- One database for the lab; each track gets its own schema</span>
+<span class="k">CREATE DATABASE IF NOT EXISTS</span> HCLS_LAB;
+<span class="k">USE DATABASE</span> HCLS_LAB;
+
+<span class="c">-- Connect to the public lab GitHub repo (no credentials needed)</span>
+<span class="k">CREATE OR REPLACE API INTEGRATION</span> HCLS_LAB_GIT_API
+  API_PROVIDER = git_https_api
+  API_ALLOWED_PREFIXES = (<span class="s">'https://github.com/sfc-gh-gkatireddy'</span>)
+  ENABLED = TRUE;
+
+<span class="k">CREATE OR REPLACE GIT REPOSITORY</span> HCLS_LAB.PUBLIC.HCLS_LAB_REPO
+  API_INTEGRATION = HCLS_LAB_GIT_API
+  ORIGIN = <span class="s">'https://github.com/sfc-gh-gkatireddy/hcls-innovation-lab.git'</span>;
+<span class="k">ALTER GIT REPOSITORY</span> HCLS_LAB.PUBLIC.HCLS_LAB_REPO FETCH;
+
+<span class="c">-- File formats used by the loader scripts</span>
+<span class="k">CREATE OR REPLACE FILE FORMAT</span> HCLS_LAB.PUBLIC.CSV_FORMAT
+  TYPE = <span class="s">'CSV'</span> FIELD_OPTIONALLY_ENCLOSED_BY = <span class="s">'"'</span> SKIP_HEADER = 1
+  NULL_IF = (<span class="s">''</span>) EMPTY_FIELD_AS_NULL = TRUE;
+<span class="k">CREATE OR REPLACE FILE FORMAT</span> HCLS_LAB.PUBLIC.TEXT_FORMAT
+  TYPE = <span class="s">'CSV'</span> RECORD_DELIMITER = <span class="s">'NONE'</span> FIELD_DELIMITER = <span class="s">'NONE'</span>;
+
+<span class="c">-- Required: lets Cortex use models hosted in other regions</span>
+<span class="k">ALTER ACCOUNT SET</span> CORTEX_ENABLED_CROSS_REGION = <span class="s">'ANY_REGION'</span>;</code></pre>
+  </div>
+
+  <h3>Step 3b: Load your track's data</h3>
+  <p>Run the single line for <strong>your team's track</strong>. Each loader creates a schema, the tables, a stage, loads the CSVs from the repo, and returns row counts at the end. You can read any loader in the repo's <a href="https://github.com/sfc-gh-gkatireddy/hcls-innovation-lab/tree/main/setup"><code>setup/</code></a> folder, where every column is commented.</p>
+
+  <div class="code-block">
+    <div class="code-header"><span class="lang">SQL</span><span class="desc">Run ONE line, for your track · ~30 seconds</span></div>
+    <pre><code><span class="k">USE ROLE</span> ACCOUNTADMIN; <span class="k">USE WAREHOUSE</span> HCLS_LAB_WH;
+
+<span class="c">-- P1 Claims Denial Triage</span>
+<span class="k">EXECUTE IMMEDIATE FROM</span> @HCLS_LAB.PUBLIC.HCLS_LAB_REPO/branches/main/setup/load_p1_claims_denials.sql;
+
+<span class="c">-- P2 HEDIS Care Gap Closure</span>
+<span class="k">EXECUTE IMMEDIATE FROM</span> @HCLS_LAB.PUBLIC.HCLS_LAB_REPO/branches/main/setup/load_p2_hedis_gaps.sql;
+
+<span class="c">-- L3 Commercial HCP 360 &amp; Next Best Action</span>
+<span class="k">EXECUTE IMMEDIATE FROM</span> @HCLS_LAB.PUBLIC.HCLS_LAB_REPO/branches/main/setup/load_l3_commercial_hcp360.sql;
+
+<span class="c">-- L4 Real World Evidence: Treatment Patterns on OMOP</span>
+<span class="k">EXECUTE IMMEDIATE FROM</span> @HCLS_LAB.PUBLIC.HCLS_LAB_REPO/branches/main/setup/load_l4_rwe_treatment_patterns.sql;</code></pre>
+  </div>
+
+  <div class="callout tip">
+    <div class="callout-title">Run only one line at a time</div>
+    <p>Put your cursor on your track's line and run just that statement. Running several is harmless, because each loader only touches its own schema, but it takes longer.</p>
+  </div>
+
+  <h3>Expected row counts</h3>
+  <div class="table-wrap"><table>
+    <tr><th>TRACK</th><th>SCHEMA</th><th>TABLES (ROWS)</th><th>UNSTRUCTURED</th></tr>
+    <tr><td><strong>P1</strong></td><td><code>HCLS_LAB.P1_CLAIMS_DENIALS</code></td><td>MEMBERS (2,000) · PROVIDERS (200) · CLAIMS (20,000) · PAYER_POLICIES (5)</td><td>DENIAL_NOTES (2,802), PAYER_POLICIES text</td></tr>
+    <tr><td><strong>P2</strong></td><td><code>HCLS_LAB.P2_HEDIS_GAPS</code></td><td>MEMBERS (2,000) · MEASURE_GAPS (4,759) · CLAIMS (15,000)</td><td>VISIT_NOTES (2,848)</td></tr>
+    <tr><td><strong>L3</strong></td><td><code>HCLS_LAB.L3_COMMERCIAL_HCP360</code></td><td>BRANDS (4) · TERRITORIES (12) · HCPS (2,000) · RX_MONTHLY (96,000) · CALLS (10,451)</td><td>CALL_NOTES (1,464), MESSAGING_DOCS (8)</td></tr>
+    <tr><td><strong>L4</strong></td><td><code>HCLS_LAB.L4_RWE_TREATMENT_PATTERNS</code></td><td>PERSON (3,000) · CONDITION_OCCURRENCE (9,240) · DRUG_EXPOSURE (6,000) · MEASUREMENT (15,000) · VISIT_OCCURRENCE (6,000)</td><td>NOTE (2,734)</td></tr>
+  </table></div>
+
+  <div class="callout warn">
+    <div class="callout-title">Troubleshooting</div>
+    <ul>
+      <li><strong>"Git repository does not exist"</strong>: Step 3a did not complete. Re-run it in full.</li>
+      <li><strong>"No active warehouse"</strong>: run <code>USE WAREHOUSE HCLS_LAB_WH;</code> and retry.</li>
+      <li><strong>Model "not available in your region"</strong>: the <code>CORTEX_ENABLED_CROSS_REGION</code> line in Step 3a did not run. Run it as <code>ACCOUNTADMIN</code>.</li>
+      <li><strong>Insufficient privileges</strong>: switch your role to <code>ACCOUNTADMIN</code> (top-left user menu).</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ═══════════ 4 ═══════════ -->
+<section class="section" id="s4">
+  <div class="section-header">
+    <span class="section-num">04</span>
+    <h2 class="section-title">Choose Your Track</h2>
+    <span class="section-time">5 MIN</span>
+  </div>
+
+  <p>Each team picks <strong>one</strong> track. The full brief for each one (why it matters, persona, business questions, data, the AI step and what done looks like) is on the <a href="use_cases.html"><strong>use case page</strong></a>. Read your track's brief as a team before you start building.</p>
+
+  <div class="tracks">
+    <div class="track payer">
+      <div class="tag">Payer · Revenue Integrity</div>
+      <h4>P1 Claims Denial Triage Agent</h4>
+      <p>Find which denials are preventable and which claims are worth appealing first.</p>
+      <ul>
+        <li>Top denial drivers by provider and category</li>
+        <li>Dollars at risk from preventable denials</li>
+        <li>Which claims to appeal first, and what policy says</li>
+      </ul>
+      <div class="schema"><code>HCLS_LAB.P1_CLAIMS_DENIALS</code></div>
+      <div class="chips"><span>AI_CLASSIFY</span><span>Analyst</span><span>Search on policies</span></div>
+      <p style="margin:8px 0 0;"><a href="use_cases.html#p1">Full brief &rarr;</a></p>
+    </div>
+    <div class="track payer">
+      <div class="tag">Payer · Quality &amp; Stars</div>
+      <h4>P2 HEDIS Care Gap Closure</h4>
+      <p>Mine visit notes for evidence that closes quality gaps that claims missed.</p>
+      <ul>
+        <li>Open gaps with supporting evidence in notes</li>
+        <li>Potential closure lift by measure</li>
+        <li>Ranked reviewer worklist with the note passage</li>
+      </ul>
+      <div class="schema"><code>HCLS_LAB.P2_HEDIS_GAPS</code></div>
+      <div class="chips"><span>AI_EXTRACT</span><span>AI_FILTER</span><span>Analyst</span><span>Search on notes</span></div>
+      <p style="margin:8px 0 0;"><a href="use_cases.html#p2">Full brief &rarr;</a></p>
+    </div>
+    <div class="track ls">
+      <div class="tag">Life Sciences · Commercial</div>
+      <h4>L3 Commercial HCP 360 &amp; Next Best Action</h4>
+      <p>Explain where the brand is slipping and which doctors reps should call next.</p>
+      <ul>
+        <li>Brand Rx trend by territory and specialty</li>
+        <li>Objections and competitor pressure from rep notes</li>
+        <li>Who to call next, and what approved message to use</li>
+      </ul>
+      <div class="schema"><code>HCLS_LAB.L3_COMMERCIAL_HCP360</code></div>
+      <div class="chips"><span>AI_CLASSIFY</span><span>AI_AGG</span><span>Analyst</span><span>Search on messaging</span></div>
+      <p style="margin:8px 0 0;"><a href="use_cases.html#l3">Full brief &rarr;</a></p>
+    </div>
+    <div class="track ls">
+      <div class="tag">Life Sciences · Medical Affairs / RWE</div>
+      <h4>L4 Real World Evidence on OMOP</h4>
+      <p>Find out how long patients stay on therapy and why they stop.</p>
+      <ul>
+        <li>Persistence and HbA1c / BMI outcomes by drug</li>
+        <li>Differences by age group and cohort</li>
+        <li>Discontinuation reasons from clinical notes</li>
+      </ul>
+      <div class="schema"><code>HCLS_LAB.L4_RWE_TREATMENT_PATTERNS</code></div>
+      <div class="chips"><span>AI_CLASSIFY</span><span>AI_EXTRACT</span><span>Analyst</span><span>Search on notes</span></div>
+      <p style="margin:8px 0 0;"><a href="use_cases.html#l4">Full brief &rarr;</a></p>
+    </div>
+  </div>
+
+  <div class="callout info">
+    <div class="callout-title">Bring your own use case</div>
+    <p>You can bring a problem from your own organization if it fits the same shape: 3-4 small synthetic tables, one set of text or documents, <strong>at least one</strong> AI function on that text, and an agent that uses both Cortex Analyst and Cortex Search, with at least one question that needs both. See the <a href="use_cases.html#byo">BYO guidelines</a>. Ask CoCo to generate your synthetic data, and <strong>never load real PHI</strong> into a trial account.</p>
+  </div>
+</section>
+
+<!-- ═══════════ 5 ═══════════ -->
+<section class="section" id="s5">
+  <div class="section-header">
+    <span class="section-num">05</span>
+    <h2 class="section-title">Build with CoCo</h2>
+    <span class="section-time">55 MIN</span>
+  </div>
+
+  <p>There are no copy-paste prompts in this lab. CoCo is your build partner: describe what you want in plain English, review what it proposes, and approve it. The guidance below works for every track.</p>
+
+  <h3>How to work with CoCo</h3>
+  <ul>
+    <li><strong>Explore before you build.</strong> Ask CoCo to describe the tables in your schema, how they join, and what the free-text columns look like. Five minutes here saves twenty later.</li>
+    <li><strong>Give context, not just commands.</strong> Tell CoCo who the persona is and what business question you are answering. Point it at the exact schema, for example <code>HCLS_LAB.P1_CLAIMS_DENIALS</code>.</li>
+    <li><strong>Plan, then build.</strong> For bigger steps such as the semantic view or the agent, ask CoCo for a plan first, agree on it, then let it execute.</li>
+    <li><strong>One step at a time.</strong> Build and verify each layer (AI step &rarr; semantic view &rarr; search &rarr; agent) before moving to the next.</li>
+    <li><strong>Review what it runs.</strong> CoCo shows SQL and DDL before executing. Read it and ask "why" if something looks off.</li>
+    <li><strong>Test on a sample first.</strong> Run AI functions on <code>LIMIT 20</code> rows, check the output, then run them on the full table.</li>
+    <li><strong>When something fails</strong>, paste the error back to CoCo and ask it to fix the problem. Don't start over.</li>
+  </ul>
+
+  <h3>Suggested team roles</h3>
+  <div class="table-wrap"><table>
+    <tr><th>ROLE</th><th>FOCUS</th></tr>
+    <tr><td>Driver</td><td>Owns the shared screen and drives CoCo in the team's main account</td></tr>
+    <tr><td>Data explorer</td><td>Profiles the tables and free text, and finds the hidden pattern</td></tr>
+    <tr><td>AI step owner</td><td>Designs and validates the AI function output (labels, extracted fields)</td></tr>
+    <tr><td>Agent &amp; questions owner</td><td>Writes the business questions, tests the agent in CoWork, and tunes instructions</td></tr>
+    <tr><td>Storyteller</td><td>Captures screenshots and insights, and builds the 90-second pitch</td></tr>
+  </table></div>
+
+  <h3>Milestones to aim for</h3>
+  <div class="table-wrap"><table>
+    <tr><th>BY</th><th>MILESTONE</th><th>YOU KNOW IT'S DONE WHEN</th></tr>
+    <tr><td>7:20</td><td>Data loaded, track picked</td><td>Row counts match Step 3</td></tr>
+    <tr><td>7:35</td><td>Data understood</td><td>The team can explain the tables, joins and the free-text content</td></tr>
+    <tr><td>7:55</td><td>AI step done</td><td>A new table or view with AI-generated columns (labels, extracted fields) that you have spot-checked</td></tr>
+    <tr><td>8:10</td><td>Semantic view + Cortex Search</td><td>Analyst answers a numbers question and Search returns a relevant passage</td></tr>
+    <tr><td>8:20</td><td>Agent live</td><td>The agent answers your business questions, including one that needs both tools</td></tr>
+    <tr><td>8:40</td><td>Pitch ready</td><td>A demo question that tells your story</td></tr>
+  </table></div>
+
+  <div class="callout tip">
+    <div class="callout-title">Keep it simple, then extend</div>
+    <p>A working agent that answers three questions well beats an ambitious one that answers none. If you hit 8:20 with time to spare, try your track's <strong>stretch goal</strong> on the <a href="use_cases.html">use case page</a>.</p>
+  </div>
+
+  <div class="callout info">
+    <div class="callout-title">Names that help later</div>
+    <p>Create your semantic view, search service and agent <strong>inside your track's schema</strong>, with descriptive names. Clear tool descriptions in the agent (what each tool is for) make a big difference to how well it picks the right one.</p>
+  </div>
+</section>
+
+<!-- ═══════════ 6 ═══════════ -->
+<section class="section" id="s6">
+  <div class="section-header">
+    <span class="section-num">06</span>
+    <h2 class="section-title">Snowflake CoWork</h2>
+    <span class="section-time">10 MIN</span>
+  </div>
+
+  <p>Snowflake CoWork (formerly Snowflake Intelligence) is the chat interface where business users talk to your agent, with no SQL needed. Creating an agent and making it <em>visible</em> in CoWork are separate steps.</p>
+
+  <h3>Step 6a: Register your agent</h3>
+  <div class="code-block">
+    <div class="code-header"><span class="lang">SQL</span><span class="desc">Add your agent to CoWork · replace the agent path with yours</span></div>
+    <pre><code><span class="k">USE ROLE</span> ACCOUNTADMIN;
+
+<span class="c">-- Creates the account-level CoWork object if it does not exist yet</span>
+<span class="k">CREATE SNOWFLAKE INTELLIGENCE IF NOT EXISTS</span> SNOWFLAKE_INTELLIGENCE_OBJECT_DEFAULT;
+
+<span class="c">-- Register your agent so it shows up in CoWork</span>
+<span class="k">ALTER SNOWFLAKE INTELLIGENCE</span> SNOWFLAKE_INTELLIGENCE_OBJECT_DEFAULT
+  <span class="k">ADD AGENT</span> HCLS_LAB.&lt;YOUR_TRACK_SCHEMA&gt;.&lt;YOUR_AGENT_NAME&gt;;
+
+<span class="c">-- Verify</span>
+<span class="k">SHOW AGENTS IN SNOWFLAKE INTELLIGENCE</span> SNOWFLAKE_INTELLIGENCE_OBJECT_DEFAULT;</code></pre>
+  </div>
+  <p>You can also ask CoCo to do this for you.</p>
+
+  <h3>Step 6b: Open your agent</h3>
+  <h4>Route 1: CoWork directly</h4>
+  <ol>
+    <li>Go to <a href="https://ai.snowflake.com">ai.snowflake.com</a> and sign in with the same account.</li>
+    <li>Select your agent from the agent picker and start a conversation.</li>
+  </ol>
+  <h4>Route 2: from Snowsight (always works)</h4>
+  <ol>
+    <li>Go to <strong>AI &amp; ML &rarr; Agents</strong> and select your agent.</li>
+    <li>Click <strong>Preview in Snowflake CoWork</strong>.</li>
+  </ol>
+
+  <h3>Step 6c: Test like a business user</h3>
+  <ul>
+    <li>Ask your track's business questions in plain English, the way the persona would.</li>
+    <li>Ask at least one <strong>combined question</strong> that needs numbers from Analyst <em>and</em> text from Search.</li>
+    <li>Expand the response to see which tool was used, the SQL generated and the passages retrieved. This "show your work" view is great pitch material.</li>
+    <li>If an answer is off, ask CoCo to improve the agent instructions, tool descriptions or semantic view, then test again.</li>
+  </ul>
+
+  <div class="callout warn">
+    <div class="callout-title">Agent not listed in CoWork?</div>
+    <p>It is almost always registration, not a broken agent. Re-run the <code>ADD AGENT</code> statement and reload, or use Route 2.</p>
+  </div>
+</section>
+
+<!-- ═══════════ 7 ═══════════ -->
+<section class="section" id="s7">
+  <div class="section-header">
+    <span class="section-num">07</span>
+    <h2 class="section-title">Pitch: 90 Seconds</h2>
+    <span class="section-time">8:40 PM</span>
+  </div>
+
+  <p>Each team gets 90 seconds. Demo live in CoWork if you can, and keep screenshots ready as a backup.</p>
+  <div class="table-wrap"><table>
+    <tr><th>TIME</th><th>WHAT TO COVER</th></tr>
+    <tr><td>0:00 – 0:30</td><td><strong>The problem.</strong> Who is the persona, what decision do they struggle with today, and why does it matter?</td></tr>
+    <tr><td>0:30 – 1:00</td><td><strong>The demo.</strong> Ask your agent one combined question live. Show the answer and the evidence behind it.</td></tr>
+    <tr><td>1:00 – 1:30</td><td><strong>The insight and impact.</strong> What pattern did you find, what would this change, and what would you build next?</td></tr>
+  </table></div>
+
+  <div class="callout tip">
+    <div class="callout-title">What judges look for</div>
+    <ul>
+      <li>A clear business problem and persona</li>
+      <li>An agent that genuinely combines structured data and text</li>
+      <li>A real insight: did you find the hidden pattern?</li>
+      <li>A credible path from lab to production</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ═══════════ 8 ═══════════ -->
+<section class="section" id="s8">
+  <div class="section-header">
+    <span class="section-num">08</span>
+    <h2 class="section-title">Wrap-Up &amp; Next Steps</h2>
+    <span class="section-time">AFTER</span>
+  </div>
+
+  <h3>What you built today</h3>
+  <ul>
+    <li>A synthetic HCLS dataset loaded from a Git repository into Snowflake</li>
+    <li>AI functions that turned free text into structured, queryable columns</li>
+    <li>A semantic view that gives your agent the business vocabulary</li>
+    <li>A Cortex Search service that makes your text retrievable with citations</li>
+    <li>A Cortex Agent that combines both, surfaced to business users in Snowflake CoWork</li>
+  </ul>
+
+  <h3>From lab to production</h3>
+  <div class="callout info">
+    <div class="callout-title">Govern it with Horizon</div>
+    <p>Apply row access and masking policies so the same agent returns only what each role may see. This is essential for PHI.</p>
+  </div>
+  <div class="callout info">
+    <div class="callout-title">Reuse your existing semantics</div>
+    <p>Business definitions already live in BI reports, dbt models and data dictionaries. Bring them into your semantic view so agent answers match the reports leadership already trusts.</p>
+  </div>
+  <div class="callout info">
+    <div class="callout-title">Close the loop</div>
+    <p>Add custom tools, such as a stored procedure that creates a worklist or sends an alert, so the agent can act and not only answer.</p>
+  </div>
+
+  <div class="callout warn">
+    <div class="callout-title">Cleaning up (optional)</div>
+    <p>Your trial account keeps the lab objects. To remove them, run <code>DROP DATABASE HCLS_LAB;</code> and <code>DROP WAREHOUSE HCLS_LAB_WH;</code>.</p>
+  </div>
+
+  <p style="margin-top:24px; font-size:13px; color:var(--muted);">All data in this lab is synthetic and was purpose-built for training. No real patient, member or PHI data is used at any point.</p>
+</section>
+
+<footer class="sf-footer">Built on Snowflake Cortex AI · HCLS Innovation Lab: AI Agents in Action · Bengaluru 27 Oct &amp; Hyderabad 30 Oct 2026</footer>
+
+</main>
+</div>
+
+<script>
+  // Highlight the active step in the sidebar while scrolling
+  const sections = document.querySelectorAll('.section');
+  const stepItems = document.querySelectorAll('.step-item');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      stepItems.forEach(item => {
+        item.classList.toggle('active', item.querySelector('a').getAttribute('href') === '#' + entry.target.id);
+      });
+    });
+  }, { rootMargin: '-20% 0px -70% 0px' });
+  sections.forEach(s => observer.observe(s));
+
+  // Copy buttons on every code block
+  document.querySelectorAll('.code-block').forEach(block => {
+    const header = block.querySelector('.code-header');
+    const pre = block.querySelector('pre');
+    if (!header || !pre) return;
+    const btn = document.createElement('button');
+    btn.className = 'copy-btn';
+    btn.textContent = 'Copy';
+    btn.addEventListener('click', () => {
+      navigator.clipboard.writeText(pre.innerText).then(() => {
+        btn.textContent = 'Copied!';
+        btn.classList.add('copied');
+        setTimeout(() => { btn.textContent = 'Copy'; btn.classList.remove('copied'); }, 2000);
+      });
+    });
+    header.appendChild(btn);
+  });
+</script>
+</body>
+</html>
