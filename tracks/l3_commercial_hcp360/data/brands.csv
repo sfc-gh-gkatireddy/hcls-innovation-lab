@@ -1,0 +1,5 @@
+BRAND_ID,BRAND_NAME,MOLECULE_CLASS,DRUG_CLASS,INDICATION,IS_OUR_BRAND
+BR-01,Glucavia,semaglutide-like GLP-1 RA,GLP-1 RA,Type 2 diabetes,Y
+BR-02,Sematra,GLP-1 RA,GLP-1 RA,Type 2 diabetes,N
+BR-03,Empaflo,SGLT2 inhibitor,SGLT2i,Type 2 diabetes,N
+BR-04,Sitaglen,DPP-4 inhibitor,DPP-4i,Type 2 diabetes,N

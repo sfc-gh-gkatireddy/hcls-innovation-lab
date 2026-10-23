@@ -1,0 +1,2001 @@
+HCP_ID,HCP_NAME,SPECIALTY,TERRITORY_ID,CITY,PRACTICE_SETTING,DECILE,TARGET_TIER,YEARS_IN_PRACTICE
+HCP-00001,Dr. Lakshmi Menon,Endocrinology,T11,Kolkata,Hospital-affiliated,10,A,9
+HCP-00002,Dr. Vivek Chatterjee,Family Medicine,T11,Kolkata,Private clinic,5,B,4
+HCP-00003,Dr. Arjun Mishra,Internal Medicine,T02,Bengaluru,Hospital-affiliated,5,B,29
+HCP-00004,Dr. Arjun Gupta,Internal Medicine,T04,Hyderabad,Group practice,3,C,24
+HCP-00005,Dr. Anil Patel,Endocrinology,T05,Chennai,Private clinic,10,A,27
+HCP-00006,Dr. Suresh Reddy,Internal Medicine,T02,Bengaluru,Group practice,3,C,10
+HCP-00007,Dr. Anjali Singh,Endocrinology,T07,Pune,Hospital-affiliated,6,B,7
+HCP-00008,Dr. Vikram Menon,Family Medicine,T01,Bengaluru,Private clinic,7,B,27
+HCP-00009,Dr. Kavya Singh,Internal Medicine,T05,Chennai,Corporate hospital,8,A,16
+HCP-00010,Dr. Vikram Gupta,Internal Medicine,T11,Kolkata,Hospital-affiliated,9,A,13
+HCP-00011,Dr. Shreya Menon,Internal Medicine,T08,Ahmedabad,Corporate hospital,10,A,6
+HCP-00012,Dr. Manoj Joshi,Cardiology,T04,Hyderabad,Private clinic,8,A,16
+HCP-00013,Dr. Asha Pillai,Cardiology,T10,Jaipur,Group practice,3,C,12
+HCP-00014,Dr. Shreya Joshi,Endocrinology,T05,Chennai,Group practice,10,A,28
+HCP-00015,Dr. Nikhil Bhat,Internal Medicine,T06,Mumbai,Private clinic,10,A,6
+HCP-00016,Dr. Swati Iyer,Endocrinology,T02,Bengaluru,Group practice,5,B,27
+HCP-00017,Dr. Shreya Sharma,Nephrology,T10,Jaipur,Private clinic,5,B,20
+HCP-00018,Dr. Kavya Desai,Internal Medicine,T11,Kolkata,Private clinic,3,C,19
+HCP-00019,Dr. Meera Das,Family Medicine,T09,Delhi,Hospital-affiliated,5,B,12
+HCP-00020,Dr. Nikhil Sharma,Family Medicine,T06,Mumbai,Corporate hospital,5,B,34
+HCP-00021,Dr. Neha Menon,Endocrinology,T01,Bengaluru,Private clinic,6,B,18
+HCP-00022,Dr. Asha Iyer,Nephrology,T10,Jaipur,Hospital-affiliated,1,C,11
+HCP-00023,Dr. Suresh Kapoor,Internal Medicine,T11,Kolkata,Group practice,5,B,16
+HCP-00024,Dr. Neha Pillai,Family Medicine,T09,Delhi,Corporate hospital,6,B,31
+HCP-00025,Dr. Vikram Kumar,Internal Medicine,T09,Delhi,Private clinic,2,C,17
+HCP-00026,Dr. Priya Menon,Internal Medicine,T10,Jaipur,Private clinic,1,C,5
+HCP-00027,Dr. Asha Rao,Endocrinology,T06,Mumbai,Hospital-affiliated,5,B,33
+HCP-00028,Dr. Ravi Patel,Cardiology,T04,Hyderabad,Private clinic,8,A,30
+HCP-00029,Dr. Priya Patel,Internal Medicine,T06,Mumbai,Private clinic,4,C,28
+HCP-00030,Dr. Lakshmi Rao,Internal Medicine,T12,Bhubaneswar,Hospital-affiliated,8,A,31
+HCP-00031,Dr. Lakshmi Iyer,Internal Medicine,T03,Hyderabad,Group practice,3,C,9
+HCP-00032,Dr. Arjun Iyer,Family Medicine,T01,Bengaluru,Hospital-affiliated,5,B,13
+HCP-00033,Dr. Manoj Reddy,Internal Medicine,T07,Pune,Hospital-affiliated,2,C,27
+HCP-00034,Dr. Rajesh Das,Nephrology,T01,Bengaluru,Group practice,2,C,34
+HCP-00035,Dr. Priya Mishra,Internal Medicine,T03,Hyderabad,Private clinic,2,C,23
+HCP-00036,Dr. Nikhil Gupta,Endocrinology,T01,Bengaluru,Private clinic,7,B,35
+HCP-00037,Dr. Vikram Menon,Cardiology,T02,Bengaluru,Group practice,1,C,10
+HCP-00038,Dr. Anjali Iyer,Internal Medicine,T10,Jaipur,Group practice,5,B,23
+HCP-00039,Dr. Lakshmi Joshi,Internal Medicine,T05,Chennai,Group practice,7,B,11
+HCP-00040,Dr. Vikram Sharma,Family Medicine,T11,Kolkata,Group practice,4,C,9
+HCP-00041,Dr. Sanjay Singh,Family Medicine,T02,Bengaluru,Private clinic,5,B,18
+HCP-00042,Dr. Shreya Das,Internal Medicine,T06,Mumbai,Private clinic,4,C,22
+HCP-00043,Dr. Suresh Patel,Endocrinology,T11,Kolkata,Private clinic,10,A,12
+HCP-00044,Dr. Anil Rao,Internal Medicine,T05,Chennai,Corporate hospital,2,C,35
+HCP-00045,Dr. Priya Iyer,Internal Medicine,T08,Ahmedabad,Group practice,9,A,20
+HCP-00046,Dr. Suresh Gupta,Endocrinology,T01,Bengaluru,Group practice,10,A,30
+HCP-00047,Dr. Sanjay Mishra,Endocrinology,T09,Delhi,Private clinic,4,C,26
+HCP-00048,Dr. Priya Das,Family Medicine,T10,Jaipur,Corporate hospital,4,C,5
+HCP-00049,Dr. Meera Singh,Internal Medicine,T06,Mumbai,Group practice,2,C,12
+HCP-00050,Dr. Kavya Chatterjee,Cardiology,T04,Hyderabad,Private clinic,10,A,14
+HCP-00051,Dr. Swati Menon,Nephrology,T12,Bhubaneswar,Corporate hospital,7,B,13
+HCP-00052,Dr. Asha Menon,Endocrinology,T12,Bhubaneswar,Hospital-affiliated,10,A,32
+HCP-00053,Dr. Lakshmi Menon,Internal Medicine,T06,Mumbai,Private clinic,8,A,15
+HCP-00054,Dr. Suresh Singh,Internal Medicine,T07,Pune,Group practice,8,A,24
+HCP-00055,Dr. Kavya Joshi,Endocrinology,T01,Bengaluru,Private clinic,10,A,9
+HCP-00056,Dr. Anil Chatterjee,Internal Medicine,T10,Jaipur,Private clinic,7,B,27
+HCP-00057,Dr. Swati Sharma,Internal Medicine,T10,Jaipur,Hospital-affiliated,1,C,26
+HCP-00058,Dr. Anil Kumar,Endocrinology,T07,Pune,Private clinic,9,A,22
+HCP-00059,Dr. Manoj Das,Internal Medicine,T09,Delhi,Hospital-affiliated,4,C,15
+HCP-00060,Dr. Kavya Das,Family Medicine,T07,Pune,Group practice,3,C,3
+HCP-00061,Dr. Vivek Kumar,Internal Medicine,T05,Chennai,Group practice,4,C,31
+HCP-00062,Dr. Kavya Iyer,Family Medicine,T08,Ahmedabad,Corporate hospital,5,B,35
+HCP-00063,Dr. Lakshmi Das,Family Medicine,T11,Kolkata,Hospital-affiliated,3,C,15
+HCP-00064,Dr. Asha Iyer,Endocrinology,T03,Hyderabad,Group practice,5,B,29
+HCP-00065,Dr. Manoj Bhat,Family Medicine,T11,Kolkata,Group practice,7,B,18
+HCP-00066,Dr. Meera Chatterjee,Family Medicine,T03,Hyderabad,Hospital-affiliated,1,C,14
+HCP-00067,Dr. Lakshmi Patel,Family Medicine,T12,Bhubaneswar,Group practice,1,C,11
+HCP-00068,Dr. Anjali Kumar,Family Medicine,T08,Ahmedabad,Group practice,10,A,35
+HCP-00069,Dr. Kavya Bhat,Cardiology,T07,Pune,Group practice,5,B,19
+HCP-00070,Dr. Nikhil Bhat,Cardiology,T04,Hyderabad,Hospital-affiliated,3,C,20
+HCP-00071,Dr. Suresh Kumar,Endocrinology,T08,Ahmedabad,Corporate hospital,6,B,8
+HCP-00072,Dr. Sanjay Rao,Endocrinology,T03,Hyderabad,Private clinic,6,B,29
+HCP-00073,Dr. Priya Rao,Internal Medicine,T07,Pune,Group practice,4,C,27
+HCP-00074,Dr. Vivek Pillai,Nephrology,T10,Jaipur,Group practice,1,C,3
+HCP-00075,Dr. Swati Mishra,Internal Medicine,T06,Mumbai,Hospital-affiliated,3,C,34
+HCP-00076,Dr. Manoj Kumar,Internal Medicine,T04,Hyderabad,Group practice,4,C,13
+HCP-00077,Dr. Shreya Sharma,Nephrology,T08,Ahmedabad,Group practice,10,A,4
+HCP-00078,Dr. Rajesh Gupta,Family Medicine,T02,Bengaluru,Private clinic,1,C,19
+HCP-00079,Dr. Anil Pillai,Internal Medicine,T07,Pune,Corporate hospital,4,C,29
+HCP-00080,Dr. Shreya Reddy,Cardiology,T05,Chennai,Corporate hospital,4,C,17
+HCP-00081,Dr. Priya Sharma,Endocrinology,T11,Kolkata,Hospital-affiliated,10,A,15
+HCP-00082,Dr. Asha Patel,Family Medicine,T01,Bengaluru,Hospital-affiliated,2,C,32
+HCP-00083,Dr. Anjali Patel,Internal Medicine,T12,Bhubaneswar,Hospital-affiliated,3,C,22
+HCP-00084,Dr. Vivek Pillai,Family Medicine,T02,Bengaluru,Group practice,9,A,15
+HCP-00085,Dr. Lakshmi Patel,Family Medicine,T02,Bengaluru,Corporate hospital,8,A,10
+HCP-00086,Dr. Swati Singh,Cardiology,T10,Jaipur,Private clinic,3,C,35
+HCP-00087,Dr. Asha Patel,Internal Medicine,T11,Kolkata,Group practice,8,A,26
+HCP-00088,Dr. Sanjay Chatterjee,Cardiology,T11,Kolkata,Hospital-affiliated,4,C,20
+HCP-00089,Dr. Asha Desai,Cardiology,T10,Jaipur,Group practice,5,B,20
+HCP-00090,Dr. Vikram Joshi,Cardiology,T06,Mumbai,Group practice,8,A,18
+HCP-00091,Dr. Anil Sharma,Family Medicine,T08,Ahmedabad,Group practice,6,B,23
+HCP-00092,Dr. Suresh Kumar,Internal Medicine,T03,Hyderabad,Corporate hospital,3,C,20
+HCP-00093,Dr. Vikram Menon,Endocrinology,T09,Delhi,Group practice,10,A,34
+HCP-00094,Dr. Asha Desai,Family Medicine,T09,Delhi,Private clinic,6,B,8
+HCP-00095,Dr. Neha Singh,Internal Medicine,T05,Chennai,Group practice,6,B,25
+HCP-00096,Dr. Deepa Desai,Nephrology,T07,Pune,Corporate hospital,5,B,22
+HCP-00097,Dr. Anil Patel,Internal Medicine,T05,Chennai,Hospital-affiliated,7,B,15
+HCP-00098,Dr. Vivek Kapoor,Family Medicine,T04,Hyderabad,Corporate hospital,3,C,9
+HCP-00099,Dr. Neha Sharma,Internal Medicine,T04,Hyderabad,Hospital-affiliated,3,C,20
+HCP-00100,Dr. Sanjay Bhat,Nephrology,T01,Bengaluru,Private clinic,5,B,3
+HCP-00101,Dr. Anil Gupta,Internal Medicine,T10,Jaipur,Private clinic,4,C,19
+HCP-00102,Dr. Asha Iyer,Endocrinology,T08,Ahmedabad,Private clinic,4,C,12
+HCP-00103,Dr. Vikram Menon,Cardiology,T03,Hyderabad,Private clinic,10,A,29
+HCP-00104,Dr. Nikhil Pillai,Family Medicine,T10,Jaipur,Group practice,6,B,31
+HCP-00105,Dr. Neha Reddy,Cardiology,T05,Chennai,Private clinic,10,A,16
+HCP-00106,Dr. Kavya Menon,Internal Medicine,T11,Kolkata,Hospital-affiliated,6,B,7
+HCP-00107,Dr. Anjali Bhat,Endocrinology,T03,Hyderabad,Corporate hospital,7,B,5
+HCP-00108,Dr. Rajesh Iyer,Internal Medicine,T04,Hyderabad,Hospital-affiliated,3,C,19
+HCP-00109,Dr. Ravi Chatterjee,Family Medicine,T11,Kolkata,Private clinic,8,A,17
+HCP-00110,Dr. Sanjay Iyer,Endocrinology,T11,Kolkata,Private clinic,5,B,13
+HCP-00111,Dr. Neha Desai,Family Medicine,T05,Chennai,Private clinic,8,A,32
+HCP-00112,Dr. Suresh Kapoor,Internal Medicine,T12,Bhubaneswar,Group practice,4,C,31
+HCP-00113,Dr. Anil Joshi,Family Medicine,T02,Bengaluru,Private clinic,9,A,8
+HCP-00114,Dr. Vivek Sharma,Nephrology,T04,Hyderabad,Corporate hospital,8,A,5
+HCP-00115,Dr. Suresh Gupta,Internal Medicine,T03,Hyderabad,Group practice,6,B,34
+HCP-00116,Dr. Anil Patel,Internal Medicine,T02,Bengaluru,Hospital-affiliated,4,C,24
+HCP-00117,Dr. Manoj Mishra,Family Medicine,T07,Pune,Private clinic,3,C,32
+HCP-00118,Dr. Manoj Kapoor,Internal Medicine,T02,Bengaluru,Private clinic,3,C,32
+HCP-00119,Dr. Anjali Bhat,Endocrinology,T07,Pune,Group practice,8,A,6
+HCP-00120,Dr. Neha Desai,Internal Medicine,T04,Hyderabad,Group practice,1,C,10
+HCP-00121,Dr. Lakshmi Gupta,Nephrology,T01,Bengaluru,Corporate hospital,6,B,3
+HCP-00122,Dr. Meera Desai,Internal Medicine,T09,Delhi,Private clinic,2,C,12
+HCP-00123,Dr. Suresh Chatterjee,Nephrology,T08,Ahmedabad,Group practice,3,C,33
+HCP-00124,Dr. Ravi Kapoor,Internal Medicine,T04,Hyderabad,Hospital-affiliated,2,C,7
+HCP-00125,Dr. Anil Kapoor,Family Medicine,T05,Chennai,Corporate hospital,8,A,3
+HCP-00126,Dr. Vivek Bhat,Family Medicine,T05,Chennai,Hospital-affiliated,8,A,31
+HCP-00127,Dr. Shreya Pillai,Internal Medicine,T09,Delhi,Group practice,3,C,23
+HCP-00128,Dr. Manoj Menon,Nephrology,T04,Hyderabad,Group practice,2,C,5
+HCP-00129,Dr. Manoj Pillai,Family Medicine,T06,Mumbai,Hospital-affiliated,7,B,34
+HCP-00130,Dr. Anil Patel,Endocrinology,T01,Bengaluru,Group practice,10,A,9
+HCP-00131,Dr. Sanjay Chatterjee,Nephrology,T09,Delhi,Hospital-affiliated,1,C,7
+HCP-00132,Dr. Anjali Pillai,Cardiology,T08,Ahmedabad,Private clinic,2,C,24
+HCP-00133,Dr. Anil Bhat,Cardiology,T11,Kolkata,Private clinic,3,C,7
+HCP-00134,Dr. Lakshmi Iyer,Family Medicine,T04,Hyderabad,Group practice,9,A,9
+HCP-00135,Dr. Kavya Das,Family Medicine,T11,Kolkata,Private clinic,1,C,5
+HCP-00136,Dr. Deepa Chatterjee,Cardiology,T06,Mumbai,Hospital-affiliated,3,C,18
+HCP-00137,Dr. Kavya Gupta,Internal Medicine,T09,Delhi,Hospital-affiliated,6,B,8
+HCP-00138,Dr. Lakshmi Bhat,Cardiology,T10,Jaipur,Hospital-affiliated,6,B,17
+HCP-00139,Dr. Arjun Desai,Family Medicine,T08,Ahmedabad,Corporate hospital,4,C,13
+HCP-00140,Dr. Vivek Das,Internal Medicine,T02,Bengaluru,Group practice,3,C,19
+HCP-00141,Dr. Manoj Bhat,Cardiology,T08,Ahmedabad,Private clinic,2,C,18
+HCP-00142,Dr. Neha Sharma,Family Medicine,T07,Pune,Group practice,5,B,20
+HCP-00143,Dr. Priya Bhat,Family Medicine,T01,Bengaluru,Corporate hospital,6,B,17
+HCP-00144,Dr. Ravi Joshi,Cardiology,T10,Jaipur,Hospital-affiliated,2,C,9
+HCP-00145,Dr. Rajesh Reddy,Family Medicine,T11,Kolkata,Corporate hospital,3,C,11
+HCP-00146,Dr. Swati Gupta,Nephrology,T02,Bengaluru,Hospital-affiliated,3,C,11
+HCP-00147,Dr. Nikhil Joshi,Cardiology,T09,Delhi,Hospital-affiliated,3,C,19
+HCP-00148,Dr. Anil Patel,Nephrology,T08,Ahmedabad,Group practice,3,C,7
+HCP-00149,Dr. Manoj Mishra,Family Medicine,T03,Hyderabad,Corporate hospital,2,C,8
+HCP-00150,Dr. Rajesh Singh,Endocrinology,T07,Pune,Corporate hospital,8,A,27
+HCP-00151,Dr. Lakshmi Bhat,Nephrology,T11,Kolkata,Private clinic,1,C,23
+HCP-00152,Dr. Rajesh Das,Internal Medicine,T10,Jaipur,Group practice,1,C,10
+HCP-00153,Dr. Asha Patel,Endocrinology,T03,Hyderabad,Private clinic,4,C,18
+HCP-00154,Dr. Shreya Chatterjee,Endocrinology,T09,Delhi,Hospital-affiliated,7,B,29
+HCP-00155,Dr. Swati Joshi,Endocrinology,T11,Kolkata,Private clinic,7,B,26
+HCP-00156,Dr. Deepa Patel,Internal Medicine,T04,Hyderabad,Corporate hospital,10,A,25
+HCP-00157,Dr. Meera Desai,Internal Medicine,T01,Bengaluru,Private clinic,2,C,16
+HCP-00158,Dr. Priya Kumar,Family Medicine,T11,Kolkata,Hospital-affiliated,10,A,11
+HCP-00159,Dr. Shreya Rao,Internal Medicine,T10,Jaipur,Hospital-affiliated,8,A,17
+HCP-00160,Dr. Anjali Sharma,Family Medicine,T06,Mumbai,Corporate hospital,7,B,12
+HCP-00161,Dr. Meera Sharma,Family Medicine,T03,Hyderabad,Hospital-affiliated,8,A,3
+HCP-00162,Dr. Anil Sharma,Cardiology,T06,Mumbai,Hospital-affiliated,2,C,19
+HCP-00163,Dr. Meera Iyer,Endocrinology,T01,Bengaluru,Group practice,7,B,31
+HCP-00164,Dr. Nikhil Menon,Family Medicine,T06,Mumbai,Private clinic,1,C,22
+HCP-00165,Dr. Asha Pillai,Family Medicine,T08,Ahmedabad,Group practice,1,C,9
+HCP-00166,Dr. Vikram Kumar,Family Medicine,T08,Ahmedabad,Hospital-affiliated,4,C,7
+HCP-00167,Dr. Shreya Kumar,Internal Medicine,T03,Hyderabad,Group practice,6,B,21
+HCP-00168,Dr. Meera Mishra,Family Medicine,T08,Ahmedabad,Hospital-affiliated,4,C,30
+HCP-00169,Dr. Rajesh Pillai,Cardiology,T08,Ahmedabad,Group practice,4,C,9
+HCP-00170,Dr. Deepa Nair,Internal Medicine,T06,Mumbai,Group practice,6,B,7
+HCP-00171,Dr. Meera Singh,Cardiology,T02,Bengaluru,Hospital-affiliated,1,C,6
+HCP-00172,Dr. Meera Chatterjee,Nephrology,T10,Jaipur,Corporate hospital,5,B,30
+HCP-00173,Dr. Neha Singh,Endocrinology,T12,Bhubaneswar,Private clinic,6,B,35
+HCP-00174,Dr. Meera Singh,Endocrinology,T04,Hyderabad,Corporate hospital,7,B,10
+HCP-00175,Dr. Shreya Mishra,Family Medicine,T05,Chennai,Private clinic,8,A,20
+HCP-00176,Dr. Neha Kumar,Internal Medicine,T01,Bengaluru,Corporate hospital,7,B,3
+HCP-00177,Dr. Manoj Iyer,Cardiology,T03,Hyderabad,Hospital-affiliated,5,B,4
+HCP-00178,Dr. Swati Desai,Family Medicine,T02,Bengaluru,Corporate hospital,2,C,13
+HCP-00179,Dr. Vivek Iyer,Internal Medicine,T06,Mumbai,Private clinic,3,C,12
+HCP-00180,Dr. Vikram Joshi,Family Medicine,T03,Hyderabad,Group practice,1,C,30
+HCP-00181,Dr. Ravi Kapoor,Family Medicine,T08,Ahmedabad,Private clinic,4,C,25
+HCP-00182,Dr. Vivek Bhat,Endocrinology,T07,Pune,Corporate hospital,9,A,5
+HCP-00183,Dr. Arjun Rao,Internal Medicine,T04,Hyderabad,Corporate hospital,5,B,16
+HCP-00184,Dr. Meera Sharma,Family Medicine,T03,Hyderabad,Group practice,3,C,30
+HCP-00185,Dr. Lakshmi Kapoor,Endocrinology,T03,Hyderabad,Corporate hospital,8,A,7
+HCP-00186,Dr. Arjun Desai,Cardiology,T07,Pune,Private clinic,1,C,23
+HCP-00187,Dr. Swati Das,Internal Medicine,T10,Jaipur,Private clinic,4,C,28
+HCP-00188,Dr. Anjali Desai,Nephrology,T01,Bengaluru,Corporate hospital,2,C,8
+HCP-00189,Dr. Vivek Pillai,Cardiology,T07,Pune,Private clinic,2,C,28
+HCP-00190,Dr. Kavya Iyer,Family Medicine,T05,Chennai,Private clinic,2,C,35
+HCP-00191,Dr. Sanjay Menon,Nephrology,T04,Hyderabad,Private clinic,3,C,12
+HCP-00192,Dr. Vikram Gupta,Internal Medicine,T05,Chennai,Group practice,6,B,32
+HCP-00193,Dr. Vivek Kumar,Family Medicine,T10,Jaipur,Corporate hospital,4,C,12
+HCP-00194,Dr. Neha Joshi,Endocrinology,T08,Ahmedabad,Private clinic,7,B,25
+HCP-00195,Dr. Priya Reddy,Endocrinology,T09,Delhi,Corporate hospital,7,B,21
+HCP-00196,Dr. Vikram Kapoor,Family Medicine,T02,Bengaluru,Group practice,10,A,32
+HCP-00197,Dr. Priya Desai,Family Medicine,T10,Jaipur,Hospital-affiliated,8,A,23
+HCP-00198,Dr. Priya Desai,Internal Medicine,T10,Jaipur,Private clinic,2,C,24
+HCP-00199,Dr. Priya Menon,Endocrinology,T12,Bhubaneswar,Group practice,9,A,31
+HCP-00200,Dr. Deepa Das,Family Medicine,T09,Delhi,Group practice,2,C,29
+HCP-00201,Dr. Anil Iyer,Family Medicine,T06,Mumbai,Corporate hospital,1,C,9
+HCP-00202,Dr. Anjali Nair,Family Medicine,T09,Delhi,Corporate hospital,3,C,8
+HCP-00203,Dr. Neha Pillai,Family Medicine,T10,Jaipur,Hospital-affiliated,9,A,8
+HCP-00204,Dr. Anil Nair,Family Medicine,T05,Chennai,Private clinic,6,B,30
+HCP-00205,Dr. Kavya Rao,Internal Medicine,T09,Delhi,Corporate hospital,3,C,34
+HCP-00206,Dr. Vikram Das,Internal Medicine,T04,Hyderabad,Private clinic,1,C,35
+HCP-00207,Dr. Priya Kumar,Cardiology,T09,Delhi,Hospital-affiliated,9,A,27
+HCP-00208,Dr. Anjali Gupta,Endocrinology,T03,Hyderabad,Group practice,10,A,5
+HCP-00209,Dr. Rajesh Das,Internal Medicine,T07,Pune,Group practice,7,B,17
+HCP-00210,Dr. Asha Rao,Internal Medicine,T09,Delhi,Corporate hospital,10,A,31
+HCP-00211,Dr. Nikhil Kapoor,Family Medicine,T08,Ahmedabad,Group practice,7,B,13
+HCP-00212,Dr. Suresh Reddy,Cardiology,T04,Hyderabad,Group practice,1,C,26
+HCP-00213,Dr. Nikhil Patel,Nephrology,T09,Delhi,Corporate hospital,7,B,8
+HCP-00214,Dr. Sanjay Chatterjee,Internal Medicine,T03,Hyderabad,Private clinic,9,A,17
+HCP-00215,Dr. Swati Reddy,Cardiology,T08,Ahmedabad,Group practice,9,A,35
+HCP-00216,Dr. Deepa Menon,Internal Medicine,T06,Mumbai,Private clinic,10,A,23
+HCP-00217,Dr. Sanjay Nair,Cardiology,T02,Bengaluru,Private clinic,6,B,21
+HCP-00218,Dr. Asha Desai,Family Medicine,T08,Ahmedabad,Private clinic,1,C,8
+HCP-00219,Dr. Shreya Kapoor,Internal Medicine,T01,Bengaluru,Group practice,8,A,10
+HCP-00220,Dr. Lakshmi Chatterjee,Internal Medicine,T05,Chennai,Group practice,1,C,7
+HCP-00221,Dr. Shreya Sharma,Cardiology,T02,Bengaluru,Hospital-affiliated,4,C,12
+HCP-00222,Dr. Lakshmi Chatterjee,Internal Medicine,T05,Chennai,Hospital-affiliated,6,B,8
+HCP-00223,Dr. Nikhil Mishra,Nephrology,T09,Delhi,Private clinic,1,C,27
+HCP-00224,Dr. Deepa Joshi,Endocrinology,T08,Ahmedabad,Private clinic,6,B,25
+HCP-00225,Dr. Meera Kumar,Internal Medicine,T02,Bengaluru,Hospital-affiliated,7,B,5
+HCP-00226,Dr. Kavya Desai,Family Medicine,T06,Mumbai,Group practice,8,A,14
+HCP-00227,Dr. Rajesh Reddy,Endocrinology,T03,Hyderabad,Corporate hospital,10,A,15
+HCP-00228,Dr. Anil Das,Cardiology,T01,Bengaluru,Group practice,9,A,33
+HCP-00229,Dr. Neha Singh,Endocrinology,T05,Chennai,Private clinic,9,A,24
+HCP-00230,Dr. Manoj Desai,Endocrinology,T05,Chennai,Group practice,6,B,24
+HCP-00231,Dr. Nikhil Joshi,Internal Medicine,T03,Hyderabad,Private clinic,4,C,30
+HCP-00232,Dr. Kavya Mishra,Internal Medicine,T02,Bengaluru,Corporate hospital,10,A,23
+HCP-00233,Dr. Neha Desai,Endocrinology,T02,Bengaluru,Group practice,9,A,13
+HCP-00234,Dr. Deepa Chatterjee,Internal Medicine,T12,Bhubaneswar,Corporate hospital,4,C,6
+HCP-00235,Dr. Nikhil Gupta,Family Medicine,T02,Bengaluru,Private clinic,4,C,12
+HCP-00236,Dr. Sanjay Iyer,Family Medicine,T10,Jaipur,Hospital-affiliated,4,C,26
+HCP-00237,Dr. Anjali Nair,Internal Medicine,T06,Mumbai,Group practice,5,B,26
+HCP-00238,Dr. Sanjay Kapoor,Internal Medicine,T06,Mumbai,Corporate hospital,1,C,28
+HCP-00239,Dr. Meera Sharma,Family Medicine,T06,Mumbai,Hospital-affiliated,2,C,34
+HCP-00240,Dr. Suresh Joshi,Internal Medicine,T09,Delhi,Group practice,5,B,16
+HCP-00241,Dr. Asha Rao,Internal Medicine,T10,Jaipur,Private clinic,9,A,11
+HCP-00242,Dr. Rajesh Iyer,Internal Medicine,T02,Bengaluru,Corporate hospital,9,A,25
+HCP-00243,Dr. Neha Gupta,Endocrinology,T12,Bhubaneswar,Hospital-affiliated,8,A,26
+HCP-00244,Dr. Sanjay Menon,Internal Medicine,T09,Delhi,Group practice,10,A,4
+HCP-00245,Dr. Shreya Nair,Family Medicine,T06,Mumbai,Private clinic,3,C,7
+HCP-00246,Dr. Asha Kapoor,Internal Medicine,T05,Chennai,Group practice,7,B,29
+HCP-00247,Dr. Vikram Desai,Endocrinology,T10,Jaipur,Group practice,10,A,25
+HCP-00248,Dr. Vivek Gupta,Cardiology,T03,Hyderabad,Hospital-affiliated,7,B,30
+HCP-00249,Dr. Meera Kapoor,Nephrology,T09,Delhi,Hospital-affiliated,1,C,22
+HCP-00250,Dr. Lakshmi Singh,Endocrinology,T03,Hyderabad,Corporate hospital,10,A,8
+HCP-00251,Dr. Suresh Nair,Internal Medicine,T05,Chennai,Corporate hospital,10,A,8
+HCP-00252,Dr. Vivek Nair,Family Medicine,T09,Delhi,Hospital-affiliated,5,B,24
+HCP-00253,Dr. Vikram Reddy,Endocrinology,T10,Jaipur,Corporate hospital,10,A,16
+HCP-00254,Dr. Asha Mishra,Internal Medicine,T10,Jaipur,Corporate hospital,6,B,22
+HCP-00255,Dr. Manoj Das,Internal Medicine,T08,Ahmedabad,Group practice,8,A,7
+HCP-00256,Dr. Asha Desai,Endocrinology,T12,Bhubaneswar,Hospital-affiliated,7,B,24
+HCP-00257,Dr. Anil Singh,Endocrinology,T10,Jaipur,Group practice,10,A,11
+HCP-00258,Dr. Lakshmi Desai,Family Medicine,T06,Mumbai,Private clinic,1,C,20
+HCP-00259,Dr. Neha Pillai,Internal Medicine,T08,Ahmedabad,Group practice,1,C,18
+HCP-00260,Dr. Anil Rao,Cardiology,T03,Hyderabad,Hospital-affiliated,9,A,34
+HCP-00261,Dr. Asha Sharma,Internal Medicine,T09,Delhi,Private clinic,9,A,28
+HCP-00262,Dr. Vivek Singh,Internal Medicine,T09,Delhi,Private clinic,2,C,6
+HCP-00263,Dr. Asha Das,Internal Medicine,T05,Chennai,Private clinic,9,A,9
+HCP-00264,Dr. Deepa Pillai,Endocrinology,T07,Pune,Corporate hospital,5,B,5
+HCP-00265,Dr. Deepa Mishra,Endocrinology,T07,Pune,Corporate hospital,8,A,7
+HCP-00266,Dr. Suresh Patel,Family Medicine,T07,Pune,Hospital-affiliated,7,B,9
+HCP-00267,Dr. Shreya Singh,Internal Medicine,T07,Pune,Hospital-affiliated,10,A,15
+HCP-00268,Dr. Priya Reddy,Family Medicine,T10,Jaipur,Hospital-affiliated,5,B,24
+HCP-00269,Dr. Nikhil Nair,Family Medicine,T08,Ahmedabad,Corporate hospital,2,C,23
+HCP-00270,Dr. Neha Kumar,Internal Medicine,T03,Hyderabad,Group practice,6,B,22
+HCP-00271,Dr. Meera Chatterjee,Cardiology,T08,Ahmedabad,Corporate hospital,3,C,4
+HCP-00272,Dr. Vivek Menon,Internal Medicine,T10,Jaipur,Private clinic,10,A,33
+HCP-00273,Dr. Manoj Nair,Family Medicine,T03,Hyderabad,Hospital-affiliated,7,B,5
+HCP-00274,Dr. Arjun Desai,Nephrology,T10,Jaipur,Corporate hospital,1,C,29
+HCP-00275,Dr. Nikhil Bhat,Internal Medicine,T03,Hyderabad,Private clinic,2,C,11
+HCP-00276,Dr. Asha Kapoor,Internal Medicine,T09,Delhi,Group practice,3,C,23
+HCP-00277,Dr. Shreya Singh,Internal Medicine,T03,Hyderabad,Corporate hospital,5,B,33
+HCP-00278,Dr. Neha Menon,Nephrology,T04,Hyderabad,Corporate hospital,3,C,21
+HCP-00279,Dr. Anil Bhat,Internal Medicine,T12,Bhubaneswar,Corporate hospital,7,B,20
+HCP-00280,Dr. Manoj Pillai,Endocrinology,T05,Chennai,Corporate hospital,9,A,12
+HCP-00281,Dr. Vikram Singh,Endocrinology,T05,Chennai,Group practice,10,A,19
+HCP-00282,Dr. Shreya Joshi,Internal Medicine,T12,Bhubaneswar,Corporate hospital,2,C,11
+HCP-00283,Dr. Lakshmi Reddy,Family Medicine,T02,Bengaluru,Hospital-affiliated,5,B,17
+HCP-00284,Dr. Asha Patel,Endocrinology,T01,Bengaluru,Hospital-affiliated,6,B,3
+HCP-00285,Dr. Asha Bhat,Nephrology,T09,Delhi,Hospital-affiliated,2,C,21
+HCP-00286,Dr. Vikram Menon,Internal Medicine,T06,Mumbai,Private clinic,1,C,14
+HCP-00287,Dr. Priya Pillai,Cardiology,T07,Pune,Group practice,2,C,14
+HCP-00288,Dr. Priya Sharma,Nephrology,T12,Bhubaneswar,Corporate hospital,9,A,9
+HCP-00289,Dr. Shreya Kapoor,Internal Medicine,T06,Mumbai,Group practice,10,A,11
+HCP-00290,Dr. Meera Kumar,Internal Medicine,T09,Delhi,Hospital-affiliated,2,C,32
+HCP-00291,Dr. Anil Das,Internal Medicine,T11,Kolkata,Hospital-affiliated,2,C,14
+HCP-00292,Dr. Swati Kapoor,Cardiology,T10,Jaipur,Corporate hospital,9,A,8
+HCP-00293,Dr. Sanjay Bhat,Family Medicine,T07,Pune,Corporate hospital,2,C,18
+HCP-00294,Dr. Suresh Kumar,Internal Medicine,T01,Bengaluru,Corporate hospital,2,C,3
+HCP-00295,Dr. Priya Patel,Family Medicine,T05,Chennai,Group practice,6,B,22
+HCP-00296,Dr. Neha Patel,Internal Medicine,T03,Hyderabad,Corporate hospital,5,B,26
+HCP-00297,Dr. Asha Nair,Internal Medicine,T10,Jaipur,Group practice,10,A,26
+HCP-00298,Dr. Shreya Rao,Family Medicine,T07,Pune,Hospital-affiliated,9,A,8
+HCP-00299,Dr. Vikram Patel,Internal Medicine,T09,Delhi,Private clinic,7,B,35
+HCP-00300,Dr. Anil Kapoor,Family Medicine,T04,Hyderabad,Group practice,2,C,10
+HCP-00301,Dr. Vikram Kapoor,Internal Medicine,T11,Kolkata,Group practice,5,B,6
+HCP-00302,Dr. Vivek Reddy,Endocrinology,T08,Ahmedabad,Group practice,7,B,22
+HCP-00303,Dr. Arjun Rao,Endocrinology,T12,Bhubaneswar,Private clinic,5,B,5
+HCP-00304,Dr. Priya Iyer,Internal Medicine,T07,Pune,Group practice,1,C,5
+HCP-00305,Dr. Swati Singh,Internal Medicine,T05,Chennai,Group practice,7,B,31
+HCP-00306,Dr. Shreya Nair,Internal Medicine,T07,Pune,Corporate hospital,6,B,10
+HCP-00307,Dr. Sanjay Menon,Nephrology,T03,Hyderabad,Private clinic,4,C,4
+HCP-00308,Dr. Swati Mishra,Internal Medicine,T05,Chennai,Group practice,7,B,17
+HCP-00309,Dr. Ravi Patel,Internal Medicine,T04,Hyderabad,Private clinic,2,C,29
+HCP-00310,Dr. Arjun Menon,Family Medicine,T10,Jaipur,Hospital-affiliated,9,A,7
+HCP-00311,Dr. Priya Menon,Family Medicine,T02,Bengaluru,Private clinic,4,C,28
+HCP-00312,Dr. Priya Nair,Internal Medicine,T08,Ahmedabad,Corporate hospital,2,C,17
+HCP-00313,Dr. Anil Menon,Family Medicine,T12,Bhubaneswar,Corporate hospital,5,B,12
+HCP-00314,Dr. Suresh Reddy,Family Medicine,T11,Kolkata,Hospital-affiliated,4,C,30
+HCP-00315,Dr. Manoj Kapoor,Internal Medicine,T09,Delhi,Corporate hospital,10,A,29
+HCP-00316,Dr. Shreya Bhat,Endocrinology,T07,Pune,Hospital-affiliated,6,B,17
+HCP-00317,Dr. Rajesh Reddy,Cardiology,T05,Chennai,Group practice,2,C,29
+HCP-00318,Dr. Suresh Rao,Family Medicine,T09,Delhi,Corporate hospital,3,C,8
+HCP-00319,Dr. Ravi Reddy,Cardiology,T08,Ahmedabad,Corporate hospital,1,C,27
+HCP-00320,Dr. Vikram Rao,Family Medicine,T11,Kolkata,Hospital-affiliated,1,C,33
+HCP-00321,Dr. Arjun Rao,Cardiology,T04,Hyderabad,Hospital-affiliated,3,C,10
+HCP-00322,Dr. Lakshmi Rao,Nephrology,T12,Bhubaneswar,Group practice,4,C,18
+HCP-00323,Dr. Rajesh Mishra,Internal Medicine,T09,Delhi,Corporate hospital,3,C,22
+HCP-00324,Dr. Rajesh Patel,Internal Medicine,T05,Chennai,Group practice,9,A,23
+HCP-00325,Dr. Vivek Menon,Internal Medicine,T04,Hyderabad,Hospital-affiliated,4,C,4
+HCP-00326,Dr. Swati Das,Family Medicine,T05,Chennai,Hospital-affiliated,5,B,15
+HCP-00327,Dr. Lakshmi Bhat,Internal Medicine,T06,Mumbai,Corporate hospital,5,B,19
+HCP-00328,Dr. Asha Desai,Nephrology,T08,Ahmedabad,Hospital-affiliated,6,B,25
+HCP-00329,Dr. Kavya Mishra,Endocrinology,T03,Hyderabad,Private clinic,8,A,5
+HCP-00330,Dr. Arjun Chatterjee,Nephrology,T02,Bengaluru,Hospital-affiliated,6,B,17
+HCP-00331,Dr. Nikhil Desai,Family Medicine,T02,Bengaluru,Corporate hospital,1,C,6
+HCP-00332,Dr. Asha Bhat,Family Medicine,T10,Jaipur,Private clinic,9,A,3
+HCP-00333,Dr. Nikhil Joshi,Family Medicine,T09,Delhi,Corporate hospital,1,C,4
+HCP-00334,Dr. Kavya Patel,Cardiology,T09,Delhi,Private clinic,6,B,12
+HCP-00335,Dr. Deepa Joshi,Internal Medicine,T04,Hyderabad,Group practice,5,B,8
+HCP-00336,Dr. Lakshmi Menon,Nephrology,T06,Mumbai,Corporate hospital,4,C,8
+HCP-00337,Dr. Priya Iyer,Nephrology,T11,Kolkata,Group practice,6,B,27
+HCP-00338,Dr. Arjun Gupta,Family Medicine,T07,Pune,Private clinic,1,C,34
+HCP-00339,Dr. Meera Kapoor,Family Medicine,T07,Pune,Private clinic,3,C,17
+HCP-00340,Dr. Vivek Bhat,Nephrology,T04,Hyderabad,Corporate hospital,6,B,5
+HCP-00341,Dr. Shreya Reddy,Family Medicine,T02,Bengaluru,Hospital-affiliated,3,C,23
+HCP-00342,Dr. Manoj Iyer,Nephrology,T01,Bengaluru,Corporate hospital,5,B,13
+HCP-00343,Dr. Manoj Mishra,Internal Medicine,T10,Jaipur,Corporate hospital,8,A,27
+HCP-00344,Dr. Vikram Kapoor,Endocrinology,T12,Bhubaneswar,Corporate hospital,10,A,6
+HCP-00345,Dr. Anil Pillai,Internal Medicine,T02,Bengaluru,Corporate hospital,8,A,4
+HCP-00346,Dr. Asha Menon,Internal Medicine,T11,Kolkata,Corporate hospital,10,A,27
+HCP-00347,Dr. Manoj Iyer,Internal Medicine,T07,Pune,Corporate hospital,5,B,18
+HCP-00348,Dr. Manoj Nair,Endocrinology,T12,Bhubaneswar,Group practice,5,B,23
+HCP-00349,Dr. Neha Desai,Endocrinology,T06,Mumbai,Corporate hospital,4,C,20
+HCP-00350,Dr. Rajesh Mishra,Endocrinology,T02,Bengaluru,Group practice,5,B,9
+HCP-00351,Dr. Anjali Kumar,Endocrinology,T01,Bengaluru,Group practice,8,A,3
+HCP-00352,Dr. Shreya Menon,Internal Medicine,T05,Chennai,Hospital-affiliated,7,B,27
+HCP-00353,Dr. Asha Nair,Endocrinology,T03,Hyderabad,Private clinic,6,B,13
+HCP-00354,Dr. Vikram Singh,Internal Medicine,T07,Pune,Corporate hospital,3,C,18
+HCP-00355,Dr. Ravi Desai,Family Medicine,T12,Bhubaneswar,Private clinic,5,B,11
+HCP-00356,Dr. Anjali Pillai,Endocrinology,T05,Chennai,Corporate hospital,7,B,31
+HCP-00357,Dr. Anjali Nair,Internal Medicine,T06,Mumbai,Corporate hospital,8,A,23
+HCP-00358,Dr. Anil Gupta,Nephrology,T10,Jaipur,Group practice,2,C,23
+HCP-00359,Dr. Vivek Menon,Family Medicine,T05,Chennai,Corporate hospital,6,B,27
+HCP-00360,Dr. Meera Rao,Cardiology,T05,Chennai,Hospital-affiliated,4,C,4
+HCP-00361,Dr. Rajesh Das,Internal Medicine,T12,Bhubaneswar,Private clinic,7,B,29
+HCP-00362,Dr. Lakshmi Joshi,Internal Medicine,T11,Kolkata,Hospital-affiliated,6,B,30
+HCP-00363,Dr. Asha Pillai,Endocrinology,T07,Pune,Group practice,10,A,5
+HCP-00364,Dr. Anjali Iyer,Family Medicine,T06,Mumbai,Private clinic,8,A,18
+HCP-00365,Dr. Anjali Reddy,Family Medicine,T11,Kolkata,Group practice,2,C,24
+HCP-00366,Dr. Lakshmi Kapoor,Endocrinology,T07,Pune,Hospital-affiliated,4,C,31
+HCP-00367,Dr. Vivek Kapoor,Internal Medicine,T06,Mumbai,Hospital-affiliated,7,B,25
+HCP-00368,Dr. Vikram Patel,Internal Medicine,T01,Bengaluru,Hospital-affiliated,3,C,25
+HCP-00369,Dr. Nikhil Bhat,Internal Medicine,T05,Chennai,Corporate hospital,7,B,33
+HCP-00370,Dr. Anil Iyer,Internal Medicine,T02,Bengaluru,Corporate hospital,6,B,5
+HCP-00371,Dr. Meera Gupta,Endocrinology,T12,Bhubaneswar,Hospital-affiliated,10,A,14
+HCP-00372,Dr. Rajesh Menon,Endocrinology,T09,Delhi,Group practice,8,A,14
+HCP-00373,Dr. Arjun Rao,Family Medicine,T03,Hyderabad,Group practice,4,C,30
+HCP-00374,Dr. Suresh Iyer,Endocrinology,T07,Pune,Private clinic,5,B,14
+HCP-00375,Dr. Suresh Bhat,Internal Medicine,T06,Mumbai,Corporate hospital,4,C,27
+HCP-00376,Dr. Deepa Desai,Internal Medicine,T10,Jaipur,Hospital-affiliated,1,C,22
+HCP-00377,Dr. Anil Patel,Family Medicine,T10,Jaipur,Hospital-affiliated,6,B,22
+HCP-00378,Dr. Nikhil Pillai,Internal Medicine,T02,Bengaluru,Group practice,6,B,11
+HCP-00379,Dr. Shreya Gupta,Internal Medicine,T10,Jaipur,Hospital-affiliated,2,C,34
+HCP-00380,Dr. Rajesh Reddy,Endocrinology,T05,Chennai,Corporate hospital,6,B,3
+HCP-00381,Dr. Shreya Kapoor,Endocrinology,T08,Ahmedabad,Group practice,10,A,29
+HCP-00382,Dr. Rajesh Bhat,Internal Medicine,T11,Kolkata,Hospital-affiliated,7,B,8
+HCP-00383,Dr. Neha Reddy,Endocrinology,T10,Jaipur,Corporate hospital,10,A,17
+HCP-00384,Dr. Vivek Bhat,Internal Medicine,T09,Delhi,Private clinic,7,B,10
+HCP-00385,Dr. Deepa Mishra,Family Medicine,T05,Chennai,Private clinic,8,A,31
+HCP-00386,Dr. Lakshmi Das,Internal Medicine,T09,Delhi,Private clinic,4,C,31
+HCP-00387,Dr. Rajesh Patel,Internal Medicine,T05,Chennai,Hospital-affiliated,8,A,16
+HCP-00388,Dr. Anjali Chatterjee,Family Medicine,T12,Bhubaneswar,Hospital-affiliated,3,C,11
+HCP-00389,Dr. Vivek Singh,Cardiology,T04,Hyderabad,Corporate hospital,8,A,13
+HCP-00390,Dr. Vivek Joshi,Nephrology,T06,Mumbai,Private clinic,3,C,11
+HCP-00391,Dr. Sanjay Nair,Nephrology,T07,Pune,Hospital-affiliated,10,A,12
+HCP-00392,Dr. Manoj Bhat,Internal Medicine,T12,Bhubaneswar,Hospital-affiliated,2,C,20
+HCP-00393,Dr. Vikram Pillai,Internal Medicine,T11,Kolkata,Corporate hospital,4,C,26
+HCP-00394,Dr. Arjun Iyer,Nephrology,T08,Ahmedabad,Group practice,3,C,25
+HCP-00395,Dr. Swati Rao,Cardiology,T02,Bengaluru,Group practice,4,C,20
+HCP-00396,Dr. Vivek Nair,Cardiology,T06,Mumbai,Group practice,3,C,24
+HCP-00397,Dr. Rajesh Sharma,Family Medicine,T11,Kolkata,Private clinic,1,C,13
+HCP-00398,Dr. Swati Rao,Internal Medicine,T08,Ahmedabad,Hospital-affiliated,10,A,22
+HCP-00399,Dr. Vikram Singh,Cardiology,T03,Hyderabad,Corporate hospital,9,A,8
+HCP-00400,Dr. Priya Pillai,Family Medicine,T06,Mumbai,Corporate hospital,6,B,17
+HCP-00401,Dr. Arjun Rao,Family Medicine,T07,Pune,Group practice,7,B,7
+HCP-00402,Dr. Rajesh Sharma,Family Medicine,T03,Hyderabad,Private clinic,5,B,24
+HCP-00403,Dr. Sanjay Bhat,Nephrology,T02,Bengaluru,Private clinic,4,C,17
+HCP-00404,Dr. Meera Kumar,Endocrinology,T07,Pune,Corporate hospital,10,A,22
+HCP-00405,Dr. Sanjay Nair,Internal Medicine,T03,Hyderabad,Private clinic,8,A,3
+HCP-00406,Dr. Ravi Nair,Family Medicine,T10,Jaipur,Group practice,4,C,31
+HCP-00407,Dr. Meera Pillai,Endocrinology,T04,Hyderabad,Corporate hospital,4,C,30
+HCP-00408,Dr. Vikram Menon,Cardiology,T06,Mumbai,Corporate hospital,2,C,4
+HCP-00409,Dr. Anjali Kapoor,Cardiology,T11,Kolkata,Hospital-affiliated,2,C,28
+HCP-00410,Dr. Lakshmi Bhat,Family Medicine,T05,Chennai,Group practice,7,B,10
+HCP-00411,Dr. Nikhil Sharma,Internal Medicine,T04,Hyderabad,Corporate hospital,5,B,23
+HCP-00412,Dr. Swati Singh,Internal Medicine,T03,Hyderabad,Hospital-affiliated,8,A,33
+HCP-00413,Dr. Suresh Rao,Endocrinology,T02,Bengaluru,Private clinic,4,C,6
+HCP-00414,Dr. Nikhil Chatterjee,Family Medicine,T07,Pune,Group practice,6,B,28
+HCP-00415,Dr. Sanjay Joshi,Family Medicine,T02,Bengaluru,Private clinic,5,B,22
+HCP-00416,Dr. Sanjay Mishra,Family Medicine,T02,Bengaluru,Corporate hospital,2,C,28
+HCP-00417,Dr. Vikram Das,Family Medicine,T10,Jaipur,Group practice,8,A,18
+HCP-00418,Dr. Meera Desai,Internal Medicine,T01,Bengaluru,Private clinic,9,A,22
+HCP-00419,Dr. Meera Sharma,Family Medicine,T11,Kolkata,Hospital-affiliated,7,B,3
+HCP-00420,Dr. Nikhil Joshi,Internal Medicine,T03,Hyderabad,Hospital-affiliated,3,C,26
+HCP-00421,Dr. Meera Sharma,Family Medicine,T03,Hyderabad,Corporate hospital,9,A,30
+HCP-00422,Dr. Vivek Iyer,Family Medicine,T05,Chennai,Group practice,2,C,32
+HCP-00423,Dr. Vivek Gupta,Internal Medicine,T09,Delhi,Corporate hospital,4,C,13
+HCP-00424,Dr. Meera Menon,Family Medicine,T05,Chennai,Private clinic,9,A,5
+HCP-00425,Dr. Manoj Nair,Internal Medicine,T01,Bengaluru,Hospital-affiliated,4,C,5
+HCP-00426,Dr. Swati Menon,Cardiology,T09,Delhi,Corporate hospital,7,B,18
+HCP-00427,Dr. Vikram Singh,Nephrology,T07,Pune,Private clinic,3,C,35
+HCP-00428,Dr. Nikhil Reddy,Nephrology,T11,Kolkata,Group practice,2,C,7
+HCP-00429,Dr. Neha Kumar,Cardiology,T08,Ahmedabad,Private clinic,7,B,32
+HCP-00430,Dr. Neha Menon,Internal Medicine,T01,Bengaluru,Group practice,3,C,26
+HCP-00431,Dr. Ravi Mishra,Nephrology,T10,Jaipur,Hospital-affiliated,10,A,12
+HCP-00432,Dr. Shreya Singh,Nephrology,T01,Bengaluru,Private clinic,1,C,24
+HCP-00433,Dr. Neha Patel,Family Medicine,T01,Bengaluru,Hospital-affiliated,3,C,18
+HCP-00434,Dr. Sanjay Joshi,Internal Medicine,T07,Pune,Private clinic,1,C,5
+HCP-00435,Dr. Deepa Desai,Cardiology,T04,Hyderabad,Private clinic,5,B,9
+HCP-00436,Dr. Vikram Reddy,Endocrinology,T09,Delhi,Group practice,10,A,11
+HCP-00437,Dr. Manoj Kumar,Internal Medicine,T04,Hyderabad,Corporate hospital,8,A,31
+HCP-00438,Dr. Sanjay Patel,Internal Medicine,T05,Chennai,Hospital-affiliated,10,A,9
+HCP-00439,Dr. Meera Mishra,Internal Medicine,T03,Hyderabad,Corporate hospital,3,C,16
+HCP-00440,Dr. Meera Iyer,Internal Medicine,T08,Ahmedabad,Hospital-affiliated,2,C,22
+HCP-00441,Dr. Anil Nair,Family Medicine,T12,Bhubaneswar,Private clinic,1,C,18
+HCP-00442,Dr. Neha Joshi,Internal Medicine,T06,Mumbai,Hospital-affiliated,1,C,4
+HCP-00443,Dr. Shreya Menon,Cardiology,T07,Pune,Private clinic,5,B,32
+HCP-00444,Dr. Arjun Reddy,Cardiology,T02,Bengaluru,Hospital-affiliated,1,C,11
+HCP-00445,Dr. Vikram Joshi,Cardiology,T04,Hyderabad,Private clinic,3,C,4
+HCP-00446,Dr. Sanjay Iyer,Internal Medicine,T02,Bengaluru,Corporate hospital,6,B,10
+HCP-00447,Dr. Vivek Chatterjee,Nephrology,T01,Bengaluru,Group practice,1,C,34
+HCP-00448,Dr. Deepa Rao,Internal Medicine,T01,Bengaluru,Hospital-affiliated,4,C,20
+HCP-00449,Dr. Anjali Menon,Internal Medicine,T05,Chennai,Corporate hospital,2,C,34
+HCP-00450,Dr. Vikram Joshi,Cardiology,T07,Pune,Group practice,4,C,11
+HCP-00451,Dr. Nikhil Menon,Internal Medicine,T07,Pune,Private clinic,9,A,27
+HCP-00452,Dr. Asha Singh,Internal Medicine,T12,Bhubaneswar,Corporate hospital,5,B,27
+HCP-00453,Dr. Lakshmi Sharma,Endocrinology,T05,Chennai,Corporate hospital,6,B,6
+HCP-00454,Dr. Lakshmi Gupta,Family Medicine,T08,Ahmedabad,Private clinic,7,B,18
+HCP-00455,Dr. Priya Menon,Internal Medicine,T11,Kolkata,Group practice,5,B,25
+HCP-00456,Dr. Deepa Sharma,Endocrinology,T03,Hyderabad,Corporate hospital,8,A,12
+HCP-00457,Dr. Asha Mishra,Nephrology,T10,Jaipur,Corporate hospital,8,A,14
+HCP-00458,Dr. Anjali Menon,Endocrinology,T08,Ahmedabad,Private clinic,4,C,33
+HCP-00459,Dr. Sanjay Kumar,Internal Medicine,T01,Bengaluru,Hospital-affiliated,6,B,23
+HCP-00460,Dr. Sanjay Patel,Endocrinology,T01,Bengaluru,Corporate hospital,8,A,7
+HCP-00461,Dr. Vivek Patel,Family Medicine,T06,Mumbai,Corporate hospital,6,B,22
+HCP-00462,Dr. Swati Bhat,Endocrinology,T06,Mumbai,Corporate hospital,5,B,14
+HCP-00463,Dr. Anjali Singh,Nephrology,T12,Bhubaneswar,Hospital-affiliated,6,B,14
+HCP-00464,Dr. Sanjay Gupta,Internal Medicine,T07,Pune,Private clinic,6,B,28
+HCP-00465,Dr. Anjali Menon,Endocrinology,T10,Jaipur,Private clinic,9,A,34
+HCP-00466,Dr. Deepa Kumar,Internal Medicine,T03,Hyderabad,Hospital-affiliated,1,C,8
+HCP-00467,Dr. Anil Desai,Family Medicine,T12,Bhubaneswar,Private clinic,7,B,19
+HCP-00468,Dr. Suresh Patel,Internal Medicine,T04,Hyderabad,Private clinic,1,C,6
+HCP-00469,Dr. Kavya Chatterjee,Internal Medicine,T07,Pune,Group practice,4,C,27
+HCP-00470,Dr. Asha Menon,Family Medicine,T06,Mumbai,Hospital-affiliated,1,C,31
+HCP-00471,Dr. Arjun Kumar,Cardiology,T02,Bengaluru,Corporate hospital,1,C,9
+HCP-00472,Dr. Kavya Iyer,Internal Medicine,T02,Bengaluru,Private clinic,9,A,24
+HCP-00473,Dr. Arjun Chatterjee,Nephrology,T10,Jaipur,Hospital-affiliated,9,A,30
+HCP-00474,Dr. Ravi Chatterjee,Endocrinology,T03,Hyderabad,Corporate hospital,6,B,21
+HCP-00475,Dr. Vivek Mishra,Internal Medicine,T05,Chennai,Group practice,1,C,12
+HCP-00476,Dr. Neha Bhat,Internal Medicine,T01,Bengaluru,Hospital-affiliated,4,C,9
+HCP-00477,Dr. Vikram Bhat,Internal Medicine,T01,Bengaluru,Private clinic,6,B,22
+HCP-00478,Dr. Suresh Iyer,Internal Medicine,T07,Pune,Group practice,9,A,14
+HCP-00479,Dr. Rajesh Reddy,Cardiology,T06,Mumbai,Corporate hospital,3,C,31
+HCP-00480,Dr. Vivek Reddy,Internal Medicine,T08,Ahmedabad,Hospital-affiliated,8,A,9
+HCP-00481,Dr. Swati Menon,Family Medicine,T02,Bengaluru,Private clinic,8,A,27
+HCP-00482,Dr. Asha Menon,Internal Medicine,T09,Delhi,Group practice,5,B,22
+HCP-00483,Dr. Priya Kapoor,Internal Medicine,T02,Bengaluru,Hospital-affiliated,8,A,10
+HCP-00484,Dr. Ravi Rao,Endocrinology,T08,Ahmedabad,Hospital-affiliated,10,A,5
+HCP-00485,Dr. Ravi Nair,Endocrinology,T07,Pune,Corporate hospital,9,A,23
+HCP-00486,Dr. Manoj Mishra,Nephrology,T12,Bhubaneswar,Group practice,1,C,23
+HCP-00487,Dr. Arjun Kapoor,Family Medicine,T05,Chennai,Group practice,9,A,10
+HCP-00488,Dr. Vivek Patel,Endocrinology,T07,Pune,Private clinic,8,A,9
+HCP-00489,Dr. Swati Joshi,Cardiology,T05,Chennai,Group practice,9,A,34
+HCP-00490,Dr. Suresh Pillai,Family Medicine,T10,Jaipur,Hospital-affiliated,1,C,28
+HCP-00491,Dr. Lakshmi Reddy,Internal Medicine,T01,Bengaluru,Group practice,9,A,20
+HCP-00492,Dr. Neha Das,Endocrinology,T06,Mumbai,Corporate hospital,10,A,34
+HCP-00493,Dr. Lakshmi Nair,Family Medicine,T12,Bhubaneswar,Corporate hospital,10,A,31
+HCP-00494,Dr. Vikram Rao,Internal Medicine,T06,Mumbai,Group practice,4,C,16
+HCP-00495,Dr. Deepa Reddy,Family Medicine,T07,Pune,Hospital-affiliated,7,B,7
+HCP-00496,Dr. Nikhil Sharma,Family Medicine,T05,Chennai,Hospital-affiliated,4,C,15
+HCP-00497,Dr. Rajesh Reddy,Cardiology,T04,Hyderabad,Corporate hospital,2,C,15
+HCP-00498,Dr. Manoj Patel,Internal Medicine,T05,Chennai,Private clinic,4,C,18
+HCP-00499,Dr. Asha Mishra,Internal Medicine,T06,Mumbai,Corporate hospital,4,C,25
+HCP-00500,Dr. Vikram Das,Cardiology,T03,Hyderabad,Private clinic,2,C,27
+HCP-00501,Dr. Ravi Menon,Endocrinology,T01,Bengaluru,Hospital-affiliated,8,A,16
+HCP-00502,Dr. Arjun Bhat,Family Medicine,T05,Chennai,Hospital-affiliated,5,B,14
+HCP-00503,Dr. Anjali Das,Cardiology,T10,Jaipur,Corporate hospital,2,C,30
+HCP-00504,Dr. Ravi Desai,Cardiology,T07,Pune,Corporate hospital,4,C,28
+HCP-00505,Dr. Deepa Mishra,Endocrinology,T10,Jaipur,Corporate hospital,8,A,22
+HCP-00506,Dr. Suresh Kumar,Endocrinology,T11,Kolkata,Corporate hospital,4,C,19
+HCP-00507,Dr. Neha Rao,Family Medicine,T11,Kolkata,Hospital-affiliated,9,A,18
+HCP-00508,Dr. Anjali Pillai,Cardiology,T01,Bengaluru,Corporate hospital,8,A,11
+HCP-00509,Dr. Neha Joshi,Endocrinology,T12,Bhubaneswar,Group practice,7,B,28
+HCP-00510,Dr. Vivek Rao,Family Medicine,T07,Pune,Corporate hospital,5,B,17
+HCP-00511,Dr. Deepa Kapoor,Family Medicine,T11,Kolkata,Corporate hospital,7,B,13
+HCP-00512,Dr. Meera Bhat,Cardiology,T11,Kolkata,Hospital-affiliated,2,C,19
+HCP-00513,Dr. Kavya Kumar,Cardiology,T12,Bhubaneswar,Private clinic,7,B,17
+HCP-00514,Dr. Swati Kumar,Internal Medicine,T06,Mumbai,Corporate hospital,9,A,19
+HCP-00515,Dr. Asha Reddy,Internal Medicine,T10,Jaipur,Private clinic,8,A,33
+HCP-00516,Dr. Manoj Kapoor,Family Medicine,T04,Hyderabad,Corporate hospital,8,A,29
+HCP-00517,Dr. Ravi Kumar,Cardiology,T01,Bengaluru,Group practice,2,C,32
+HCP-00518,Dr. Vikram Bhat,Internal Medicine,T03,Hyderabad,Corporate hospital,7,B,14
+HCP-00519,Dr. Suresh Rao,Family Medicine,T06,Mumbai,Hospital-affiliated,1,C,13
+HCP-00520,Dr. Sanjay Chatterjee,Cardiology,T08,Ahmedabad,Group practice,7,B,28
+HCP-00521,Dr. Priya Mishra,Nephrology,T07,Pune,Hospital-affiliated,3,C,26
+HCP-00522,Dr. Nikhil Rao,Cardiology,T01,Bengaluru,Private clinic,7,B,3
+HCP-00523,Dr. Deepa Das,Family Medicine,T11,Kolkata,Hospital-affiliated,2,C,9
+HCP-00524,Dr. Vikram Reddy,Family Medicine,T07,Pune,Corporate hospital,3,C,21
+HCP-00525,Dr. Anil Chatterjee,Family Medicine,T08,Ahmedabad,Hospital-affiliated,5,B,24
+HCP-00526,Dr. Manoj Sharma,Internal Medicine,T08,Ahmedabad,Hospital-affiliated,2,C,17
+HCP-00527,Dr. Arjun Kapoor,Nephrology,T12,Bhubaneswar,Hospital-affiliated,2,C,10
+HCP-00528,Dr. Manoj Joshi,Family Medicine,T06,Mumbai,Private clinic,8,A,6
+HCP-00529,Dr. Priya Patel,Endocrinology,T11,Kolkata,Group practice,10,A,31
+HCP-00530,Dr. Sanjay Rao,Endocrinology,T07,Pune,Private clinic,5,B,22
+HCP-00531,Dr. Suresh Nair,Family Medicine,T07,Pune,Group practice,6,B,9
+HCP-00532,Dr. Meera Patel,Family Medicine,T09,Delhi,Group practice,1,C,15
+HCP-00533,Dr. Nikhil Rao,Internal Medicine,T10,Jaipur,Corporate hospital,2,C,29
+HCP-00534,Dr. Ravi Bhat,Endocrinology,T05,Chennai,Corporate hospital,8,A,18
+HCP-00535,Dr. Meera Bhat,Endocrinology,T01,Bengaluru,Hospital-affiliated,4,C,8
+HCP-00536,Dr. Suresh Menon,Endocrinology,T09,Delhi,Group practice,10,A,21
+HCP-00537,Dr. Kavya Reddy,Internal Medicine,T05,Chennai,Corporate hospital,1,C,26
+HCP-00538,Dr. Meera Reddy,Internal Medicine,T11,Kolkata,Private clinic,7,B,11
+HCP-00539,Dr. Rajesh Joshi,Family Medicine,T11,Kolkata,Private clinic,3,C,26
+HCP-00540,Dr. Rajesh Joshi,Internal Medicine,T06,Mumbai,Group practice,4,C,33
+HCP-00541,Dr. Meera Nair,Family Medicine,T07,Pune,Private clinic,8,A,13
+HCP-00542,Dr. Vivek Desai,Internal Medicine,T02,Bengaluru,Hospital-affiliated,5,B,27
+HCP-00543,Dr. Sanjay Bhat,Family Medicine,T06,Mumbai,Group practice,8,A,10
+HCP-00544,Dr. Anil Sharma,Internal Medicine,T07,Pune,Hospital-affiliated,1,C,24
+HCP-00545,Dr. Meera Chatterjee,Family Medicine,T09,Delhi,Hospital-affiliated,7,B,33
+HCP-00546,Dr. Sanjay Mishra,Family Medicine,T06,Mumbai,Private clinic,6,B,3
+HCP-00547,Dr. Asha Bhat,Nephrology,T11,Kolkata,Hospital-affiliated,5,B,7
+HCP-00548,Dr. Suresh Reddy,Internal Medicine,T08,Ahmedabad,Hospital-affiliated,3,C,27
+HCP-00549,Dr. Rajesh Desai,Cardiology,T07,Pune,Private clinic,1,C,34
+HCP-00550,Dr. Arjun Patel,Internal Medicine,T08,Ahmedabad,Group practice,10,A,29
+HCP-00551,Dr. Vikram Das,Family Medicine,T01,Bengaluru,Hospital-affiliated,1,C,32
+HCP-00552,Dr. Lakshmi Desai,Internal Medicine,T06,Mumbai,Corporate hospital,1,C,33
+HCP-00553,Dr. Meera Patel,Family Medicine,T12,Bhubaneswar,Hospital-affiliated,7,B,3
+HCP-00554,Dr. Neha Mishra,Internal Medicine,T06,Mumbai,Corporate hospital,6,B,9
+HCP-00555,Dr. Swati Patel,Cardiology,T01,Bengaluru,Corporate hospital,4,C,15
+HCP-00556,Dr. Ravi Desai,Endocrinology,T04,Hyderabad,Hospital-affiliated,10,A,24
+HCP-00557,Dr. Vivek Patel,Family Medicine,T02,Bengaluru,Group practice,1,C,32
+HCP-00558,Dr. Asha Sharma,Family Medicine,T11,Kolkata,Private clinic,5,B,30
+HCP-00559,Dr. Kavya Gupta,Internal Medicine,T10,Jaipur,Hospital-affiliated,5,B,9
+HCP-00560,Dr. Anil Kapoor,Family Medicine,T07,Pune,Group practice,6,B,29
+HCP-00561,Dr. Suresh Pillai,Nephrology,T10,Jaipur,Corporate hospital,7,B,21
+HCP-00562,Dr. Anjali Kapoor,Cardiology,T08,Ahmedabad,Corporate hospital,1,C,23
+HCP-00563,Dr. Ravi Rao,Family Medicine,T12,Bhubaneswar,Hospital-affiliated,5,B,21
+HCP-00564,Dr. Kavya Kapoor,Internal Medicine,T11,Kolkata,Corporate hospital,6,B,10
+HCP-00565,Dr. Swati Mishra,Family Medicine,T06,Mumbai,Corporate hospital,5,B,30
+HCP-00566,Dr. Sanjay Reddy,Family Medicine,T01,Bengaluru,Private clinic,1,C,15
+HCP-00567,Dr. Neha Joshi,Family Medicine,T05,Chennai,Hospital-affiliated,2,C,6
+HCP-00568,Dr. Shreya Reddy,Cardiology,T12,Bhubaneswar,Corporate hospital,2,C,31
+HCP-00569,Dr. Shreya Menon,Family Medicine,T02,Bengaluru,Group practice,6,B,18
+HCP-00570,Dr. Neha Reddy,Cardiology,T09,Delhi,Group practice,8,A,27
+HCP-00571,Dr. Anil Mishra,Nephrology,T07,Pune,Private clinic,10,A,3
+HCP-00572,Dr. Rajesh Menon,Internal Medicine,T12,Bhubaneswar,Corporate hospital,6,B,15
+HCP-00573,Dr. Kavya Iyer,Nephrology,T12,Bhubaneswar,Hospital-affiliated,3,C,14
+HCP-00574,Dr. Swati Joshi,Family Medicine,T12,Bhubaneswar,Corporate hospital,3,C,11
+HCP-00575,Dr. Anil Desai,Family Medicine,T03,Hyderabad,Hospital-affiliated,2,C,5
+HCP-00576,Dr. Anjali Das,Nephrology,T03,Hyderabad,Group practice,5,B,25
+HCP-00577,Dr. Lakshmi Gupta,Cardiology,T02,Bengaluru,Private clinic,3,C,35
+HCP-00578,Dr. Vikram Singh,Internal Medicine,T03,Hyderabad,Hospital-affiliated,5,B,16
+HCP-00579,Dr. Ravi Kapoor,Internal Medicine,T11,Kolkata,Group practice,3,C,3
+HCP-00580,Dr. Anjali Menon,Family Medicine,T02,Bengaluru,Private clinic,4,C,23
+HCP-00581,Dr. Manoj Joshi,Nephrology,T07,Pune,Corporate hospital,10,A,4
+HCP-00582,Dr. Nikhil Desai,Cardiology,T09,Delhi,Group practice,3,C,5
+HCP-00583,Dr. Nikhil Iyer,Cardiology,T05,Chennai,Private clinic,2,C,13
+HCP-00584,Dr. Ravi Rao,Family Medicine,T09,Delhi,Group practice,6,B,9
+HCP-00585,Dr. Swati Iyer,Family Medicine,T04,Hyderabad,Hospital-affiliated,7,B,4
+HCP-00586,Dr. Vikram Reddy,Family Medicine,T08,Ahmedabad,Hospital-affiliated,1,C,19
+HCP-00587,Dr. Suresh Chatterjee,Endocrinology,T09,Delhi,Group practice,10,A,31
+HCP-00588,Dr. Manoj Patel,Internal Medicine,T11,Kolkata,Private clinic,3,C,7
+HCP-00589,Dr. Vikram Singh,Family Medicine,T12,Bhubaneswar,Private clinic,7,B,21
+HCP-00590,Dr. Rajesh Pillai,Internal Medicine,T11,Kolkata,Group practice,1,C,4
+HCP-00591,Dr. Manoj Mishra,Endocrinology,T08,Ahmedabad,Corporate hospital,5,B,12
+HCP-00592,Dr. Deepa Sharma,Family Medicine,T05,Chennai,Hospital-affiliated,9,A,10
+HCP-00593,Dr. Shreya Mishra,Endocrinology,T01,Bengaluru,Private clinic,8,A,22
+HCP-00594,Dr. Deepa Rao,Family Medicine,T04,Hyderabad,Group practice,9,A,35
+HCP-00595,Dr. Suresh Rao,Endocrinology,T03,Hyderabad,Private clinic,5,B,14
+HCP-00596,Dr. Shreya Desai,Cardiology,T11,Kolkata,Private clinic,8,A,21
+HCP-00597,Dr. Vivek Bhat,Endocrinology,T11,Kolkata,Corporate hospital,4,C,25
+HCP-00598,Dr. Neha Iyer,Family Medicine,T03,Hyderabad,Hospital-affiliated,2,C,23
+HCP-00599,Dr. Neha Nair,Internal Medicine,T08,Ahmedabad,Corporate hospital,6,B,23
+HCP-00600,Dr. Lakshmi Chatterjee,Endocrinology,T07,Pune,Corporate hospital,6,B,26
+HCP-00601,Dr. Asha Desai,Family Medicine,T03,Hyderabad,Group practice,3,C,25
+HCP-00602,Dr. Anjali Iyer,Internal Medicine,T05,Chennai,Corporate hospital,1,C,11
+HCP-00603,Dr. Vikram Iyer,Internal Medicine,T09,Delhi,Private clinic,7,B,35
+HCP-00604,Dr. Manoj Rao,Endocrinology,T11,Kolkata,Private clinic,8,A,19
+HCP-00605,Dr. Sanjay Singh,Cardiology,T09,Delhi,Group practice,5,B,17
+HCP-00606,Dr. Rajesh Kapoor,Family Medicine,T10,Jaipur,Private clinic,3,C,28
+HCP-00607,Dr. Anjali Gupta,Family Medicine,T06,Mumbai,Hospital-affiliated,6,B,31
+HCP-00608,Dr. Sanjay Bhat,Endocrinology,T03,Hyderabad,Corporate hospital,10,A,5
+HCP-00609,Dr. Suresh Singh,Family Medicine,T04,Hyderabad,Hospital-affiliated,2,C,5
+HCP-00610,Dr. Deepa Pillai,Internal Medicine,T11,Kolkata,Group practice,9,A,32
+HCP-00611,Dr. Meera Kapoor,Endocrinology,T01,Bengaluru,Corporate hospital,9,A,19
+HCP-00612,Dr. Manoj Singh,Family Medicine,T10,Jaipur,Private clinic,2,C,19
+HCP-00613,Dr. Manoj Singh,Nephrology,T07,Pune,Corporate hospital,2,C,34
+HCP-00614,Dr. Sanjay Desai,Cardiology,T08,Ahmedabad,Hospital-affiliated,1,C,17
+HCP-00615,Dr. Sanjay Gupta,Family Medicine,T02,Bengaluru,Hospital-affiliated,3,C,26
+HCP-00616,Dr. Lakshmi Chatterjee,Family Medicine,T10,Jaipur,Corporate hospital,1,C,10
+HCP-00617,Dr. Vivek Gupta,Family Medicine,T08,Ahmedabad,Group practice,4,C,4
+HCP-00618,Dr. Kavya Nair,Endocrinology,T04,Hyderabad,Private clinic,8,A,12
+HCP-00619,Dr. Nikhil Pillai,Endocrinology,T01,Bengaluru,Private clinic,10,A,21
+HCP-00620,Dr. Asha Bhat,Internal Medicine,T02,Bengaluru,Hospital-affiliated,6,B,17
+HCP-00621,Dr. Kavya Kapoor,Family Medicine,T07,Pune,Corporate hospital,8,A,13
+HCP-00622,Dr. Anjali Iyer,Family Medicine,T12,Bhubaneswar,Hospital-affiliated,9,A,27
+HCP-00623,Dr. Nikhil Kapoor,Endocrinology,T07,Pune,Group practice,4,C,12
+HCP-00624,Dr. Anjali Reddy,Endocrinology,T10,Jaipur,Private clinic,7,B,8
+HCP-00625,Dr. Shreya Sharma,Family Medicine,T08,Ahmedabad,Group practice,9,A,29
+HCP-00626,Dr. Swati Menon,Cardiology,T06,Mumbai,Group practice,6,B,27
+HCP-00627,Dr. Vivek Patel,Family Medicine,T06,Mumbai,Group practice,7,B,11
+HCP-00628,Dr. Vikram Das,Internal Medicine,T05,Chennai,Group practice,2,C,19
+HCP-00629,Dr. Arjun Kapoor,Endocrinology,T04,Hyderabad,Private clinic,10,A,3
+HCP-00630,Dr. Anil Chatterjee,Family Medicine,T07,Pune,Corporate hospital,6,B,9
+HCP-00631,Dr. Suresh Mishra,Internal Medicine,T03,Hyderabad,Group practice,5,B,26
+HCP-00632,Dr. Ravi Chatterjee,Internal Medicine,T10,Jaipur,Group practice,6,B,14
+HCP-00633,Dr. Neha Singh,Family Medicine,T06,Mumbai,Group practice,4,C,11
+HCP-00634,Dr. Kavya Patel,Endocrinology,T11,Kolkata,Hospital-affiliated,5,B,35
+HCP-00635,Dr. Anjali Reddy,Cardiology,T07,Pune,Hospital-affiliated,8,A,27
+HCP-00636,Dr. Sanjay Bhat,Endocrinology,T11,Kolkata,Group practice,4,C,8
+HCP-00637,Dr. Anjali Reddy,Internal Medicine,T02,Bengaluru,Group practice,3,C,28
+HCP-00638,Dr. Anjali Reddy,Family Medicine,T10,Jaipur,Hospital-affiliated,3,C,34
+HCP-00639,Dr. Nikhil Das,Endocrinology,T08,Ahmedabad,Hospital-affiliated,10,A,5
+HCP-00640,Dr. Anjali Gupta,Family Medicine,T10,Jaipur,Private clinic,6,B,26
+HCP-00641,Dr. Vikram Joshi,Family Medicine,T04,Hyderabad,Group practice,10,A,25
+HCP-00642,Dr. Nikhil Sharma,Internal Medicine,T11,Kolkata,Private clinic,5,B,8
+HCP-00643,Dr. Vivek Singh,Internal Medicine,T09,Delhi,Corporate hospital,8,A,20
+HCP-00644,Dr. Manoj Sharma,Family Medicine,T04,Hyderabad,Corporate hospital,2,C,14
+HCP-00645,Dr. Nikhil Das,Family Medicine,T07,Pune,Corporate hospital,5,B,10
+HCP-00646,Dr. Vivek Joshi,Nephrology,T09,Delhi,Group practice,9,A,27
+HCP-00647,Dr. Anil Desai,Internal Medicine,T10,Jaipur,Group practice,2,C,4
+HCP-00648,Dr. Lakshmi Menon,Endocrinology,T08,Ahmedabad,Corporate hospital,4,C,29
+HCP-00649,Dr. Suresh Menon,Family Medicine,T06,Mumbai,Corporate hospital,1,C,8
+HCP-00650,Dr. Vikram Mishra,Family Medicine,T07,Pune,Hospital-affiliated,8,A,33
+HCP-00651,Dr. Suresh Gupta,Internal Medicine,T06,Mumbai,Hospital-affiliated,9,A,34
+HCP-00652,Dr. Suresh Rao,Internal Medicine,T12,Bhubaneswar,Hospital-affiliated,7,B,15
+HCP-00653,Dr. Meera Patel,Cardiology,T04,Hyderabad,Private clinic,3,C,34
+HCP-00654,Dr. Priya Bhat,Endocrinology,T10,Jaipur,Corporate hospital,10,A,23
+HCP-00655,Dr. Vivek Joshi,Cardiology,T08,Ahmedabad,Group practice,9,A,14
+HCP-00656,Dr. Vivek Nair,Internal Medicine,T09,Delhi,Private clinic,2,C,30
+HCP-00657,Dr. Deepa Pillai,Nephrology,T08,Ahmedabad,Hospital-affiliated,1,C,32
+HCP-00658,Dr. Arjun Sharma,Family Medicine,T02,Bengaluru,Hospital-affiliated,4,C,27
+HCP-00659,Dr. Suresh Gupta,Endocrinology,T10,Jaipur,Corporate hospital,6,B,18
+HCP-00660,Dr. Deepa Gupta,Internal Medicine,T05,Chennai,Group practice,6,B,30
+HCP-00661,Dr. Deepa Pillai,Internal Medicine,T04,Hyderabad,Corporate hospital,7,B,31
+HCP-00662,Dr. Lakshmi Patel,Family Medicine,T03,Hyderabad,Corporate hospital,10,A,18
+HCP-00663,Dr. Sanjay Nair,Internal Medicine,T09,Delhi,Group practice,3,C,3
+HCP-00664,Dr. Nikhil Mishra,Internal Medicine,T03,Hyderabad,Corporate hospital,1,C,34
+HCP-00665,Dr. Priya Pillai,Internal Medicine,T05,Chennai,Private clinic,8,A,13
+HCP-00666,Dr. Meera Desai,Internal Medicine,T01,Bengaluru,Corporate hospital,2,C,19
+HCP-00667,Dr. Suresh Singh,Internal Medicine,T06,Mumbai,Private clinic,5,B,29
+HCP-00668,Dr. Anjali Rao,Internal Medicine,T02,Bengaluru,Hospital-affiliated,6,B,21
+HCP-00669,Dr. Rajesh Iyer,Internal Medicine,T06,Mumbai,Group practice,5,B,21
+HCP-00670,Dr. Kavya Kumar,Family Medicine,T08,Ahmedabad,Group practice,2,C,28
+HCP-00671,Dr. Anil Kumar,Endocrinology,T02,Bengaluru,Corporate hospital,6,B,20
+HCP-00672,Dr. Rajesh Singh,Family Medicine,T10,Jaipur,Group practice,3,C,29
+HCP-00673,Dr. Lakshmi Joshi,Internal Medicine,T03,Hyderabad,Private clinic,1,C,16
+HCP-00674,Dr. Asha Mishra,Internal Medicine,T03,Hyderabad,Private clinic,1,C,4
+HCP-00675,Dr. Meera Joshi,Family Medicine,T07,Pune,Hospital-affiliated,10,A,8
+HCP-00676,Dr. Lakshmi Menon,Nephrology,T11,Kolkata,Corporate hospital,3,C,31
+HCP-00677,Dr. Kavya Sharma,Endocrinology,T11,Kolkata,Private clinic,8,A,25
+HCP-00678,Dr. Shreya Joshi,Cardiology,T06,Mumbai,Group practice,4,C,11
+HCP-00679,Dr. Rajesh Chatterjee,Family Medicine,T12,Bhubaneswar,Corporate hospital,5,B,25
+HCP-00680,Dr. Rajesh Das,Family Medicine,T08,Ahmedabad,Corporate hospital,8,A,29
+HCP-00681,Dr. Nikhil Nair,Endocrinology,T05,Chennai,Corporate hospital,4,C,21
+HCP-00682,Dr. Asha Bhat,Family Medicine,T08,Ahmedabad,Corporate hospital,6,B,3
+HCP-00683,Dr. Arjun Mishra,Cardiology,T07,Pune,Corporate hospital,5,B,15
+HCP-00684,Dr. Lakshmi Gupta,Cardiology,T07,Pune,Group practice,4,C,27
+HCP-00685,Dr. Lakshmi Kapoor,Internal Medicine,T04,Hyderabad,Corporate hospital,4,C,21
+HCP-00686,Dr. Swati Rao,Family Medicine,T11,Kolkata,Private clinic,8,A,14
+HCP-00687,Dr. Anjali Desai,Internal Medicine,T03,Hyderabad,Corporate hospital,6,B,34
+HCP-00688,Dr. Shreya Sharma,Internal Medicine,T04,Hyderabad,Hospital-affiliated,2,C,9
+HCP-00689,Dr. Arjun Menon,Internal Medicine,T05,Chennai,Private clinic,7,B,12
+HCP-00690,Dr. Neha Bhat,Internal Medicine,T01,Bengaluru,Corporate hospital,3,C,32
+HCP-00691,Dr. Sanjay Reddy,Cardiology,T12,Bhubaneswar,Corporate hospital,3,C,28
+HCP-00692,Dr. Suresh Pillai,Family Medicine,T02,Bengaluru,Private clinic,2,C,10
+HCP-00693,Dr. Rajesh Menon,Internal Medicine,T12,Bhubaneswar,Private clinic,7,B,15
+HCP-00694,Dr. Ravi Bhat,Family Medicine,T08,Ahmedabad,Group practice,1,C,22
+HCP-00695,Dr. Shreya Kapoor,Endocrinology,T06,Mumbai,Private clinic,10,A,19
+HCP-00696,Dr. Priya Rao,Family Medicine,T08,Ahmedabad,Private clinic,2,C,18
+HCP-00697,Dr. Suresh Patel,Internal Medicine,T11,Kolkata,Group practice,1,C,18
+HCP-00698,Dr. Asha Nair,Nephrology,T01,Bengaluru,Corporate hospital,5,B,8
+HCP-00699,Dr. Anjali Kumar,Endocrinology,T04,Hyderabad,Private clinic,4,C,6
+HCP-00700,Dr. Meera Nair,Family Medicine,T06,Mumbai,Group practice,7,B,17
+HCP-00701,Dr. Deepa Desai,Nephrology,T06,Mumbai,Hospital-affiliated,7,B,4
+HCP-00702,Dr. Suresh Reddy,Internal Medicine,T12,Bhubaneswar,Group practice,7,B,31
+HCP-00703,Dr. Ravi Gupta,Internal Medicine,T09,Delhi,Corporate hospital,6,B,23
+HCP-00704,Dr. Anjali Mishra,Internal Medicine,T12,Bhubaneswar,Hospital-affiliated,8,A,7
+HCP-00705,Dr. Suresh Mishra,Endocrinology,T09,Delhi,Corporate hospital,6,B,32
+HCP-00706,Dr. Kavya Sharma,Family Medicine,T01,Bengaluru,Corporate hospital,5,B,18
+HCP-00707,Dr. Shreya Pillai,Family Medicine,T06,Mumbai,Hospital-affiliated,6,B,34
+HCP-00708,Dr. Swati Kumar,Endocrinology,T09,Delhi,Private clinic,6,B,9
+HCP-00709,Dr. Sanjay Gupta,Family Medicine,T09,Delhi,Private clinic,1,C,15
+HCP-00710,Dr. Vivek Pillai,Internal Medicine,T02,Bengaluru,Group practice,1,C,19
+HCP-00711,Dr. Vikram Sharma,Internal Medicine,T01,Bengaluru,Hospital-affiliated,6,B,34
+HCP-00712,Dr. Deepa Mishra,Internal Medicine,T02,Bengaluru,Group practice,6,B,26
+HCP-00713,Dr. Nikhil Reddy,Endocrinology,T12,Bhubaneswar,Private clinic,9,A,22
+HCP-00714,Dr. Meera Patel,Nephrology,T02,Bengaluru,Hospital-affiliated,10,A,27
+HCP-00715,Dr. Vivek Gupta,Internal Medicine,T04,Hyderabad,Group practice,6,B,9
+HCP-00716,Dr. Swati Patel,Family Medicine,T11,Kolkata,Hospital-affiliated,6,B,14
+HCP-00717,Dr. Kavya Mishra,Internal Medicine,T09,Delhi,Group practice,3,C,25
+HCP-00718,Dr. Deepa Chatterjee,Family Medicine,T06,Mumbai,Group practice,10,A,23
+HCP-00719,Dr. Manoj Mishra,Internal Medicine,T10,Jaipur,Corporate hospital,5,B,26
+HCP-00720,Dr. Priya Das,Internal Medicine,T08,Ahmedabad,Private clinic,4,C,11
+HCP-00721,Dr. Ravi Kumar,Endocrinology,T05,Chennai,Private clinic,10,A,20
+HCP-00722,Dr. Vivek Nair,Family Medicine,T09,Delhi,Private clinic,5,B,5
+HCP-00723,Dr. Deepa Menon,Internal Medicine,T08,Ahmedabad,Hospital-affiliated,1,C,19
+HCP-00724,Dr. Ravi Iyer,Endocrinology,T05,Chennai,Corporate hospital,7,B,33
+HCP-00725,Dr. Vivek Patel,Internal Medicine,T03,Hyderabad,Corporate hospital,9,A,5
+HCP-00726,Dr. Priya Kumar,Cardiology,T12,Bhubaneswar,Corporate hospital,3,C,30
+HCP-00727,Dr. Lakshmi Sharma,Nephrology,T07,Pune,Group practice,1,C,6
+HCP-00728,Dr. Vivek Nair,Family Medicine,T05,Chennai,Corporate hospital,3,C,35
+HCP-00729,Dr. Manoj Desai,Internal Medicine,T12,Bhubaneswar,Private clinic,1,C,17
+HCP-00730,Dr. Sanjay Kumar,Internal Medicine,T07,Pune,Private clinic,4,C,33
+HCP-00731,Dr. Suresh Iyer,Family Medicine,T10,Jaipur,Group practice,5,B,35
+HCP-00732,Dr. Sanjay Bhat,Family Medicine,T07,Pune,Hospital-affiliated,1,C,34
+HCP-00733,Dr. Anjali Kapoor,Family Medicine,T07,Pune,Hospital-affiliated,2,C,18
+HCP-00734,Dr. Vivek Iyer,Internal Medicine,T02,Bengaluru,Private clinic,4,C,29
+HCP-00735,Dr. Deepa Sharma,Internal Medicine,T07,Pune,Corporate hospital,2,C,13
+HCP-00736,Dr. Rajesh Nair,Family Medicine,T06,Mumbai,Group practice,10,A,5
+HCP-00737,Dr. Vikram Patel,Internal Medicine,T04,Hyderabad,Private clinic,3,C,18
+HCP-00738,Dr. Neha Sharma,Nephrology,T10,Jaipur,Corporate hospital,8,A,10
+HCP-00739,Dr. Ravi Mishra,Internal Medicine,T05,Chennai,Hospital-affiliated,1,C,16
+HCP-00740,Dr. Asha Nair,Family Medicine,T09,Delhi,Private clinic,2,C,27
+HCP-00741,Dr. Suresh Gupta,Nephrology,T10,Jaipur,Private clinic,5,B,21
+HCP-00742,Dr. Priya Desai,Cardiology,T04,Hyderabad,Private clinic,6,B,7
+HCP-00743,Dr. Deepa Patel,Family Medicine,T07,Pune,Private clinic,6,B,21
+HCP-00744,Dr. Nikhil Patel,Internal Medicine,T11,Kolkata,Corporate hospital,10,A,34
+HCP-00745,Dr. Nikhil Desai,Family Medicine,T10,Jaipur,Private clinic,2,C,5
+HCP-00746,Dr. Asha Pillai,Nephrology,T04,Hyderabad,Hospital-affiliated,3,C,4
+HCP-00747,Dr. Neha Menon,Family Medicine,T06,Mumbai,Corporate hospital,3,C,6
+HCP-00748,Dr. Arjun Mishra,Internal Medicine,T11,Kolkata,Corporate hospital,3,C,17
+HCP-00749,Dr. Sanjay Iyer,Internal Medicine,T03,Hyderabad,Group practice,4,C,17
+HCP-00750,Dr. Neha Kumar,Internal Medicine,T07,Pune,Group practice,2,C,11
+HCP-00751,Dr. Ravi Nair,Family Medicine,T04,Hyderabad,Corporate hospital,5,B,11
+HCP-00752,Dr. Sanjay Gupta,Nephrology,T07,Pune,Corporate hospital,10,A,7
+HCP-00753,Dr. Kavya Kumar,Family Medicine,T09,Delhi,Hospital-affiliated,7,B,4
+HCP-00754,Dr. Swati Das,Cardiology,T06,Mumbai,Group practice,4,C,20
+HCP-00755,Dr. Kavya Sharma,Family Medicine,T03,Hyderabad,Corporate hospital,1,C,17
+HCP-00756,Dr. Deepa Iyer,Internal Medicine,T10,Jaipur,Group practice,6,B,11
+HCP-00757,Dr. Deepa Gupta,Cardiology,T09,Delhi,Group practice,4,C,34
+HCP-00758,Dr. Priya Chatterjee,Endocrinology,T08,Ahmedabad,Private clinic,5,B,20
+HCP-00759,Dr. Ravi Rao,Internal Medicine,T07,Pune,Private clinic,6,B,14
+HCP-00760,Dr. Anil Desai,Cardiology,T08,Ahmedabad,Hospital-affiliated,4,C,30
+HCP-00761,Dr. Manoj Kumar,Family Medicine,T07,Pune,Group practice,6,B,5
+HCP-00762,Dr. Priya Menon,Endocrinology,T09,Delhi,Group practice,7,B,5
+HCP-00763,Dr. Priya Rao,Internal Medicine,T09,Delhi,Corporate hospital,7,B,31
+HCP-00764,Dr. Neha Desai,Cardiology,T07,Pune,Hospital-affiliated,7,B,30
+HCP-00765,Dr. Nikhil Nair,Family Medicine,T05,Chennai,Group practice,1,C,31
+HCP-00766,Dr. Vivek Mishra,Family Medicine,T02,Bengaluru,Hospital-affiliated,1,C,28
+HCP-00767,Dr. Rajesh Rao,Internal Medicine,T07,Pune,Group practice,1,C,8
+HCP-00768,Dr. Kavya Patel,Internal Medicine,T05,Chennai,Private clinic,6,B,10
+HCP-00769,Dr. Nikhil Pillai,Internal Medicine,T12,Bhubaneswar,Hospital-affiliated,3,C,27
+HCP-00770,Dr. Anil Nair,Internal Medicine,T09,Delhi,Hospital-affiliated,7,B,12
+HCP-00771,Dr. Neha Das,Family Medicine,T03,Hyderabad,Group practice,1,C,21
+HCP-00772,Dr. Ravi Sharma,Internal Medicine,T11,Kolkata,Corporate hospital,9,A,3
+HCP-00773,Dr. Arjun Bhat,Internal Medicine,T08,Ahmedabad,Hospital-affiliated,4,C,16
+HCP-00774,Dr. Rajesh Iyer,Family Medicine,T10,Jaipur,Private clinic,4,C,18
+HCP-00775,Dr. Ravi Reddy,Internal Medicine,T09,Delhi,Hospital-affiliated,6,B,12
+HCP-00776,Dr. Priya Das,Family Medicine,T01,Bengaluru,Corporate hospital,1,C,8
+HCP-00777,Dr. Kavya Das,Endocrinology,T01,Bengaluru,Hospital-affiliated,10,A,32
+HCP-00778,Dr. Vikram Das,Family Medicine,T12,Bhubaneswar,Corporate hospital,9,A,26
+HCP-00779,Dr. Shreya Iyer,Cardiology,T07,Pune,Corporate hospital,7,B,33
+HCP-00780,Dr. Anil Kapoor,Endocrinology,T03,Hyderabad,Group practice,10,A,16
+HCP-00781,Dr. Vivek Kapoor,Internal Medicine,T12,Bhubaneswar,Private clinic,1,C,33
+HCP-00782,Dr. Neha Chatterjee,Family Medicine,T12,Bhubaneswar,Corporate hospital,9,A,19
+HCP-00783,Dr. Sanjay Bhat,Family Medicine,T09,Delhi,Group practice,6,B,34
+HCP-00784,Dr. Neha Rao,Cardiology,T03,Hyderabad,Private clinic,2,C,10
+HCP-00785,Dr. Ravi Chatterjee,Internal Medicine,T01,Bengaluru,Group practice,8,A,5
+HCP-00786,Dr. Ravi Sharma,Internal Medicine,T06,Mumbai,Hospital-affiliated,8,A,21
+HCP-00787,Dr. Nikhil Mishra,Cardiology,T05,Chennai,Corporate hospital,3,C,3
+HCP-00788,Dr. Vivek Sharma,Family Medicine,T02,Bengaluru,Hospital-affiliated,3,C,15
+HCP-00789,Dr. Asha Bhat,Cardiology,T06,Mumbai,Private clinic,9,A,11
+HCP-00790,Dr. Shreya Kumar,Endocrinology,T08,Ahmedabad,Group practice,7,B,29
+HCP-00791,Dr. Vivek Kumar,Endocrinology,T12,Bhubaneswar,Private clinic,8,A,16
+HCP-00792,Dr. Deepa Iyer,Family Medicine,T10,Jaipur,Hospital-affiliated,8,A,20
+HCP-00793,Dr. Shreya Gupta,Internal Medicine,T01,Bengaluru,Group practice,3,C,14
+HCP-00794,Dr. Neha Kumar,Endocrinology,T10,Jaipur,Private clinic,10,A,20
+HCP-00795,Dr. Deepa Desai,Endocrinology,T07,Pune,Corporate hospital,10,A,16
+HCP-00796,Dr. Priya Rao,Internal Medicine,T09,Delhi,Private clinic,1,C,31
+HCP-00797,Dr. Nikhil Nair,Endocrinology,T09,Delhi,Hospital-affiliated,7,B,24
+HCP-00798,Dr. Anil Nair,Family Medicine,T08,Ahmedabad,Private clinic,5,B,11
+HCP-00799,Dr. Nikhil Patel,Family Medicine,T04,Hyderabad,Private clinic,4,C,22
+HCP-00800,Dr. Vikram Kumar,Family Medicine,T01,Bengaluru,Group practice,5,B,5
+HCP-00801,Dr. Neha Sharma,Family Medicine,T02,Bengaluru,Corporate hospital,6,B,16
+HCP-00802,Dr. Shreya Kumar,Internal Medicine,T06,Mumbai,Group practice,3,C,10
+HCP-00803,Dr. Arjun Mishra,Endocrinology,T05,Chennai,Private clinic,6,B,16
+HCP-00804,Dr. Sanjay Das,Internal Medicine,T09,Delhi,Hospital-affiliated,3,C,13
+HCP-00805,Dr. Shreya Desai,Internal Medicine,T02,Bengaluru,Private clinic,9,A,11
+HCP-00806,Dr. Meera Pillai,Internal Medicine,T01,Bengaluru,Private clinic,6,B,8
+HCP-00807,Dr. Vivek Desai,Internal Medicine,T07,Pune,Corporate hospital,7,B,22
+HCP-00808,Dr. Shreya Iyer,Cardiology,T06,Mumbai,Group practice,7,B,11
+HCP-00809,Dr. Rajesh Patel,Cardiology,T02,Bengaluru,Group practice,9,A,22
+HCP-00810,Dr. Asha Menon,Family Medicine,T11,Kolkata,Hospital-affiliated,7,B,12
+HCP-00811,Dr. Kavya Kumar,Internal Medicine,T10,Jaipur,Corporate hospital,3,C,32
+HCP-00812,Dr. Deepa Bhat,Endocrinology,T08,Ahmedabad,Group practice,7,B,13
+HCP-00813,Dr. Sanjay Kapoor,Family Medicine,T05,Chennai,Private clinic,6,B,28
+HCP-00814,Dr. Vikram Das,Cardiology,T12,Bhubaneswar,Group practice,3,C,28
+HCP-00815,Dr. Shreya Gupta,Internal Medicine,T10,Jaipur,Group practice,6,B,27
+HCP-00816,Dr. Vivek Chatterjee,Internal Medicine,T02,Bengaluru,Group practice,8,A,24
+HCP-00817,Dr. Vikram Bhat,Family Medicine,T09,Delhi,Private clinic,2,C,32
+HCP-00818,Dr. Kavya Das,Family Medicine,T06,Mumbai,Group practice,8,A,7
+HCP-00819,Dr. Manoj Kumar,Endocrinology,T10,Jaipur,Group practice,10,A,6
+HCP-00820,Dr. Vivek Sharma,Internal Medicine,T02,Bengaluru,Hospital-affiliated,1,C,12
+HCP-00821,Dr. Vivek Desai,Family Medicine,T08,Ahmedabad,Hospital-affiliated,3,C,16
+HCP-00822,Dr. Neha Chatterjee,Cardiology,T11,Kolkata,Corporate hospital,3,C,8
+HCP-00823,Dr. Manoj Nair,Endocrinology,T10,Jaipur,Corporate hospital,10,A,6
+HCP-00824,Dr. Arjun Mishra,Nephrology,T06,Mumbai,Corporate hospital,10,A,10
+HCP-00825,Dr. Vivek Pillai,Cardiology,T05,Chennai,Corporate hospital,2,C,27
+HCP-00826,Dr. Kavya Bhat,Internal Medicine,T07,Pune,Hospital-affiliated,5,B,15
+HCP-00827,Dr. Swati Nair,Internal Medicine,T09,Delhi,Corporate hospital,9,A,11
+HCP-00828,Dr. Sanjay Bhat,Endocrinology,T03,Hyderabad,Group practice,9,A,11
+HCP-00829,Dr. Rajesh Chatterjee,Endocrinology,T02,Bengaluru,Hospital-affiliated,10,A,32
+HCP-00830,Dr. Manoj Singh,Internal Medicine,T09,Delhi,Hospital-affiliated,8,A,14
+HCP-00831,Dr. Lakshmi Kapoor,Family Medicine,T07,Pune,Corporate hospital,5,B,29
+HCP-00832,Dr. Priya Bhat,Family Medicine,T09,Delhi,Corporate hospital,1,C,10
+HCP-00833,Dr. Sanjay Kapoor,Internal Medicine,T10,Jaipur,Corporate hospital,6,B,32
+HCP-00834,Dr. Vikram Menon,Endocrinology,T09,Delhi,Group practice,10,A,7
+HCP-00835,Dr. Neha Reddy,Family Medicine,T11,Kolkata,Corporate hospital,8,A,3
+HCP-00836,Dr. Vivek Kumar,Internal Medicine,T08,Ahmedabad,Group practice,9,A,25
+HCP-00837,Dr. Anjali Das,Internal Medicine,T05,Chennai,Corporate hospital,1,C,6
+HCP-00838,Dr. Priya Das,Internal Medicine,T11,Kolkata,Private clinic,2,C,21
+HCP-00839,Dr. Suresh Joshi,Endocrinology,T08,Ahmedabad,Hospital-affiliated,8,A,20
+HCP-00840,Dr. Meera Gupta,Cardiology,T05,Chennai,Hospital-affiliated,1,C,31
+HCP-00841,Dr. Lakshmi Bhat,Cardiology,T06,Mumbai,Hospital-affiliated,2,C,5
+HCP-00842,Dr. Anjali Nair,Nephrology,T06,Mumbai,Group practice,10,A,29
+HCP-00843,Dr. Kavya Rao,Internal Medicine,T07,Pune,Corporate hospital,4,C,6
+HCP-00844,Dr. Priya Gupta,Internal Medicine,T11,Kolkata,Group practice,8,A,28
+HCP-00845,Dr. Shreya Menon,Internal Medicine,T08,Ahmedabad,Group practice,7,B,27
+HCP-00846,Dr. Swati Sharma,Internal Medicine,T08,Ahmedabad,Corporate hospital,5,B,31
+HCP-00847,Dr. Priya Patel,Family Medicine,T07,Pune,Corporate hospital,10,A,30
+HCP-00848,Dr. Anil Joshi,Nephrology,T10,Jaipur,Corporate hospital,8,A,9
+HCP-00849,Dr. Lakshmi Rao,Family Medicine,T05,Chennai,Corporate hospital,4,C,14
+HCP-00850,Dr. Vikram Sharma,Family Medicine,T06,Mumbai,Group practice,6,B,9
+HCP-00851,Dr. Lakshmi Das,Endocrinology,T09,Delhi,Corporate hospital,7,B,15
+HCP-00852,Dr. Anjali Rao,Endocrinology,T01,Bengaluru,Private clinic,4,C,10
+HCP-00853,Dr. Vivek Gupta,Cardiology,T02,Bengaluru,Private clinic,1,C,14
+HCP-00854,Dr. Vikram Desai,Internal Medicine,T05,Chennai,Corporate hospital,6,B,30
+HCP-00855,Dr. Anil Joshi,Nephrology,T12,Bhubaneswar,Hospital-affiliated,7,B,7
+HCP-00856,Dr. Anil Reddy,Family Medicine,T05,Chennai,Corporate hospital,3,C,19
+HCP-00857,Dr. Ravi Pillai,Internal Medicine,T03,Hyderabad,Hospital-affiliated,4,C,34
+HCP-00858,Dr. Ravi Patel,Endocrinology,T02,Bengaluru,Group practice,10,A,19
+HCP-00859,Dr. Suresh Desai,Endocrinology,T02,Bengaluru,Private clinic,4,C,34
+HCP-00860,Dr. Priya Pillai,Family Medicine,T03,Hyderabad,Corporate hospital,1,C,12
+HCP-00861,Dr. Arjun Kapoor,Internal Medicine,T12,Bhubaneswar,Group practice,4,C,33
+HCP-00862,Dr. Vikram Mishra,Internal Medicine,T07,Pune,Hospital-affiliated,7,B,3
+HCP-00863,Dr. Asha Patel,Nephrology,T07,Pune,Corporate hospital,8,A,24
+HCP-00864,Dr. Vikram Singh,Internal Medicine,T11,Kolkata,Corporate hospital,1,C,8
+HCP-00865,Dr. Ravi Gupta,Family Medicine,T08,Ahmedabad,Private clinic,3,C,27
+HCP-00866,Dr. Meera Singh,Internal Medicine,T11,Kolkata,Group practice,6,B,8
+HCP-00867,Dr. Priya Rao,Internal Medicine,T11,Kolkata,Private clinic,2,C,18
+HCP-00868,Dr. Neha Bhat,Internal Medicine,T08,Ahmedabad,Group practice,8,A,4
+HCP-00869,Dr. Priya Pillai,Internal Medicine,T01,Bengaluru,Private clinic,3,C,16
+HCP-00870,Dr. Shreya Nair,Family Medicine,T11,Kolkata,Hospital-affiliated,4,C,7
+HCP-00871,Dr. Arjun Bhat,Family Medicine,T01,Bengaluru,Private clinic,4,C,18
+HCP-00872,Dr. Priya Das,Family Medicine,T12,Bhubaneswar,Private clinic,1,C,32
+HCP-00873,Dr. Meera Patel,Endocrinology,T10,Jaipur,Group practice,8,A,17
+HCP-00874,Dr. Manoj Kumar,Cardiology,T02,Bengaluru,Private clinic,4,C,11
+HCP-00875,Dr. Priya Gupta,Cardiology,T06,Mumbai,Corporate hospital,8,A,7
+HCP-00876,Dr. Kavya Singh,Internal Medicine,T02,Bengaluru,Hospital-affiliated,7,B,31
+HCP-00877,Dr. Meera Pillai,Nephrology,T04,Hyderabad,Hospital-affiliated,1,C,4
+HCP-00878,Dr. Vikram Das,Endocrinology,T08,Ahmedabad,Group practice,4,C,33
+HCP-00879,Dr. Suresh Kapoor,Endocrinology,T12,Bhubaneswar,Group practice,5,B,29
+HCP-00880,Dr. Priya Gupta,Nephrology,T04,Hyderabad,Group practice,6,B,8
+HCP-00881,Dr. Swati Sharma,Cardiology,T11,Kolkata,Hospital-affiliated,3,C,15
+HCP-00882,Dr. Anjali Singh,Nephrology,T02,Bengaluru,Hospital-affiliated,10,A,32
+HCP-00883,Dr. Ravi Patel,Family Medicine,T11,Kolkata,Hospital-affiliated,3,C,33
+HCP-00884,Dr. Priya Reddy,Endocrinology,T08,Ahmedabad,Corporate hospital,9,A,21
+HCP-00885,Dr. Rajesh Reddy,Internal Medicine,T04,Hyderabad,Private clinic,3,C,6
+HCP-00886,Dr. Asha Kapoor,Endocrinology,T09,Delhi,Private clinic,10,A,7
+HCP-00887,Dr. Anil Chatterjee,Family Medicine,T04,Hyderabad,Hospital-affiliated,5,B,23
+HCP-00888,Dr. Meera Menon,Family Medicine,T04,Hyderabad,Group practice,3,C,15
+HCP-00889,Dr. Vivek Bhat,Cardiology,T07,Pune,Private clinic,1,C,30
+HCP-00890,Dr. Kavya Pillai,Internal Medicine,T03,Hyderabad,Corporate hospital,6,B,11
+HCP-00891,Dr. Suresh Rao,Family Medicine,T08,Ahmedabad,Corporate hospital,6,B,11
+HCP-00892,Dr. Sanjay Patel,Family Medicine,T01,Bengaluru,Group practice,1,C,32
+HCP-00893,Dr. Neha Gupta,Endocrinology,T07,Pune,Hospital-affiliated,6,B,17
+HCP-00894,Dr. Ravi Bhat,Internal Medicine,T02,Bengaluru,Group practice,5,B,20
+HCP-00895,Dr. Lakshmi Menon,Family Medicine,T01,Bengaluru,Corporate hospital,7,B,30
+HCP-00896,Dr. Sanjay Sharma,Internal Medicine,T10,Jaipur,Group practice,9,A,5
+HCP-00897,Dr. Nikhil Reddy,Nephrology,T01,Bengaluru,Group practice,7,B,28
+HCP-00898,Dr. Meera Desai,Cardiology,T08,Ahmedabad,Group practice,6,B,18
+HCP-00899,Dr. Swati Rao,Family Medicine,T02,Bengaluru,Hospital-affiliated,1,C,25
+HCP-00900,Dr. Arjun Bhat,Internal Medicine,T05,Chennai,Corporate hospital,10,A,13
+HCP-00901,Dr. Vivek Sharma,Internal Medicine,T12,Bhubaneswar,Group practice,5,B,32
+HCP-00902,Dr. Deepa Desai,Cardiology,T03,Hyderabad,Private clinic,4,C,7
+HCP-00903,Dr. Priya Das,Cardiology,T07,Pune,Group practice,3,C,20
+HCP-00904,Dr. Ravi Iyer,Nephrology,T12,Bhubaneswar,Corporate hospital,5,B,6
+HCP-00905,Dr. Priya Patel,Nephrology,T09,Delhi,Group practice,6,B,26
+HCP-00906,Dr. Kavya Mishra,Family Medicine,T08,Ahmedabad,Private clinic,3,C,16
+HCP-00907,Dr. Meera Bhat,Nephrology,T03,Hyderabad,Hospital-affiliated,2,C,17
+HCP-00908,Dr. Swati Joshi,Internal Medicine,T06,Mumbai,Private clinic,2,C,7
+HCP-00909,Dr. Nikhil Patel,Internal Medicine,T06,Mumbai,Group practice,4,C,21
+HCP-00910,Dr. Vikram Rao,Family Medicine,T08,Ahmedabad,Group practice,8,A,8
+HCP-00911,Dr. Vikram Patel,Internal Medicine,T02,Bengaluru,Hospital-affiliated,2,C,20
+HCP-00912,Dr. Ravi Kapoor,Family Medicine,T02,Bengaluru,Private clinic,4,C,21
+HCP-00913,Dr. Sanjay Bhat,Nephrology,T07,Pune,Corporate hospital,5,B,29
+HCP-00914,Dr. Ravi Iyer,Family Medicine,T08,Ahmedabad,Private clinic,1,C,17
+HCP-00915,Dr. Anil Kumar,Family Medicine,T09,Delhi,Group practice,4,C,31
+HCP-00916,Dr. Neha Gupta,Internal Medicine,T08,Ahmedabad,Corporate hospital,1,C,17
+HCP-00917,Dr. Priya Nair,Internal Medicine,T08,Ahmedabad,Corporate hospital,3,C,21
+HCP-00918,Dr. Kavya Mishra,Nephrology,T08,Ahmedabad,Corporate hospital,6,B,14
+HCP-00919,Dr. Sanjay Gupta,Cardiology,T03,Hyderabad,Hospital-affiliated,6,B,10
+HCP-00920,Dr. Rajesh Joshi,Nephrology,T01,Bengaluru,Corporate hospital,5,B,14
+HCP-00921,Dr. Anil Singh,Family Medicine,T04,Hyderabad,Hospital-affiliated,1,C,26
+HCP-00922,Dr. Neha Patel,Family Medicine,T08,Ahmedabad,Private clinic,2,C,28
+HCP-00923,Dr. Anil Nair,Family Medicine,T08,Ahmedabad,Private clinic,10,A,35
+HCP-00924,Dr. Neha Nair,Family Medicine,T06,Mumbai,Group practice,3,C,24
+HCP-00925,Dr. Priya Nair,Endocrinology,T12,Bhubaneswar,Private clinic,7,B,22
+HCP-00926,Dr. Rajesh Singh,Internal Medicine,T01,Bengaluru,Private clinic,8,A,23
+HCP-00927,Dr. Nikhil Menon,Family Medicine,T01,Bengaluru,Corporate hospital,2,C,15
+HCP-00928,Dr. Vikram Kapoor,Endocrinology,T01,Bengaluru,Group practice,10,A,15
+HCP-00929,Dr. Priya Singh,Internal Medicine,T08,Ahmedabad,Group practice,6,B,12
+HCP-00930,Dr. Deepa Sharma,Cardiology,T12,Bhubaneswar,Corporate hospital,3,C,25
+HCP-00931,Dr. Shreya Iyer,Internal Medicine,T06,Mumbai,Hospital-affiliated,4,C,31
+HCP-00932,Dr. Neha Gupta,Nephrology,T12,Bhubaneswar,Group practice,8,A,29
+HCP-00933,Dr. Sanjay Rao,Cardiology,T03,Hyderabad,Corporate hospital,5,B,33
+HCP-00934,Dr. Vivek Pillai,Nephrology,T09,Delhi,Private clinic,1,C,3
+HCP-00935,Dr. Kavya Mishra,Family Medicine,T07,Pune,Group practice,3,C,11
+HCP-00936,Dr. Shreya Bhat,Internal Medicine,T04,Hyderabad,Private clinic,3,C,22
+HCP-00937,Dr. Rajesh Menon,Internal Medicine,T10,Jaipur,Private clinic,5,B,3
+HCP-00938,Dr. Asha Patel,Internal Medicine,T03,Hyderabad,Corporate hospital,10,A,29
+HCP-00939,Dr. Lakshmi Sharma,Internal Medicine,T03,Hyderabad,Private clinic,6,B,20
+HCP-00940,Dr. Deepa Bhat,Nephrology,T08,Ahmedabad,Group practice,1,C,19
+HCP-00941,Dr. Meera Singh,Family Medicine,T11,Kolkata,Private clinic,10,A,19
+HCP-00942,Dr. Rajesh Nair,Family Medicine,T03,Hyderabad,Corporate hospital,2,C,13
+HCP-00943,Dr. Deepa Reddy,Internal Medicine,T01,Bengaluru,Corporate hospital,4,C,21
+HCP-00944,Dr. Ravi Gupta,Family Medicine,T09,Delhi,Private clinic,1,C,13
+HCP-00945,Dr. Neha Joshi,Internal Medicine,T09,Delhi,Corporate hospital,3,C,9
+HCP-00946,Dr. Arjun Nair,Family Medicine,T09,Delhi,Corporate hospital,8,A,26
+HCP-00947,Dr. Kavya Patel,Internal Medicine,T08,Ahmedabad,Hospital-affiliated,9,A,12
+HCP-00948,Dr. Shreya Kapoor,Internal Medicine,T09,Delhi,Private clinic,2,C,29
+HCP-00949,Dr. Sanjay Sharma,Nephrology,T08,Ahmedabad,Group practice,1,C,25
+HCP-00950,Dr. Rajesh Kapoor,Family Medicine,T05,Chennai,Corporate hospital,1,C,14
+HCP-00951,Dr. Meera Menon,Internal Medicine,T12,Bhubaneswar,Hospital-affiliated,7,B,12
+HCP-00952,Dr. Sanjay Iyer,Internal Medicine,T12,Bhubaneswar,Group practice,1,C,10
+HCP-00953,Dr. Swati Reddy,Endocrinology,T02,Bengaluru,Hospital-affiliated,7,B,9
+HCP-00954,Dr. Priya Bhat,Cardiology,T01,Bengaluru,Private clinic,5,B,19
+HCP-00955,Dr. Meera Patel,Endocrinology,T01,Bengaluru,Hospital-affiliated,9,A,15
+HCP-00956,Dr. Sanjay Joshi,Family Medicine,T03,Hyderabad,Corporate hospital,1,C,25
+HCP-00957,Dr. Anjali Menon,Cardiology,T03,Hyderabad,Private clinic,7,B,9
+HCP-00958,Dr. Ravi Das,Family Medicine,T10,Jaipur,Hospital-affiliated,5,B,3
+HCP-00959,Dr. Nikhil Bhat,Endocrinology,T12,Bhubaneswar,Corporate hospital,5,B,14
+HCP-00960,Dr. Deepa Pillai,Family Medicine,T08,Ahmedabad,Group practice,1,C,16
+HCP-00961,Dr. Anil Patel,Internal Medicine,T09,Delhi,Group practice,1,C,10
+HCP-00962,Dr. Neha Mishra,Endocrinology,T09,Delhi,Private clinic,10,A,8
+HCP-00963,Dr. Rajesh Das,Internal Medicine,T06,Mumbai,Group practice,3,C,17
+HCP-00964,Dr. Swati Rao,Internal Medicine,T09,Delhi,Private clinic,10,A,33
+HCP-00965,Dr. Asha Patel,Internal Medicine,T11,Kolkata,Group practice,1,C,31
+HCP-00966,Dr. Sanjay Pillai,Family Medicine,T09,Delhi,Group practice,1,C,9
+HCP-00967,Dr. Vikram Singh,Nephrology,T12,Bhubaneswar,Hospital-affiliated,10,A,24
+HCP-00968,Dr. Meera Menon,Family Medicine,T04,Hyderabad,Group practice,10,A,34
+HCP-00969,Dr. Vivek Joshi,Family Medicine,T05,Chennai,Group practice,7,B,25
+HCP-00970,Dr. Asha Kapoor,Family Medicine,T08,Ahmedabad,Corporate hospital,10,A,12
+HCP-00971,Dr. Asha Menon,Endocrinology,T08,Ahmedabad,Hospital-affiliated,5,B,4
+HCP-00972,Dr. Asha Sharma,Family Medicine,T02,Bengaluru,Hospital-affiliated,8,A,27
+HCP-00973,Dr. Anjali Patel,Family Medicine,T10,Jaipur,Private clinic,2,C,34
+HCP-00974,Dr. Asha Kapoor,Internal Medicine,T08,Ahmedabad,Corporate hospital,6,B,24
+HCP-00975,Dr. Priya Chatterjee,Family Medicine,T09,Delhi,Private clinic,10,A,27
+HCP-00976,Dr. Rajesh Reddy,Internal Medicine,T08,Ahmedabad,Private clinic,3,C,14
+HCP-00977,Dr. Kavya Bhat,Family Medicine,T09,Delhi,Group practice,7,B,11
+HCP-00978,Dr. Meera Bhat,Family Medicine,T05,Chennai,Group practice,4,C,33
+HCP-00979,Dr. Manoj Joshi,Cardiology,T09,Delhi,Group practice,5,B,27
+HCP-00980,Dr. Neha Kumar,Family Medicine,T10,Jaipur,Private clinic,7,B,4
+HCP-00981,Dr. Deepa Sharma,Endocrinology,T10,Jaipur,Corporate hospital,10,A,27
+HCP-00982,Dr. Swati Singh,Internal Medicine,T02,Bengaluru,Private clinic,10,A,18
+HCP-00983,Dr. Vikram Iyer,Internal Medicine,T04,Hyderabad,Corporate hospital,3,C,10
+HCP-00984,Dr. Priya Desai,Endocrinology,T06,Mumbai,Group practice,8,A,35
+HCP-00985,Dr. Vivek Sharma,Internal Medicine,T07,Pune,Corporate hospital,6,B,27
+HCP-00986,Dr. Asha Patel,Internal Medicine,T10,Jaipur,Hospital-affiliated,5,B,24
+HCP-00987,Dr. Anil Gupta,Family Medicine,T08,Ahmedabad,Corporate hospital,7,B,26
+HCP-00988,Dr. Vikram Mishra,Internal Medicine,T07,Pune,Hospital-affiliated,6,B,21
+HCP-00989,Dr. Manoj Menon,Endocrinology,T05,Chennai,Private clinic,10,A,9
+HCP-00990,Dr. Nikhil Bhat,Internal Medicine,T10,Jaipur,Group practice,1,C,16
+HCP-00991,Dr. Neha Kapoor,Cardiology,T06,Mumbai,Corporate hospital,6,B,30
+HCP-00992,Dr. Manoj Joshi,Family Medicine,T11,Kolkata,Group practice,2,C,14
+HCP-00993,Dr. Kavya Bhat,Family Medicine,T01,Bengaluru,Hospital-affiliated,5,B,32
+HCP-00994,Dr. Anjali Chatterjee,Nephrology,T05,Chennai,Private clinic,5,B,15
+HCP-00995,Dr. Neha Chatterjee,Internal Medicine,T06,Mumbai,Group practice,2,C,23
+HCP-00996,Dr. Suresh Das,Family Medicine,T02,Bengaluru,Hospital-affiliated,8,A,19
+HCP-00997,Dr. Meera Nair,Family Medicine,T11,Kolkata,Hospital-affiliated,4,C,4
+HCP-00998,Dr. Asha Mishra,Cardiology,T04,Hyderabad,Group practice,3,C,30
+HCP-00999,Dr. Suresh Nair,Nephrology,T11,Kolkata,Private clinic,2,C,19
+HCP-01000,Dr. Priya Bhat,Family Medicine,T05,Chennai,Private clinic,2,C,6
+HCP-01001,Dr. Vikram Chatterjee,Internal Medicine,T02,Bengaluru,Corporate hospital,3,C,8
+HCP-01002,Dr. Sanjay Menon,Nephrology,T07,Pune,Private clinic,7,B,35
+HCP-01003,Dr. Nikhil Joshi,Family Medicine,T02,Bengaluru,Group practice,8,A,8
+HCP-01004,Dr. Anil Kumar,Family Medicine,T04,Hyderabad,Group practice,7,B,18
+HCP-01005,Dr. Ravi Joshi,Internal Medicine,T07,Pune,Group practice,1,C,29
+HCP-01006,Dr. Shreya Singh,Cardiology,T05,Chennai,Private clinic,1,C,23
+HCP-01007,Dr. Suresh Nair,Internal Medicine,T09,Delhi,Corporate hospital,6,B,33
+HCP-01008,Dr. Anjali Reddy,Internal Medicine,T12,Bhubaneswar,Private clinic,3,C,18
+HCP-01009,Dr. Deepa Patel,Family Medicine,T05,Chennai,Hospital-affiliated,3,C,31
+HCP-01010,Dr. Suresh Das,Endocrinology,T07,Pune,Private clinic,10,A,18
+HCP-01011,Dr. Rajesh Kumar,Internal Medicine,T05,Chennai,Group practice,9,A,5
+HCP-01012,Dr. Asha Bhat,Cardiology,T05,Chennai,Group practice,8,A,24
+HCP-01013,Dr. Meera Gupta,Internal Medicine,T12,Bhubaneswar,Corporate hospital,9,A,35
+HCP-01014,Dr. Shreya Kumar,Internal Medicine,T02,Bengaluru,Group practice,6,B,4
+HCP-01015,Dr. Rajesh Nair,Family Medicine,T01,Bengaluru,Private clinic,2,C,28
+HCP-01016,Dr. Vikram Patel,Family Medicine,T04,Hyderabad,Hospital-affiliated,3,C,18
+HCP-01017,Dr. Sanjay Chatterjee,Family Medicine,T09,Delhi,Corporate hospital,7,B,31
+HCP-01018,Dr. Kavya Kumar,Cardiology,T08,Ahmedabad,Corporate hospital,1,C,15
+HCP-01019,Dr. Manoj Menon,Internal Medicine,T02,Bengaluru,Private clinic,2,C,4
+HCP-01020,Dr. Vikram Desai,Family Medicine,T09,Delhi,Hospital-affiliated,6,B,19
+HCP-01021,Dr. Anjali Chatterjee,Cardiology,T12,Bhubaneswar,Corporate hospital,1,C,12
+HCP-01022,Dr. Vivek Patel,Nephrology,T02,Bengaluru,Private clinic,2,C,30
+HCP-01023,Dr. Lakshmi Rao,Cardiology,T08,Ahmedabad,Hospital-affiliated,4,C,20
+HCP-01024,Dr. Swati Rao,Family Medicine,T05,Chennai,Hospital-affiliated,3,C,21
+HCP-01025,Dr. Swati Nair,Family Medicine,T12,Bhubaneswar,Private clinic,4,C,21
+HCP-01026,Dr. Lakshmi Singh,Internal Medicine,T05,Chennai,Group practice,4,C,8
+HCP-01027,Dr. Manoj Rao,Internal Medicine,T01,Bengaluru,Group practice,9,A,30
+HCP-01028,Dr. Shreya Reddy,Family Medicine,T12,Bhubaneswar,Private clinic,1,C,24
+HCP-01029,Dr. Anjali Reddy,Internal Medicine,T04,Hyderabad,Private clinic,3,C,19
+HCP-01030,Dr. Manoj Singh,Family Medicine,T09,Delhi,Hospital-affiliated,3,C,5
+HCP-01031,Dr. Asha Kumar,Endocrinology,T10,Jaipur,Group practice,5,B,11
+HCP-01032,Dr. Sanjay Joshi,Internal Medicine,T02,Bengaluru,Private clinic,5,B,23
+HCP-01033,Dr. Suresh Singh,Nephrology,T01,Bengaluru,Group practice,4,C,21
+HCP-01034,Dr. Suresh Kapoor,Family Medicine,T05,Chennai,Corporate hospital,7,B,30
+HCP-01035,Dr. Sanjay Mishra,Internal Medicine,T03,Hyderabad,Group practice,10,A,6
+HCP-01036,Dr. Priya Bhat,Endocrinology,T04,Hyderabad,Corporate hospital,5,B,13
+HCP-01037,Dr. Asha Reddy,Internal Medicine,T12,Bhubaneswar,Group practice,1,C,25
+HCP-01038,Dr. Meera Nair,Family Medicine,T12,Bhubaneswar,Private clinic,4,C,25
+HCP-01039,Dr. Kavya Kapoor,Internal Medicine,T02,Bengaluru,Corporate hospital,3,C,16
+HCP-01040,Dr. Vivek Gupta,Nephrology,T10,Jaipur,Group practice,1,C,7
+HCP-01041,Dr. Anil Sharma,Family Medicine,T04,Hyderabad,Corporate hospital,6,B,10
+HCP-01042,Dr. Meera Kumar,Internal Medicine,T07,Pune,Hospital-affiliated,9,A,4
+HCP-01043,Dr. Asha Desai,Internal Medicine,T02,Bengaluru,Corporate hospital,7,B,3
+HCP-01044,Dr. Rajesh Kumar,Nephrology,T06,Mumbai,Hospital-affiliated,6,B,16
+HCP-01045,Dr. Priya Iyer,Cardiology,T01,Bengaluru,Group practice,3,C,8
+HCP-01046,Dr. Manoj Iyer,Internal Medicine,T07,Pune,Private clinic,2,C,16
+HCP-01047,Dr. Sanjay Patel,Internal Medicine,T03,Hyderabad,Corporate hospital,4,C,34
+HCP-01048,Dr. Anjali Nair,Family Medicine,T07,Pune,Corporate hospital,9,A,9
+HCP-01049,Dr. Manoj Bhat,Family Medicine,T06,Mumbai,Corporate hospital,4,C,30
+HCP-01050,Dr. Anjali Gupta,Family Medicine,T02,Bengaluru,Group practice,8,A,30
+HCP-01051,Dr. Rajesh Menon,Endocrinology,T02,Bengaluru,Hospital-affiliated,6,B,34
+HCP-01052,Dr. Neha Desai,Family Medicine,T09,Delhi,Group practice,5,B,8
+HCP-01053,Dr. Neha Menon,Internal Medicine,T08,Ahmedabad,Group practice,10,A,21
+HCP-01054,Dr. Priya Kapoor,Endocrinology,T10,Jaipur,Private clinic,4,C,35
+HCP-01055,Dr. Vivek Joshi,Internal Medicine,T07,Pune,Corporate hospital,4,C,19
+HCP-01056,Dr. Meera Desai,Endocrinology,T10,Jaipur,Hospital-affiliated,8,A,14
+HCP-01057,Dr. Neha Kumar,Endocrinology,T07,Pune,Group practice,7,B,31
+HCP-01058,Dr. Kavya Rao,Cardiology,T10,Jaipur,Hospital-affiliated,3,C,8
+HCP-01059,Dr. Meera Chatterjee,Nephrology,T12,Bhubaneswar,Private clinic,2,C,3
+HCP-01060,Dr. Asha Desai,Endocrinology,T07,Pune,Group practice,5,B,34
+HCP-01061,Dr. Deepa Pillai,Family Medicine,T05,Chennai,Corporate hospital,10,A,8
+HCP-01062,Dr. Arjun Rao,Endocrinology,T03,Hyderabad,Private clinic,5,B,16
+HCP-01063,Dr. Swati Mishra,Family Medicine,T08,Ahmedabad,Hospital-affiliated,6,B,8
+HCP-01064,Dr. Swati Sharma,Family Medicine,T05,Chennai,Private clinic,2,C,13
+HCP-01065,Dr. Asha Bhat,Family Medicine,T03,Hyderabad,Private clinic,4,C,31
+HCP-01066,Dr. Manoj Reddy,Internal Medicine,T10,Jaipur,Corporate hospital,3,C,3
+HCP-01067,Dr. Swati Bhat,Family Medicine,T02,Bengaluru,Corporate hospital,7,B,5
+HCP-01068,Dr. Anjali Bhat,Internal Medicine,T08,Ahmedabad,Hospital-affiliated,5,B,6
+HCP-01069,Dr. Shreya Iyer,Endocrinology,T09,Delhi,Corporate hospital,8,A,29
+HCP-01070,Dr. Deepa Desai,Endocrinology,T08,Ahmedabad,Group practice,9,A,4
+HCP-01071,Dr. Deepa Desai,Internal Medicine,T03,Hyderabad,Hospital-affiliated,2,C,35
+HCP-01072,Dr. Anjali Desai,Family Medicine,T04,Hyderabad,Hospital-affiliated,6,B,21
+HCP-01073,Dr. Deepa Bhat,Family Medicine,T12,Bhubaneswar,Hospital-affiliated,10,A,16
+HCP-01074,Dr. Asha Nair,Family Medicine,T05,Chennai,Hospital-affiliated,1,C,15
+HCP-01075,Dr. Swati Bhat,Family Medicine,T03,Hyderabad,Corporate hospital,1,C,18
+HCP-01076,Dr. Deepa Joshi,Family Medicine,T04,Hyderabad,Corporate hospital,10,A,13
+HCP-01077,Dr. Priya Iyer,Cardiology,T03,Hyderabad,Corporate hospital,9,A,30
+HCP-01078,Dr. Lakshmi Bhat,Family Medicine,T02,Bengaluru,Corporate hospital,1,C,24
+HCP-01079,Dr. Shreya Joshi,Family Medicine,T06,Mumbai,Hospital-affiliated,7,B,35
+HCP-01080,Dr. Rajesh Desai,Family Medicine,T10,Jaipur,Private clinic,7,B,9
+HCP-01081,Dr. Meera Mishra,Family Medicine,T10,Jaipur,Private clinic,8,A,35
+HCP-01082,Dr. Ravi Singh,Endocrinology,T02,Bengaluru,Hospital-affiliated,4,C,21
+HCP-01083,Dr. Meera Nair,Internal Medicine,T12,Bhubaneswar,Corporate hospital,5,B,24
+HCP-01084,Dr. Swati Sharma,Endocrinology,T03,Hyderabad,Hospital-affiliated,5,B,33
+HCP-01085,Dr. Suresh Singh,Internal Medicine,T06,Mumbai,Group practice,2,C,26
+HCP-01086,Dr. Nikhil Chatterjee,Family Medicine,T11,Kolkata,Hospital-affiliated,2,C,11
+HCP-01087,Dr. Rajesh Kapoor,Internal Medicine,T07,Pune,Corporate hospital,4,C,4
+HCP-01088,Dr. Nikhil Iyer,Endocrinology,T08,Ahmedabad,Private clinic,4,C,24
+HCP-01089,Dr. Swati Reddy,Internal Medicine,T06,Mumbai,Group practice,7,B,5
+HCP-01090,Dr. Vivek Reddy,Nephrology,T11,Kolkata,Corporate hospital,2,C,29
+HCP-01091,Dr. Neha Kumar,Cardiology,T07,Pune,Corporate hospital,7,B,3
+HCP-01092,Dr. Sanjay Pillai,Nephrology,T05,Chennai,Group practice,6,B,16
+HCP-01093,Dr. Rajesh Singh,Family Medicine,T09,Delhi,Group practice,6,B,15
+HCP-01094,Dr. Manoj Nair,Endocrinology,T05,Chennai,Corporate hospital,8,A,16
+HCP-01095,Dr. Anil Gupta,Family Medicine,T02,Bengaluru,Private clinic,3,C,4
+HCP-01096,Dr. Neha Chatterjee,Family Medicine,T09,Delhi,Private clinic,2,C,6
+HCP-01097,Dr. Meera Reddy,Internal Medicine,T06,Mumbai,Private clinic,5,B,31
+HCP-01098,Dr. Anil Menon,Family Medicine,T05,Chennai,Hospital-affiliated,1,C,25
+HCP-01099,Dr. Vivek Nair,Internal Medicine,T05,Chennai,Group practice,7,B,18
+HCP-01100,Dr. Deepa Desai,Internal Medicine,T02,Bengaluru,Private clinic,5,B,12
+HCP-01101,Dr. Vikram Reddy,Internal Medicine,T12,Bhubaneswar,Group practice,4,C,11
+HCP-01102,Dr. Nikhil Pillai,Internal Medicine,T08,Ahmedabad,Group practice,1,C,19
+HCP-01103,Dr. Rajesh Bhat,Internal Medicine,T10,Jaipur,Group practice,4,C,13
+HCP-01104,Dr. Rajesh Nair,Family Medicine,T03,Hyderabad,Private clinic,4,C,16
+HCP-01105,Dr. Shreya Singh,Internal Medicine,T08,Ahmedabad,Private clinic,7,B,29
+HCP-01106,Dr. Priya Kapoor,Endocrinology,T02,Bengaluru,Hospital-affiliated,8,A,10
+HCP-01107,Dr. Neha Bhat,Internal Medicine,T06,Mumbai,Private clinic,3,C,12
+HCP-01108,Dr. Neha Das,Cardiology,T03,Hyderabad,Hospital-affiliated,4,C,14
+HCP-01109,Dr. Deepa Iyer,Internal Medicine,T12,Bhubaneswar,Private clinic,1,C,29
+HCP-01110,Dr. Anil Pillai,Family Medicine,T08,Ahmedabad,Group practice,5,B,11
+HCP-01111,Dr. Rajesh Desai,Family Medicine,T03,Hyderabad,Hospital-affiliated,4,C,23
+HCP-01112,Dr. Swati Pillai,Cardiology,T02,Bengaluru,Hospital-affiliated,6,B,28
+HCP-01113,Dr. Rajesh Joshi,Family Medicine,T06,Mumbai,Private clinic,10,A,13
+HCP-01114,Dr. Neha Mishra,Endocrinology,T12,Bhubaneswar,Private clinic,9,A,8
+HCP-01115,Dr. Priya Kapoor,Nephrology,T04,Hyderabad,Hospital-affiliated,5,B,33
+HCP-01116,Dr. Shreya Gupta,Cardiology,T09,Delhi,Private clinic,1,C,20
+HCP-01117,Dr. Vivek Desai,Internal Medicine,T04,Hyderabad,Private clinic,7,B,23
+HCP-01118,Dr. Arjun Kumar,Family Medicine,T07,Pune,Group practice,4,C,14
+HCP-01119,Dr. Manoj Joshi,Endocrinology,T07,Pune,Private clinic,8,A,10
+HCP-01120,Dr. Kavya Joshi,Family Medicine,T02,Bengaluru,Private clinic,3,C,12
+HCP-01121,Dr. Priya Kumar,Nephrology,T05,Chennai,Hospital-affiliated,6,B,4
+HCP-01122,Dr. Anil Nair,Endocrinology,T12,Bhubaneswar,Group practice,6,B,23
+HCP-01123,Dr. Meera Reddy,Internal Medicine,T05,Chennai,Hospital-affiliated,8,A,18
+HCP-01124,Dr. Nikhil Pillai,Family Medicine,T10,Jaipur,Private clinic,4,C,20
+HCP-01125,Dr. Vikram Bhat,Internal Medicine,T01,Bengaluru,Private clinic,5,B,29
+HCP-01126,Dr. Suresh Mishra,Internal Medicine,T11,Kolkata,Private clinic,9,A,18
+HCP-01127,Dr. Vivek Chatterjee,Family Medicine,T09,Delhi,Group practice,1,C,8
+HCP-01128,Dr. Sanjay Singh,Family Medicine,T11,Kolkata,Hospital-affiliated,7,B,18
+HCP-01129,Dr. Shreya Desai,Nephrology,T09,Delhi,Private clinic,10,A,3
+HCP-01130,Dr. Kavya Sharma,Nephrology,T08,Ahmedabad,Private clinic,6,B,33
+HCP-01131,Dr. Manoj Singh,Family Medicine,T05,Chennai,Hospital-affiliated,8,A,35
+HCP-01132,Dr. Vivek Iyer,Endocrinology,T05,Chennai,Corporate hospital,10,A,8
+HCP-01133,Dr. Shreya Joshi,Family Medicine,T07,Pune,Group practice,8,A,16
+HCP-01134,Dr. Anil Joshi,Family Medicine,T10,Jaipur,Group practice,8,A,20
+HCP-01135,Dr. Ravi Desai,Family Medicine,T04,Hyderabad,Corporate hospital,3,C,4
+HCP-01136,Dr. Anjali Bhat,Endocrinology,T12,Bhubaneswar,Private clinic,10,A,3
+HCP-01137,Dr. Asha Pillai,Endocrinology,T11,Kolkata,Private clinic,8,A,7
+HCP-01138,Dr. Rajesh Patel,Endocrinology,T09,Delhi,Corporate hospital,10,A,27
+HCP-01139,Dr. Arjun Patel,Internal Medicine,T10,Jaipur,Group practice,2,C,26
+HCP-01140,Dr. Arjun Joshi,Internal Medicine,T04,Hyderabad,Corporate hospital,2,C,15
+HCP-01141,Dr. Lakshmi Menon,Cardiology,T02,Bengaluru,Group practice,6,B,26
+HCP-01142,Dr. Anjali Rao,Internal Medicine,T01,Bengaluru,Private clinic,9,A,15
+HCP-01143,Dr. Vivek Kapoor,Internal Medicine,T11,Kolkata,Group practice,8,A,13
+HCP-01144,Dr. Anjali Gupta,Internal Medicine,T09,Delhi,Private clinic,7,B,11
+HCP-01145,Dr. Vivek Menon,Endocrinology,T12,Bhubaneswar,Corporate hospital,5,B,15
+HCP-01146,Dr. Shreya Joshi,Endocrinology,T11,Kolkata,Group practice,10,A,3
+HCP-01147,Dr. Priya Kumar,Family Medicine,T07,Pune,Group practice,10,A,29
+HCP-01148,Dr. Asha Singh,Endocrinology,T05,Chennai,Private clinic,8,A,17
+HCP-01149,Dr. Rajesh Kumar,Internal Medicine,T01,Bengaluru,Private clinic,4,C,28
+HCP-01150,Dr. Arjun Menon,Internal Medicine,T04,Hyderabad,Group practice,9,A,7
+HCP-01151,Dr. Vikram Patel,Internal Medicine,T04,Hyderabad,Private clinic,3,C,33
+HCP-01152,Dr. Anil Joshi,Cardiology,T07,Pune,Hospital-affiliated,5,B,9
+HCP-01153,Dr. Priya Kumar,Internal Medicine,T08,Ahmedabad,Hospital-affiliated,3,C,7
+HCP-01154,Dr. Rajesh Patel,Family Medicine,T10,Jaipur,Private clinic,7,B,6
+HCP-01155,Dr. Vikram Nair,Internal Medicine,T01,Bengaluru,Private clinic,9,A,31
+HCP-01156,Dr. Vikram Patel,Internal Medicine,T01,Bengaluru,Private clinic,6,B,6
+HCP-01157,Dr. Anjali Chatterjee,Cardiology,T05,Chennai,Hospital-affiliated,4,C,3
+HCP-01158,Dr. Anjali Patel,Internal Medicine,T08,Ahmedabad,Corporate hospital,8,A,4
+HCP-01159,Dr. Meera Patel,Family Medicine,T08,Ahmedabad,Private clinic,5,B,7
+HCP-01160,Dr. Vivek Nair,Cardiology,T10,Jaipur,Corporate hospital,2,C,25
+HCP-01161,Dr. Kavya Menon,Internal Medicine,T07,Pune,Hospital-affiliated,6,B,5
+HCP-01162,Dr. Nikhil Singh,Endocrinology,T01,Bengaluru,Corporate hospital,8,A,12
+HCP-01163,Dr. Neha Singh,Internal Medicine,T03,Hyderabad,Private clinic,6,B,12
+HCP-01164,Dr. Shreya Reddy,Internal Medicine,T01,Bengaluru,Group practice,8,A,25
+HCP-01165,Dr. Ravi Iyer,Nephrology,T04,Hyderabad,Corporate hospital,6,B,15
+HCP-01166,Dr. Rajesh Kumar,Internal Medicine,T11,Kolkata,Corporate hospital,6,B,22
+HCP-01167,Dr. Priya Bhat,Internal Medicine,T07,Pune,Hospital-affiliated,1,C,3
+HCP-01168,Dr. Anjali Rao,Internal Medicine,T11,Kolkata,Hospital-affiliated,2,C,33
+HCP-01169,Dr. Manoj Rao,Family Medicine,T12,Bhubaneswar,Group practice,8,A,14
+HCP-01170,Dr. Arjun Mishra,Internal Medicine,T01,Bengaluru,Private clinic,1,C,12
+HCP-01171,Dr. Deepa Reddy,Internal Medicine,T05,Chennai,Private clinic,6,B,15
+HCP-01172,Dr. Suresh Gupta,Internal Medicine,T04,Hyderabad,Corporate hospital,2,C,18
+HCP-01173,Dr. Suresh Patel,Internal Medicine,T03,Hyderabad,Private clinic,2,C,11
+HCP-01174,Dr. Anil Rao,Family Medicine,T07,Pune,Corporate hospital,9,A,32
+HCP-01175,Dr. Kavya Kapoor,Internal Medicine,T04,Hyderabad,Group practice,3,C,7
+HCP-01176,Dr. Ravi Rao,Endocrinology,T02,Bengaluru,Group practice,10,A,26
+HCP-01177,Dr. Lakshmi Reddy,Family Medicine,T06,Mumbai,Hospital-affiliated,10,A,21
+HCP-01178,Dr. Suresh Nair,Internal Medicine,T03,Hyderabad,Group practice,1,C,16
+HCP-01179,Dr. Anjali Iyer,Endocrinology,T12,Bhubaneswar,Hospital-affiliated,7,B,35
+HCP-01180,Dr. Nikhil Singh,Family Medicine,T07,Pune,Group practice,6,B,32
+HCP-01181,Dr. Asha Bhat,Internal Medicine,T03,Hyderabad,Group practice,3,C,20
+HCP-01182,Dr. Vivek Reddy,Internal Medicine,T10,Jaipur,Hospital-affiliated,9,A,17
+HCP-01183,Dr. Ravi Das,Internal Medicine,T04,Hyderabad,Group practice,2,C,27
+HCP-01184,Dr. Suresh Mishra,Endocrinology,T10,Jaipur,Private clinic,10,A,11
+HCP-01185,Dr. Lakshmi Reddy,Internal Medicine,T02,Bengaluru,Group practice,5,B,35
+HCP-01186,Dr. Swati Chatterjee,Internal Medicine,T10,Jaipur,Corporate hospital,4,C,34
+HCP-01187,Dr. Rajesh Menon,Internal Medicine,T06,Mumbai,Corporate hospital,1,C,7
+HCP-01188,Dr. Nikhil Kapoor,Nephrology,T06,Mumbai,Private clinic,3,C,20
+HCP-01189,Dr. Priya Mishra,Endocrinology,T04,Hyderabad,Hospital-affiliated,4,C,24
+HCP-01190,Dr. Suresh Rao,Family Medicine,T04,Hyderabad,Hospital-affiliated,2,C,19
+HCP-01191,Dr. Deepa Pillai,Family Medicine,T01,Bengaluru,Group practice,3,C,3
+HCP-01192,Dr. Sanjay Pillai,Family Medicine,T08,Ahmedabad,Hospital-affiliated,10,A,17
+HCP-01193,Dr. Nikhil Mishra,Family Medicine,T12,Bhubaneswar,Group practice,4,C,32
+HCP-01194,Dr. Ravi Chatterjee,Cardiology,T06,Mumbai,Group practice,3,C,16
+HCP-01195,Dr. Deepa Nair,Internal Medicine,T08,Ahmedabad,Hospital-affiliated,5,B,22
+HCP-01196,Dr. Deepa Kumar,Endocrinology,T12,Bhubaneswar,Hospital-affiliated,10,A,29
+HCP-01197,Dr. Shreya Das,Family Medicine,T07,Pune,Corporate hospital,4,C,4
+HCP-01198,Dr. Sanjay Kumar,Cardiology,T10,Jaipur,Group practice,9,A,27
+HCP-01199,Dr. Manoj Rao,Nephrology,T04,Hyderabad,Group practice,1,C,9
+HCP-01200,Dr. Neha Iyer,Family Medicine,T06,Mumbai,Hospital-affiliated,4,C,9
+HCP-01201,Dr. Anjali Bhat,Family Medicine,T11,Kolkata,Private clinic,1,C,14
+HCP-01202,Dr. Neha Rao,Endocrinology,T04,Hyderabad,Hospital-affiliated,10,A,21
+HCP-01203,Dr. Deepa Kapoor,Family Medicine,T11,Kolkata,Private clinic,4,C,13
+HCP-01204,Dr. Kavya Patel,Cardiology,T06,Mumbai,Hospital-affiliated,4,C,29
+HCP-01205,Dr. Ravi Nair,Family Medicine,T08,Ahmedabad,Hospital-affiliated,3,C,22
+HCP-01206,Dr. Kavya Das,Cardiology,T07,Pune,Hospital-affiliated,6,B,35
+HCP-01207,Dr. Arjun Nair,Family Medicine,T12,Bhubaneswar,Group practice,3,C,7
+HCP-01208,Dr. Anil Bhat,Family Medicine,T07,Pune,Group practice,2,C,32
+HCP-01209,Dr. Rajesh Singh,Endocrinology,T10,Jaipur,Corporate hospital,4,C,28
+HCP-01210,Dr. Swati Menon,Cardiology,T10,Jaipur,Hospital-affiliated,8,A,30
+HCP-01211,Dr. Vivek Patel,Internal Medicine,T08,Ahmedabad,Group practice,6,B,5
+HCP-01212,Dr. Shreya Das,Cardiology,T04,Hyderabad,Private clinic,2,C,16
+HCP-01213,Dr. Meera Singh,Internal Medicine,T08,Ahmedabad,Private clinic,7,B,9
+HCP-01214,Dr. Rajesh Gupta,Family Medicine,T09,Delhi,Corporate hospital,3,C,16
+HCP-01215,Dr. Rajesh Pillai,Endocrinology,T09,Delhi,Corporate hospital,4,C,28
+HCP-01216,Dr. Meera Nair,Internal Medicine,T04,Hyderabad,Corporate hospital,1,C,32
+HCP-01217,Dr. Lakshmi Desai,Internal Medicine,T08,Ahmedabad,Hospital-affiliated,1,C,33
+HCP-01218,Dr. Arjun Patel,Cardiology,T05,Chennai,Hospital-affiliated,2,C,21
+HCP-01219,Dr. Vikram Sharma,Family Medicine,T02,Bengaluru,Corporate hospital,4,C,12
+HCP-01220,Dr. Priya Mishra,Internal Medicine,T08,Ahmedabad,Hospital-affiliated,2,C,31
+HCP-01221,Dr. Nikhil Patel,Endocrinology,T12,Bhubaneswar,Group practice,9,A,22
+HCP-01222,Dr. Manoj Rao,Endocrinology,T08,Ahmedabad,Hospital-affiliated,4,C,26
+HCP-01223,Dr. Arjun Sharma,Internal Medicine,T04,Hyderabad,Corporate hospital,1,C,15
+HCP-01224,Dr. Meera Gupta,Family Medicine,T11,Kolkata,Hospital-affiliated,2,C,5
+HCP-01225,Dr. Anil Mishra,Family Medicine,T07,Pune,Hospital-affiliated,8,A,16
+HCP-01226,Dr. Lakshmi Rao,Internal Medicine,T09,Delhi,Private clinic,4,C,25
+HCP-01227,Dr. Anil Sharma,Endocrinology,T06,Mumbai,Group practice,7,B,16
+HCP-01228,Dr. Suresh Singh,Internal Medicine,T08,Ahmedabad,Private clinic,6,B,7
+HCP-01229,Dr. Asha Patel,Internal Medicine,T04,Hyderabad,Hospital-affiliated,7,B,19
+HCP-01230,Dr. Manoj Nair,Family Medicine,T02,Bengaluru,Corporate hospital,10,A,14
+HCP-01231,Dr. Asha Iyer,Family Medicine,T11,Kolkata,Corporate hospital,6,B,4
+HCP-01232,Dr. Nikhil Menon,Nephrology,T10,Jaipur,Private clinic,4,C,17
+HCP-01233,Dr. Neha Menon,Family Medicine,T01,Bengaluru,Group practice,9,A,18
+HCP-01234,Dr. Asha Das,Endocrinology,T10,Jaipur,Hospital-affiliated,4,C,12
+HCP-01235,Dr. Anjali Desai,Internal Medicine,T07,Pune,Corporate hospital,1,C,11
+HCP-01236,Dr. Priya Kapoor,Internal Medicine,T05,Chennai,Group practice,7,B,21
+HCP-01237,Dr. Anil Menon,Internal Medicine,T01,Bengaluru,Hospital-affiliated,7,B,6
+HCP-01238,Dr. Lakshmi Pillai,Nephrology,T11,Kolkata,Corporate hospital,8,A,14
+HCP-01239,Dr. Asha Iyer,Family Medicine,T08,Ahmedabad,Hospital-affiliated,1,C,6
+HCP-01240,Dr. Sanjay Iyer,Nephrology,T11,Kolkata,Hospital-affiliated,9,A,16
+HCP-01241,Dr. Rajesh Das,Family Medicine,T04,Hyderabad,Hospital-affiliated,4,C,15
+HCP-01242,Dr. Neha Das,Internal Medicine,T04,Hyderabad,Group practice,6,B,15
+HCP-01243,Dr. Deepa Pillai,Cardiology,T05,Chennai,Group practice,4,C,13
+HCP-01244,Dr. Swati Nair,Internal Medicine,T08,Ahmedabad,Group practice,5,B,4
+HCP-01245,Dr. Neha Mishra,Internal Medicine,T07,Pune,Hospital-affiliated,1,C,14
+HCP-01246,Dr. Neha Pillai,Internal Medicine,T05,Chennai,Group practice,3,C,7
+HCP-01247,Dr. Sanjay Rao,Endocrinology,T06,Mumbai,Private clinic,7,B,3
+HCP-01248,Dr. Manoj Chatterjee,Family Medicine,T09,Delhi,Group practice,3,C,26
+HCP-01249,Dr. Vivek Iyer,Internal Medicine,T07,Pune,Group practice,6,B,5
+HCP-01250,Dr. Ravi Chatterjee,Internal Medicine,T02,Bengaluru,Corporate hospital,5,B,25
+HCP-01251,Dr. Deepa Reddy,Family Medicine,T09,Delhi,Group practice,6,B,30
+HCP-01252,Dr. Deepa Sharma,Internal Medicine,T12,Bhubaneswar,Hospital-affiliated,4,C,19
+HCP-01253,Dr. Suresh Menon,Internal Medicine,T10,Jaipur,Hospital-affiliated,6,B,3
+HCP-01254,Dr. Manoj Pillai,Family Medicine,T02,Bengaluru,Private clinic,6,B,15
+HCP-01255,Dr. Neha Kapoor,Endocrinology,T07,Pune,Group practice,7,B,22
+HCP-01256,Dr. Vikram Patel,Internal Medicine,T12,Bhubaneswar,Corporate hospital,9,A,12
+HCP-01257,Dr. Manoj Das,Family Medicine,T05,Chennai,Private clinic,9,A,13
+HCP-01258,Dr. Swati Kapoor,Endocrinology,T08,Ahmedabad,Group practice,4,C,21
+HCP-01259,Dr. Kavya Nair,Internal Medicine,T12,Bhubaneswar,Hospital-affiliated,2,C,34
+HCP-01260,Dr. Vivek Rao,Family Medicine,T03,Hyderabad,Hospital-affiliated,1,C,15
+HCP-01261,Dr. Ravi Joshi,Family Medicine,T01,Bengaluru,Group practice,8,A,31
+HCP-01262,Dr. Kavya Iyer,Nephrology,T11,Kolkata,Corporate hospital,1,C,8
+HCP-01263,Dr. Arjun Menon,Endocrinology,T07,Pune,Group practice,4,C,34
+HCP-01264,Dr. Suresh Sharma,Family Medicine,T11,Kolkata,Private clinic,1,C,9
+HCP-01265,Dr. Anjali Kapoor,Family Medicine,T04,Hyderabad,Corporate hospital,1,C,34
+HCP-01266,Dr. Anil Singh,Family Medicine,T08,Ahmedabad,Corporate hospital,6,B,23
+HCP-01267,Dr. Manoj Reddy,Nephrology,T04,Hyderabad,Corporate hospital,6,B,24
+HCP-01268,Dr. Manoj Nair,Endocrinology,T02,Bengaluru,Private clinic,10,A,10
+HCP-01269,Dr. Lakshmi Singh,Internal Medicine,T09,Delhi,Group practice,6,B,33
+HCP-01270,Dr. Anil Sharma,Internal Medicine,T09,Delhi,Corporate hospital,2,C,5
+HCP-01271,Dr. Anjali Bhat,Internal Medicine,T12,Bhubaneswar,Group practice,4,C,8
+HCP-01272,Dr. Asha Patel,Internal Medicine,T06,Mumbai,Group practice,9,A,21
+HCP-01273,Dr. Nikhil Kapoor,Internal Medicine,T10,Jaipur,Private clinic,2,C,11
+HCP-01274,Dr. Shreya Desai,Cardiology,T08,Ahmedabad,Hospital-affiliated,3,C,31
+HCP-01275,Dr. Lakshmi Rao,Internal Medicine,T02,Bengaluru,Hospital-affiliated,5,B,8
+HCP-01276,Dr. Kavya Kumar,Internal Medicine,T02,Bengaluru,Group practice,7,B,20
+HCP-01277,Dr. Meera Nair,Family Medicine,T04,Hyderabad,Group practice,6,B,8
+HCP-01278,Dr. Vivek Iyer,Internal Medicine,T12,Bhubaneswar,Corporate hospital,2,C,27
+HCP-01279,Dr. Shreya Chatterjee,Family Medicine,T12,Bhubaneswar,Hospital-affiliated,7,B,17
+HCP-01280,Dr. Vikram Kumar,Endocrinology,T05,Chennai,Hospital-affiliated,4,C,10
+HCP-01281,Dr. Manoj Sharma,Internal Medicine,T10,Jaipur,Corporate hospital,8,A,6
+HCP-01282,Dr. Swati Kumar,Family Medicine,T10,Jaipur,Corporate hospital,8,A,11
+HCP-01283,Dr. Meera Pillai,Family Medicine,T09,Delhi,Private clinic,5,B,32
+HCP-01284,Dr. Lakshmi Bhat,Endocrinology,T06,Mumbai,Group practice,10,A,12
+HCP-01285,Dr. Priya Kumar,Internal Medicine,T10,Jaipur,Corporate hospital,7,B,35
+HCP-01286,Dr. Vivek Bhat,Endocrinology,T12,Bhubaneswar,Hospital-affiliated,10,A,34
+HCP-01287,Dr. Anil Nair,Family Medicine,T05,Chennai,Hospital-affiliated,3,C,17
+HCP-01288,Dr. Kavya Bhat,Family Medicine,T12,Bhubaneswar,Group practice,9,A,22
+HCP-01289,Dr. Arjun Mishra,Nephrology,T11,Kolkata,Group practice,2,C,24
+HCP-01290,Dr. Manoj Pillai,Family Medicine,T07,Pune,Private clinic,10,A,21
+HCP-01291,Dr. Shreya Pillai,Family Medicine,T05,Chennai,Private clinic,2,C,11
+HCP-01292,Dr. Priya Das,Family Medicine,T06,Mumbai,Group practice,5,B,13
+HCP-01293,Dr. Neha Nair,Endocrinology,T10,Jaipur,Hospital-affiliated,9,A,16
+HCP-01294,Dr. Deepa Patel,Internal Medicine,T12,Bhubaneswar,Hospital-affiliated,6,B,27
+HCP-01295,Dr. Priya Patel,Family Medicine,T07,Pune,Corporate hospital,2,C,33
+HCP-01296,Dr. Nikhil Kumar,Nephrology,T03,Hyderabad,Group practice,1,C,12
+HCP-01297,Dr. Meera Menon,Family Medicine,T11,Kolkata,Group practice,2,C,34
+HCP-01298,Dr. Manoj Iyer,Family Medicine,T05,Chennai,Group practice,10,A,27
+HCP-01299,Dr. Arjun Patel,Family Medicine,T05,Chennai,Private clinic,4,C,8
+HCP-01300,Dr. Nikhil Menon,Internal Medicine,T02,Bengaluru,Private clinic,6,B,33
+HCP-01301,Dr. Vivek Gupta,Family Medicine,T05,Chennai,Group practice,1,C,33
+HCP-01302,Dr. Sanjay Patel,Family Medicine,T11,Kolkata,Corporate hospital,3,C,7
+HCP-01303,Dr. Kavya Pillai,Nephrology,T12,Bhubaneswar,Private clinic,8,A,28
+HCP-01304,Dr. Nikhil Bhat,Cardiology,T09,Delhi,Private clinic,7,B,10
+HCP-01305,Dr. Kavya Gupta,Nephrology,T04,Hyderabad,Private clinic,9,A,31
+HCP-01306,Dr. Ravi Gupta,Endocrinology,T06,Mumbai,Private clinic,4,C,19
+HCP-01307,Dr. Neha Singh,Endocrinology,T01,Bengaluru,Hospital-affiliated,4,C,30
+HCP-01308,Dr. Nikhil Das,Endocrinology,T11,Kolkata,Group practice,6,B,11
+HCP-01309,Dr. Deepa Mishra,Internal Medicine,T10,Jaipur,Hospital-affiliated,3,C,9
+HCP-01310,Dr. Ravi Nair,Cardiology,T11,Kolkata,Corporate hospital,2,C,16
+HCP-01311,Dr. Deepa Joshi,Family Medicine,T03,Hyderabad,Hospital-affiliated,2,C,30
+HCP-01312,Dr. Kavya Pillai,Family Medicine,T02,Bengaluru,Group practice,2,C,8
+HCP-01313,Dr. Sanjay Mishra,Family Medicine,T05,Chennai,Hospital-affiliated,10,A,7
+HCP-01314,Dr. Ravi Singh,Family Medicine,T11,Kolkata,Hospital-affiliated,10,A,29
+HCP-01315,Dr. Manoj Sharma,Internal Medicine,T03,Hyderabad,Hospital-affiliated,7,B,7
+HCP-01316,Dr. Shreya Chatterjee,Endocrinology,T05,Chennai,Private clinic,4,C,24
+HCP-01317,Dr. Suresh Nair,Endocrinology,T11,Kolkata,Hospital-affiliated,10,A,20
+HCP-01318,Dr. Lakshmi Pillai,Endocrinology,T01,Bengaluru,Private clinic,10,A,10
+HCP-01319,Dr. Vivek Bhat,Family Medicine,T03,Hyderabad,Private clinic,9,A,25
+HCP-01320,Dr. Suresh Patel,Family Medicine,T12,Bhubaneswar,Private clinic,3,C,13
+HCP-01321,Dr. Deepa Mishra,Nephrology,T06,Mumbai,Group practice,3,C,33
+HCP-01322,Dr. Nikhil Nair,Endocrinology,T10,Jaipur,Hospital-affiliated,4,C,12
+HCP-01323,Dr. Deepa Menon,Family Medicine,T07,Pune,Group practice,2,C,32
+HCP-01324,Dr. Rajesh Kapoor,Internal Medicine,T03,Hyderabad,Corporate hospital,3,C,20
+HCP-01325,Dr. Lakshmi Das,Family Medicine,T07,Pune,Private clinic,7,B,22
+HCP-01326,Dr. Vikram Iyer,Family Medicine,T07,Pune,Hospital-affiliated,8,A,8
+HCP-01327,Dr. Neha Mishra,Family Medicine,T03,Hyderabad,Group practice,1,C,3
+HCP-01328,Dr. Sanjay Bhat,Family Medicine,T07,Pune,Group practice,9,A,35
+HCP-01329,Dr. Meera Pillai,Nephrology,T11,Kolkata,Private clinic,9,A,15
+HCP-01330,Dr. Shreya Singh,Endocrinology,T12,Bhubaneswar,Hospital-affiliated,7,B,5
+HCP-01331,Dr. Nikhil Menon,Internal Medicine,T10,Jaipur,Hospital-affiliated,2,C,7
+HCP-01332,Dr. Priya Chatterjee,Cardiology,T06,Mumbai,Group practice,5,B,27
+HCP-01333,Dr. Lakshmi Mishra,Internal Medicine,T03,Hyderabad,Private clinic,1,C,21
+HCP-01334,Dr. Arjun Pillai,Internal Medicine,T05,Chennai,Hospital-affiliated,2,C,22
+HCP-01335,Dr. Rajesh Bhat,Family Medicine,T11,Kolkata,Private clinic,9,A,25
+HCP-01336,Dr. Deepa Patel,Family Medicine,T01,Bengaluru,Private clinic,3,C,25
+HCP-01337,Dr. Meera Chatterjee,Internal Medicine,T12,Bhubaneswar,Group practice,3,C,15
+HCP-01338,Dr. Swati Patel,Family Medicine,T02,Bengaluru,Group practice,9,A,3
+HCP-01339,Dr. Asha Pillai,Family Medicine,T03,Hyderabad,Corporate hospital,2,C,22
+HCP-01340,Dr. Suresh Patel,Internal Medicine,T06,Mumbai,Group practice,2,C,31
+HCP-01341,Dr. Arjun Singh,Endocrinology,T03,Hyderabad,Hospital-affiliated,10,A,10
+HCP-01342,Dr. Swati Kumar,Internal Medicine,T04,Hyderabad,Private clinic,1,C,13
+HCP-01343,Dr. Suresh Patel,Internal Medicine,T11,Kolkata,Group practice,4,C,34
+HCP-01344,Dr. Sanjay Kumar,Internal Medicine,T09,Delhi,Group practice,6,B,35
+HCP-01345,Dr. Manoj Nair,Nephrology,T12,Bhubaneswar,Private clinic,8,A,9
+HCP-01346,Dr. Arjun Menon,Endocrinology,T01,Bengaluru,Private clinic,6,B,24
+HCP-01347,Dr. Swati Bhat,Nephrology,T07,Pune,Corporate hospital,7,B,21
+HCP-01348,Dr. Anjali Nair,Endocrinology,T08,Ahmedabad,Hospital-affiliated,7,B,18
+HCP-01349,Dr. Lakshmi Chatterjee,Family Medicine,T05,Chennai,Hospital-affiliated,8,A,33
+HCP-01350,Dr. Nikhil Gupta,Cardiology,T12,Bhubaneswar,Hospital-affiliated,1,C,12
+HCP-01351,Dr. Suresh Rao,Endocrinology,T04,Hyderabad,Hospital-affiliated,7,B,30
+HCP-01352,Dr. Priya Pillai,Family Medicine,T01,Bengaluru,Group practice,1,C,22
+HCP-01353,Dr. Anil Chatterjee,Family Medicine,T12,Bhubaneswar,Group practice,2,C,6
+HCP-01354,Dr. Meera Joshi,Internal Medicine,T09,Delhi,Corporate hospital,1,C,20
+HCP-01355,Dr. Priya Gupta,Family Medicine,T06,Mumbai,Private clinic,2,C,3
+HCP-01356,Dr. Neha Bhat,Family Medicine,T01,Bengaluru,Corporate hospital,3,C,9
+HCP-01357,Dr. Deepa Kumar,Internal Medicine,T07,Pune,Corporate hospital,10,A,10
+HCP-01358,Dr. Sanjay Kumar,Family Medicine,T02,Bengaluru,Corporate hospital,6,B,26
+HCP-01359,Dr. Deepa Menon,Family Medicine,T12,Bhubaneswar,Corporate hospital,5,B,16
+HCP-01360,Dr. Sanjay Patel,Internal Medicine,T10,Jaipur,Private clinic,9,A,15
+HCP-01361,Dr. Vikram Mishra,Family Medicine,T04,Hyderabad,Corporate hospital,9,A,22
+HCP-01362,Dr. Shreya Nair,Internal Medicine,T12,Bhubaneswar,Private clinic,7,B,11
+HCP-01363,Dr. Shreya Singh,Internal Medicine,T04,Hyderabad,Corporate hospital,7,B,31
+HCP-01364,Dr. Vikram Bhat,Family Medicine,T11,Kolkata,Group practice,9,A,35
+HCP-01365,Dr. Sanjay Das,Endocrinology,T01,Bengaluru,Private clinic,6,B,6
+HCP-01366,Dr. Asha Mishra,Internal Medicine,T12,Bhubaneswar,Private clinic,8,A,13
+HCP-01367,Dr. Manoj Pillai,Family Medicine,T08,Ahmedabad,Corporate hospital,3,C,16
+HCP-01368,Dr. Vivek Sharma,Endocrinology,T03,Hyderabad,Group practice,8,A,35
+HCP-01369,Dr. Lakshmi Das,Family Medicine,T12,Bhubaneswar,Corporate hospital,2,C,10
+HCP-01370,Dr. Neha Reddy,Internal Medicine,T03,Hyderabad,Hospital-affiliated,5,B,20
+HCP-01371,Dr. Lakshmi Rao,Internal Medicine,T03,Hyderabad,Private clinic,8,A,3
+HCP-01372,Dr. Deepa Kumar,Internal Medicine,T11,Kolkata,Private clinic,6,B,19
+HCP-01373,Dr. Neha Kumar,Endocrinology,T12,Bhubaneswar,Private clinic,10,A,3
+HCP-01374,Dr. Kavya Joshi,Internal Medicine,T06,Mumbai,Private clinic,10,A,9
+HCP-01375,Dr. Suresh Mishra,Family Medicine,T12,Bhubaneswar,Hospital-affiliated,3,C,31
+HCP-01376,Dr. Manoj Nair,Internal Medicine,T04,Hyderabad,Group practice,2,C,17
+HCP-01377,Dr. Asha Iyer,Family Medicine,T12,Bhubaneswar,Group practice,3,C,14
+HCP-01378,Dr. Ravi Bhat,Internal Medicine,T08,Ahmedabad,Hospital-affiliated,8,A,21
+HCP-01379,Dr. Manoj Rao,Internal Medicine,T01,Bengaluru,Private clinic,9,A,12
+HCP-01380,Dr. Manoj Patel,Internal Medicine,T02,Bengaluru,Hospital-affiliated,4,C,3
+HCP-01381,Dr. Meera Sharma,Endocrinology,T10,Jaipur,Private clinic,6,B,11
+HCP-01382,Dr. Anjali Sharma,Family Medicine,T04,Hyderabad,Private clinic,2,C,9
+HCP-01383,Dr. Vikram Rao,Family Medicine,T09,Delhi,Hospital-affiliated,3,C,33
+HCP-01384,Dr. Neha Kumar,Cardiology,T10,Jaipur,Group practice,8,A,12
+HCP-01385,Dr. Shreya Patel,Endocrinology,T04,Hyderabad,Private clinic,9,A,5
+HCP-01386,Dr. Swati Nair,Family Medicine,T02,Bengaluru,Private clinic,1,C,17
+HCP-01387,Dr. Deepa Das,Internal Medicine,T01,Bengaluru,Hospital-affiliated,3,C,27
+HCP-01388,Dr. Meera Bhat,Cardiology,T11,Kolkata,Hospital-affiliated,8,A,10
+HCP-01389,Dr. Deepa Iyer,Endocrinology,T04,Hyderabad,Corporate hospital,10,A,10
+HCP-01390,Dr. Priya Nair,Nephrology,T06,Mumbai,Hospital-affiliated,9,A,30
+HCP-01391,Dr. Swati Nair,Internal Medicine,T09,Delhi,Corporate hospital,2,C,21
+HCP-01392,Dr. Asha Singh,Cardiology,T06,Mumbai,Corporate hospital,3,C,7
+HCP-01393,Dr. Sanjay Kumar,Cardiology,T01,Bengaluru,Hospital-affiliated,10,A,27
+HCP-01394,Dr. Asha Iyer,Family Medicine,T08,Ahmedabad,Private clinic,7,B,30
+HCP-01395,Dr. Sanjay Gupta,Internal Medicine,T12,Bhubaneswar,Group practice,1,C,25
+HCP-01396,Dr. Swati Kumar,Internal Medicine,T06,Mumbai,Hospital-affiliated,4,C,18
+HCP-01397,Dr. Shreya Bhat,Internal Medicine,T07,Pune,Hospital-affiliated,4,C,27
+HCP-01398,Dr. Vivek Menon,Family Medicine,T02,Bengaluru,Private clinic,4,C,18
+HCP-01399,Dr. Arjun Singh,Endocrinology,T06,Mumbai,Group practice,10,A,11
+HCP-01400,Dr. Sanjay Das,Endocrinology,T02,Bengaluru,Group practice,6,B,12
+HCP-01401,Dr. Lakshmi Rao,Nephrology,T09,Delhi,Hospital-affiliated,9,A,6
+HCP-01402,Dr. Sanjay Pillai,Endocrinology,T12,Bhubaneswar,Private clinic,10,A,30
+HCP-01403,Dr. Vivek Iyer,Endocrinology,T06,Mumbai,Group practice,4,C,13
+HCP-01404,Dr. Lakshmi Iyer,Endocrinology,T01,Bengaluru,Private clinic,5,B,29
+HCP-01405,Dr. Sanjay Kapoor,Family Medicine,T03,Hyderabad,Corporate hospital,4,C,33
+HCP-01406,Dr. Arjun Das,Family Medicine,T07,Pune,Private clinic,4,C,12
+HCP-01407,Dr. Kavya Kapoor,Cardiology,T01,Bengaluru,Hospital-affiliated,1,C,3
+HCP-01408,Dr. Rajesh Mishra,Cardiology,T07,Pune,Corporate hospital,6,B,35
+HCP-01409,Dr. Kavya Joshi,Family Medicine,T05,Chennai,Private clinic,4,C,27
+HCP-01410,Dr. Priya Menon,Family Medicine,T03,Hyderabad,Group practice,4,C,14
+HCP-01411,Dr. Vikram Desai,Nephrology,T12,Bhubaneswar,Group practice,6,B,23
+HCP-01412,Dr. Kavya Reddy,Family Medicine,T11,Kolkata,Corporate hospital,8,A,30
+HCP-01413,Dr. Deepa Kumar,Internal Medicine,T04,Hyderabad,Private clinic,1,C,18
+HCP-01414,Dr. Ravi Sharma,Endocrinology,T05,Chennai,Corporate hospital,4,C,15
+HCP-01415,Dr. Lakshmi Joshi,Internal Medicine,T09,Delhi,Private clinic,9,A,5
+HCP-01416,Dr. Priya Kumar,Nephrology,T10,Jaipur,Private clinic,4,C,22
+HCP-01417,Dr. Manoj Kapoor,Nephrology,T01,Bengaluru,Hospital-affiliated,7,B,23
+HCP-01418,Dr. Meera Kumar,Family Medicine,T07,Pune,Group practice,10,A,35
+HCP-01419,Dr. Arjun Pillai,Family Medicine,T02,Bengaluru,Group practice,7,B,5
+HCP-01420,Dr. Vikram Iyer,Endocrinology,T05,Chennai,Hospital-affiliated,9,A,16
+HCP-01421,Dr. Kavya Kapoor,Family Medicine,T11,Kolkata,Corporate hospital,7,B,31
+HCP-01422,Dr. Swati Reddy,Internal Medicine,T03,Hyderabad,Group practice,3,C,18
+HCP-01423,Dr. Sanjay Bhat,Nephrology,T04,Hyderabad,Private clinic,6,B,3
+HCP-01424,Dr. Vikram Bhat,Family Medicine,T03,Hyderabad,Private clinic,3,C,32
+HCP-01425,Dr. Vikram Joshi,Endocrinology,T06,Mumbai,Corporate hospital,6,B,25
+HCP-01426,Dr. Rajesh Joshi,Endocrinology,T02,Bengaluru,Group practice,10,A,19
+HCP-01427,Dr. Meera Bhat,Family Medicine,T08,Ahmedabad,Private clinic,2,C,26
+HCP-01428,Dr. Sanjay Desai,Internal Medicine,T05,Chennai,Corporate hospital,8,A,35
+HCP-01429,Dr. Swati Kapoor,Nephrology,T10,Jaipur,Group practice,3,C,19
+HCP-01430,Dr. Priya Menon,Endocrinology,T11,Kolkata,Private clinic,10,A,12
+HCP-01431,Dr. Manoj Iyer,Internal Medicine,T02,Bengaluru,Hospital-affiliated,2,C,27
+HCP-01432,Dr. Rajesh Mishra,Family Medicine,T08,Ahmedabad,Group practice,3,C,9
+HCP-01433,Dr. Manoj Chatterjee,Internal Medicine,T02,Bengaluru,Hospital-affiliated,1,C,28
+HCP-01434,Dr. Anjali Bhat,Endocrinology,T06,Mumbai,Hospital-affiliated,6,B,33
+HCP-01435,Dr. Sanjay Bhat,Internal Medicine,T02,Bengaluru,Hospital-affiliated,1,C,16
+HCP-01436,Dr. Manoj Reddy,Family Medicine,T06,Mumbai,Corporate hospital,10,A,30
+HCP-01437,Dr. Arjun Chatterjee,Internal Medicine,T08,Ahmedabad,Corporate hospital,2,C,19
+HCP-01438,Dr. Suresh Pillai,Endocrinology,T11,Kolkata,Private clinic,5,B,22
+HCP-01439,Dr. Ravi Joshi,Internal Medicine,T12,Bhubaneswar,Hospital-affiliated,4,C,6
+HCP-01440,Dr. Neha Gupta,Cardiology,T02,Bengaluru,Hospital-affiliated,4,C,25
+HCP-01441,Dr. Kavya Chatterjee,Internal Medicine,T07,Pune,Corporate hospital,5,B,27
+HCP-01442,Dr. Ravi Iyer,Family Medicine,T01,Bengaluru,Hospital-affiliated,9,A,23
+HCP-01443,Dr. Anil Sharma,Nephrology,T11,Kolkata,Hospital-affiliated,9,A,32
+HCP-01444,Dr. Swati Joshi,Internal Medicine,T03,Hyderabad,Private clinic,3,C,31
+HCP-01445,Dr. Vivek Patel,Family Medicine,T03,Hyderabad,Private clinic,6,B,16
+HCP-01446,Dr. Shreya Gupta,Nephrology,T12,Bhubaneswar,Group practice,4,C,16
+HCP-01447,Dr. Vivek Sharma,Internal Medicine,T06,Mumbai,Corporate hospital,2,C,26
+HCP-01448,Dr. Meera Bhat,Internal Medicine,T01,Bengaluru,Group practice,3,C,29
+HCP-01449,Dr. Swati Kapoor,Internal Medicine,T07,Pune,Corporate hospital,8,A,10
+HCP-01450,Dr. Shreya Gupta,Internal Medicine,T03,Hyderabad,Group practice,3,C,27
+HCP-01451,Dr. Swati Das,Cardiology,T05,Chennai,Private clinic,6,B,8
+HCP-01452,Dr. Swati Patel,Endocrinology,T02,Bengaluru,Group practice,4,C,9
+HCP-01453,Dr. Priya Das,Internal Medicine,T11,Kolkata,Group practice,5,B,16
+HCP-01454,Dr. Meera Rao,Family Medicine,T04,Hyderabad,Group practice,5,B,10
+HCP-01455,Dr. Swati Pillai,Nephrology,T06,Mumbai,Private clinic,9,A,26
+HCP-01456,Dr. Suresh Das,Family Medicine,T04,Hyderabad,Group practice,2,C,18
+HCP-01457,Dr. Arjun Sharma,Nephrology,T01,Bengaluru,Hospital-affiliated,4,C,26
+HCP-01458,Dr. Anil Gupta,Cardiology,T09,Delhi,Group practice,5,B,18
+HCP-01459,Dr. Manoj Reddy,Nephrology,T09,Delhi,Group practice,2,C,11
+HCP-01460,Dr. Manoj Kumar,Internal Medicine,T11,Kolkata,Hospital-affiliated,7,B,30
+HCP-01461,Dr. Nikhil Patel,Endocrinology,T04,Hyderabad,Group practice,10,A,19
+HCP-01462,Dr. Vikram Iyer,Endocrinology,T09,Delhi,Private clinic,6,B,30
+HCP-01463,Dr. Arjun Mishra,Family Medicine,T01,Bengaluru,Private clinic,5,B,27
+HCP-01464,Dr. Rajesh Singh,Family Medicine,T01,Bengaluru,Hospital-affiliated,1,C,18
+HCP-01465,Dr. Shreya Menon,Cardiology,T11,Kolkata,Group practice,3,C,19
+HCP-01466,Dr. Sanjay Sharma,Endocrinology,T11,Kolkata,Private clinic,4,C,10
+HCP-01467,Dr. Sanjay Das,Nephrology,T08,Ahmedabad,Corporate hospital,1,C,14
+HCP-01468,Dr. Ravi Pillai,Endocrinology,T02,Bengaluru,Private clinic,10,A,34
+HCP-01469,Dr. Vikram Rao,Internal Medicine,T01,Bengaluru,Group practice,4,C,27
+HCP-01470,Dr. Kavya Gupta,Family Medicine,T06,Mumbai,Corporate hospital,4,C,3
+HCP-01471,Dr. Priya Patel,Family Medicine,T03,Hyderabad,Corporate hospital,6,B,25
+HCP-01472,Dr. Arjun Gupta,Nephrology,T08,Ahmedabad,Corporate hospital,5,B,10
+HCP-01473,Dr. Nikhil Kapoor,Family Medicine,T04,Hyderabad,Hospital-affiliated,5,B,16
+HCP-01474,Dr. Anil Nair,Endocrinology,T06,Mumbai,Hospital-affiliated,5,B,8
+HCP-01475,Dr. Suresh Bhat,Family Medicine,T12,Bhubaneswar,Hospital-affiliated,1,C,8
+HCP-01476,Dr. Rajesh Bhat,Family Medicine,T06,Mumbai,Group practice,6,B,35
+HCP-01477,Dr. Ravi Joshi,Nephrology,T07,Pune,Group practice,2,C,9
+HCP-01478,Dr. Kavya Rao,Cardiology,T10,Jaipur,Group practice,5,B,30
+HCP-01479,Dr. Anil Patel,Internal Medicine,T08,Ahmedabad,Group practice,7,B,30
+HCP-01480,Dr. Vikram Desai,Family Medicine,T04,Hyderabad,Hospital-affiliated,3,C,5
+HCP-01481,Dr. Anjali Kapoor,Internal Medicine,T09,Delhi,Corporate hospital,4,C,28
+HCP-01482,Dr. Swati Gupta,Endocrinology,T01,Bengaluru,Corporate hospital,10,A,18
+HCP-01483,Dr. Sanjay Kumar,Internal Medicine,T02,Bengaluru,Private clinic,3,C,3
+HCP-01484,Dr. Ravi Desai,Family Medicine,T06,Mumbai,Corporate hospital,7,B,17
+HCP-01485,Dr. Ravi Kapoor,Endocrinology,T09,Delhi,Hospital-affiliated,6,B,9
+HCP-01486,Dr. Vikram Chatterjee,Internal Medicine,T09,Delhi,Group practice,6,B,23
+HCP-01487,Dr. Asha Bhat,Internal Medicine,T06,Mumbai,Private clinic,1,C,20
+HCP-01488,Dr. Anjali Kumar,Endocrinology,T07,Pune,Group practice,7,B,18
+HCP-01489,Dr. Vivek Sharma,Endocrinology,T10,Jaipur,Group practice,4,C,21
+HCP-01490,Dr. Shreya Kapoor,Cardiology,T03,Hyderabad,Private clinic,4,C,24
+HCP-01491,Dr. Swati Das,Endocrinology,T11,Kolkata,Corporate hospital,7,B,23
+HCP-01492,Dr. Anil Bhat,Internal Medicine,T06,Mumbai,Private clinic,5,B,28
+HCP-01493,Dr. Meera Singh,Family Medicine,T05,Chennai,Private clinic,4,C,4
+HCP-01494,Dr. Meera Kumar,Endocrinology,T04,Hyderabad,Group practice,4,C,17
+HCP-01495,Dr. Deepa Mishra,Endocrinology,T03,Hyderabad,Private clinic,10,A,6
+HCP-01496,Dr. Priya Das,Cardiology,T05,Chennai,Private clinic,1,C,19
+HCP-01497,Dr. Manoj Joshi,Family Medicine,T06,Mumbai,Hospital-affiliated,8,A,11
+HCP-01498,Dr. Sanjay Chatterjee,Internal Medicine,T10,Jaipur,Group practice,1,C,10
+HCP-01499,Dr. Asha Joshi,Family Medicine,T09,Delhi,Corporate hospital,5,B,33
+HCP-01500,Dr. Vikram Singh,Endocrinology,T04,Hyderabad,Hospital-affiliated,10,A,16
+HCP-01501,Dr. Priya Rao,Endocrinology,T12,Bhubaneswar,Private clinic,10,A,16
+HCP-01502,Dr. Meera Kumar,Cardiology,T08,Ahmedabad,Hospital-affiliated,2,C,35
+HCP-01503,Dr. Rajesh Nair,Family Medicine,T06,Mumbai,Private clinic,3,C,11
+HCP-01504,Dr. Rajesh Kapoor,Nephrology,T04,Hyderabad,Hospital-affiliated,3,C,28
+HCP-01505,Dr. Neha Patel,Endocrinology,T04,Hyderabad,Hospital-affiliated,7,B,32
+HCP-01506,Dr. Rajesh Gupta,Family Medicine,T02,Bengaluru,Corporate hospital,2,C,4
+HCP-01507,Dr. Suresh Patel,Family Medicine,T08,Ahmedabad,Private clinic,4,C,25
+HCP-01508,Dr. Swati Kapoor,Internal Medicine,T07,Pune,Corporate hospital,4,C,6
+HCP-01509,Dr. Manoj Chatterjee,Internal Medicine,T08,Ahmedabad,Hospital-affiliated,1,C,21
+HCP-01510,Dr. Nikhil Bhat,Internal Medicine,T04,Hyderabad,Group practice,5,B,9
+HCP-01511,Dr. Meera Menon,Endocrinology,T11,Kolkata,Private clinic,5,B,6
+HCP-01512,Dr. Shreya Patel,Family Medicine,T01,Bengaluru,Corporate hospital,2,C,17
+HCP-01513,Dr. Manoj Patel,Family Medicine,T10,Jaipur,Hospital-affiliated,4,C,20
+HCP-01514,Dr. Deepa Das,Internal Medicine,T08,Ahmedabad,Corporate hospital,7,B,3
+HCP-01515,Dr. Anjali Bhat,Internal Medicine,T02,Bengaluru,Corporate hospital,9,A,18
+HCP-01516,Dr. Kavya Kumar,Internal Medicine,T03,Hyderabad,Group practice,1,C,12
+HCP-01517,Dr. Arjun Gupta,Family Medicine,T01,Bengaluru,Corporate hospital,4,C,7
+HCP-01518,Dr. Anjali Singh,Family Medicine,T03,Hyderabad,Group practice,8,A,3
+HCP-01519,Dr. Priya Sharma,Cardiology,T08,Ahmedabad,Corporate hospital,4,C,17
+HCP-01520,Dr. Meera Patel,Family Medicine,T09,Delhi,Corporate hospital,7,B,24
+HCP-01521,Dr. Shreya Joshi,Internal Medicine,T08,Ahmedabad,Group practice,3,C,19
+HCP-01522,Dr. Neha Kumar,Internal Medicine,T06,Mumbai,Group practice,8,A,10
+HCP-01523,Dr. Arjun Nair,Family Medicine,T05,Chennai,Group practice,7,B,17
+HCP-01524,Dr. Arjun Menon,Nephrology,T11,Kolkata,Group practice,3,C,26
+HCP-01525,Dr. Manoj Patel,Family Medicine,T04,Hyderabad,Corporate hospital,2,C,31
+HCP-01526,Dr. Deepa Kumar,Endocrinology,T09,Delhi,Group practice,10,A,29
+HCP-01527,Dr. Nikhil Kumar,Internal Medicine,T05,Chennai,Private clinic,1,C,30
+HCP-01528,Dr. Deepa Das,Family Medicine,T08,Ahmedabad,Private clinic,8,A,3
+HCP-01529,Dr. Sanjay Kapoor,Nephrology,T08,Ahmedabad,Corporate hospital,2,C,13
+HCP-01530,Dr. Neha Sharma,Internal Medicine,T05,Chennai,Group practice,1,C,5
+HCP-01531,Dr. Priya Bhat,Internal Medicine,T04,Hyderabad,Corporate hospital,5,B,3
+HCP-01532,Dr. Priya Joshi,Internal Medicine,T07,Pune,Hospital-affiliated,8,A,25
+HCP-01533,Dr. Shreya Nair,Cardiology,T05,Chennai,Private clinic,5,B,20
+HCP-01534,Dr. Vivek Iyer,Nephrology,T03,Hyderabad,Corporate hospital,2,C,17
+HCP-01535,Dr. Manoj Chatterjee,Internal Medicine,T01,Bengaluru,Group practice,3,C,9
+HCP-01536,Dr. Kavya Chatterjee,Nephrology,T05,Chennai,Corporate hospital,5,B,11
+HCP-01537,Dr. Swati Mishra,Family Medicine,T11,Kolkata,Hospital-affiliated,2,C,22
+HCP-01538,Dr. Rajesh Mishra,Endocrinology,T05,Chennai,Hospital-affiliated,8,A,27
+HCP-01539,Dr. Anil Kapoor,Endocrinology,T07,Pune,Corporate hospital,8,A,32
+HCP-01540,Dr. Swati Desai,Internal Medicine,T06,Mumbai,Private clinic,4,C,4
+HCP-01541,Dr. Neha Menon,Endocrinology,T07,Pune,Corporate hospital,5,B,11
+HCP-01542,Dr. Neha Reddy,Family Medicine,T10,Jaipur,Group practice,5,B,11
+HCP-01543,Dr. Nikhil Desai,Family Medicine,T07,Pune,Private clinic,4,C,8
+HCP-01544,Dr. Meera Kumar,Internal Medicine,T01,Bengaluru,Private clinic,10,A,21
+HCP-01545,Dr. Priya Patel,Internal Medicine,T10,Jaipur,Private clinic,3,C,16
+HCP-01546,Dr. Asha Nair,Endocrinology,T09,Delhi,Hospital-affiliated,10,A,12
+HCP-01547,Dr. Arjun Bhat,Family Medicine,T05,Chennai,Hospital-affiliated,7,B,10
+HCP-01548,Dr. Meera Kapoor,Endocrinology,T02,Bengaluru,Private clinic,9,A,18
+HCP-01549,Dr. Nikhil Desai,Endocrinology,T04,Hyderabad,Group practice,4,C,6
+HCP-01550,Dr. Kavya Menon,Internal Medicine,T02,Bengaluru,Corporate hospital,4,C,31
+HCP-01551,Dr. Arjun Gupta,Family Medicine,T11,Kolkata,Hospital-affiliated,4,C,18
+HCP-01552,Dr. Ravi Bhat,Family Medicine,T03,Hyderabad,Group practice,6,B,21
+HCP-01553,Dr. Asha Singh,Family Medicine,T05,Chennai,Corporate hospital,10,A,28
+HCP-01554,Dr. Swati Chatterjee,Family Medicine,T07,Pune,Hospital-affiliated,1,C,4
+HCP-01555,Dr. Arjun Das,Internal Medicine,T05,Chennai,Private clinic,5,B,31
+HCP-01556,Dr. Sanjay Desai,Nephrology,T01,Bengaluru,Group practice,3,C,20
+HCP-01557,Dr. Nikhil Rao,Nephrology,T01,Bengaluru,Corporate hospital,3,C,27
+HCP-01558,Dr. Deepa Kumar,Endocrinology,T09,Delhi,Group practice,9,A,11
+HCP-01559,Dr. Manoj Iyer,Cardiology,T05,Chennai,Group practice,6,B,27
+HCP-01560,Dr. Nikhil Kapoor,Family Medicine,T08,Ahmedabad,Corporate hospital,2,C,11
+HCP-01561,Dr. Deepa Pillai,Internal Medicine,T12,Bhubaneswar,Private clinic,10,A,5
+HCP-01562,Dr. Meera Patel,Cardiology,T01,Bengaluru,Group practice,2,C,33
+HCP-01563,Dr. Lakshmi Patel,Family Medicine,T06,Mumbai,Hospital-affiliated,10,A,27
+HCP-01564,Dr. Suresh Patel,Nephrology,T07,Pune,Private clinic,1,C,7
+HCP-01565,Dr. Arjun Gupta,Family Medicine,T08,Ahmedabad,Corporate hospital,6,B,9
+HCP-01566,Dr. Vivek Mishra,Internal Medicine,T12,Bhubaneswar,Hospital-affiliated,1,C,15
+HCP-01567,Dr. Lakshmi Rao,Internal Medicine,T05,Chennai,Hospital-affiliated,6,B,30
+HCP-01568,Dr. Vivek Sharma,Cardiology,T09,Delhi,Private clinic,2,C,16
+HCP-01569,Dr. Deepa Chatterjee,Cardiology,T01,Bengaluru,Private clinic,9,A,24
+HCP-01570,Dr. Nikhil Bhat,Family Medicine,T03,Hyderabad,Hospital-affiliated,10,A,16
+HCP-01571,Dr. Deepa Mishra,Cardiology,T10,Jaipur,Hospital-affiliated,5,B,7
+HCP-01572,Dr. Vikram Iyer,Internal Medicine,T08,Ahmedabad,Hospital-affiliated,3,C,22
+HCP-01573,Dr. Anjali Mishra,Endocrinology,T02,Bengaluru,Corporate hospital,5,B,4
+HCP-01574,Dr. Suresh Pillai,Cardiology,T04,Hyderabad,Corporate hospital,3,C,7
+HCP-01575,Dr. Vivek Menon,Nephrology,T03,Hyderabad,Corporate hospital,1,C,28
+HCP-01576,Dr. Meera Bhat,Endocrinology,T10,Jaipur,Corporate hospital,9,A,4
+HCP-01577,Dr. Anil Reddy,Internal Medicine,T01,Bengaluru,Hospital-affiliated,2,C,16
+HCP-01578,Dr. Priya Menon,Cardiology,T09,Delhi,Group practice,3,C,7
+HCP-01579,Dr. Priya Singh,Nephrology,T10,Jaipur,Private clinic,7,B,29
+HCP-01580,Dr. Shreya Bhat,Family Medicine,T10,Jaipur,Hospital-affiliated,9,A,20
+HCP-01581,Dr. Nikhil Menon,Endocrinology,T12,Bhubaneswar,Corporate hospital,4,C,30
+HCP-01582,Dr. Lakshmi Sharma,Internal Medicine,T08,Ahmedabad,Private clinic,8,A,4
+HCP-01583,Dr. Arjun Mishra,Family Medicine,T04,Hyderabad,Group practice,8,A,6
+HCP-01584,Dr. Swati Chatterjee,Family Medicine,T07,Pune,Hospital-affiliated,6,B,10
+HCP-01585,Dr. Deepa Singh,Endocrinology,T08,Ahmedabad,Hospital-affiliated,9,A,24
+HCP-01586,Dr. Vikram Sharma,Nephrology,T07,Pune,Hospital-affiliated,2,C,29
+HCP-01587,Dr. Shreya Reddy,Family Medicine,T12,Bhubaneswar,Private clinic,8,A,18
+HCP-01588,Dr. Kavya Das,Endocrinology,T01,Bengaluru,Private clinic,4,C,23
+HCP-01589,Dr. Neha Nair,Family Medicine,T06,Mumbai,Group practice,9,A,33
+HCP-01590,Dr. Suresh Mishra,Endocrinology,T11,Kolkata,Hospital-affiliated,4,C,34
+HCP-01591,Dr. Lakshmi Desai,Family Medicine,T12,Bhubaneswar,Corporate hospital,3,C,26
+HCP-01592,Dr. Nikhil Joshi,Internal Medicine,T09,Delhi,Corporate hospital,6,B,35
+HCP-01593,Dr. Anjali Bhat,Endocrinology,T02,Bengaluru,Corporate hospital,10,A,8
+HCP-01594,Dr. Nikhil Menon,Nephrology,T04,Hyderabad,Corporate hospital,8,A,16
+HCP-01595,Dr. Sanjay Reddy,Internal Medicine,T02,Bengaluru,Hospital-affiliated,8,A,31
+HCP-01596,Dr. Arjun Bhat,Family Medicine,T11,Kolkata,Private clinic,10,A,20
+HCP-01597,Dr. Vikram Reddy,Family Medicine,T05,Chennai,Corporate hospital,3,C,27
+HCP-01598,Dr. Rajesh Reddy,Endocrinology,T08,Ahmedabad,Hospital-affiliated,6,B,16
+HCP-01599,Dr. Priya Das,Internal Medicine,T07,Pune,Private clinic,4,C,25
+HCP-01600,Dr. Anil Joshi,Nephrology,T01,Bengaluru,Hospital-affiliated,7,B,4
+HCP-01601,Dr. Swati Reddy,Family Medicine,T06,Mumbai,Private clinic,6,B,27
+HCP-01602,Dr. Shreya Desai,Nephrology,T12,Bhubaneswar,Group practice,3,C,19
+HCP-01603,Dr. Lakshmi Nair,Nephrology,T03,Hyderabad,Private clinic,4,C,20
+HCP-01604,Dr. Lakshmi Mishra,Nephrology,T11,Kolkata,Corporate hospital,1,C,24
+HCP-01605,Dr. Deepa Joshi,Internal Medicine,T10,Jaipur,Corporate hospital,6,B,3
+HCP-01606,Dr. Suresh Gupta,Internal Medicine,T02,Bengaluru,Group practice,6,B,32
+HCP-01607,Dr. Deepa Bhat,Internal Medicine,T01,Bengaluru,Hospital-affiliated,4,C,29
+HCP-01608,Dr. Anjali Mishra,Family Medicine,T01,Bengaluru,Corporate hospital,1,C,7
+HCP-01609,Dr. Suresh Joshi,Endocrinology,T08,Ahmedabad,Group practice,10,A,11
+HCP-01610,Dr. Anjali Reddy,Family Medicine,T04,Hyderabad,Hospital-affiliated,2,C,10
+HCP-01611,Dr. Rajesh Kumar,Endocrinology,T11,Kolkata,Private clinic,9,A,17
+HCP-01612,Dr. Suresh Sharma,Nephrology,T01,Bengaluru,Corporate hospital,10,A,5
+HCP-01613,Dr. Nikhil Desai,Internal Medicine,T10,Jaipur,Private clinic,1,C,35
+HCP-01614,Dr. Deepa Chatterjee,Internal Medicine,T02,Bengaluru,Private clinic,3,C,30
+HCP-01615,Dr. Deepa Kumar,Endocrinology,T05,Chennai,Group practice,6,B,26
+HCP-01616,Dr. Arjun Gupta,Nephrology,T08,Ahmedabad,Corporate hospital,3,C,5
+HCP-01617,Dr. Arjun Patel,Nephrology,T05,Chennai,Hospital-affiliated,9,A,23
+HCP-01618,Dr. Vivek Singh,Family Medicine,T09,Delhi,Hospital-affiliated,7,B,27
+HCP-01619,Dr. Manoj Iyer,Endocrinology,T10,Jaipur,Private clinic,10,A,17
+HCP-01620,Dr. Shreya Chatterjee,Family Medicine,T10,Jaipur,Private clinic,5,B,6
+HCP-01621,Dr. Rajesh Kumar,Internal Medicine,T10,Jaipur,Corporate hospital,5,B,15
+HCP-01622,Dr. Lakshmi Singh,Internal Medicine,T10,Jaipur,Hospital-affiliated,2,C,32
+HCP-01623,Dr. Lakshmi Desai,Family Medicine,T06,Mumbai,Group practice,1,C,26
+HCP-01624,Dr. Deepa Bhat,Internal Medicine,T02,Bengaluru,Hospital-affiliated,5,B,31
+HCP-01625,Dr. Sanjay Mishra,Internal Medicine,T07,Pune,Hospital-affiliated,8,A,29
+HCP-01626,Dr. Suresh Das,Family Medicine,T11,Kolkata,Corporate hospital,1,C,23
+HCP-01627,Dr. Sanjay Bhat,Endocrinology,T02,Bengaluru,Hospital-affiliated,7,B,14
+HCP-01628,Dr. Suresh Mishra,Endocrinology,T08,Ahmedabad,Group practice,4,C,9
+HCP-01629,Dr. Arjun Gupta,Cardiology,T03,Hyderabad,Private clinic,8,A,11
+HCP-01630,Dr. Swati Singh,Cardiology,T09,Delhi,Hospital-affiliated,9,A,28
+HCP-01631,Dr. Meera Kumar,Family Medicine,T12,Bhubaneswar,Corporate hospital,7,B,9
+HCP-01632,Dr. Deepa Desai,Endocrinology,T12,Bhubaneswar,Group practice,10,A,31
+HCP-01633,Dr. Asha Nair,Cardiology,T12,Bhubaneswar,Hospital-affiliated,3,C,35
+HCP-01634,Dr. Vivek Singh,Endocrinology,T02,Bengaluru,Group practice,4,C,27
+HCP-01635,Dr. Vivek Joshi,Internal Medicine,T06,Mumbai,Private clinic,5,B,17
+HCP-01636,Dr. Nikhil Kapoor,Internal Medicine,T05,Chennai,Group practice,1,C,21
+HCP-01637,Dr. Sanjay Reddy,Internal Medicine,T06,Mumbai,Hospital-affiliated,7,B,30
+HCP-01638,Dr. Anil Patel,Internal Medicine,T09,Delhi,Corporate hospital,9,A,21
+HCP-01639,Dr. Rajesh Menon,Endocrinology,T03,Hyderabad,Hospital-affiliated,6,B,21
+HCP-01640,Dr. Lakshmi Joshi,Nephrology,T05,Chennai,Hospital-affiliated,7,B,9
+HCP-01641,Dr. Kavya Sharma,Family Medicine,T04,Hyderabad,Private clinic,5,B,15
+HCP-01642,Dr. Deepa Rao,Internal Medicine,T01,Bengaluru,Corporate hospital,8,A,30
+HCP-01643,Dr. Rajesh Das,Internal Medicine,T12,Bhubaneswar,Private clinic,1,C,10
+HCP-01644,Dr. Vikram Nair,Cardiology,T08,Ahmedabad,Corporate hospital,4,C,10
+HCP-01645,Dr. Lakshmi Iyer,Cardiology,T06,Mumbai,Corporate hospital,7,B,13
+HCP-01646,Dr. Nikhil Iyer,Internal Medicine,T09,Delhi,Corporate hospital,4,C,5
+HCP-01647,Dr. Nikhil Kumar,Endocrinology,T07,Pune,Hospital-affiliated,10,A,5
+HCP-01648,Dr. Vivek Pillai,Family Medicine,T11,Kolkata,Hospital-affiliated,2,C,15
+HCP-01649,Dr. Kavya Bhat,Internal Medicine,T05,Chennai,Corporate hospital,4,C,11
+HCP-01650,Dr. Nikhil Rao,Family Medicine,T04,Hyderabad,Private clinic,1,C,30
+HCP-01651,Dr. Kavya Reddy,Internal Medicine,T02,Bengaluru,Group practice,6,B,19
+HCP-01652,Dr. Deepa Bhat,Internal Medicine,T10,Jaipur,Hospital-affiliated,5,B,22
+HCP-01653,Dr. Asha Pillai,Cardiology,T04,Hyderabad,Corporate hospital,6,B,33
+HCP-01654,Dr. Neha Chatterjee,Endocrinology,T05,Chennai,Group practice,4,C,23
+HCP-01655,Dr. Rajesh Kumar,Family Medicine,T04,Hyderabad,Private clinic,1,C,25
+HCP-01656,Dr. Asha Bhat,Internal Medicine,T12,Bhubaneswar,Group practice,1,C,18
+HCP-01657,Dr. Swati Reddy,Internal Medicine,T01,Bengaluru,Corporate hospital,5,B,19
+HCP-01658,Dr. Rajesh Chatterjee,Internal Medicine,T11,Kolkata,Group practice,4,C,19
+HCP-01659,Dr. Anil Reddy,Internal Medicine,T01,Bengaluru,Corporate hospital,7,B,31
+HCP-01660,Dr. Shreya Rao,Internal Medicine,T07,Pune,Private clinic,9,A,24
+HCP-01661,Dr. Arjun Pillai,Family Medicine,T03,Hyderabad,Private clinic,1,C,24
+HCP-01662,Dr. Priya Kapoor,Family Medicine,T06,Mumbai,Hospital-affiliated,5,B,26
+HCP-01663,Dr. Shreya Pillai,Internal Medicine,T09,Delhi,Hospital-affiliated,2,C,21
+HCP-01664,Dr. Ravi Mishra,Nephrology,T03,Hyderabad,Hospital-affiliated,3,C,3
+HCP-01665,Dr. Nikhil Patel,Cardiology,T01,Bengaluru,Group practice,7,B,34
+HCP-01666,Dr. Lakshmi Menon,Endocrinology,T01,Bengaluru,Private clinic,6,B,20
+HCP-01667,Dr. Manoj Nair,Endocrinology,T12,Bhubaneswar,Corporate hospital,10,A,8
+HCP-01668,Dr. Swati Sharma,Endocrinology,T02,Bengaluru,Private clinic,10,A,12
+HCP-01669,Dr. Ravi Das,Family Medicine,T02,Bengaluru,Corporate hospital,8,A,30
+HCP-01670,Dr. Rajesh Rao,Family Medicine,T09,Delhi,Private clinic,3,C,19
+HCP-01671,Dr. Swati Iyer,Family Medicine,T11,Kolkata,Hospital-affiliated,3,C,29
+HCP-01672,Dr. Shreya Kapoor,Internal Medicine,T09,Delhi,Hospital-affiliated,3,C,27
+HCP-01673,Dr. Deepa Mishra,Nephrology,T01,Bengaluru,Private clinic,7,B,31
+HCP-01674,Dr. Lakshmi Desai,Family Medicine,T04,Hyderabad,Corporate hospital,1,C,33
+HCP-01675,Dr. Sanjay Iyer,Endocrinology,T10,Jaipur,Private clinic,6,B,13
+HCP-01676,Dr. Lakshmi Iyer,Cardiology,T04,Hyderabad,Hospital-affiliated,4,C,28
+HCP-01677,Dr. Vivek Menon,Cardiology,T10,Jaipur,Private clinic,5,B,34
+HCP-01678,Dr. Sanjay Reddy,Internal Medicine,T05,Chennai,Corporate hospital,7,B,29
+HCP-01679,Dr. Shreya Bhat,Internal Medicine,T01,Bengaluru,Group practice,2,C,23
+HCP-01680,Dr. Asha Kapoor,Internal Medicine,T11,Kolkata,Private clinic,4,C,9
+HCP-01681,Dr. Arjun Gupta,Family Medicine,T07,Pune,Private clinic,3,C,13
+HCP-01682,Dr. Priya Chatterjee,Internal Medicine,T04,Hyderabad,Group practice,10,A,13
+HCP-01683,Dr. Shreya Chatterjee,Cardiology,T11,Kolkata,Group practice,4,C,3
+HCP-01684,Dr. Suresh Kapoor,Endocrinology,T05,Chennai,Corporate hospital,10,A,26
+HCP-01685,Dr. Nikhil Rao,Family Medicine,T10,Jaipur,Corporate hospital,2,C,19
+HCP-01686,Dr. Sanjay Gupta,Internal Medicine,T08,Ahmedabad,Group practice,9,A,3
+HCP-01687,Dr. Vikram Sharma,Internal Medicine,T06,Mumbai,Corporate hospital,2,C,15
+HCP-01688,Dr. Anil Patel,Family Medicine,T04,Hyderabad,Private clinic,5,B,32
+HCP-01689,Dr. Shreya Menon,Endocrinology,T10,Jaipur,Corporate hospital,6,B,3
+HCP-01690,Dr. Swati Das,Internal Medicine,T04,Hyderabad,Corporate hospital,8,A,28
+HCP-01691,Dr. Ravi Iyer,Family Medicine,T05,Chennai,Hospital-affiliated,6,B,9
+HCP-01692,Dr. Vivek Patel,Internal Medicine,T12,Bhubaneswar,Hospital-affiliated,2,C,27
+HCP-01693,Dr. Anjali Joshi,Family Medicine,T06,Mumbai,Group practice,8,A,16
+HCP-01694,Dr. Ravi Iyer,Endocrinology,T03,Hyderabad,Hospital-affiliated,5,B,12
+HCP-01695,Dr. Vikram Reddy,Internal Medicine,T03,Hyderabad,Hospital-affiliated,1,C,35
+HCP-01696,Dr. Neha Kapoor,Internal Medicine,T08,Ahmedabad,Private clinic,4,C,18
+HCP-01697,Dr. Asha Singh,Internal Medicine,T09,Delhi,Corporate hospital,7,B,23
+HCP-01698,Dr. Ravi Gupta,Endocrinology,T09,Delhi,Corporate hospital,9,A,12
+HCP-01699,Dr. Suresh Patel,Family Medicine,T07,Pune,Group practice,4,C,25
+HCP-01700,Dr. Rajesh Singh,Endocrinology,T03,Hyderabad,Group practice,6,B,16
+HCP-01701,Dr. Ravi Pillai,Family Medicine,T10,Jaipur,Corporate hospital,10,A,14
+HCP-01702,Dr. Deepa Kapoor,Nephrology,T12,Bhubaneswar,Hospital-affiliated,2,C,3
+HCP-01703,Dr. Deepa Joshi,Internal Medicine,T10,Jaipur,Private clinic,1,C,20
+HCP-01704,Dr. Manoj Reddy,Family Medicine,T01,Bengaluru,Corporate hospital,6,B,20
+HCP-01705,Dr. Arjun Bhat,Endocrinology,T11,Kolkata,Group practice,8,A,34
+HCP-01706,Dr. Shreya Patel,Internal Medicine,T03,Hyderabad,Private clinic,9,A,26
+HCP-01707,Dr. Kavya Nair,Family Medicine,T01,Bengaluru,Private clinic,7,B,29
+HCP-01708,Dr. Priya Kumar,Endocrinology,T02,Bengaluru,Private clinic,9,A,20
+HCP-01709,Dr. Anil Kumar,Family Medicine,T04,Hyderabad,Hospital-affiliated,7,B,26
+HCP-01710,Dr. Swati Reddy,Endocrinology,T09,Delhi,Private clinic,9,A,15
+HCP-01711,Dr. Kavya Desai,Endocrinology,T09,Delhi,Private clinic,5,B,20
+HCP-01712,Dr. Kavya Sharma,Internal Medicine,T10,Jaipur,Corporate hospital,5,B,20
+HCP-01713,Dr. Vivek Iyer,Internal Medicine,T09,Delhi,Group practice,3,C,8
+HCP-01714,Dr. Vikram Gupta,Nephrology,T02,Bengaluru,Corporate hospital,2,C,4
+HCP-01715,Dr. Deepa Desai,Cardiology,T03,Hyderabad,Private clinic,2,C,18
+HCP-01716,Dr. Ravi Nair,Cardiology,T05,Chennai,Corporate hospital,6,B,6
+HCP-01717,Dr. Sanjay Kumar,Family Medicine,T07,Pune,Group practice,2,C,17
+HCP-01718,Dr. Neha Joshi,Internal Medicine,T04,Hyderabad,Group practice,2,C,19
+HCP-01719,Dr. Deepa Kapoor,Internal Medicine,T02,Bengaluru,Group practice,5,B,13
+HCP-01720,Dr. Sanjay Mishra,Nephrology,T01,Bengaluru,Hospital-affiliated,5,B,30
+HCP-01721,Dr. Neha Rao,Family Medicine,T06,Mumbai,Corporate hospital,6,B,35
+HCP-01722,Dr. Vikram Kapoor,Cardiology,T09,Delhi,Hospital-affiliated,8,A,19
+HCP-01723,Dr. Meera Kapoor,Internal Medicine,T04,Hyderabad,Hospital-affiliated,1,C,33
+HCP-01724,Dr. Vivek Pillai,Internal Medicine,T03,Hyderabad,Private clinic,3,C,23
+HCP-01725,Dr. Arjun Gupta,Endocrinology,T12,Bhubaneswar,Group practice,6,B,33
+HCP-01726,Dr. Kavya Singh,Internal Medicine,T06,Mumbai,Corporate hospital,9,A,13
+HCP-01727,Dr. Rajesh Desai,Family Medicine,T08,Ahmedabad,Group practice,7,B,28
+HCP-01728,Dr. Deepa Kumar,Cardiology,T08,Ahmedabad,Group practice,2,C,28
+HCP-01729,Dr. Lakshmi Kapoor,Endocrinology,T05,Chennai,Private clinic,10,A,29
+HCP-01730,Dr. Manoj Sharma,Family Medicine,T07,Pune,Hospital-affiliated,10,A,35
+HCP-01731,Dr. Nikhil Rao,Nephrology,T03,Hyderabad,Hospital-affiliated,9,A,11
+HCP-01732,Dr. Vikram Das,Internal Medicine,T11,Kolkata,Hospital-affiliated,10,A,25
+HCP-01733,Dr. Sanjay Rao,Internal Medicine,T08,Ahmedabad,Hospital-affiliated,4,C,22
+HCP-01734,Dr. Ravi Chatterjee,Endocrinology,T05,Chennai,Private clinic,5,B,18
+HCP-01735,Dr. Deepa Sharma,Family Medicine,T03,Hyderabad,Group practice,8,A,13
+HCP-01736,Dr. Manoj Rao,Endocrinology,T06,Mumbai,Group practice,8,A,27
+HCP-01737,Dr. Meera Pillai,Family Medicine,T08,Ahmedabad,Hospital-affiliated,7,B,23
+HCP-01738,Dr. Neha Chatterjee,Internal Medicine,T03,Hyderabad,Group practice,3,C,7
+HCP-01739,Dr. Vivek Sharma,Internal Medicine,T06,Mumbai,Hospital-affiliated,7,B,14
+HCP-01740,Dr. Arjun Pillai,Internal Medicine,T04,Hyderabad,Private clinic,3,C,17
+HCP-01741,Dr. Neha Chatterjee,Internal Medicine,T03,Hyderabad,Private clinic,1,C,24
+HCP-01742,Dr. Neha Das,Family Medicine,T07,Pune,Group practice,4,C,33
+HCP-01743,Dr. Kavya Gupta,Internal Medicine,T01,Bengaluru,Group practice,10,A,9
+HCP-01744,Dr. Meera Pillai,Cardiology,T08,Ahmedabad,Private clinic,3,C,13
+HCP-01745,Dr. Rajesh Sharma,Endocrinology,T06,Mumbai,Group practice,8,A,28
+HCP-01746,Dr. Suresh Patel,Family Medicine,T07,Pune,Group practice,3,C,35
+HCP-01747,Dr. Shreya Singh,Cardiology,T06,Mumbai,Private clinic,7,B,14
+HCP-01748,Dr. Vikram Nair,Family Medicine,T07,Pune,Private clinic,3,C,24
+HCP-01749,Dr. Anjali Desai,Family Medicine,T12,Bhubaneswar,Group practice,2,C,6
+HCP-01750,Dr. Asha Desai,Internal Medicine,T08,Ahmedabad,Corporate hospital,1,C,6
+HCP-01751,Dr. Anil Das,Family Medicine,T10,Jaipur,Private clinic,2,C,20
+HCP-01752,Dr. Rajesh Kumar,Internal Medicine,T03,Hyderabad,Corporate hospital,4,C,5
+HCP-01753,Dr. Shreya Pillai,Endocrinology,T10,Jaipur,Hospital-affiliated,10,A,14
+HCP-01754,Dr. Sanjay Bhat,Family Medicine,T02,Bengaluru,Group practice,1,C,20
+HCP-01755,Dr. Lakshmi Kapoor,Nephrology,T06,Mumbai,Group practice,6,B,5
+HCP-01756,Dr. Anjali Patel,Internal Medicine,T02,Bengaluru,Group practice,1,C,35
+HCP-01757,Dr. Neha Chatterjee,Endocrinology,T12,Bhubaneswar,Group practice,10,A,4
+HCP-01758,Dr. Vikram Chatterjee,Nephrology,T03,Hyderabad,Private clinic,2,C,15
+HCP-01759,Dr. Nikhil Mishra,Internal Medicine,T10,Jaipur,Hospital-affiliated,3,C,6
+HCP-01760,Dr. Swati Joshi,Family Medicine,T06,Mumbai,Hospital-affiliated,2,C,20
+HCP-01761,Dr. Kavya Das,Family Medicine,T09,Delhi,Corporate hospital,6,B,3
+HCP-01762,Dr. Sanjay Joshi,Internal Medicine,T07,Pune,Corporate hospital,7,B,32
+HCP-01763,Dr. Meera Menon,Cardiology,T10,Jaipur,Hospital-affiliated,6,B,4
+HCP-01764,Dr. Neha Desai,Internal Medicine,T12,Bhubaneswar,Group practice,1,C,24
+HCP-01765,Dr. Arjun Kumar,Internal Medicine,T09,Delhi,Corporate hospital,9,A,23
+HCP-01766,Dr. Asha Rao,Cardiology,T06,Mumbai,Hospital-affiliated,2,C,27
+HCP-01767,Dr. Vivek Iyer,Internal Medicine,T05,Chennai,Group practice,6,B,25
+HCP-01768,Dr. Deepa Das,Internal Medicine,T02,Bengaluru,Corporate hospital,10,A,23
+HCP-01769,Dr. Anjali Gupta,Family Medicine,T08,Ahmedabad,Corporate hospital,1,C,30
+HCP-01770,Dr. Neha Mishra,Nephrology,T07,Pune,Group practice,1,C,18
+HCP-01771,Dr. Anjali Patel,Nephrology,T07,Pune,Private clinic,1,C,28
+HCP-01772,Dr. Neha Gupta,Internal Medicine,T04,Hyderabad,Hospital-affiliated,1,C,28
+HCP-01773,Dr. Swati Joshi,Internal Medicine,T09,Delhi,Corporate hospital,7,B,26
+HCP-01774,Dr. Anil Kapoor,Endocrinology,T11,Kolkata,Group practice,10,A,17
+HCP-01775,Dr. Rajesh Gupta,Internal Medicine,T07,Pune,Hospital-affiliated,4,C,28
+HCP-01776,Dr. Rajesh Gupta,Endocrinology,T05,Chennai,Private clinic,10,A,27
+HCP-01777,Dr. Swati Rao,Family Medicine,T10,Jaipur,Private clinic,10,A,17
+HCP-01778,Dr. Vikram Chatterjee,Family Medicine,T03,Hyderabad,Private clinic,5,B,23
+HCP-01779,Dr. Asha Iyer,Internal Medicine,T10,Jaipur,Corporate hospital,5,B,4
+HCP-01780,Dr. Manoj Mishra,Family Medicine,T12,Bhubaneswar,Hospital-affiliated,7,B,13
+HCP-01781,Dr. Kavya Bhat,Internal Medicine,T08,Ahmedabad,Hospital-affiliated,9,A,23
+HCP-01782,Dr. Ravi Desai,Internal Medicine,T03,Hyderabad,Group practice,9,A,18
+HCP-01783,Dr. Kavya Desai,Family Medicine,T11,Kolkata,Private clinic,10,A,24
+HCP-01784,Dr. Vikram Sharma,Internal Medicine,T03,Hyderabad,Private clinic,7,B,29
+HCP-01785,Dr. Vikram Chatterjee,Nephrology,T09,Delhi,Corporate hospital,8,A,10
+HCP-01786,Dr. Shreya Sharma,Family Medicine,T12,Bhubaneswar,Group practice,6,B,33
+HCP-01787,Dr. Priya Singh,Endocrinology,T12,Bhubaneswar,Group practice,10,A,35
+HCP-01788,Dr. Meera Patel,Family Medicine,T11,Kolkata,Hospital-affiliated,4,C,19
+HCP-01789,Dr. Kavya Singh,Family Medicine,T10,Jaipur,Group practice,1,C,24
+HCP-01790,Dr. Ravi Joshi,Nephrology,T03,Hyderabad,Private clinic,8,A,24
+HCP-01791,Dr. Asha Menon,Family Medicine,T11,Kolkata,Corporate hospital,4,C,24
+HCP-01792,Dr. Rajesh Joshi,Family Medicine,T05,Chennai,Corporate hospital,3,C,5
+HCP-01793,Dr. Lakshmi Singh,Endocrinology,T03,Hyderabad,Corporate hospital,6,B,21
+HCP-01794,Dr. Neha Bhat,Nephrology,T05,Chennai,Group practice,2,C,21
+HCP-01795,Dr. Sanjay Das,Family Medicine,T03,Hyderabad,Group practice,6,B,19
+HCP-01796,Dr. Vivek Das,Internal Medicine,T11,Kolkata,Hospital-affiliated,8,A,3
+HCP-01797,Dr. Nikhil Pillai,Internal Medicine,T05,Chennai,Group practice,5,B,13
+HCP-01798,Dr. Nikhil Kumar,Family Medicine,T06,Mumbai,Corporate hospital,5,B,27
+HCP-01799,Dr. Asha Gupta,Family Medicine,T08,Ahmedabad,Group practice,9,A,27
+HCP-01800,Dr. Lakshmi Das,Family Medicine,T01,Bengaluru,Hospital-affiliated,1,C,17
+HCP-01801,Dr. Meera Rao,Internal Medicine,T03,Hyderabad,Corporate hospital,7,B,34
+HCP-01802,Dr. Arjun Kapoor,Family Medicine,T08,Ahmedabad,Hospital-affiliated,6,B,15
+HCP-01803,Dr. Meera Kumar,Family Medicine,T06,Mumbai,Private clinic,4,C,20
+HCP-01804,Dr. Shreya Iyer,Nephrology,T09,Delhi,Private clinic,8,A,31
+HCP-01805,Dr. Kavya Menon,Family Medicine,T10,Jaipur,Hospital-affiliated,2,C,32
+HCP-01806,Dr. Shreya Joshi,Endocrinology,T03,Hyderabad,Private clinic,9,A,15
+HCP-01807,Dr. Sanjay Kapoor,Cardiology,T12,Bhubaneswar,Corporate hospital,1,C,6
+HCP-01808,Dr. Vivek Bhat,Internal Medicine,T04,Hyderabad,Group practice,5,B,9
+HCP-01809,Dr. Vikram Rao,Cardiology,T09,Delhi,Group practice,1,C,10
+HCP-01810,Dr. Shreya Rao,Endocrinology,T08,Ahmedabad,Group practice,5,B,22
+HCP-01811,Dr. Meera Desai,Endocrinology,T10,Jaipur,Hospital-affiliated,7,B,32
+HCP-01812,Dr. Suresh Bhat,Internal Medicine,T01,Bengaluru,Hospital-affiliated,4,C,24
+HCP-01813,Dr. Neha Joshi,Internal Medicine,T09,Delhi,Hospital-affiliated,3,C,24
+HCP-01814,Dr. Rajesh Patel,Family Medicine,T05,Chennai,Hospital-affiliated,5,B,34
+HCP-01815,Dr. Asha Bhat,Internal Medicine,T01,Bengaluru,Hospital-affiliated,10,A,14
+HCP-01816,Dr. Meera Desai,Family Medicine,T02,Bengaluru,Corporate hospital,6,B,14
+HCP-01817,Dr. Ravi Das,Family Medicine,T04,Hyderabad,Corporate hospital,7,B,23
+HCP-01818,Dr. Anjali Rao,Internal Medicine,T09,Delhi,Hospital-affiliated,6,B,23
+HCP-01819,Dr. Kavya Gupta,Internal Medicine,T03,Hyderabad,Hospital-affiliated,4,C,23
+HCP-01820,Dr. Swati Joshi,Nephrology,T09,Delhi,Hospital-affiliated,6,B,19
+HCP-01821,Dr. Deepa Nair,Nephrology,T08,Ahmedabad,Corporate hospital,8,A,24
+HCP-01822,Dr. Rajesh Das,Internal Medicine,T12,Bhubaneswar,Group practice,7,B,28
+HCP-01823,Dr. Priya Chatterjee,Endocrinology,T07,Pune,Corporate hospital,10,A,11
+HCP-01824,Dr. Ravi Rao,Family Medicine,T08,Ahmedabad,Corporate hospital,1,C,21
+HCP-01825,Dr. Manoj Kumar,Endocrinology,T06,Mumbai,Hospital-affiliated,7,B,16
+HCP-01826,Dr. Meera Iyer,Family Medicine,T10,Jaipur,Hospital-affiliated,8,A,13
+HCP-01827,Dr. Vivek Bhat,Family Medicine,T06,Mumbai,Private clinic,10,A,27
+HCP-01828,Dr. Lakshmi Joshi,Nephrology,T12,Bhubaneswar,Group practice,7,B,6
+HCP-01829,Dr. Shreya Singh,Endocrinology,T02,Bengaluru,Group practice,6,B,21
+HCP-01830,Dr. Vikram Kumar,Internal Medicine,T02,Bengaluru,Group practice,9,A,12
+HCP-01831,Dr. Shreya Iyer,Family Medicine,T03,Hyderabad,Group practice,5,B,18
+HCP-01832,Dr. Suresh Mishra,Family Medicine,T06,Mumbai,Corporate hospital,7,B,4
+HCP-01833,Dr. Anil Singh,Family Medicine,T03,Hyderabad,Group practice,1,C,16
+HCP-01834,Dr. Deepa Kumar,Internal Medicine,T03,Hyderabad,Hospital-affiliated,2,C,19
+HCP-01835,Dr. Sanjay Patel,Family Medicine,T05,Chennai,Group practice,9,A,30
+HCP-01836,Dr. Nikhil Reddy,Cardiology,T07,Pune,Corporate hospital,8,A,4
+HCP-01837,Dr. Nikhil Kumar,Internal Medicine,T10,Jaipur,Group practice,1,C,21
+HCP-01838,Dr. Vikram Iyer,Internal Medicine,T10,Jaipur,Private clinic,1,C,13
+HCP-01839,Dr. Rajesh Rao,Cardiology,T09,Delhi,Private clinic,1,C,30
+HCP-01840,Dr. Sanjay Kumar,Internal Medicine,T05,Chennai,Private clinic,9,A,14
+HCP-01841,Dr. Swati Sharma,Family Medicine,T11,Kolkata,Group practice,4,C,21
+HCP-01842,Dr. Arjun Menon,Family Medicine,T01,Bengaluru,Corporate hospital,3,C,30
+HCP-01843,Dr. Anil Mishra,Internal Medicine,T03,Hyderabad,Group practice,2,C,15
+HCP-01844,Dr. Vivek Nair,Nephrology,T10,Jaipur,Hospital-affiliated,9,A,12
+HCP-01845,Dr. Shreya Reddy,Internal Medicine,T04,Hyderabad,Hospital-affiliated,1,C,25
+HCP-01846,Dr. Lakshmi Rao,Internal Medicine,T02,Bengaluru,Hospital-affiliated,3,C,22
+HCP-01847,Dr. Ravi Singh,Internal Medicine,T03,Hyderabad,Private clinic,3,C,11
+HCP-01848,Dr. Arjun Desai,Endocrinology,T08,Ahmedabad,Hospital-affiliated,10,A,27
+HCP-01849,Dr. Ravi Pillai,Internal Medicine,T01,Bengaluru,Private clinic,4,C,8
+HCP-01850,Dr. Nikhil Patel,Family Medicine,T03,Hyderabad,Hospital-affiliated,5,B,16
+HCP-01851,Dr. Deepa Kumar,Nephrology,T02,Bengaluru,Group practice,7,B,15
+HCP-01852,Dr. Deepa Bhat,Nephrology,T04,Hyderabad,Corporate hospital,8,A,35
+HCP-01853,Dr. Manoj Chatterjee,Nephrology,T02,Bengaluru,Group practice,1,C,9
+HCP-01854,Dr. Vikram Chatterjee,Internal Medicine,T06,Mumbai,Corporate hospital,3,C,17
+HCP-01855,Dr. Manoj Bhat,Endocrinology,T12,Bhubaneswar,Private clinic,9,A,20
+HCP-01856,Dr. Sanjay Menon,Family Medicine,T12,Bhubaneswar,Hospital-affiliated,3,C,3
+HCP-01857,Dr. Asha Reddy,Family Medicine,T03,Hyderabad,Private clinic,2,C,16
+HCP-01858,Dr. Swati Gupta,Family Medicine,T12,Bhubaneswar,Group practice,3,C,14
+HCP-01859,Dr. Kavya Singh,Nephrology,T03,Hyderabad,Private clinic,10,A,13
+HCP-01860,Dr. Deepa Joshi,Internal Medicine,T01,Bengaluru,Corporate hospital,3,C,4
+HCP-01861,Dr. Priya Nair,Internal Medicine,T01,Bengaluru,Group practice,9,A,5
+HCP-01862,Dr. Nikhil Gupta,Internal Medicine,T09,Delhi,Hospital-affiliated,5,B,9
+HCP-01863,Dr. Swati Iyer,Internal Medicine,T01,Bengaluru,Private clinic,2,C,33
+HCP-01864,Dr. Shreya Desai,Nephrology,T08,Ahmedabad,Hospital-affiliated,8,A,3
+HCP-01865,Dr. Suresh Nair,Internal Medicine,T05,Chennai,Corporate hospital,9,A,26
+HCP-01866,Dr. Asha Rao,Family Medicine,T10,Jaipur,Hospital-affiliated,1,C,17
+HCP-01867,Dr. Lakshmi Iyer,Endocrinology,T09,Delhi,Private clinic,10,A,28
+HCP-01868,Dr. Lakshmi Joshi,Cardiology,T05,Chennai,Hospital-affiliated,1,C,22
+HCP-01869,Dr. Vivek Kapoor,Family Medicine,T06,Mumbai,Corporate hospital,4,C,11
+HCP-01870,Dr. Vivek Reddy,Internal Medicine,T06,Mumbai,Group practice,6,B,6
+HCP-01871,Dr. Priya Menon,Nephrology,T04,Hyderabad,Hospital-affiliated,1,C,28
+HCP-01872,Dr. Deepa Rao,Endocrinology,T06,Mumbai,Group practice,7,B,31
+HCP-01873,Dr. Rajesh Patel,Internal Medicine,T04,Hyderabad,Corporate hospital,2,C,35
+HCP-01874,Dr. Suresh Kumar,Internal Medicine,T06,Mumbai,Group practice,9,A,32
+HCP-01875,Dr. Nikhil Joshi,Endocrinology,T11,Kolkata,Private clinic,10,A,26
+HCP-01876,Dr. Sanjay Patel,Family Medicine,T07,Pune,Hospital-affiliated,10,A,32
+HCP-01877,Dr. Sanjay Singh,Endocrinology,T02,Bengaluru,Corporate hospital,10,A,31
+HCP-01878,Dr. Nikhil Gupta,Family Medicine,T07,Pune,Group practice,9,A,35
+HCP-01879,Dr. Arjun Rao,Endocrinology,T04,Hyderabad,Corporate hospital,9,A,12
+HCP-01880,Dr. Shreya Singh,Cardiology,T10,Jaipur,Hospital-affiliated,5,B,13
+HCP-01881,Dr. Anjali Menon,Endocrinology,T06,Mumbai,Hospital-affiliated,9,A,30
+HCP-01882,Dr. Manoj Das,Internal Medicine,T04,Hyderabad,Group practice,10,A,29
+HCP-01883,Dr. Neha Sharma,Internal Medicine,T08,Ahmedabad,Private clinic,1,C,19
+HCP-01884,Dr. Anjali Iyer,Family Medicine,T12,Bhubaneswar,Private clinic,3,C,29
+HCP-01885,Dr. Lakshmi Pillai,Endocrinology,T03,Hyderabad,Hospital-affiliated,10,A,29
+HCP-01886,Dr. Deepa Iyer,Family Medicine,T07,Pune,Hospital-affiliated,2,C,20
+HCP-01887,Dr. Vivek Nair,Cardiology,T03,Hyderabad,Hospital-affiliated,1,C,31
+HCP-01888,Dr. Arjun Patel,Family Medicine,T03,Hyderabad,Corporate hospital,7,B,9
+HCP-01889,Dr. Rajesh Das,Family Medicine,T11,Kolkata,Private clinic,2,C,32
+HCP-01890,Dr. Anil Joshi,Endocrinology,T03,Hyderabad,Private clinic,10,A,27
+HCP-01891,Dr. Vivek Gupta,Endocrinology,T05,Chennai,Group practice,7,B,21
+HCP-01892,Dr. Anjali Singh,Family Medicine,T04,Hyderabad,Hospital-affiliated,1,C,34
+HCP-01893,Dr. Meera Joshi,Nephrology,T12,Bhubaneswar,Corporate hospital,4,C,19
+HCP-01894,Dr. Suresh Singh,Family Medicine,T11,Kolkata,Private clinic,4,C,3
+HCP-01895,Dr. Vivek Bhat,Family Medicine,T02,Bengaluru,Hospital-affiliated,4,C,30
+HCP-01896,Dr. Asha Mishra,Internal Medicine,T11,Kolkata,Group practice,10,A,27
+HCP-01897,Dr. Meera Patel,Family Medicine,T01,Bengaluru,Private clinic,5,B,18
+HCP-01898,Dr. Anjali Chatterjee,Family Medicine,T06,Mumbai,Group practice,7,B,5
+HCP-01899,Dr. Rajesh Kapoor,Family Medicine,T06,Mumbai,Private clinic,4,C,28
+HCP-01900,Dr. Arjun Rao,Family Medicine,T11,Kolkata,Hospital-affiliated,4,C,4
+HCP-01901,Dr. Swati Sharma,Nephrology,T11,Kolkata,Group practice,1,C,19
+HCP-01902,Dr. Lakshmi Joshi,Cardiology,T06,Mumbai,Group practice,3,C,6
+HCP-01903,Dr. Suresh Gupta,Internal Medicine,T06,Mumbai,Hospital-affiliated,10,A,23
+HCP-01904,Dr. Kavya Bhat,Internal Medicine,T12,Bhubaneswar,Private clinic,3,C,24
+HCP-01905,Dr. Lakshmi Kumar,Family Medicine,T06,Mumbai,Corporate hospital,7,B,9
+HCP-01906,Dr. Anjali Bhat,Endocrinology,T12,Bhubaneswar,Hospital-affiliated,7,B,27
+HCP-01907,Dr. Deepa Kumar,Internal Medicine,T04,Hyderabad,Group practice,7,B,26
+HCP-01908,Dr. Meera Rao,Nephrology,T03,Hyderabad,Corporate hospital,3,C,35
+HCP-01909,Dr. Shreya Mishra,Family Medicine,T12,Bhubaneswar,Hospital-affiliated,3,C,28
+HCP-01910,Dr. Vikram Pillai,Family Medicine,T10,Jaipur,Corporate hospital,2,C,12
+HCP-01911,Dr. Sanjay Pillai,Internal Medicine,T12,Bhubaneswar,Private clinic,3,C,21
+HCP-01912,Dr. Lakshmi Desai,Family Medicine,T10,Jaipur,Private clinic,1,C,18
+HCP-01913,Dr. Arjun Bhat,Endocrinology,T09,Delhi,Hospital-affiliated,10,A,17
+HCP-01914,Dr. Ravi Nair,Cardiology,T04,Hyderabad,Private clinic,4,C,21
+HCP-01915,Dr. Asha Desai,Nephrology,T04,Hyderabad,Group practice,8,A,15
+HCP-01916,Dr. Manoj Pillai,Internal Medicine,T07,Pune,Corporate hospital,5,B,26
+HCP-01917,Dr. Lakshmi Kumar,Internal Medicine,T05,Chennai,Corporate hospital,3,C,7
+HCP-01918,Dr. Lakshmi Mishra,Endocrinology,T12,Bhubaneswar,Hospital-affiliated,10,A,9
+HCP-01919,Dr. Meera Menon,Family Medicine,T09,Delhi,Corporate hospital,5,B,17
+HCP-01920,Dr. Rajesh Desai,Internal Medicine,T08,Ahmedabad,Group practice,8,A,30
+HCP-01921,Dr. Shreya Desai,Nephrology,T02,Bengaluru,Private clinic,2,C,25
+HCP-01922,Dr. Deepa Iyer,Cardiology,T08,Ahmedabad,Corporate hospital,2,C,19
+HCP-01923,Dr. Swati Nair,Endocrinology,T12,Bhubaneswar,Group practice,8,A,16
+HCP-01924,Dr. Neha Kumar,Internal Medicine,T11,Kolkata,Hospital-affiliated,5,B,35
+HCP-01925,Dr. Vivek Kumar,Endocrinology,T07,Pune,Private clinic,8,A,6
+HCP-01926,Dr. Vikram Iyer,Family Medicine,T12,Bhubaneswar,Group practice,5,B,13
+HCP-01927,Dr. Kavya Gupta,Internal Medicine,T12,Bhubaneswar,Private clinic,10,A,34
+HCP-01928,Dr. Manoj Pillai,Endocrinology,T12,Bhubaneswar,Group practice,4,C,27
+HCP-01929,Dr. Kavya Patel,Internal Medicine,T12,Bhubaneswar,Corporate hospital,8,A,25
+HCP-01930,Dr. Asha Iyer,Family Medicine,T03,Hyderabad,Hospital-affiliated,9,A,19
+HCP-01931,Dr. Vikram Kumar,Internal Medicine,T07,Pune,Group practice,3,C,9
+HCP-01932,Dr. Priya Mishra,Internal Medicine,T09,Delhi,Private clinic,9,A,26
+HCP-01933,Dr. Nikhil Sharma,Endocrinology,T02,Bengaluru,Private clinic,10,A,23
+HCP-01934,Dr. Vivek Singh,Internal Medicine,T07,Pune,Private clinic,8,A,14
+HCP-01935,Dr. Shreya Rao,Family Medicine,T04,Hyderabad,Corporate hospital,4,C,9
+HCP-01936,Dr. Vivek Gupta,Nephrology,T11,Kolkata,Group practice,5,B,14
+HCP-01937,Dr. Arjun Reddy,Endocrinology,T09,Delhi,Private clinic,10,A,22
+HCP-01938,Dr. Vivek Kapoor,Endocrinology,T05,Chennai,Hospital-affiliated,9,A,9
+HCP-01939,Dr. Anjali Kumar,Internal Medicine,T08,Ahmedabad,Group practice,2,C,27
+HCP-01940,Dr. Vikram Kumar,Nephrology,T08,Ahmedabad,Hospital-affiliated,6,B,26
+HCP-01941,Dr. Ravi Pillai,Internal Medicine,T03,Hyderabad,Private clinic,8,A,25
+HCP-01942,Dr. Vivek Patel,Nephrology,T01,Bengaluru,Private clinic,9,A,23
+HCP-01943,Dr. Nikhil Pillai,Family Medicine,T09,Delhi,Hospital-affiliated,7,B,21
+HCP-01944,Dr. Neha Chatterjee,Endocrinology,T06,Mumbai,Group practice,10,A,30
+HCP-01945,Dr. Meera Kumar,Endocrinology,T07,Pune,Group practice,4,C,27
+HCP-01946,Dr. Neha Reddy,Internal Medicine,T05,Chennai,Private clinic,7,B,15
+HCP-01947,Dr. Vivek Mishra,Internal Medicine,T02,Bengaluru,Hospital-affiliated,5,B,23
+HCP-01948,Dr. Neha Pillai,Endocrinology,T12,Bhubaneswar,Hospital-affiliated,4,C,25
+HCP-01949,Dr. Swati Kapoor,Endocrinology,T09,Delhi,Hospital-affiliated,10,A,35
+HCP-01950,Dr. Ravi Patel,Family Medicine,T06,Mumbai,Group practice,1,C,14
+HCP-01951,Dr. Ravi Bhat,Family Medicine,T04,Hyderabad,Hospital-affiliated,1,C,3
+HCP-01952,Dr. Meera Das,Nephrology,T01,Bengaluru,Private clinic,2,C,18
+HCP-01953,Dr. Kavya Pillai,Cardiology,T11,Kolkata,Hospital-affiliated,8,A,26
+HCP-01954,Dr. Lakshmi Joshi,Endocrinology,T07,Pune,Group practice,5,B,22
+HCP-01955,Dr. Suresh Chatterjee,Nephrology,T04,Hyderabad,Private clinic,6,B,29
+HCP-01956,Dr. Ravi Bhat,Internal Medicine,T07,Pune,Corporate hospital,8,A,3
+HCP-01957,Dr. Rajesh Nair,Family Medicine,T11,Kolkata,Hospital-affiliated,1,C,7
+HCP-01958,Dr. Asha Iyer,Endocrinology,T11,Kolkata,Hospital-affiliated,5,B,23
+HCP-01959,Dr. Manoj Das,Nephrology,T03,Hyderabad,Corporate hospital,2,C,21
+HCP-01960,Dr. Manoj Rao,Internal Medicine,T10,Jaipur,Private clinic,7,B,34
+HCP-01961,Dr. Asha Bhat,Endocrinology,T04,Hyderabad,Private clinic,10,A,10
+HCP-01962,Dr. Vikram Iyer,Endocrinology,T04,Hyderabad,Hospital-affiliated,6,B,30
+HCP-01963,Dr. Rajesh Reddy,Internal Medicine,T10,Jaipur,Hospital-affiliated,7,B,16
+HCP-01964,Dr. Sanjay Kumar,Internal Medicine,T12,Bhubaneswar,Corporate hospital,5,B,14
+HCP-01965,Dr. Priya Pillai,Internal Medicine,T06,Mumbai,Group practice,9,A,12
+HCP-01966,Dr. Ravi Kumar,Family Medicine,T05,Chennai,Group practice,2,C,4
+HCP-01967,Dr. Nikhil Das,Endocrinology,T08,Ahmedabad,Hospital-affiliated,5,B,12
+HCP-01968,Dr. Vikram Chatterjee,Nephrology,T09,Delhi,Private clinic,1,C,13
+HCP-01969,Dr. Sanjay Patel,Nephrology,T12,Bhubaneswar,Hospital-affiliated,3,C,3
+HCP-01970,Dr. Manoj Patel,Endocrinology,T07,Pune,Hospital-affiliated,4,C,5
+HCP-01971,Dr. Asha Pillai,Family Medicine,T10,Jaipur,Corporate hospital,1,C,27
+HCP-01972,Dr. Asha Joshi,Nephrology,T08,Ahmedabad,Corporate hospital,2,C,32
+HCP-01973,Dr. Shreya Singh,Nephrology,T08,Ahmedabad,Hospital-affiliated,2,C,12
+HCP-01974,Dr. Manoj Joshi,Family Medicine,T05,Chennai,Hospital-affiliated,2,C,26
+HCP-01975,Dr. Sanjay Reddy,Endocrinology,T12,Bhubaneswar,Group practice,10,A,29
+HCP-01976,Dr. Manoj Nair,Cardiology,T12,Bhubaneswar,Corporate hospital,8,A,16
+HCP-01977,Dr. Rajesh Desai,Internal Medicine,T07,Pune,Group practice,4,C,32
+HCP-01978,Dr. Sanjay Kapoor,Internal Medicine,T06,Mumbai,Hospital-affiliated,6,B,18
+HCP-01979,Dr. Anjali Singh,Family Medicine,T04,Hyderabad,Group practice,5,B,29
+HCP-01980,Dr. Sanjay Bhat,Family Medicine,T06,Mumbai,Private clinic,2,C,31
+HCP-01981,Dr. Anjali Chatterjee,Nephrology,T05,Chennai,Private clinic,10,A,15
+HCP-01982,Dr. Manoj Kapoor,Internal Medicine,T04,Hyderabad,Group practice,9,A,14
+HCP-01983,Dr. Vivek Gupta,Endocrinology,T08,Ahmedabad,Corporate hospital,5,B,12
+HCP-01984,Dr. Ravi Nair,Internal Medicine,T11,Kolkata,Group practice,7,B,23
+HCP-01985,Dr. Asha Kumar,Internal Medicine,T08,Ahmedabad,Private clinic,7,B,9
+HCP-01986,Dr. Priya Kumar,Endocrinology,T02,Bengaluru,Private clinic,4,C,23
+HCP-01987,Dr. Ravi Das,Internal Medicine,T06,Mumbai,Private clinic,2,C,26
+HCP-01988,Dr. Rajesh Bhat,Nephrology,T10,Jaipur,Corporate hospital,5,B,14
+HCP-01989,Dr. Kavya Nair,Internal Medicine,T05,Chennai,Hospital-affiliated,8,A,29
+HCP-01990,Dr. Kavya Mishra,Family Medicine,T02,Bengaluru,Group practice,6,B,20
+HCP-01991,Dr. Meera Nair,Cardiology,T12,Bhubaneswar,Group practice,2,C,9
+HCP-01992,Dr. Manoj Bhat,Endocrinology,T01,Bengaluru,Hospital-affiliated,6,B,4
+HCP-01993,Dr. Rajesh Gupta,Family Medicine,T10,Jaipur,Group practice,8,A,4
+HCP-01994,Dr. Anil Iyer,Nephrology,T08,Ahmedabad,Corporate hospital,5,B,7
+HCP-01995,Dr. Manoj Nair,Endocrinology,T03,Hyderabad,Private clinic,6,B,15
+HCP-01996,Dr. Vikram Singh,Internal Medicine,T11,Kolkata,Group practice,7,B,4
+HCP-01997,Dr. Kavya Singh,Cardiology,T10,Jaipur,Corporate hospital,4,C,15
+HCP-01998,Dr. Arjun Bhat,Internal Medicine,T09,Delhi,Corporate hospital,5,B,13
+HCP-01999,Dr. Suresh Desai,Family Medicine,T01,Bengaluru,Group practice,7,B,24
+HCP-02000,Dr. Rajesh Iyer,Internal Medicine,T01,Bengaluru,Corporate hospital,10,A,5

@@ -1,0 +1,13 @@
+TERRITORY_ID,TERRITORY_NAME,REGION,REP_NAME,REP_ID
+T01,Bengaluru North,South,Ananya Rao,REP-001
+T02,Bengaluru South,South,Karthik Iyer,REP-002
+T03,Hyderabad Central,South,Sravani Reddy,REP-003
+T04,Hyderabad West,South,Rahul Varma,REP-004
+T05,Chennai,South,Divya Krishnan,REP-005
+T06,Mumbai Central,West,Rohan Mehta,REP-006
+T07,Pune West,West,Sneha Kulkarni,REP-007
+T08,Ahmedabad,West,Harsh Patel,REP-008
+T09,Delhi NCR,North,Aman Khanna,REP-009
+T10,Jaipur,North,Pooja Sharma,REP-010
+T11,Kolkata,East,Arijit Sen,REP-011
+T12,Bhubaneswar,East,Lipsa Mohanty,REP-012
