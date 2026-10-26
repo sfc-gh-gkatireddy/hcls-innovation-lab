@@ -169,14 +169,14 @@ td code { font-size: 11.5px; }
 <aside class="sidebar">
   <div class="sidebar-heading">Lab Steps</div>
   <ul>
-    <li class="step-item"><a href="#s1"><span class="step-num">1</span><span class="step-title">Overview &amp; Agenda</span><span class="step-time">7:00</span></a></li>
+    <li class="step-item"><a href="#s1"><span class="step-num">1</span><span class="step-title">Overview &amp; Agenda</span><span class="step-time">10 min</span></a></li>
     <li class="step-item"><a href="#s2"><span class="step-num">2</span><span class="step-title">Prerequisites</span><span class="step-time">before</span></a></li>
     <li class="step-item"><a href="#s3"><span class="step-num">3</span><span class="step-title">Setup &amp; Data Load</span><span class="step-time">10 min</span></a></li>
     <li class="step-item"><a href="#s4"><span class="step-num">4</span><span class="step-title">Choose Your Track</span><span class="step-time">5 min</span></a></li>
     <li class="step-item"><a href="#s5"><span class="step-num">5</span><span class="step-title">Build with CoCo</span><span class="step-time">55 min</span></a></li>
     <li class="step-item"><a href="#s6"><span class="step-num">6</span><span class="step-title">Snowflake CoWork</span><span class="step-time">10 min</span></a></li>
     <li class="step-item"><a href="#s7"><span class="step-num">7</span><span class="step-title">Pitch</span><span class="step-time">10 min</span></a></li>
-    <li class="step-item"><a href="#s8"><span class="step-num">8</span><span class="step-title">Wrap-Up</span><span class="step-time">8:40</span></a></li>
+    <li class="step-item"><a href="#s8"><span class="step-num">8</span><span class="step-title">Wrap-Up</span><span class="step-time">5 min</span></a></li>
   </ul>
   <div class="sidebar-badge">Track details
     <a href="use_cases.html">Open the use case page &rarr;</a>
@@ -191,16 +191,16 @@ td code { font-size: 11.5px; }
   <div class="section-header">
     <span class="section-num">01</span>
     <h2 class="section-title">Overview &amp; Agenda</h2>
-    <span class="section-time">7:00 PM</span>
+    <span class="section-time">10 MIN</span>
   </div>
 
   <p>In this lab your team picks one real-world healthcare or life sciences challenge and builds a working <strong>AI data agent</strong> on Snowflake in 90 minutes, using <strong>Cortex Code (CoCo)</strong> as your build partner. There is no step-by-step script. You get the data, a clear goal and a set of business questions, and your team decides how to get there.</p>
 
   <div class="agenda">
-    <div><b>7:00 PM</b>Design Thinking with CoCo: intro, ground rules, ideation</div>
-    <div><b>7:10 PM</b>Build time starts. Set up, load data, pick your track</div>
-    <div><b>~8:20 PM</b>Freeze the build, test in CoWork, prep your pitch</div>
-    <div><b>8:40 PM</b>90-second team pitches</div>
+    <div><b>Kick-off · ~10 min</b>Design Thinking with CoCo: intro, ground rules, ideation</div>
+    <div><b>Build · ~70 min</b>Build time starts. Set up, load data, pick your track</div>
+    <div><b>Finish · ~20 min</b>Freeze the build, test in CoWork, prep your pitch</div>
+    <div><b>Pitch · 90 sec per team</b>90-second team pitches</div>
   </div>
 
   <h3>What every team builds</h3>
@@ -239,14 +239,14 @@ td code { font-size: 11.5px; }
 
   <h3>What you need</h3>
   <ul>
-    <li><strong>A Snowflake trial account</strong> created from the <strong>event registration link</strong> your organizer sent. It is free and needs no credit card. Please create it <em>before</em> the event, because activation emails can take a few minutes.</li>
+    <li><strong>A Snowflake trial account</strong> created from the <strong><a href="https://signup.snowflake.com/?t=8d83d96a5710cd9a29149116c64f372c31322b8cf90fc2c5f03dc64eca2ee5dd&amp;cloud=aws&amp;region=ap-northeast-1">event registration link</a></strong>. It is free and needs no credit card. Please create it <em>before</em> the event, because activation emails can take a few minutes.</li>
     <li><strong>A laptop</strong> with a modern browser (Chrome or Edge recommended) and Wi-Fi.</li>
     <li><strong>One account per team is enough to build in.</strong> We still recommend every team member has their own account so everyone can explore and follow along.</li>
   </ul>
 
   <div class="callout warn">
     <div class="callout-title">Use the event link, not the generic signup page</div>
-    <p>The event link provisions the account with the edition and region this lab was tested on. If you are asked to choose, pick <strong>Enterprise</strong> edition and an <strong>AWS</strong> region.</p>
+    <p><a href="https://signup.snowflake.com/?t=8d83d96a5710cd9a29149116c64f372c31322b8cf90fc2c5f03dc64eca2ee5dd&amp;cloud=aws&amp;region=ap-northeast-1"><strong>Sign up for your lab trial account here</strong></a>. This link provisions the account on AWS in the region this lab was tested on, with all Cortex features enabled.</p>
   </div>
 
   <h3>Choose how you'll use CoCo</h3>
@@ -494,18 +494,18 @@ td code { font-size: 11.5px; }
 
   <h3>Milestones to aim for</h3>
   <div class="table-wrap"><table>
-    <tr><th>BY</th><th>MILESTONE</th><th>YOU KNOW IT'S DONE WHEN</th></tr>
-    <tr><td>7:20</td><td>Data loaded, track picked</td><td>Row counts match Step 3</td></tr>
-    <tr><td>7:35</td><td>Data understood</td><td>The team can explain the tables, joins and the free-text content</td></tr>
-    <tr><td>7:55</td><td>AI step done</td><td>A new table or view with AI-generated columns (labels, extracted fields) that you have spot-checked</td></tr>
-    <tr><td>8:10</td><td>Semantic view + Cortex Search</td><td>Analyst answers a numbers question and Search returns a relevant passage</td></tr>
-    <tr><td>8:20</td><td>Agent live</td><td>The agent answers your business questions, including one that needs both tools</td></tr>
-    <tr><td>8:40</td><td>Pitch ready</td><td>A demo question that tells your story</td></tr>
+    <tr><th>BUILD TIME</th><th>MILESTONE</th><th>YOU KNOW IT'S DONE WHEN</th></tr>
+    <tr><td>~10 min</td><td>Data loaded, track picked</td><td>Row counts match Step 3</td></tr>
+    <tr><td>~25 min</td><td>Data understood</td><td>The team can explain the tables, joins and the free-text content</td></tr>
+    <tr><td>~45 min</td><td>AI step done</td><td>A new table or view with AI-generated columns (labels, extracted fields) that you have spot-checked</td></tr>
+    <tr><td>~60 min</td><td>Semantic view + Cortex Search</td><td>Analyst answers a numbers question and Search returns a relevant passage</td></tr>
+    <tr><td>~70 min</td><td>Agent live</td><td>The agent answers your business questions, including one that needs both tools</td></tr>
+    <tr><td>~90 min</td><td>Pitch ready</td><td>A demo question that tells your story</td></tr>
   </table></div>
 
   <div class="callout tip">
     <div class="callout-title">Keep it simple, then extend</div>
-    <p>A working agent that answers three questions well beats an ambitious one that answers none. If you hit 8:20 with time to spare, try your track's <strong>stretch goal</strong> on the <a href="use_cases.html">use case page</a>.</p>
+    <p>A working agent that answers three questions well beats an ambitious one that answers none. If your agent is live with time to spare, try your track's <strong>stretch goal</strong> on the <a href="use_cases.html">use case page</a>.</p>
   </div>
 
   <div class="callout info">
@@ -572,7 +572,7 @@ td code { font-size: 11.5px; }
   <div class="section-header">
     <span class="section-num">07</span>
     <h2 class="section-title">Pitch: 90 Seconds</h2>
-    <span class="section-time">8:40 PM</span>
+    <span class="section-time">90 SEC</span>
   </div>
 
   <p>Each team gets 90 seconds. Demo live in CoWork if you can, and keep screenshots ready as a backup.</p>
