@@ -11,8 +11,7 @@
   "generated": "2026-10-19",
   "intent": "Participant lab guide for the HCLS Innovation Lab hands-on block (Bengaluru 27 Oct, Hyderabad 30 Oct 2026): prerequisites, setup, data load, track selection, CoCo working guidance, CoWork and pitch",
   "dataSources": [
-    { "type": "git", "url": "https://github.com/sfc-gh-gkatireddy/hcls-innovation-lab", "note": "Setup SQL, synthetic data, guides" },
-    { "type": "file", "path": "use_cases.html", "note": "Track details" }
+    { "type": "git", "url": "https://github.com/sfc-gh-gkatireddy/hcls-innovation-lab", "note": "Setup SQL, synthetic data, guides" }
   ],
   "sections": [
     { "id": "s1", "title": "Overview & Agenda" },
@@ -22,7 +21,8 @@
     { "id": "s5", "title": "Build with CoCo", "producerNotes": "General guidance only, no per-track prompts by design." },
     { "id": "s6", "title": "Snowflake CoWork" },
     { "id": "s7", "title": "Pitch" },
-    { "id": "s8", "title": "Wrap-Up" }
+    { "id": "s8", "title": "Wrap-Up" },
+    { "id": "s9", "title": "Track Briefs" }
   ]
 }
 </script>
@@ -153,6 +153,42 @@ td code { font-size: 11.5px; }
   .main { padding: 24px 18px 60px; }
   .topbar-sub { display: none; }
 }
+.briefs { --line: var(--border); --sf: var(--accent); --chip: var(--active-bg); }
+    .briefs .tile:hover { border-color: var(--sf); }
+    .briefs .tile .tag { font-size: .75rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+    .briefs .tile h3 { margin: 6px 0; font-size: 1.05rem; }
+    .briefs .tile p { margin: 0; color: var(--muted); font-size: .9rem; }
+    .briefs .payer .tag, .briefs .payer-c { color: var(--payer); }
+    .briefs .ls .tag, .briefs .ls-c { color: var(--ls); }
+
+    .briefs section.track {
+      background: var(--card); border: 1px solid var(--line); border-radius: 16px;
+      padding: clamp(18px, 4vw, 30px); margin: 28px 0; border-top: 6px solid var(--sf);
+    }
+    .briefs section.track.payer { border-top-color: var(--payer); }
+    .briefs section.track.ls { border-top-color: var(--ls); }
+    .briefs .track-head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; align-items: baseline; }
+    .briefs .track-head h2 { margin: 0; font-size: clamp(1.25rem, 3vw, 1.6rem); }
+    .briefs .badge { font-size: .78rem; font-weight: 700; border-radius: 999px; padding: 3px 10px; background: var(--chip); }
+    .briefs .lede { font-size: 1.05rem; margin: 10px 0 18px; }
+    .briefs .two { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; }
+    .briefs h4 { margin: 18px 0 6px; font-size: .95rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+    .briefs ul { margin: 6px 0; padding-left: 20px; }
+    .briefs li { margin: 3px 0; }
+    .briefs .stat {
+      background: var(--chip); border-radius: 10px; padding: 12px 14px; margin: 6px 0; font-size: .92rem;
+    }
+    .briefs .stat b { color: var(--head); }
+    .briefs .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+    .briefs .chips span { background: var(--chip); border: 1px solid var(--line); border-radius: 6px; padding: 2px 8px; font-size: .82rem; }
+    .briefs .table-wrap { overflow-x: auto; margin: 8px 0; }
+    .briefs table { border-collapse: collapse; width: 100%; font-size: .9rem; }
+    .briefs th, .briefs td { border: 1px solid var(--line); padding: 7px 10px; text-align: left; vertical-align: top; }
+    .briefs th { background: var(--chip); }
+    .briefs .flow { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 8px 0 4px; }
+    .briefs .flow .step { background: var(--chip); border: 1px solid var(--line); border-radius: 8px; padding: 6px 10px; font-size: .85rem; }
+    .briefs .flow .arrow { color: var(--muted); }
+    .briefs .done { border-left: 4px solid var(--sf); padding: 8px 12px; background: var(--chip); border-radius: 0 8px 8px 0; }
 </style>
 </head>
 <body>
@@ -177,9 +213,10 @@ td code { font-size: 11.5px; }
     <li class="step-item"><a href="#s6"><span class="step-num">6</span><span class="step-title">Snowflake CoWork</span><span class="step-time">10 min</span></a></li>
     <li class="step-item"><a href="#s7"><span class="step-num">7</span><span class="step-title">Pitch</span><span class="step-time">10 min</span></a></li>
     <li class="step-item"><a href="#s8"><span class="step-num">8</span><span class="step-title">Wrap-Up</span><span class="step-time">5 min</span></a></li>
+    <li class="step-item"><a href="#s9"><span class="step-num">9</span><span class="step-title">Track Briefs</span><span class="step-time">ref</span></a></li>
   </ul>
   <div class="sidebar-badge">Track details
-    <a href="use_cases.html">Open the use case page &rarr;</a>
+    <a href="#s9">Read the track briefs &rarr;</a>
     <a href="https://github.com/sfc-gh-gkatireddy/hcls-innovation-lab">Lab GitHub repo &rarr;</a>
   </div>
 </aside>
@@ -398,7 +435,7 @@ td code { font-size: 11.5px; }
     <span class="section-time">5 MIN</span>
   </div>
 
-  <p>Each team picks <strong>one</strong> track. The full brief for each one (why it matters, persona, business questions, data, the AI step and what done looks like) is on the <a href="use_cases.html"><strong>use case page</strong></a>. Read your track's brief as a team before you start building.</p>
+  <p>Each team picks <strong>one</strong> track. The full brief for each one (why it matters, persona, business questions, data, the AI step and what done looks like) is on the <a href="#s9"><strong>Track Briefs</strong></a> (Step 9). Read your track's brief as a team before you start building.</p>
 
   <div class="tracks">
     <div class="track payer">
@@ -412,7 +449,7 @@ td code { font-size: 11.5px; }
       </ul>
       <div class="schema"><code>HCLS_LAB.P1_CLAIMS_DENIALS</code></div>
       <div class="chips"><span>AI_CLASSIFY</span><span>Analyst</span><span>Search on policies</span></div>
-      <p style="margin:8px 0 0;"><a href="use_cases.html#p1">Full brief &rarr;</a></p>
+      <p style="margin:8px 0 0;"><a href="#p1">Full brief &rarr;</a></p>
     </div>
     <div class="track payer">
       <div class="tag">Payer · Quality &amp; Stars</div>
@@ -425,7 +462,7 @@ td code { font-size: 11.5px; }
       </ul>
       <div class="schema"><code>HCLS_LAB.P2_HEDIS_GAPS</code></div>
       <div class="chips"><span>AI_EXTRACT</span><span>AI_FILTER</span><span>Analyst</span><span>Search on notes</span></div>
-      <p style="margin:8px 0 0;"><a href="use_cases.html#p2">Full brief &rarr;</a></p>
+      <p style="margin:8px 0 0;"><a href="#p2">Full brief &rarr;</a></p>
     </div>
     <div class="track ls">
       <div class="tag">Life Sciences · Commercial</div>
@@ -438,7 +475,7 @@ td code { font-size: 11.5px; }
       </ul>
       <div class="schema"><code>HCLS_LAB.L3_COMMERCIAL_HCP360</code></div>
       <div class="chips"><span>AI_CLASSIFY</span><span>AI_AGG</span><span>Analyst</span><span>Search on messaging</span></div>
-      <p style="margin:8px 0 0;"><a href="use_cases.html#l3">Full brief &rarr;</a></p>
+      <p style="margin:8px 0 0;"><a href="#l3">Full brief &rarr;</a></p>
     </div>
     <div class="track ls">
       <div class="tag">Life Sciences · Medical Affairs / RWE</div>
@@ -451,13 +488,13 @@ td code { font-size: 11.5px; }
       </ul>
       <div class="schema"><code>HCLS_LAB.L4_RWE_TREATMENT_PATTERNS</code></div>
       <div class="chips"><span>AI_CLASSIFY</span><span>AI_EXTRACT</span><span>Analyst</span><span>Search on notes</span></div>
-      <p style="margin:8px 0 0;"><a href="use_cases.html#l4">Full brief &rarr;</a></p>
+      <p style="margin:8px 0 0;"><a href="#l4">Full brief &rarr;</a></p>
     </div>
   </div>
 
   <div class="callout info">
     <div class="callout-title">Bring your own use case</div>
-    <p>You can bring a problem from your own organization if it fits the same shape: 3-4 small synthetic tables, one set of text or documents, <strong>at least one</strong> AI function on that text, and an agent that uses both Cortex Analyst and Cortex Search, with at least one question that needs both. See the <a href="use_cases.html#byo">BYO guidelines</a>. Ask CoCo to generate your synthetic data, and <strong>never load real PHI</strong> into a trial account.</p>
+    <p>You can bring a problem from your own organization if it fits the same shape: 3-4 small synthetic tables, one set of text or documents, <strong>at least one</strong> AI function on that text, and an agent that uses both Cortex Analyst and Cortex Search, with at least one question that needs both. See the <a href="#byo">BYO guidelines</a>. Ask CoCo to generate your synthetic data, and <strong>never load real PHI</strong> into a trial account.</p>
   </div>
 </section>
 
@@ -505,7 +542,7 @@ td code { font-size: 11.5px; }
 
   <div class="callout tip">
     <div class="callout-title">Keep it simple, then extend</div>
-    <p>A working agent that answers three questions well beats an ambitious one that answers none. If your agent is live with time to spare, try your track's <strong>stretch goal</strong> on the <a href="use_cases.html">use case page</a>.</p>
+    <p>A working agent that answers three questions well beats an ambitious one that answers none. If your agent is live with time to spare, try your track's <strong>stretch goal</strong> in the <a href="#s9">Track Briefs</a>.</p>
   </div>
 
   <div class="callout info">
@@ -635,6 +672,220 @@ td code { font-size: 11.5px; }
 
 <footer class="sf-footer">Built on Snowflake Cortex AI · HCLS Innovation Lab: AI Agents in Action · Bengaluru 27 Oct &amp; Hyderabad 30 Oct 2026</footer>
 
+
+<!-- ═══════════ 9 ═══════════ -->
+<section class="section" id="s9">
+  <div class="section-header">
+    <span class="section-num">09</span>
+    <h2 class="section-title">Track Briefs</h2>
+    <span class="section-time">REFERENCE</span>
+  </div>
+  <p>The full brief for each track: why it matters, the persona, business questions, data, the AI step and what done looks like. Read your track's brief as a team before you start building.</p>
+<div class="briefs">
+  <section class="track payer" id="p1">
+    <div class="track-head"><h2>P1 Claims Denial Triage Agent</h2><span class="badge payer-c">Payer / Revenue Integrity</span></div>
+    <p class="lede">Health plans and providers lose billions to denied claims that are never worked, often because no one can quickly see <i>why</i> claims are denied or which ones are worth fighting.</p>
+    <div class="two">
+      <div>
+        <h4>Why it matters</h4>
+        <div class="stat"><b>19%</b> of in-network marketplace claims are denied, yet <b>under 1%</b> are appealed.</div>
+        <div class="stat">About <b>$57</b> to work one appeal, with a high overturn rate. The rework is large but hard to target.</div>
+        <h4>Persona</h4>
+        <p>Payment integrity / revenue cycle analyst who needs a prioritized worklist, not another static report.</p>
+        <h4>Business questions your agent should answer</h4>
+        <ul>
+          <li>What are the top denial drivers by provider and category?</li>
+          <li>How many dollars are at risk from <i>preventable</i> denials?</li>
+          <li>Which providers show unusual denial patterns?</li>
+          <li>Which claims should we appeal first, and why?</li>
+          <li>What does our policy say about the top denial reason?</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Data provided (synthetic)</h4>
+        <div class="table-wrap"><table>
+          <tr><th>Table</th><th>What is in it</th></tr>
+          <tr><td>MEMBERS</td><td>~2k members, plan and demographics</td></tr>
+          <tr><td>PROVIDERS</td><td>~200 providers, specialty, network status</td></tr>
+          <tr><td>CLAIMS</td><td>~20k claims with billed/paid amounts and CARC denial codes</td></tr>
+          <tr><td>DENIAL_NOTES</td><td>~2,800 free-text adjudication and denial notes</td></tr>
+          <tr><td>Policy docs</td><td>5 payer policy documents (PAYER_POLICIES)</td></tr>
+        </table></div>
+        <h4>The AI step</h4>
+        <p>Classify denial note text as preventable vs. not preventable and assign a root-cause category (e.g. missing auth, coding error, eligibility).</p>
+        <h4>Agent tools</h4>
+        <ul>
+          <li><b>Cortex Analyst</b> on a claims and denials semantic view</li>
+          <li><b>Cortex Search</b> on the parsed payer policy documents</li>
+        </ul>
+        <h4>Snowflake capabilities</h4>
+        <div class="chips"><span>AI_CLASSIFY</span><span>AI_PARSE_DOCUMENT</span><span>Semantic View</span><span>Cortex Analyst</span><span>Cortex Search</span><span>Cortex Agent</span><span>Snowflake CoWork</span></div>
+      </div>
+    </div>
+    <h4>What done looks like</h4>
+    <div class="done">An agent that, in plain English, ranks the denials worth appealing and explains the root cause and the dollars behind each one.</div>
+    <h4>Stretch goal</h4>
+    <p>Have the agent draft an appeal letter for a top claim using AI_COMPLETE, citing the policy passage returned by Cortex Search.</p>
+  </section>
+
+  <!-- P2 -->
+  <section class="track payer" id="p2">
+    <div class="track-head"><h2>P2 HEDIS Care Gap Closure from Clinical Notes</h2><span class="badge payer-c">Payer / Quality and Stars</span></div>
+    <p class="lede">Quality teams employ armies of chart reviewers to find care that happened but never showed up in claims. That evidence sits in clinical notes, and finding it directly moves Star ratings and reimbursement.</p>
+    <div class="two">
+      <div>
+        <h4>Why it matters</h4>
+        <div class="stat">Health systems using AI on notes have reported up to an <b>85% reduction</b> in manual chart review effort.</div>
+        <div class="stat">Every gap closed lifts HEDIS measure rates, which feed <b>Star ratings and quality bonuses</b>.</div>
+        <h4>Persona</h4>
+        <p>Quality / Stars program manager who needs a ranked worklist so reviewers only look at charts that will close a gap.</p>
+        <h4>Business questions your agent should answer</h4>
+        <ul>
+          <li>Which open care gaps have supporting evidence in the notes?</li>
+          <li>What is the potential gap closure lift by measure?</li>
+          <li>Which members should reviewers look at first?</li>
+          <li>Which measures have the biggest documentation gap?</li>
+          <li>Show me the note passage that closes this member's gap.</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Data provided (synthetic)</h4>
+        <div class="table-wrap"><table>
+          <tr><th>Table</th><th>What is in it</th></tr>
+          <tr><td>MEMBERS</td><td>~2k members with demographics and plan</td></tr>
+          <tr><td>MEASURE_GAPS</td><td>~4.8k open/closed gaps (e.g. HbA1c control, breast cancer screening, colorectal screening)</td></tr>
+          <tr><td>CLAIMS</td><td>~15k claims with procedure and diagnosis codes</td></tr>
+          <tr><td>VISIT_NOTES</td><td>~2,800 free-text clinical visit notes</td></tr>
+        </table></div>
+        <h4>The AI step</h4>
+        <p>Extract structured evidence from notes (test performed, date, result) and match it to open gaps. Use AI_FILTER to quickly narrow to notes that mention a measure.</p>
+        <h4>Agent tools</h4>
+        <ul>
+          <li><b>Cortex Analyst</b> on a members, gaps and evidence semantic view</li>
+          <li><b>Cortex Search</b> on the visit notes, to show the supporting passage</li>
+        </ul>
+        <h4>Snowflake capabilities</h4>
+        <div class="chips"><span>AI_EXTRACT</span><span>AI_FILTER</span><span>Semantic View</span><span>Cortex Analyst</span><span>Cortex Search</span><span>Cortex Agent</span><span>Snowflake CoWork</span></div>
+      </div>
+    </div>
+    <h4>What done looks like</h4>
+    <div class="done">A ranked reviewer worklist of gaps likely closable from chart evidence, plus an agent that explains the evidence it found for any member.</div>
+    <h4>Stretch goal</h4>
+    <p>Estimate the impact on measure rates and the Star rating if the identified gaps are closed.</p>
+  </section>
+
+  <!-- L3 -->
+  <section class="track ls" id="l3">
+    <div class="track-head"><h2>L3 Commercial HCP 360 and Next Best Action</h2><span class="badge ls-c">Life Sciences / Commercial</span></div>
+    <p class="lede">Brand teams have more commercial data than ever, but still can't quickly say <i>why</i> a brand is slowing in a territory or <i>which</i> doctors a rep should see next. The numbers live in prescription data; the reasons live in what doctors tell reps.</p>
+    <div class="two">
+      <div>
+        <h4>Why it matters</h4>
+        <div class="stat">Commercial / HCP 360 is one of the most common data and AI themes across top pharma accounts.</div>
+        <div class="stat">Turning rep notes into <b>objection and competitor signals</b> lets brand teams react in weeks, not quarters.</div>
+        <h4>Persona</h4>
+        <p>Brand manager / commercial excellence lead for <b>Glucavia</b>, a once-weekly GLP-1 for type 2 diabetes.</p>
+        <h4>Business questions your agent should answer</h4>
+        <ul>
+          <li>Where is Glucavia growing or declining, by territory and specialty?</li>
+          <li>What objections are doctors raising, and how is that changing?</li>
+          <li>Where is the competitor gaining share?</li>
+          <li>Which high-potential doctors should reps call next?</li>
+          <li>What does our approved messaging say about the top objection?</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Data provided (synthetic)</h4>
+        <div class="table-wrap"><table>
+          <tr><th>Table</th><th>What is in it</th></tr>
+          <tr><td>HCPS</td><td>2k doctors with specialty, territory, decile and target tier</td></tr>
+          <tr><td>TERRITORIES / BRANDS</td><td>12 territories with reps; Glucavia and 3 competitors</td></tr>
+          <tr><td>RX_MONTHLY</td><td>96k rows of monthly TRx / NRx per doctor per brand</td></tr>
+          <tr><td>CALLS</td><td>~10k rep calls with channel and samples</td></tr>
+          <tr><td>CALL_NOTES</td><td>~1,460 free-text rep call notes</td></tr>
+          <tr><td>MESSAGING_DOCS</td><td>8 approved messaging, objection handling and formulary documents</td></tr>
+        </table></div>
+        <h4>The AI step</h4>
+        <p>Classify call notes by objection type (access, efficacy, safety, cost, competitor, positive) and sentiment, and summarize what doctors in a territory are saying.</p>
+        <h4>Agent tools</h4>
+        <ul>
+          <li><b>Cortex Analyst</b> on an HCP, Rx, calls and classified notes semantic view</li>
+          <li><b>Cortex Search</b> on the approved messaging documents</li>
+        </ul>
+        <h4>Snowflake capabilities</h4>
+        <div class="chips"><span>AI_CLASSIFY</span><span>AI_AGG</span><span>AI_FILTER</span><span>Semantic View</span><span>Cortex Analyst</span><span>Cortex Search</span><span>Cortex Agent</span><span>Snowflake CoWork</span></div>
+      </div>
+    </div>
+    <h4>What done looks like</h4>
+    <div class="done">An agent that explains where Glucavia is slipping and why, then recommends which doctors to call next and the approved message to use.</div>
+    <h4>Stretch goal</h4>
+    <p>Score each doctor for next best action (decile, NRx trend, days since last call) and have the agent draft a pre-call brief for the top one with AI_COMPLETE.</p>
+  </section>
+
+  <!-- L4 -->
+  <section class="track ls" id="l4">
+    <div class="track-head"><h2>L4 Real World Evidence: Treatment Patterns on OMOP</h2><span class="badge ls-c">Life Sciences / Medical Affairs and RWE</span></div>
+    <p class="lede">Real-world data shows how drugs perform outside trials: who gets them, how long patients stay on therapy, and why they stop. Structured data shows <i>that</i> patients stop; the <i>why</i> is usually only in clinical notes.</p>
+    <div class="two">
+      <div>
+        <h4>Why it matters</h4>
+        <div class="stat">Real World Evidence is a top data priority across life sciences, feeding label expansion, HEOR and payer value stories.</div>
+        <div class="stat">Poor persistence erodes real-world outcomes and brand value; <b>knowing why patients stop</b> points to fixable causes.</div>
+        <h4>Persona</h4>
+        <p>RWE / medical affairs scientist for <b>Glucavia</b>, explaining real-world persistence and outcomes to brand and clinical teams.</p>
+        <h4>Business questions your agent should answer</h4>
+        <ul>
+          <li>Who starts each add-on therapy, and what do they look like?</li>
+          <li>What is 6-month persistence by drug and age group?</li>
+          <li>How much do HbA1c and BMI improve on each drug?</li>
+          <li>Why are patients stopping Glucavia, and when?</li>
+          <li>Show me notes that explain it.</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Data provided (synthetic, OMOP CDM style)</h4>
+        <div class="table-wrap"><table>
+          <tr><th>Table</th><th>What is in it</th></tr>
+          <tr><td>PERSON</td><td>3k adults with type 2 diabetes</td></tr>
+          <tr><td>CONDITION_OCCURRENCE</td><td>~9k diagnoses with OMOP concepts and ICD-10 codes</td></tr>
+          <tr><td>DRUG_EXPOSURE</td><td>6k exposures: metformin plus one add-on (Glucavia, Sematra, Empaflo, Sitaglen)</td></tr>
+          <tr><td>MEASUREMENT</td><td>15k HbA1c, BMI and eGFR results</td></tr>
+          <tr><td>VISIT_OCCURRENCE</td><td>6k outpatient visits</td></tr>
+          <tr><td>NOTE</td><td>~2,700 free-text clinical progress notes</td></tr>
+        </table></div>
+        <h4>The AI step</h4>
+        <p>Classify notes by discontinuation reason and extract details such as side effects, switch-to drug or titration approach, then join them back to therapy episodes.</p>
+        <h4>Agent tools</h4>
+        <ul>
+          <li><b>Cortex Analyst</b> on a patients, therapy episodes and outcomes semantic view</li>
+          <li><b>Cortex Search</b> on the clinical notes, to quote patient evidence</li>
+        </ul>
+        <h4>Snowflake capabilities</h4>
+        <div class="chips"><span>AI_CLASSIFY</span><span>AI_EXTRACT</span><span>AI_AGG</span><span>Semantic View</span><span>Cortex Analyst</span><span>Cortex Search</span><span>Cortex Agent</span><span>Snowflake CoWork</span></div>
+      </div>
+    </div>
+    <h4>What done looks like</h4>
+    <div class="done">An agent that reports persistence and outcomes by drug and cohort, explains why patients stop, and quotes the notes behind each answer.</div>
+    <h4>Stretch goal</h4>
+    <p>Build a time-to-discontinuation view and compare persistence curves by drug or by titration approach.</p>
+  </section>
+
+  <!-- BYO -->
+  <section class="track" id="byo">
+    <div class="track-head"><h2>Bring Your Own Use Case</h2><span class="badge">Any HCLS domain</span></div>
+    <p class="lede">Have a problem from your own organization? Bring it. To fit in 90 minutes, keep it to the same shape as the tracks above:</p>
+    <div class="table-wrap"><table>
+      <tr><th>Ingredient</th><th>Guideline</th></tr>
+      <tr><td>Structured data</td><td>3-4 small tables (synthetic, no real PHI)</td></tr>
+      <tr><td>Unstructured data</td><td>1 set of text or documents (notes, PDFs, narratives)</td></tr>
+      <tr><td>AI functions</td><td>At least one applied to the unstructured data (e.g. extract, classify, filter or summarize). Combine more if it helps</td></tr>
+      <tr><td>Agent</td><td>Answers 3-5 business questions in plain English, with Cortex Analyst and Cortex Search as tools. Include at least one question that needs both, combining numbers and document evidence in a single answer</td></tr>
+      <tr><td>Outcome</td><td>One clear decision it helps someone make</td></tr>
+    </table></div>
+  </section>
+</div>
+<p style="color:var(--muted);font-size:.85rem;">All lab data is fully synthetic and contains no real patient information. Industry figures are as reported in Snowflake HCLS field materials and are directional.</p>
+</section>
 </main>
 </div>
 
